@@ -2,12 +2,11 @@
 title: Project Outfox Wiki
 description: 
 published: true
-date: 2023-05-16T06:06:12.186Z
+date: 2023-05-16T06:28:34.570Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-14T02:00:12.076Z
+dateCreated: 2023-05-16T06:28:34.570Z
 ---
-
 
 Welcome to the documentation wiki for [Project OutFox](https://projectoutfox.com)! **Project OutFox** is a multi-moded rhythm game sandbox. It features 17 (and growing!) different simulation styles allowing players to create unique experiences in charting, gimmicks and effects to outfox their friends! The game allows for full customisation and supports a number of community led custom chart formats.
 
@@ -18,18 +17,15 @@ This wiki is still a work in progress, so keep checking back for updates on new 
 
 # Table of contents
 
-{{< columns >}}
 
 ## Info on Project OutFox
 
-
 [About](/en/user-guide/meta/about)
-{{< button size="large" relref="user-guide/meta/FAQ" >}}FAQ{{< /button >}}
-[The Team](/en/user-guide/meta/about#project-outFox-teams)
-{{< button size="large" relref="releases/" >}}Release History{{< /button >}}
-{{< button size="large" relref="roadmap/" >}}Our Project Roadmap{{< /button >}}
-{{< button size="large" relref="user-guide/meta//serenity">}}OutFox Serenity{{< /button >}}
-<--->
+[FAQ](/en/user-guide/meta/faq)
+[The Team](/en/user-guide/meta/about/#project-outfox-teams)
+[Release History](/en/releases/home)
+[Our Project Roadmap](/en/roadmap/home)
+[Outfox Serenity](/en/user-guide/meta/serenity)
 
 ## User's guide
 
@@ -57,4 +53,6 @@ This wiki is still a work in progress, so keep checking back for updates on new 
 ----
 
 ## Credits and license
-Text available under the <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC-BY SA 4.0</a> licence, attributed to Team Rizu unless otherwise noted.
+Text available under the <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC-BY SA 4.0</a> licence, attributed to Team Rizu unless otherwise noted. 
+
+Powered by GitHub Pages, [Hugo](https://gohugo.io/), and [Geekdocs](https://geekdocs.de/).
