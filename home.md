@@ -2,7 +2,7 @@
 title: Project Outfox Wiki
 description: 
 published: true
-date: 2023-05-16T06:28:34.570Z
+date: 2023-05-16T19:25:09.778Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:28:34.570Z
@@ -20,6 +20,7 @@ This wiki is still a work in progress, so keep checking back for updates on new 
 
 ## Info on Project OutFox
 
+<a href="/en/user-guide/meta/about" class="foxb foxb-primary">About</a>
 [About](/en/user-guide/meta/about)
 [FAQ](/en/user-guide/meta/faq)
 [The Team](/en/user-guide/meta/about/#project-outfox-teams)
