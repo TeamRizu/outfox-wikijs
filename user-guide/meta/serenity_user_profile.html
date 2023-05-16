@@ -1,0 +1,54 @@
+<!--
+title: Serenity User Profile
+description: 
+published: true
+date: 2023-05-16T19:47:15.852Z
+tags: 
+editor: code
+dateCreated: 2023-05-16T06:24:01.113Z
+-->
+
+<p><label for="user-select">Select User:</label></p>
+<select style="min-width: 260px; width: 30%; padding: 16px 20px; border-color: #019b81; border: solid; border-width: 2px; border-radius: 8px; background-color: #003028;" id="user-select" name="users">
+    <option value="">Select an option</option>
+</select>
+<hr>
+<h1 class="toc-header" id="userName"> </h1>
+<div id="profileContent">
+<div style="display: none;" id="tagsDiv">
+<h2 class="toc-header" id="tags"> Tags</h2>
+<div style="display: flex; flex-wrap: wrap; justify-items: center; justify-content: center; gap: 30px;" id="tagsRow">
+</div>
+<h2 class="toc-header" id="resume"> Resume</h2>
+<p id="userResume">Select user to view resume.</p>
+
+<p id="userMostChartsForSong">Most Charted Song: Select User to View.</p>
+<p id="userMostChartsForMode">Most Charted Mode: Select User to View</p>
+</div>
+<div style="display: none" id="socialsOuterDiv">
+  <h2 class="toc-header" id="socials"> Socials</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-items: center; justify-content: center; gap: 30px;" id="socials">
+  </div>
+</div>
+<div id="userSongSubmissionDiv" style="overflow-x:auto; display: none;">
+<h2 class="toc-header" id="song-submissions"> Song Submissions</h2>
+</div>
+<div id="userGraphicSubmissionDiv" style="overflow-x:auto; display: none;">
+<h2 class="toc-header" id="graphic-submissions"> Graphic Submissions</h2>
+</div>
+<div id="userChartSubmissionDiv" style="overflow-x:auto; display: none;">
+<h2 class="toc-header" id="chart-submission"> Chart Submission</h2>
+</div>
+<p>If you want a social add/removed from your profile then join the <a class="is-external-link" href="https://discord.gg/cN4TjgQdcA">Project OutFox Discord Server</a> and contact the moderator team.</p>
+<div style="display: none;" id="copyData">
+Want the data that we have stored for this profile? Click the button bellow and the JSON Object will be copied to your clipboard. (Tags not included!)
+<div>
+  <span class="letter-button">
+    <a style="cursor: pointer;" class="letter-button-text">
+      Copy Data to Clipboard
+    </a>
+  </span>
+</div>
+</div>
+<p><em>Written and Maintained by Moru Zerinho6</em></p>
+</div>
