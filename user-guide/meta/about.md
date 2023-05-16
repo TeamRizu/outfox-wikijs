@@ -2,7 +2,7 @@
 title: About Project Outfox
 description: 
 published: true
-date: 2023-05-16T05:59:42.350Z
+date: 2023-05-16T06:00:02.294Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T05:59:42.350Z
@@ -29,7 +29,7 @@ As Project OutFox is a continuation of the 5.0.12 and 5.1 codebase (not â€œ5.2â€
 ## Project OutFox Teams
 
 | Development  | Design | Community | Serenity |
-| --------------------- | 
+| -------------------------------------------- | 
 | [Squirrel](https://github.com/Scraticus) | [Jose Varela](https://github.com/JoseVarelaP) | [Moru Zerinho6](https://github.com/moruzerinho6) | [Daniel Rotwind](https://github.com/DanielRotwind) 
 | [Jousway](https://github.com/Jousway) | [Lirodon](https://github.com/ListenerJubatus)| [Moneko](https://github.com/JustMoneko) |[shockdude](https://github.com/shockdude)|
 | [Cube](https://github.com/concubidated) | [dj505](https://github.com/dj505)| [Hanubeki](https://github.com/hanubeki) | [Sevish](https://sevish.com/) 
