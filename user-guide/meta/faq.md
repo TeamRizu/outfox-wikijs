@@ -1,6 +1,11 @@
 ---
 title: FAQ
-weight: 2
+description: 
+published: true
+date: 2023-05-17T19:41:04.612Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:51.770Z
 ---
 
 This page has some of the more commonly asked questions pitched to us from the community, remember if you cannot find your answer here, feel free to ask in the discord server!
@@ -176,7 +181,7 @@ If you receive errors such as "No noteskins found" or other unusual behavior, yo
 
 To do this, open Terminal and run the following command: ``xattr -dr com.apple.quarantine /path/to/OutFox``, replacing ``/path/to/OutFox`` with the path to the directory containing the OutFox executable (manually typing it out, or dragging the folder containing the game executable directly onto the window to fill it automatically).
 
-<video src="/faq/vid/quarantine.webm" controls="">Quarantine video example</video>
+<video src="/quarantine.webm" controls="">Quarantine video example</video>
 
 On older builds, macOS Catalina also generated a message stating that the game was requesting permission to  receive keystrokes from any application. This was a side effect of previous code that has since been removed.
 
