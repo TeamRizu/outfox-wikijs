@@ -1,21 +1,18 @@
 ---
 title: OutFox Serenity
-weight: 3
+description: 
+published: true
+date: 2023-05-17T19:48:17.350Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:56.832Z
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<div class="column-aligned-flex-div">
     <p>Hey! There are new pages with more info about OutFox Serenity, check them out!</p>
-    <div style="flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center;">
-        <span class="gdoc-button gdoc-button--large" href="../serenity_user_profile.md">
-            <a class="gdoc-button__link" href="../serenity_user_profile/">
-                Serenity User Profiles
-            </a>
-        </span>
-        <span class="gdoc-button gdoc-button--large" href="../serenity_volume_resume.md">
-            <a class="gdoc-button__link" href="../serenity_volume_resume/">
-                Serenity Volume Resume
-            </a>
-        </span>
+    <div class="row-justified-flex-div">
+      <a class="foxb foxb-primary" href="en/user-guide/meta/serenity_user_profile">Serenity User Profiles</a>
+      <a class="foxb foxb-primary" href="en/user-guide/meta/serenity_volume_resume">Serenity Volume Resume</a>
     </div>
 </div>
 
