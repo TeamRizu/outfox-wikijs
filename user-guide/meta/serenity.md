@@ -2,18 +2,20 @@
 title: OutFox Serenity
 description: 
 published: true
-date: 2023-05-17T19:48:17.350Z
+date: 2023-05-17T19:53:23.299Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:23:56.832Z
 ---
 
-<div class="column-aligned-flex-div">
+<div style="display: flex; justify-content: center;">
+	<div class="column-aligned-flex-div">
     <p>Hey! There are new pages with more info about OutFox Serenity, check them out!</p>
     <div class="row-justified-flex-div">
-      <a class="foxb foxb-primary" href="en/user-guide/meta/serenity_user_profile">Serenity User Profiles</a>
-      <a class="foxb foxb-primary" href="en/user-guide/meta/serenity_volume_resume">Serenity Volume Resume</a>
+      <a class="foxb foxb-primary" href="./serenity_user_profile">Serenity User Profiles</a>
+      <a class="foxb foxb-primary" href="./serenity_volume_resume">Serenity Volume Resume</a>
     </div>
+	</div>
 </div>
 
 
