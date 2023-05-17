@@ -1,7 +1,11 @@
 ---
 title: Installation
 description: Installation guide for Project OutFox.
-weight: 1
+published: true
+date: 2023-05-17T02:07:02.011Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:24:27.644Z
 ---
 
 ## System requirements
@@ -17,13 +21,27 @@ Parts of the game are so well-optimised now that they're running too fast, and t
 
 Download the installer or package for your respective operating system on [the Project OutFox website](https://projectoutfox.com/downloads).
 
-<center>
-{{<columns>}}
-{{< button size="large" relref="install-linux.md" >}}Linux & Raspberry Pi{{< /button >}}
-{{< button size="large" relref="install-mac.md" >}}Mac OS{{< /button >}}
-{{< button size="large" relref="install-windows.md" >}}Windows{{< /button >}}
-{{</columns>}}
-</center>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap; padding: 10px; justify-content: center;">
+          <a
+            href="/en/user-guide/setup/install-linux"
+            class="foxb foxb-primary"
+            style="margin: 5px;"
+            >Linux / Raspberry Pi</a
+          ><br />
+          <a
+            href="/en/user-guide/setup/install-windows"
+            class="foxb foxb-primary"
+            style="margin: 5px;"
+            >Windows</a
+          ><br />
+          <a
+            href="/en/user-guide/setup/install-mac"
+            class="foxb foxb-primary"
+            style="margin: 5px;"
+            >Mac OS</a
+          ><br />
+</div>
 
 ## Next steps
 
