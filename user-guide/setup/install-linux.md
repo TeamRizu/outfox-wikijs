@@ -2,7 +2,7 @@
 title: Installation on Linux & Raspberry Pi
 description: Installation guide for Project OutFox on Linux & Raspberry Pi systems.
 published: true
-date: 2023-05-17T20:17:04.666Z
+date: 2023-05-17T20:22:35.555Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:16.142Z
@@ -46,8 +46,9 @@ When booting, the game looks for a file in its' root directory called `portable.
 Otherwise, the save data will be placed in `.project-outfox` in the user's home directory.
 
 ## Running the game
-{{< tabs "Running the game" >}}
-{{< tab "Through a Launcher" >}}
+
+## Running the game {.tabset}
+### Through a Launcher
 The following is an example launcher file named "Project OutFox.desktop".
 
 Create a file on the desktop with this name and base the contents on the section below.
@@ -63,8 +64,7 @@ Exec=/home/mtk/Desktop/OutFox/outfox
 Note that the Exec line is a full path to the *OutFox* executable, while the Icon line can be a full path to any png on the system.
 
 Once created, the launcher can be double-clicked to run the game.
-{{< /tab >}}
-{{< tab "Through the terminal" >}}
+### Through the terminal
 In the game's root directory, type this into the terminal and press enter:
 ```
 ./outfox
@@ -75,9 +75,7 @@ To force a theme, run the following, replacing the theme name with the desired t
 ```
 ./outfox --theme=SM5-GrooveNights
 ```
-
-{{< /tab >}}
-{{< /tabs >}}
+## End Tabset {.tabset}
 
 ## Extra NoteSkins
 The NoteSkinsSM5 directory in Appearance contains the noteskins that came with StepMania 5.1/5.0.12. The contents can be dragged into the NoteSkins directory if one wants to use the old noteskins.
@@ -93,7 +91,7 @@ ldd outfox
 ```
 Here is example output from ldd:
 
-![Screenshot of output from ldd.](/getting-started/linuxinstall-ldd.png)
+![linuxinstall-ldd.png](/resources/linuxinstall-ldd.png)
 
 In this example, `libbz2.so.1.0` is missing.
 
@@ -120,7 +118,7 @@ Be sure to check the `SoundDevice` preference.
 
 When the game boots, it writes the available audio devices into the logs and terminal output.
 
-![Screenshot of an audio device list from the game.](/getting-started/linuxinstall-alsadev.png)
+![linuxinstall-alsadev.png](/resources/linuxinstall-alsadev.png)
 
 Assuming the third device is where the audio should be, the whole line for SoundDevice should be `SoundDevice=plughw:1,3`.
 
