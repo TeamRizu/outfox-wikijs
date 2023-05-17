@@ -1,10 +1,12 @@
 ---
 title: Installation on Linux & Raspberry Pi
 description: Installation guide for Project OutFox on Linux & Raspberry Pi systems.
-weight: 1
+published: true
+date: 2023-05-17T20:17:04.666Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:24:16.142Z
 ---
-
-{{<toc>}}
 
 ## Important note
 Do not extract or run the game as the `root` user. It's considered very unsafe, and you will have permission issues.
@@ -12,7 +14,7 @@ Do not extract or run the game as the `root` user. It's considered very unsafe, 
 ## Determining what version to download
 There are multiple versions for linux setups. Use `uname -a` in a terminal to find out what to download.
 
-![Screenshot of potential output from uname, with the architecture highlighted.](/getting-started/linuxinstall-uname.png)
+![Screenshot of potential output from uname, with the architecture highlighted.](/resources/linuxinstall-uname.png)
 
 For example, the above output says `x86_64`, so the amd64 download would be used. (amd64 legacy would be used on older systems/linux distributions)
 
@@ -20,15 +22,15 @@ Raspberry Pi users would use arm64v8 if uname shows "aarch64", while arm32v7 wou
 
 ## Installing the game
 *Project OutFox* is currently distributed as .tar.gz files for linux distributions.
-{{< tabs "Installing the game" >}}
-{{< tab "Through a GUI" >}}
+
+## Installing the game {.tabset}
+### Through a GUI
 Most distributions have a right click item in their file manager for extracting archives.
 
-![Screenshot of a right-click menu on the archive.](/getting-started/linuxinstall-rightclick.png)
+![linuxinstall-rightclick.png](/resources/linuxinstall-rightclick.png)
 
 If the menu doesn't have an option to extract the archive, open the file in your archive manager and extract it to somewhere convenient. (ex: the user's home or Desktop directory)
-{{< /tab >}}
-{{< tab "Using 'tar'" >}}
+### Using 'tar'
 Open a terminal and get to the directory the archive is in.
 
 Run this in your terminal, replacing the name of the archive file with what you named it.
@@ -36,8 +38,7 @@ Run this in your terminal, replacing the name of the archive file with what you 
 tar -xvf OutFox-5.3.0-alpha-4.9.9HF3b-amd64-legacy-date-20210809.tar.gz
 ```
 This should create a directory that holds the install of *Project OutFox*.
-{{< /tab >}}
-{{< /tabs >}}
+## End Tabset {.tabset}
 
 ## Portable vs Non-portable mode
 When booting, the game looks for a file in its' root directory called `portable.ini`. If this file is found, the game switches to "portable" mode, which has all save data placed in the program's root directory.
