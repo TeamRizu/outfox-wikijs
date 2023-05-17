@@ -1,12 +1,16 @@
 ---
 title: Installation on Windows
 description: Installation guide for Project OutFox on Windows systems.
-weight: 1
+published: true
+date: 2023-05-17T20:26:34.364Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:24:23.818Z
 ---
 
 Windows builds of Project OutFox use an installer; follow the instructions, and launch the game using the provided shortcuts. 
 
-![Screenshot of the Project OutFox installation wizard on Windows 10.](/getting-started/installer.png)
+![Screenshot of the Project OutFox installation wizard on Windows 10.](/resources/outfox_installer.png)
 
 * It is recommended that you **do not** install it to the Program Files directory, as this is known to cause problems.
 * The installer offers optional components, such as the noteskins that were included with StepMania 5.0.12 and 5.1, and "Toasties" - animations that can trigger on combo milestones in-game.
