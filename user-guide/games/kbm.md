@@ -1,9 +1,12 @@
 ---
-title: "Game Module: kbm"
+title: Game Module: kbm
 description: Details about the `kbm` game module supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:58:10.261Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:09.019Z
 ---
-
 
 <!--
 insert picture of gameplay 
@@ -25,14 +28,16 @@ This mode is not selectable in the game select screen at the moment.
 ### Introduced:
 
 #### 24 Key 2 Octave:
-![kbm24 layout](/user-guide/kbm24.png)
+
+![kbm24 layout](/resources/supported-gamemodes/kbm/kbm24.png)
 
 First Seen:
  * Project OutFox alpha 4.18.0 - ``(kbm24-single)`` (November 2022)
  * Project OutFox alpha 4.18.0 - ``(kbm24-versus)`` (November 2022)
 
 #### 48 Key 4 Octave:
-![kbm48 layout](/user-guide/kbm48.png)
+
+![kbm48 layout](/resources/supported-gamemodes/kbm/kbm48.png)
 
 First Seen:
  * Project OutFox alpha 4.18.0 - ``(kbm48-single)`` (November 2022)
