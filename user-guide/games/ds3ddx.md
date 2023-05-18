@@ -1,14 +1,20 @@
 ---
-title: "Game Module: ds3ddx"
+title: Game Module: ds3ddx
 description: Details about the `ds3ddx` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:27:29.536Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:46.000Z
 ---
 
-![3ddx single game-play, default theme](/user-guide/3dds1gameplayold.png)
-###### 3ddx single game-play, default legacy theme
+## 3ddx single game-play, default legacy theme
 
-![3ddx double game-play, default theme](/user-guide/3dds2gameplayold.png)
-###### 3ddx double game-play, default legacy theme
+![3dds1gameplayold.png](/resources/supported-gamemodes/dx3dds/3dds1gameplayold.png){.align-center}
+
+## 3ddx double game-play, default legacy theme
+
+![3dds2gameplayold.png](/resources/supported-gamemodes/dx3dds/3dds2gameplayold.png){.align-center}
 
 ## About
 
