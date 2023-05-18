@@ -1,19 +1,12 @@
 ---
-title: "Game Module: kickbox"
+title: Game Module: kickbox
 description: Details about the `kickbox` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:25:03.110Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:17.520Z
 ---
-
-![kb4 game-play, default theme](/user-guide/kb4gameplayold.png)
-###### kb4 game-play, default legacy theme
-
----
-
-![kb6 game-play, default theme](/user-guide/kb6gameplayold.png)
-###### kb6 game-play, default legacy theme
-
-
-
 
 ## About
 
