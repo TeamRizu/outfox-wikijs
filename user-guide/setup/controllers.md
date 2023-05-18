@@ -1,7 +1,11 @@
 ---
 title: Configure controllers
 description: Controller configuration guide for Project OutFox.
-weight: 3
+published: true
+date: 2023-05-18T19:49:19.886Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:24:08.553Z
 ---
 
 On Alpha 4.5 and newer, we switched to using an XInput-compliant input system.
@@ -22,11 +26,11 @@ Test your input, see if your keys are mapped and if so which ones. By pushing th
 
 So on to the good stuff; OutFox has a built in game-pad tool that will automatically take care of most of this for you
 
-![](/controller-guide/guide_1.png)
+![guide_1.png](/resources/configure-controllers/guide_1.png){.align-center}
 
 You push “Enter” on the keyboard and push the appropriate button on the dance pad/etc. to map the buttons to the button you want.
 
-![](//controller-guide/guide_2.png)
+![guide_2.png](/resources/configure-controllers/guide_2.png){.align-center}
 
 I would recommend using this screen for most controllers on pc, it takes a lot of the guess work out of the whole thing. After setting this up repeat Step 1 if your keys show up as “Unmapped” that’s great go to the “Config Key/Joy Mappings” and do your thing, you’re done with the guide!
 
@@ -36,7 +40,7 @@ If it still doesn't work...
 
 There is a nifty tool around called [SDL2 Game-pad Tool](http://www.generalarcade.com/gamepadtool/). You connect your controller (via USB or Bluetooth or however you desire to connect your controller to the PC), and it’ll show up on the top drop down menu.
 
-![](/controller-guide/guide_3.png)
+![guide_3.png](/resources/configure-controllers/guide_3.png){.align-center}
 
 1.  Click "Create a New Mapping"
 2.  Step/Press the input you want for those buttons much like you would on Step 2 of this procedure.
@@ -47,7 +51,7 @@ There is a nifty tool around called [SDL2 Game-pad Tool](http://www.generalarcad
 
 ### A note
 
-![](/controller-guide/guide_4.png)
+![guide_4.png](/resources/configure-controllers/guide_4.png){.align-center}
 
 The “#” is useful for when you want to have different Mapping Strings for the same game-pad, it basically hides the mapping string from the program reading it. I made 3 different mapping for testing the the program would only recognize one, then I hid the mapping string with a hashtag (pound symbol for you oldies around) and the one not hidden was now seen by the program.
 
@@ -63,7 +67,7 @@ Try configuring the directions to the analog stick instead and then mapping them
 
 If you have an axis pad which is showing two sets of buttons, or simply just cancelling out, and you cannot seem to map it in game, this is what you need to do to fix it. The pad showing two buttons will look like this:
 
-![](/controller-guide/guide_5.png)
+![guide_5.png](/resources/configure-controllers/guide_5.png){.align-center}
 
 I am pressing the left Arrow, but getting two sets of inputs. On Linux and MacOS, this can be due to an installed xbox360 driver, or the x-pad module intercepting the events, and reporting an axis anyway. The next patch of OutFox mitigates this issue a little bit, but it still is a pain.
 
@@ -76,7 +80,7 @@ Up=Joy1_Button 3</pre>
 
 Make sure that you close the game. You can now navigate to your save folder, and look for your key-maps.ini file and set the buttons manually, so you can basically ignore the axis values given by the x-pad driver. you need to add the mapping before the ::: as shown below:
 
-![](/controller-guide/guide_6.png)
+![guide_6.png](/resources/configure-controllers/guide_6.png){.align-center}
 
 You can save this, and then start the game again, and your pad will be mapped.
 
@@ -85,7 +89,9 @@ Left=Joy1_Button 1
 Right=Joy1_Button 4  
 Up=Joy1_Button 3</pre>
 
-Make sure that you close the game. You can now navigate to your save folder, and look for your key-maps.ini file and set the buttons manually, so you can basically ignore the axis values given by the x-pad driver. you need to add the mapping before the ::: as shown below: ![](/controller-guide/guide_6.png)
+Make sure that you close the game. You can now navigate to your save folder, and look for your key-maps.ini file and set the buttons manually, so you can basically ignore the axis values given by the x-pad driver. you need to add the mapping before the ::: as shown below:
+
+![guide_6.png](/resources/configure-controllers/guide_6.png){.align-center}
 
 You can save this, and then start the game again, and your pad will be mapped.
 
@@ -96,5 +102,5 @@ We have added a quick guide for the layout of the Deck on default buttons. They 
 
 On some themes which only use the 'Arcade' glyphs, (red/green/grey buttons) we have added these as well so you know which is which.
 
-![](/controller-guide/steamdecklayout.jpg)
+![steamdecklayout.jpg](/resources/configure-controllers/steamdecklayout.jpg){.align-center}
 
