@@ -1,11 +1,16 @@
 ---
-title: "Game Module: stepstage"
+title: Game Module: stepstage
 description: Details about the `stepstage` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:17:04.868Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:40.434Z
 ---
 
-![Stepping Stage game-play, default theme](/user-guide/stepstagegameplayold.jpg)
-###### stepstage game-play, default legacy theme
+## stepstage game-play, default legacy theme
+
+![Stepping Stage game-play, default theme](/resources/supported-gamemodes/stepstage/stepstagegameplayold.jpg){.align-center}
 
 ## About:
 
