@@ -2,7 +2,7 @@
 title: Game Module: para
 description: Details about the `para` mode supported by Project OutFox.
 published: true
-date: 2023-05-18T20:31:46.696Z
+date: 2023-05-18T20:52:59.700Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:23:24.931Z
@@ -187,7 +187,8 @@ The Para Driver will be set up to init automatically from Alpha V pre-041, so yo
 
 For calibrating and setup, we recommend watching the video from our friends at _EKS-D ParaMania_, which have provided a great tutorial here:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u-cpsnGrFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.youtube-nocookie.com/embed/u-cpsnGrFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Trivia
 
