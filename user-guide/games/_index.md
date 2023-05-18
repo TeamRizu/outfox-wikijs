@@ -1,7 +1,11 @@
 ---
 title: Supported Game Modules
 description: The different game modules supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:09:58.443Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:30.625Z
 ---
 
 As part of our commitment to rhythm game preservation (**The Working Museum**), Project OutFox will add a growing number of supported game modules so a new generation can play and enjoy these forgotten gems, and to showcase the creativity and expression our fellow developers employed in the past. 
@@ -12,7 +16,7 @@ This page will give a little more detail and history about the modes that we sup
 
 ### **_We are still dedicated to our players from older versions, and this does not mean we are not focussing on working on our core game support!_**
 
-![Screenshot of the Project OutFox game selection screen.](/user-guide/selectmode.png)
+![selectmode.png](/resources/supported-gamemodes/selectmode.png){.align-center}
 
 As of OutFox-alpha-4.18.1, they include:
 ---
@@ -110,41 +114,47 @@ As of OutFox-alpha-4.18.1, they include:
 
 ## These pages below are a work in progress! Please be patient while we work on updating them! - Squirrel
 
-{{< columns >}}
-
-## Dance / Fitness Pad Based Modes:
-{{< button size="medium" relref="user-guide/games/dance"    >}}dance{{< /button >}}
-{{< button size="medium" relref="user-guide/games/pump"     >}}pump{{< /button >}}
-{{< button size="medium" relref="user-guide/games/techno"   >}}techno{{< /button >}}
-{{< button size="medium" relref="user-guide/games/smx"      >}}smx{{< /button >}}
-{{< button size="medium" relref="user-guide/games/stepstage">}}stepstage{{< /button >}}
-{{< button size="medium" relref="user-guide/games/kickbox"  >}}kickbox{{< /button >}}
-<--->
-
-## Sensor / Mixed Sensor Based Modes:
-{{< button size="medium" relref="user-guide/games/ds3ddx"   >}}ds3ddx{{< /button >}}
-{{< button size="medium" relref="user-guide/games/para" 	>}}para{{< /button >}}
-{{< button size="medium" relref="user-guide/games/ez2d" 	>}}ez2d{{< /button >}}
-{{< button size="medium" relref="user-guide/games/maniax" 	>}}maniax{{< /button >}}
-
-<--->
-## MIDI Instrument / Controller Based Modes:
-{{< button size="medium" relref="user-guide/games/gddm" 	>}}gddm{{< /button >}}
-{{< button size="medium" relref="user-guide/games/gdgf" 	>}}gdgf{{< /button >}}
-{{< button size="medium" relref="user-guide/games/gh"	 	>}}gh{{< /button >}}
-{{< button size="medium" relref="user-guide/games/taiko" 	>}}taitai{{< /button >}}
-{{< button size="medium" relref="user-guide/games/bongo" 	>}}bongo{{< /button >}}
-{{< button size="medium" relref="user-guide/games/kbm" 	    >}}kbm{{< /button >}}
-{{< button size="medium" relref="user-guide/games/karaoke" 	    >}}karaoke{{< /button >}}
-
-<--->
-## Controller / Key Based Modes:
-{{< button size="medium" relref="user-guide/games/bemu"		>}}be-mu{{< /button >}}
-{{< button size="medium" relref="user-guide/games/pomu" 	>}}po-mu{{< /button >}}
-{{< button size="medium" relref="user-guide/games/kbx" 		>}}kbx{{< /button >}}
-
-{{< /columns >}}
-
+<div style="display: flex; justify-content: center;">
+  <div class="row-justified-flex-div" style="max-width: none;">
+    <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
+    	<h2>Dance / Fitness Pad Based Modes:</h2>
+    	<div class="row-justified-flex-div">
+      	<a class="foxb foxb-primary" href="./dance">dance</a>
+      	<a class="foxb foxb-primary" href="./pump">pump</a>
+        <a class="foxb foxb-primary" href="./techno">techno</a>
+        <a class="foxb foxb-primary" href="./smx">smx</a>
+        <a class="foxb foxb-primary" href="./stepstage">stepstage</a>
+        <a class="foxb foxb-primary" href="./kickbox">kickbox</a>
+    	</div>
+		</div>
+    <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
+    	<h2>Sensor / Mixed Sensor Based Modes:</h2>
+    	<div class="row-justified-flex-div">
+      	<a class="foxb foxb-primary" href="./ds3ddx">ds3ddx</a>
+      	<a class="foxb foxb-primary" href="./para">para</a>
+        <a class="foxb foxb-primary" href="./ez2d">ez2d</a>
+    	</div>
+		</div>
+    <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
+    	<h2>MIDI Instrument / Controller Based Modes:</h2>
+    	<div class="row-justified-flex-div">
+      	<a class="foxb foxb-primary" href="./gddm">gddm</a>
+      	<a class="foxb foxb-primary" href="./gdgf">gdgf</a>
+        <a class="foxb foxb-primary" href="./gh">gh</a>
+        <a class="foxb foxb-primary" href="./taiko">taitai</a>
+        <a class="foxb foxb-primary" href="./bongo">bongo</a>
+        <a class="foxb foxb-primary" href="./kbm">kbm</a>
+    	</div>
+		</div>
+    <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
+    	<h2>Controller / Key Based Modes:</h2>
+    	<div class="row-justified-flex-div">
+      	<a class="foxb foxb-primary" href="./bemu">be-mu</a>
+      	<a class="foxb foxb-primary" href="./pomu">po-mu</a>
+    	</div>
+		</div>
+  </div>
+</div>
 
 ## Future game types
 
