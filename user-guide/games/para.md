@@ -1,7 +1,11 @@
 ---
-title: "Game Module: para"
+title: Game Module: para
 description: Details about the `para` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:31:46.696Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:24.931Z
 ---
 
 <!--
@@ -87,12 +91,12 @@ Setting up the _Para_ controller is different depending on the operating system 
 
 **Before** you start _Project OutFox_, you must make sure you have laid out the controller on the floor, within a suitable distance from your screen, and away from any shelving or things which could be knocked off from swinging arms, ensure good clearance as well from the second player, as you do not want to be hitting each other as you play the game!
 
-![Two player layout from PlayStation 2 (2010) - Thanks https://www.tomshw.it/](/user-guide/paraps2-2p-layout.jpg)
 
+![Floor Layout of PPP controller](/resources/supported-gamemodes/para/paraps2-2p-layout.jpg){.align-center}
 
 The example above shows a two-player layout at a convention from 2010, with the PS2 game running on it's actual hardware. For the first time _Project OutFox_ now supports up to 4 simultaneous controllers, (though more than 2 player is not available yet!). It is recommended to use the provided template to place on the floor so the controllers are correctly spaced and you are aware of the space required.
 
-![Floor Layout of PPP controller](/user-guide/parafloorlayout.jpg)
+![Two player layout from PlayStation 2 (2010) - Thanks https://www.tomshw.it/](/resources/supported-gamemodes/para/parafloorlayout.jpg){.align-center}
 
 Plug in the controller(s) into a spare USB slot on your computer, or the dock of the Mac/Steam Deck once you are happy with your placement.
 
@@ -181,7 +185,9 @@ Note that the file name must come before `73-seat-late.rules`, as this is where 
 
 The Para Driver will be set up to init automatically from Alpha V pre-041, so you do not need to change anything else in the system for this.
 
-For calibrating and setup, we recommend watching the video from our friends at _EKS-D ParaMania_, which have provided a great tutorial here: https://www.youtube.com/watch?v=u-cpsnGrFXQ 
+For calibrating and setup, we recommend watching the video from our friends at _EKS-D ParaMania_, which have provided a great tutorial here:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u-cpsnGrFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Trivia
 
