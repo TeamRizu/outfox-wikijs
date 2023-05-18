@@ -2,7 +2,7 @@
 title: Game Module: para
 description: Details about the `para` mode supported by Project OutFox.
 published: true
-date: 2023-05-18T20:52:59.700Z
+date: 2023-05-18T21:03:45.102Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:23:24.931Z
@@ -185,10 +185,7 @@ Note that the file name must come before `73-seat-late.rules`, as this is where 
 
 The Para Driver will be set up to init automatically from Alpha V pre-041, so you do not need to change anything else in the system for this.
 
-For calibrating and setup, we recommend watching the video from our friends at _EKS-D ParaMania_, which have provided a great tutorial here:
-
-
-<iframe src="https://www.youtube-nocookie.com/embed/u-cpsnGrFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For calibrating and setup, we recommend watching the video from our friends at _EKS-D ParaMania_, which have provided a great tutorial here: https://youtu.be/u-cpsnGrFXQ
 
 ## Trivia
 
