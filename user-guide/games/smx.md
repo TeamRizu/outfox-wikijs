@@ -1,15 +1,21 @@
 ---
-title: "Game Module: smx"
+title: Game Module: smx
 description: Details about the `smx` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-05-18T20:14:40.031Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:36.562Z
 ---
 
-![smx songs in music wheel, default theme](/user-guide/smxwheelold.png)
-###### smx songs in music wheel, default theme
+## smx songs in music wheel, default theme
 
+![smxwheelold.png](/resources/supported-gamemodes/smx/smxwheelold.png){.align-center}
 
-![smx game-play, default theme](/user-guide/smxgameplayold.png)
-###### smx game-play, default legacy theme
+## smx game-play, default legacy theme
+
+![smxgameplayold.png](/resources/supported-gamemodes/smx/smxgameplayold.png){.align-center}
+
 ---
 
 ## About:
