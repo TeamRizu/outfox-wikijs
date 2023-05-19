@@ -1,15 +1,53 @@
 ---
 title: Obtaining Childs and ActorFrame Levels
-weight: 1
+description: 
+published: true
+date: 2023-05-19T18:17:29.536Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:57.266Z
 ---
 
-When using [Actors](../), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](../../actorframe/) or [Actors](../).
-{{< hint type="important" >}}
-`self:GetChild()` can only be used by [ActorFrames](../../actorframe/).
-{{< /hint >}}
+When using [Actors](/en/dev/actors/actortypes/actor/_index), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) or [Actors](/en/dev/actors/actortypes/actor/_index).
 
-You can think of an [ActorFrame](../../actorframe/) as a tree of objects.
-This is the original table. And now you've called GetParent on the [ActorProxy](../actorproxy/).
+> `self:GetChild()` can only be used by [ActorFrames](../../actorframe/).
+{.is-warning}
+
+You can think of an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) as a tree of objects.
+This is the original table. And now you've called GetParent on the [ActorProxy](/en/dev/actors/actortypes/actorproxy/_index).
+
+```lua
+Def.ActorFrame{
+	Def.BitmapText{ Name="MyText" },
+	* Def.ActorProxy{
+		OnCommand=function(self)
+			self:GetParent()
+		end
+	},
+}
+```
+
+```kroki
+mermaid
+
+graph LR
+    AF[Def.ActorFrame] --- BT(Def.BitmapText) & AP(Def.ActorProxy)
+	style AF stroke-width:4px
+	style BT stroke-width:4px
+	style AP fill:#585,color:#fff,stroke-width:4px
+```
+
+```kroki
+mermaid
+
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
+
 {{< columns >}}
 ```lua
 Def.ActorFrame{
