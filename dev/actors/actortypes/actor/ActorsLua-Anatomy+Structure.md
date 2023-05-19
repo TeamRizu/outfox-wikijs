@@ -1,11 +1,16 @@
 ---
 title: Anatomy of an Actor
-weight: 0
+description: 
+published: true
+date: 2023-05-19T18:06:54.238Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:49.909Z
 ---
 
 <!-- TODO: This is just getting started. If you've got ideas for this, please help out! -->
 
-Every actor in SM5 follows a standard general structure, with [ActorFrames](../../actorframe/) being more flexible in how they're constructed.
+Every actor in SM5 follows a standard general structure, with [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) being more flexible in how they're constructed.
 
 {{<toc>}}
 
@@ -23,7 +28,7 @@ Every actor starts with a `Def.` prefix, followed by the actor type itself. An a
 
 Names allow one to easily grab the actor through functions like `GetChild`, but there are other exampled given later.
 
-When the definition is complete, the actor has to be "returned" for the game to see it. Most of the time, [ActorFrames](../../actorframe/) are usually what's returned instead of just a single actor.
+When the definition is complete, the actor has to be "returned" for the game to see it. Most of the time, [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) are usually what's returned instead of just a single actor.
 
 ## Commands
 
@@ -31,13 +36,14 @@ Commands come in two variants: "Commands" and "Messages".
 
 Commands are usually isolated to a single actor, with a few exceptions. Messages are commands that are meant to be in multiple actors and can be invoked at around the same time on all actors with a "Broadcast".
 
-{{<hint title="Example">}}
-```lua
-MESSAGEMAN:Broadcast("SpecialMove", {funnymove = 10, absolute = false})
-```
-
-_This would run "SpecialMoveMessageCommand" on all actors that have this command defined, with a parameter table being passed in. Not all actors might use this table, even though they might have the command defined._
-{{</hint>}}
+> ** **
+> ```lua
+> MESSAGEMAN:Broadcast("SpecialMove", {funnymove = 10, absolute = false})
+> ```
+> 
+> *This would run "SpecialMoveMessageCommand" on all actors that have this command defined, with a parameter table being passed in. Not all actors might use this table, even though they might have the command defined.*
+> {.is-success}
+> 
 
 If one needs to manually queue a command or message, the `queuecommand` or `queuemessage` functions can be used.
 
