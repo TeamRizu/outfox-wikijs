@@ -1,13 +1,17 @@
 ---
 title: How a Player Manipulates its' NoteField
-weight: 1
+description: 
+published: true
+date: 2023-05-19T23:59:33.926Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:34.296Z
 ---
 
-Some modifiers require the Player to perform some adjustments to the [NoteField](../). This page documents what gets affected and how.
+Some modifiers require the Player to perform some adjustments to the [NoteField](/en/dev/actors/actortypes/notefield/_index). This page documents what gets affected and how.
 
-{{<hint info>}}
-Note that this is useful knowledge if trying to replicate some modifiers on a Def.NoteField by itself or if you need something to follow what a Player does.
-{{</hint>}}
+> Note that this is useful knowledge if trying to replicate some modifiers on a Def.NoteField by itself or if you need something to follow what a Player does.
+{.is-info}
 
 Any part that relies in reverse/downscroll only takes effect when the **first column** is more than 50% towards downscroll.
 
