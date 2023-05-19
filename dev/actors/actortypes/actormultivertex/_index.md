@@ -1,10 +1,12 @@
 ---
 title: ActorMultiVertex
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T19:39:31.544Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:08.579Z
 ---
-
-{{<toc>}}
 
 Allows for arbitrary polygons to be created. Every vertex has a position on the xyz plane, a color formatted like diffuse values, and a uv coordinate for textures. In NotITG, this is known as "Polygon", and the functions available are different, even though it achieves the same thing.
 
@@ -35,8 +37,7 @@ return Def.ActorMultiVertex{
 }
 ```
 
-Vertices from the ActorMultiVertex can also be tweened to create animations. This must be done by modifying an existing vertice already assigned on the table,
-otherwise, it won't be recognized and will just snap into the new position assigned.
+Vertices from the ActorMultiVertex can also be tweened to create animations. This must be done by modifying an existing vertice already assigned on the table, otherwise, it won't be recognized and will just snap into the new position assigned.
 
 ```lua
 -- Let's say this is your original vertex data, using Lines.
@@ -94,9 +95,8 @@ self:SetDrawState({
 })
 ```
 
-{{<hint info>}}
-For more information about how Lua handles functions, check out the [Functions](https://www.lua.org/pil/5.html) page.
-{{</hint>}}
+> For more information about how Lua handles functions, check out the [Functions](https://www.lua.org/pil/5.html) page.
+{.is-info}
 
 | Name | Description |
 | :--: | ----------- |
@@ -104,9 +104,8 @@ For more information about how Lua handles functions, check out the [Functions](
 | First | Which point will be the first to draw?
 | Num | How many polygons after `First` will be drawn? If set to -1 (default), it will be the rest of available polygons set.
 
-{{<hint type="important">}}
-The `First` argument is 1-indexed, while the `Num` argument is not.
-{{</hint>}}
+> The `First` argument is 1-indexed, while the `Num` argument is not.
+{.is-info}
 
 ## List of DrawModes
 
@@ -117,22 +116,22 @@ For written examples, please check [Usage Examples](#usage-examples).
 
 | Name | Description | Image |
 | :---: | :---: | :------ |
-| Quads | Draws a 4 point polygonal shape that is separated from any adjacent or subsequent point. | ![](/actors/actormultivertex/drawmodes/DrawMode_Quad.svg) |
-| QuadStrip | Draws a 4 point polygonal shape that connects to the next adjacent point at the end. | ![](/actors/actormultivertex/drawmodes/DrawMode_QuadStrip.svg) |
-| Fan | Constructs an 8 polygonal shape that can be used to resemble a fan. | ![](/actors/actormultivertex/drawmodes/DrawMode_Fan.svg) |
-| Strip | Suspiciously similar to DrawMode_QuadStrip. | ![](/actors/actormultivertex/drawmodes/DrawMode_QuadStrip.svg) |
-| Triangles | Draws a 3 point polygonal shape that is separated from any adjacent or subsequent point. | ![](/actors/actormultivertex/drawmodes/DrawMode_Triangle.svg) |
-| LineStrip | Draws a continous line based on the points given to the Polygon. Width of the line is scaled by the theme's internal height, plus the manual value assigned. | ![](/actors/actormultivertex/drawmodes/DrawMode_LineStrip.svg) |
+| Quads | Draws a 4 point polygonal shape that is separated from any adjacent or subsequent point. | ![](/resources/actors/actormultivertex/drawmode_quad.svg) |
+| QuadStrip | Draws a 4 point polygonal shape that connects to the next adjacent point at the end. | ![drawmode_quadstrip.svg](/resources/actors/actormultivertex/drawmode_quadstrip.svg) |
+| Fan | Constructs an 8 polygonal shape that can be used to resemble a fan. | ![drawmode_fan.svg](/resources/actors/actormultivertex/drawmode_fan.svg) |
+| Strip | Suspiciously similar to DrawMode_QuadStrip. | ![drawmode_quadstrip.svg](/resources/actors/actormultivertex/drawmode_quadstrip.svg) |
+| Triangles | Draws a 3 point polygonal shape that is separated from any adjacent or subsequent point. | ![drawmode_triangle.svg](/resources/actors/actormultivertex/drawmode_triangle.svg) |
+| LineStrip | Draws a continous line based on the points given to the Polygon. Width of the line is scaled by the theme's internal height, plus the manual value assigned. | ![drawmode_linestrip.svg](/resources/actors/actormultivertex/drawmode_linestrip.svg) |
 | SymmetricQuadStrip | todo | todo |
 
 The following are introduced for OutFox.
 
 | Name | Description | Image |
 | :---: | :---: | :------ |
-| LineStripM | Modern implementation of LineStrip. Outputs the work to the GPU to perform operations. Line width limits here are defined by the GPU. | ![](/actors/actormultivertex/drawmodes/DrawMode_LineStrip.svg) |
+| LineStripM | Modern implementation of LineStrip. Outputs the work to the GPU to perform operations. Line width limits here are defined by the GPU. | ![drawmode_linestrip.svg](/resources/actors/actormultivertex/drawmode_linestrip.svg) |
 | PolyLineStrip | todo | todo |
-| Points | 1 vertex shapes, which are rendered by the GPU. Size can be defined using `SetPointSize`, and depends on the GPU. | ![](/actors/actormultivertex/drawmodes/DrawMode_Points.svg) |
-| Lines | A 2 point line that is separated on each group. | ![](/actors/actormultivertex/drawmodes/DrawMode_Line.svg) |
+| Points | 1 vertex shapes, which are rendered by the GPU. Size can be defined using `SetPointSize`, and depends on the GPU. | ![drawmode_points.svg](/resources/actors/actormultivertex/drawmode_points.svg) |
+| Lines | A 2 point line that is separated on each group. | ![drawmode_line.svg](/resources/actors/actormultivertex/drawmode_line.svg) |
 
 ## Usage Examples
 
@@ -170,17 +169,14 @@ The examples here provide how to insert points for the polygon related to each D
 }
 ```
 
-{{<hint type="important">}}
-
-Take a moment to notice that Quad and QuadStrip, while similar in nature, have a different order.
-The graphics being [DrawMode_Quad](#drawmode_quad) and [DrawMode_QuadStrip](#drawmode_quadstrip) respectively.
-
-<div class="img-comparison">
-	<img src="/actors/actormultivertex/drawmodes/DrawMode_Quad.svg" alt="DrawMode_Quad" width="300">
-	<img src="/actors/actormultivertex/drawmodes/DrawMode_QuadStrip.svg" alt="DrawMode_QuadStrip" width="300">
-</div>
-
-{{</hint>}}
+> Take a moment to notice that Quad and QuadStrip, while similar in nature, have a different order. The graphics being [DrawMode_Quad](#drawmode_quad) and [DrawMode_QuadStrip](#drawmode_quadstrip) respectively.
+> 
+> <div class="img-comparison">
+> 	<img src="/resources/actors/actormultivertex/drawmode_quad.svg" alt="DrawMode_Quad" width="300">
+> 	<img src="/resources/actors/actormultivertex/drawmode_quadstrip.svg" alt="DrawMode_QuadStrip" width="300">
+> </div>
+> 
+> {.is-info}
 
 ### DrawMode_Fan
 
@@ -217,16 +213,14 @@ The graphics being [DrawMode_Quad](#drawmode_quad) and [DrawMode_QuadStrip](#dra
 
 ### DrawMode_LineStrip / DrawMode_LineStripM / DrawMode_Points
 
-{{<hint type="important">}}
-Take a moment to notice that LineStrip and Points, while similar in nature, have a different layout.
-The graphics being [DrawMode_LineStrip](#drawmode_linestrip) and [DrawMode_Points](#drawmode_points) respectively.
-
-<div class="img-comparison">
-	<img src="/actors/actormultivertex/drawmodes/DrawMode_LineStrip.svg" alt="DrawMode_LineStrip" width="300">
-	<img src="/actors/actormultivertex/drawmodes/DrawMode_Points.svg" alt="DrawMode_Points" width="300">
-</div>
-
-{{</hint>}}
+> Take a moment to notice that LineStrip and Points, while similar in nature, have a different layout. The graphics being [DrawMode_LineStrip](#drawmode_linestrip) and [DrawMode_Points](#drawmode_points) respectively.
+> 
+> <div class="img-comparison">
+> 	<img src="/resources/actors/actormultivertex/drawmode_linestrip.svg" alt="DrawMode_LineStrip" width="300">
+> 	<img src="/resources/actors/actormultivertex/drawmode_points.svg" alt="DrawMode_Points" width="300">
+> </div>
+> 
+>{.is-info}
 
 ```lua
 {
