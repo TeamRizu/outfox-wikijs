@@ -1,8 +1,14 @@
 ---
 title: ActorProxy
+description: 
+published: true
+date: 2023-05-19T20:08:29.301Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:12.564Z
 ---
 
-An ActorProxy is an actor that allows rendering of other [Actors](../_index.md) without the need to create the logic for it again.
+An ActorProxy is an actor that allows rendering of other [Actors](/en/dev/actors/actortypes/actor/_index) without the need to create the logic for it again.
 
 ```lua
 Def.ActorProxy{
@@ -11,9 +17,6 @@ Def.ActorProxy{
     end
 }
 ```
-
-{{<toc>}}
-
 ## Attributes
 
 There are no special attributes for this actor class.
