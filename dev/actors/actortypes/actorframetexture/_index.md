@@ -2,7 +2,7 @@
 title: ActorFrameTexture
 description: 
 published: true
-date: 2023-05-19T18:34:23.741Z
+date: 2023-05-19T18:34:57.684Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:04.787Z
@@ -14,8 +14,7 @@ Popularized by itsâ€™ use in NotITG, although the behavior is different. NotITGâ
 
 ## Usage Example
 
-This example will create an ActorFrameTexture that uses a sample [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index), and project it
-to the center to the screen in half of the available size of the viewport window.
+This example will create an ActorFrameTexture that uses a sample [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index), and project it to the center to the screen in half of the available size of the viewport window.
 
 ```lua
 -- This ActorFrame will contain everything.
