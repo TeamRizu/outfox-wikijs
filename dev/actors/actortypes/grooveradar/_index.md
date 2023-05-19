@@ -1,8 +1,14 @@
 ---
 title: GrooveRadar
+description: 
+published: true
+date: 2023-05-19T23:36:55.721Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:56.614Z
 ---
 
-An [ActorFrame](../actorframe) which generates a pentagon-shaped radar indicating various values that correspond to several aspects of a selected or given chart.
+An [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) which generates a pentagon-shaped radar indicating various values that correspond to several aspects of a selected or given chart.
 
 ```lua
 Def.GrooveRadar{
@@ -26,11 +32,9 @@ Def.GrooveRadar{
 }
 ```
 
-{{<toc>}}
-
 ## Attributes
 
-There are no special attributes for this actor class. It inherits the attributes from [ActorFrame](../actorframe/#attributes).
+There are no special attributes for this actor class. It inherits the attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index#attributes).
 
 ## Loaded Metrics
 
@@ -57,16 +61,15 @@ Sets the data for the GrooveRadar from a chart's RadarValues. These values are g
 
 If RadarValues is nil, it will perform the same action as [`SetEmpty`](#setempty).
 
-{{<hint>}}
-You can obtain a chart's RadarValues by running `GetRadarValues` for a player's steps.
-<!-- TODO: Make a wiki page for Steps functions before adding this in! -->
-<!-- For more information as to why GetRadarValues requires the PlayerNumber again, check [`GetRadarValues`](). -->
-```lua
-local chart = GAMESTATE:GetCurrentSteps(PLAYER_1)
--- Get the values
-self:SetFromRadarValues( chart:GetRadarValues(PLAYER_1) )
-```
-{{</hint>}}
+> You can obtain a chart's RadarValues by running `GetRadarValues` for a player's steps.
+> <!-- TODO: Make a wiki page for Steps functions before adding this in! -->
+> <!-- For more information as to why GetRadarValues requires the PlayerNumber again, check [`GetRadarValues`](). -->
+> ```lua
+> local chart = GAMESTATE:GetCurrentSteps(PLAYER_1)
+> -- Get the values
+> self:SetFromRadarValues( chart:GetRadarValues(PLAYER_1) )
+> ```
+{.is-info}
 
 ### `SetFromValues`
 `(PlayerNumber player, {number val1, number val2, number val3, number val4, number val5})`
@@ -79,14 +82,12 @@ Allows you to insert custom data into the GrooveRadar. This requires 5 numbers w
 - Freeze
 - Chaos
 
-{{<hint type="important">}}
-It is suggested to limit the values here to be from 0 to 1. The radar is not clamped to these limits when using SetFromValues, so higher values can make the radar
-draw outside of its intended area.
-{{</hint>}}
+> It is suggested to limit the values here to be from 0 to 1. The radar is not clamped to these limits when using SetFromValues, so higher values can make the radar
+> draw outside of its intended area.
+{.is-warning}
 
-{{<hint>}}
-Internally, these are just indexed in a number form, they do not follow a fixed category, so you can name these by using the graphics required for the GrooveRadar.
-{{</hint>}}
+> Internally, these are just indexed in a number form, they do not follow a fixed category, so you can name these by using the graphics required for the GrooveRadar.
+{.is-info}
 
 If the values table isn't table or is nil, it will perform the same action as [`SetEmpty`](#setempty).
 
