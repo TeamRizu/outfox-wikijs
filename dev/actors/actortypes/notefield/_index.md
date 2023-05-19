@@ -1,9 +1,12 @@
 ---
 title: NoteField
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T23:54:34.929Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:38.026Z
 ---
-<!---->
 
 Contains the receptors and notes that are seen in gameplay. Normally seen in Player actors.
 
@@ -38,13 +41,15 @@ In the above example, The resulting NoteField is relatively close to what a Note
 
 Because Player is set to PLAYER_1, it will also grab the Chart that Player 1 selected and read from Player 1's input.
 
-{{<hint type="warning">}}
-Because this NoteField is not drawn by an actual Player actor, Mini won't zoom the NoteField, and perspective modifiers will do nothing. Those will have to be replicated manually. Check [How a Player Manipulates its' NoteField](./NoteField-PlayerManipulation) for more information on how to recreate it.
-{{</hint>}}
+> Because this NoteField is not drawn by an actual Player actor, Mini won't zoom the NoteField, and perspective modifiers will do nothing. Those will have to be replicated manually. Check [How a Player Manipulates its' NoteField](/en/dev/actors/actortypes/notefield/NoteField-PlayerManipulation) for more information on how to recreate it.
+{.is-warning}
 
 ## Table of Contents
 
-{{<toc-tree>}}
+- [DefNoteField-RunningModifiers](/en/dev/actors/actortypes/notefield/DefNoteField-RunningModifiers)
+- [NoteField-HiddenRegions+NoteTypeMult](/en/dev/actors/actortypes/notefield/NoteField-HiddenRegions+NoteTypeMult)
+- [NoteField-PlayerManipulation](/en/dev/actors/actortypes/notefield/NoteField-PlayerManipulation)
+- [NoteField-InputManipulation](/en/dev/actors/actortypes/notefield/NoteField-InputManipulation)
 
 ## Attributes
 
