@@ -1,8 +1,14 @@
 ---
 title: BGAnimation
+description: 
+published: true
+date: 2023-05-19T23:05:12.384Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:19.810Z
 ---
 
-A compatibility actor class that allows you to run older .ini files for background animations. Requires [Quirks Mode](/user-guide/config/preferences/#quirksmode) to be enabled to function.
+A compatibility actor class that allows you to run older .ini files for background animations. Requires [Quirks Mode](/en/user-guide/config/preferences#quirksmode) to be enabled to function.
 
 ```lua
 Def.BGAnimation{
@@ -18,7 +24,7 @@ Def.BGAnimation{
 AniDir | string | The directory to find the animation data from.
 LengthSeconds | number | Backwards-Compatibility: If this is given, it will create a dummy actor that sleeps for the given amount of time.
 
-It inherits attributes from [ActorFrame](../actorframe/#attributes).
+It inherits attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
 
 ## Loading process
 
