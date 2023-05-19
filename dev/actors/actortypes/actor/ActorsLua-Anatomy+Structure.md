@@ -2,7 +2,7 @@
 title: Anatomy of an Actor
 description: 
 published: true
-date: 2023-05-19T18:06:54.238Z
+date: 2023-05-19T18:07:16.300Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:13:49.909Z
@@ -11,8 +11,6 @@ dateCreated: 2023-05-16T06:13:49.909Z
 <!-- TODO: This is just getting started. If you've got ideas for this, please help out! -->
 
 Every actor in SM5 follows a standard general structure, with [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) being more flexible in how they're constructed.
-
-{{<toc>}}
 
 ## General layout
 
