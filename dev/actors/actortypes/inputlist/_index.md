@@ -1,10 +1,14 @@
 ---
 title: InputList
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T23:42:12.733Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:04.014Z
 ---
 
-A [BitmapText](../bitmaptext/) actor that shows the current list of buttons pressed.
+A [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor that shows the current list of buttons pressed.
 
 ```lua
 Def.InputList {
@@ -14,8 +18,7 @@ Def.InputList {
 
 This actor is used on the Test Input screen to showcase which buttons are being pressed.
 
-Attributes for this actor can be found on [BitmapText](../bitmaptext/).
+Attributes for this actor can be found on [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
 
-{{<hint type="important">}}
-Text application to this actor is ignored as the game automatically updates it with the current buttons.
-{{</hint>}}
+> Text application to this actor is ignored as the game automatically updates it with the current buttons.
+{.is-warning}
