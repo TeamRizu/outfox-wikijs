@@ -1,10 +1,14 @@
 ---
 title: MemoryCardDisplay
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T23:44:42.777Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:07.741Z
 ---
 
-Creates an [ActorFrame](../actorframe/) that contains a [Sprite](../sprite/) with the current status for a Player's MemoryCard.
+Creates an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that contains a [Sprite](/en/dev/actors/actortypes/sprite/_index) with the current status for a Player's MemoryCard.
 
 ```lua
 Def.MemoryCardDisplay{
@@ -14,11 +18,13 @@ Def.MemoryCardDisplay{
 
 On each memory card update, the actor will be updated to detect if the card is loaded, ejected, checking, toolate, non-existent, and others.
 
-{{<hint info>}}
-The graphics used to update this actor are located in `Graphics/MemoryCardDisplay [Card State] p[PlayerNumber index]`.
-{{</hint>}}
+> The graphics used to update this actor are located in `Graphics/MemoryCardDisplay [Card State] p[PlayerNumber index]`.
+{.is-info}
 
-{{<expand "List of MemoryCard states used by MemoryCardDisplay.">}}
+<details>
+
+<summary>List of MemoryCard states used by MemoryCardDisplay.</summary>
+
 - MemoryCardDisplay checking p1
 - MemoryCardDisplay checking p2
 - MemoryCardDisplay error p1
@@ -31,7 +37,8 @@ The graphics used to update this actor are located in `Graphics/MemoryCardDispla
 - MemoryCardDisplay ready p2
 - MemoryCardDisplay removed p1
 - MemoryCardDisplay removed p2
-{{</expand>}}
+
+</details>
 
 ## Attributes
 
