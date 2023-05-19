@@ -1,13 +1,17 @@
 ---
 title: HelpDisplay
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T23:40:33.319Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:00.331Z
 ---
 
-The HelpDisplay is an actor which relies on [BitmapText](../bitmaptext) to draw text meant to guide the player in interacting with the interface with
+The HelpDisplay is an actor which relies on [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) to draw text meant to guide the player in interacting with the interface with
 helpful text that flips to segments in a given amount of time.
 
-By default it uses the `[HelpDisplay]` metrics group to get information about the [OnCommand](../../ActorsLua-CommandList/#commands), time to how the tip (`TipShowTime`) and how often it needs to switch the help block (`TipSwitchTime`).
+By default it uses the `[HelpDisplay]` metrics group to get information about the [OnCommand](/en/dev/actors/ActorsLua-CommandList#commands), time to how the tip (`TipShowTime`) and how often it needs to switch the help block (`TipSwitchTime`).
 
 ```lua
 Def.HelpDisplay {
@@ -19,9 +23,7 @@ Def.HelpDisplay {
 }
 ```
 
-Please check the [BitmapText](../bitmaptext) page for the list of attributes.
-
-{{<toc>}}
+Please check the [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) page for the list of attributes.
 
 ## Formatting Help Text (SetTipsColonSeparated)
 
@@ -53,7 +55,7 @@ local myHelpText = {
 self:settips(myHelpText)
 ```
 
-`textAlt` is an optional table to have text in case there are missing glyphs on the current font. Check [Ensuring string compatibility](../bitmaptext/Bitmap-EnsuringStringComp) for more information.
+`textAlt` is an optional table to have text in case there are missing glyphs on the current font. Check [Ensuring string compatibility](/en/dev/actors/actortypes/bitmaptext/Bitmap-EnsuringStringComp) for more information.
 
 ### gettips()
 Returns two tables which contain the help text currently being displayed on the HelpDisplay.
