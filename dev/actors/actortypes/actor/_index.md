@@ -1,7 +1,11 @@
 ---
 title: Actor
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T18:02:39.077Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:53.607Z
 ---
 
 This is the base that everything derives from. Whatever an Actor can do, everything else can as well. It can be useful for creating control variables without creating something visible on screen.
@@ -34,4 +38,5 @@ BaseZoomZ | number | The base zoom for the Z axis. Any zoom value is added ON TO
 
 ## Table of Contents
 
-{{<toc-tree>}}
+- [Anatomy of an Actor](/en/dev/actors/actortypes/actor/ActorsLua-Anatomy+Structure)
+- [Obtaining Childs and ActorFrame Levels](/en/dev/actors/actortypes/actor/obtainlevels)
