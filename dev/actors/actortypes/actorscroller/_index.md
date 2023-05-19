@@ -1,10 +1,14 @@
 ---
 title: ActorScroller
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-19T20:21:16.765Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:16.017Z
 ---
 
-The Actorscroller is an [ActorFrame](../actorframe/) that acts as a scroller, allowing for a selection-styled menu with choices and animations.
+The Actorscroller is an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that acts as a scroller, allowing for a selection-styled menu with choices and animations.
 
 ```lua
 Def.ActorScroller{
@@ -20,8 +24,6 @@ Def.ActorScroller{
 	WrapScroller = false,
 }
 ```
-
-{{<toc format="raw">}}
 
 ## Attributes
 
@@ -39,7 +41,7 @@ WrapScroller |  bool | Wraps the items of the scroller to attempt a seamless tra
 
 ## Adding actors
 
-To add actors to the ActorScroller, simply add them directly to the scroller, or using the `children` attribute for [ActorFrame](../actorframe/).
+To add actors to the ActorScroller, simply add them directly to the scroller, or using the `children` attribute for [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
 
 ### The direct method.
 ```lua
@@ -62,9 +64,8 @@ return af
 
 ### The function method
 
-{{<hint>}}
-All actors being added via the `children` method have to be added to an [ActorFrame](../actorframe/) wrapper, which will be included in this demonstration.
-{{</hint>}}
+> All actors being added via the `children` method have to be added to an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) wrapper, which will be included in this demonstration.
+{.is-info}
 
 ```lua
 local af = Def.ActorFrame{}
@@ -97,12 +98,11 @@ return af
 
 To perform a different scroll to the ActorScroller, the `TransformFunction` is used. This function provides 4 arguments:
 
-- `self` ([Actor](../../actortypes/)): The actor in question.
+- `self` ([Actor](/en/dev/actors/actortypes/actor/_index)): The actor in question.
 - `offset` (number): The relative 0 offset of the current item.
 
-{{<hint>}}
-By this, it means that, if the value is 0, That's the current item. Anything before or after is - 1 / + 1 respectively.
-{{</hint>}}
+> By this, it means that, if the value is 0, That's the current item. Anything before or after is - 1 / + 1 respectively.
+{.is-info}
 
 - `itemIndex` (number): The index of the current item to the entire list of items.
 - `numItems` (number): The total amount of items currently available.
@@ -118,6 +118,7 @@ end
 ```
 
 This next example let's us create a circular scroller. This is by using [cosine and sine functions](https://en.wikipedia.org/wiki/Sine_and_cosine).
+
 ```lua
 TransformFunction=function(self, offset, itemIndex, numItems)
 	self:xy( math.cos(offset) * 150, math.sin(offset) * 150 )
@@ -146,7 +147,10 @@ Subdivisions = 2
 ]]
 ```
 
-{{<expand "Example with full code">}}
+<details>
+
+<summary>Example with full code</summary>
+
 ```lua
 local af = Def.ActorFrame{
 	InitCommand=function(self)
@@ -212,7 +216,8 @@ af[#af+1] = Def.ActorScroller{
 
 return af
 ```
-{{</expand>}}
+
+</details>
 
 ## Functions
 
