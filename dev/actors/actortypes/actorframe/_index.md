@@ -1,6 +1,11 @@
 ---
 title: ActorFrame
-weight: 0
+description: 
+published: true
+date: 2023-05-19T18:31:46.996Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:14:00.966Z
 ---
 
 ActorFrames can hold other actors. The ``Def.`` format is set up like any other lua table, allowing for creating actors in batches. Because of this, there are multiple ways to build an ActorFrame.
@@ -14,8 +19,6 @@ Def.ActorFrame{
 }
 ```
 
-{{<toc>}}
-
 ## Attributes
 | Name | Type | Action |
 | :--- | :--- | :----- |
@@ -26,9 +29,8 @@ VanishY | number | Sets the X vanish for the ActorFrame.
 FarDistZ | number | Sets the Z draw distance for the ActorFrame.
 Lighting | bool | Enables lighting for the ActorFrame (unused).
 
-{{<hint>}}
-The following require Lighting to be enabled. However, only the ambient color seems to work. This bug has been present since sm-ssc.
-{{</hint>}}
+> The following require Lighting to be enabled. However, only the ambient color seems to work. This bug has been present since sm-ssc.
+{.is-info}
 
 | Name | Type | Action |
 | :--- | :--- | :----- |
@@ -37,7 +39,7 @@ DiffuseColor | color | Diffuse coloring for the ActorFrame.
 SpecularColor | color | Specular coloring for the ActorFrame.
 LightDirection | {0,0,0} | The direction of the lighting for the ActorFrame.
 
-This actor inherits attributes from [Actor](../actor/#attributes).
+This actor inherits attributes from [Actor](/en/dev/actors/actortypes/actor/_index).
 
 ## Inline building
 
@@ -57,9 +59,9 @@ Def.ActorFrame{
 
 Because lua tables can be concatenated (added) to each other, so can ActorFrames.
 
-This can allow for programatically creating [Actors](../actor/) in batches as needed.
+This can allow for programatically creating [Actor](/en/dev/actors/actortypes/actor/_index) in batches as needed.
 
-However, if one does not plan on creating [Actors](../actor/) programmaticly, then a simple `return Def.ActorFrame{...` is all that's needed. Storing it into a local variable that gets returned will waste resources.
+However, if one does not plan on creating [Actor](/en/dev/actors/actortypes/actor/_index) programmaticly, then a simple `return Def.ActorFrame{...` is all that's needed. Storing it into a local variable that gets returned will waste resources.
 
 There are two ways to add onto an ActorFrame.
 
