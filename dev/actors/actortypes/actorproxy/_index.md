@@ -2,7 +2,7 @@
 title: ActorProxy
 description: 
 published: true
-date: 2023-05-19T20:08:29.301Z
+date: 2023-05-19T20:08:45.538Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:12.564Z
@@ -23,12 +23,12 @@ There are no special attributes for this actor class.
 
 ## Draw logic
 
-As long as the target [Actor](../actor) is present, it will draw it. If it's deleted during runtime, it will stop drawing.
+As long as the target [Actors](/en/dev/actors/actortypes/actor/_index) is present, it will draw it. If it's deleted during runtime, it will stop drawing.
 
 ## Functions
 
 ### `SetTarget`
-([Actor](../index.md) targetActor)
+([Actors](/en/dev/actors/actortypes/actor/_index) targetActor)
 
 Tells the ActorProxy to use `targetActor` as its draw target.
 
