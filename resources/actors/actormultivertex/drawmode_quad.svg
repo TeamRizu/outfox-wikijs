@@ -1,0 +1,47 @@
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" xml:space="preserve" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 256 256" height="100%" width="100%">
+    <rect style="fill:none;" height="256" width="256" y="0" x="0" id="DrawMode_Quad"></rect>
+    <g id="DrawMode_Quad1">
+        <circle style="fill:rgb(107,198,209);" r="11.931" cy="48.631" cx="47.862"></circle>
+        <g transform="matrix(1,0,0,1,0,168.153)">
+            <circle style="fill:rgb(107,198,209);" r="11.931" cy="48.631" cx="47.862"></circle>
+        </g>
+        <g transform="matrix(1,0,0,1,167.831,168.153)">
+            <circle style="fill:rgb(107,198,209);" r="11.931" cy="48.631" cx="47.862"></circle>
+        </g>
+        <g transform="matrix(1,0,0,1,167.831,-2.84217e-14)">
+            <circle style="fill:rgb(107,198,209);" r="11.931" cy="48.631" cx="47.862"></circle>
+        </g>
+        <g transform="matrix(1.52845,0,0,1,-40.1956,168.189)">
+            <path style="fill:rgb(107,198,209);" d="M68.164,51.207L68.164,45.983L151.997,45.983L151.997,41.131L156.88,48.595L151.997,56.059L151.997,51.207L68.164,51.207Z"></path>
+        </g>
+        <g transform="matrix(9.35904e-17,-1.52845,1,6.12323e-17,167.098,305.883)">
+            <path style="fill:rgb(107,198,209);" d="M68.164,51.207L68.164,45.983L151.997,45.983L151.997,41.131L156.88,48.595L151.997,56.059L151.997,51.207L68.164,51.207Z"></path>
+        </g>
+        <g transform="matrix(-1.52845,-1.87181e-16,1.22465e-16,-1,302.41,95.6876)">
+            <path style="fill:rgb(107,198,209);" d="M68.164,51.207L68.164,45.983L151.997,45.983L151.997,41.131L156.88,48.595L151.997,56.059L151.997,51.207L68.164,51.207Z"></path>
+        </g>
+        <g transform="matrix(9.35904e-17,1.52845,-1,6.12323e-17,96.4568,-38.0859)">
+            <path style="fill:rgb(107,198,209);" d="M68.164,51.207L68.164,45.983L151.997,45.983L151.997,41.131L156.88,48.595L151.997,56.059L151.997,51.207L68.164,51.207Z"></path>
+        </g>
+        <g transform="matrix(0.640139,0,0,0.707426,12.9436,20.6364)">
+            <g transform="matrix(24,0,0,24,61.9876,47.9486)">
+            </g>
+            <text style="font-family:'IBMPlexSans-MediumItalic', 'IBM Plex Sans', sans-serif;font-weight:500;font-style:italic;font-size:24px;fill:white;" y="47.949px" x="47.588px">1</text>
+        </g>
+        <g transform="matrix(0.640139,0,0,0.707426,180.775,20.6364)">
+            <g transform="matrix(24,0,0,24,61.9876,47.9486)">
+            </g>
+            <text style="font-family:'IBMPlexSans-MediumItalic', 'IBM Plex Sans', sans-serif;font-weight:500;font-style:italic;font-size:24px;fill:white;" y="47.949px" x="47.588px">4</text>
+        </g>
+        <g transform="matrix(0.640139,0,0,0.707426,12.9436,188.789)">
+            <g transform="matrix(24,0,0,24,61.9876,47.9486)">
+            </g>
+            <text style="font-family:'IBMPlexSans-MediumItalic', 'IBM Plex Sans', sans-serif;font-weight:500;font-style:italic;font-size:24px;fill:white;" y="47.949px" x="47.588px">2</text>
+        </g>
+        <g transform="matrix(0.640139,0,0,0.707426,180.744,188.789)">
+            <g transform="matrix(24,0,0,24,61.9876,47.9486)">
+            </g>
+            <text style="font-family:'IBMPlexSans-MediumItalic', 'IBM Plex Sans', sans-serif;font-weight:500;font-style:italic;font-size:24px;fill:white;" y="47.949px" x="47.588px">3</text>
+        </g>
+    </g>
+</svg>
