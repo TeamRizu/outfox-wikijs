@@ -1,9 +1,14 @@
 ---
 title: Loading Additional Bones
-weight: 1
+description: 
+published: true
+date: 2023-05-19T23:51:11.351Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:15.942Z
 ---
 
-Starting on [Project OutFox Alpha 4.1](/releases/A4.1), Models can now load more than one bone at a time to playback different animations on demand. For this, it is suggested to separate the bone animation data to a separate text file, to
+Starting on [Project OutFox Alpha 4.1](/en/releases/A41), Models can now load more than one bone at a time to playback different animations on demand. For this, it is suggested to separate the bone animation data to a separate text file, to
 not have repeat model data on each animation file, the parser already deals with the job of only loading bone data.
 
 To add a new animation to the model, use the `LoadBones` command. It requires a name for the animation, and a relative path to the animation file.
@@ -19,8 +24,8 @@ When the need for using the new animation arrives, use the `playanimation` comma
 self:playanimation( "Warmup", 1 )
 ```
 
-In some cases, you may want to use existing dancing data that you might have on a particular [character]().
-Given this, you can load directly from it, by loading your character model from the [CHARACTER]()'s GetModelPath()
+In some cases, you may want to use existing dancing data that you might have on a particular character.
+Given this, you can load directly from it, by loading your character model from the CHARACTER's GetModelPath()
 and render it to the scene.
 
 Then when the need comes to add animation data, use the LoadBones command to load additional bones, in which you can still use the Character's functions to get specific animation files like a Break, Warmup or Dance animation.
