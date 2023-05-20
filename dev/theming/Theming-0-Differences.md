@@ -1,6 +1,11 @@
 ---
-title: "Theming differences between older versions"
-weight: 0
+title: Theming differences between older versions
+description: 
+published: true
+date: 2023-05-20T16:29:08.904Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:41.774Z
 ---
 
 It is important to note the following aspects when starting to make your theme, depending on how much you've experimented on existing themes, and compare the practices of such actions compared to now.
@@ -40,7 +45,7 @@ Starting in _SM-SSC_, fonts that were only number implemented now reside alongsi
 
 > Date of change: _SM4 Beta 5_
 
-Lua is the scripting language for modern _StepMania_ builds. If any kind of XML loading is needed, you will need to instruct the user to enable ["Quirks Mode"](../../../user-guide/config/preferences/#quirksmode), an option on the Preferences.ini file that allows loading of XML files in a compatibility layer.
+Lua is the scripting language for modern _StepMania_ builds. If any kind of XML loading is needed, you will need to instruct the user to enable ["Quirks Mode"](/en/user-guide/config/preferences#quirksmode), an option on the Preferences.ini file that allows loading of XML files in a compatibility layer.
 
 ## CMD is deprecated
 
@@ -48,19 +53,19 @@ Lua is the scripting language for modern _StepMania_ builds. If any kind of XML 
 
 `cmd()` is a string-like command that allows application of commands without performing the entire syntax in plain Lua. However, it is not recommended to use this for commands, as it can bring bugs which will be mentioned below, but also introduces loading overhead as it has to convert the string back into actual Lua.
 
-{{< columns >}}
+
 ```lua
 -- cmd example
 OnCommand=cmd(Center;rainbow;zoom,0.5);
 ```
-<--->
+
 ```lua
 -- Lua example
 OnCommand=function(self)
 	self:Center():rainbow():zoom(0.5)
 end
 ```
-{{< /columns >}}
+
 
 ### Some bugs to point out from CMD
 
