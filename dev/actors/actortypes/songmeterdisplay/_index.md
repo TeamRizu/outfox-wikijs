@@ -1,14 +1,14 @@
 ---
 title: SongMeterDisplay
-description: 
+description: An automated MeterDisplay that shows the current position of the song being played.
 published: true
-date: 2023-05-20T00:12:20.099Z
-tags: 
+date: 2023-05-20T20:21:44.832Z
+tags: actor, songmeterdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:15:59.976Z
 ---
 
-An automated [MeterDisplay](/en/dev/actors/actortypes/meterdisplay/_index) that shows the current position of the song being played.
+An automated [MeterDisplay](/en/dev/actors/actortypes/meterdisplay) that shows the current position of the song being played.
 
 ```lua
 Def.SongMeterDisplay{
