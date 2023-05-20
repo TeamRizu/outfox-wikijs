@@ -2,7 +2,7 @@
 title: SongMeterDisplay
 description: An automated MeterDisplay that shows the current position of the song being played.
 published: true
-date: 2023-05-20T20:21:44.832Z
+date: 2023-05-20T20:22:09.639Z
 tags: actor, songmeterdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:15:59.976Z
@@ -32,16 +32,16 @@ Def.SongMeterDisplay{
 | Name | Type | Action |
 | :--- | :--- | :----- |
 StreamWidth | number | The width the MeterDisplay. Can be adjusted later with [SetStreamWidth](#setstreamwidth).
-Stream | [Actor](/en/dev/actors/actortypes/actor/_index) | The actor that will represent the progress of the song.
-Tip | [Actor](/en/dev/actors/actortypes/actor/_index) | The actor that will represent the current position of the song.
+Stream | [Actor](/en/dev/actors/actortypes/actor) | The actor that will represent the progress of the song.
+Tip | [Actor](/en/dev/actors/actortypes/actor) | The actor that will represent the current position of the song.
 StartFromZero | bool | New to OutFox: Allows the SongMeterDisplay to start from second 0, rather than the start of the chart.
 
 The **Stream** is the background of the meter, which denotes how far you are in the song, while the **Tip** is the current position.
 
-> The **Stream** attribute is required for the SongMeterDisplay to be created. Otherwise it will return an empty [Actor](/en/dev/actors/actortypes/actor/_index).
+> The **Stream** attribute is required for the SongMeterDisplay to be created. Otherwise it will return an empty [Actor](/en/dev/actors/actortypes/actor).
 {.is-warning}
 
-> Both **Stream** and **Tip** can be any kind of [Actor](/en/dev/actors/actortypes/_index).
+> Both **Stream** and **Tip** can be any kind of [Actor](/en/dev/actors/actortypes).
 {.is-info}
 
 ## Position Logic
