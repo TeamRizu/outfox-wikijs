@@ -1,9 +1,9 @@
 ---
 title: StepsDisplay
-description: 
+description: Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type.
 published: true
-date: 2023-05-20T00:28:04.145Z
-tags: 
+date: 2023-05-20T20:17:34.234Z
+tags: stepsdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
 ---
