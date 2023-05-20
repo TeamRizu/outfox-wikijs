@@ -1,7 +1,13 @@
 ---
-title: "Perspective"
-weight: -8
+title: Perspective
+description: 
+published: true
+date: 2023-05-20T15:30:02.585Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:06.975Z
 ---
+
 Perspective modifiers tilt and skew the notefield itself to allow for a feeling of depth. Scripted modfiles can use these to do effects like rocking the notefield back and forth among other effects (And is definitely noticable with 3D noteskins).
 
 Unlike most modifiers available through PlayerOptions, these functions only return values in terms of tilt and skew and don't return the current/previous approach rate. Perspecitve modifiers aren't column-specific either.
@@ -25,7 +31,7 @@ Modstring format: *\<approach rate\> \<magnitude\> hallway
 
 Example: `*1 150% hallway`
 
-![Hallway video example](/mods/vid/hallway.webm ':include :type=video')
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/hallway.webm" controls="">Distant video example</video>
 
 ## Distant
 Desc: The notefield is tilted towards the player, so that notes start close to the screen and go away. Very noticable with 3D noteskins.
@@ -46,7 +52,7 @@ Modstring format: *\<approach rate\> \<magnitude\> distant
 
 Example: `*2 200% distant`
 
-<video src="/mods/vid/distant.webm" controls="">Distant video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/distant.webm" controls="">Distant video example</video>
 
 ## Incoming
 Desc: The notefield is tilted away from the player, like Hallway, but the notefield is also skewed so that notes approach from the middle of the screen.
@@ -65,7 +71,7 @@ Modstring format: *\<approach rate\> \<magnitude\> incoming
 
 Example: `*1 150 incoming`
 
-<video src="/mods/vid/incoming.webm" controls="">Incoming video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/incoming.webm" controls="">Incoming video example</video>
 
 ## Space
 Desc: The notefield is tilted away from the player, like Distant, but the notefield is also skewed so that notes approach from the sides of the screen.
@@ -84,7 +90,7 @@ Modstring format: *\<approach rate\> \<magnitude\> space
 
 Example: `*3 100% space`
 
-<video src="/mods/vid/space.webm" controls="">Space video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/space.webm" controls="">Space video example</video>
 
 ## Overhead
 Desc: The notefield is parallel to the screen, and appears directly flat. Returns whether both tilt and skew are at zero before the function was called.
@@ -116,7 +122,7 @@ PlayerOptions format: Skew(\<magnitude\>, \<approach rate\>)
 
 Example: `Skew(10, 3)`
 
-<video src="/mods/vid/skew.webm" controls="">Skew video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/skew.webm" controls="">Skew video example</video>
 
 ## Tilt
 Desc: Rotates the notefield on the x axis near the receptors so the arrows get closer or farther from the player when they initially appear. Positive values tilt the notefield away from the player, while negative values point it towards the player.
