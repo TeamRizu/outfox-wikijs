@@ -1,9 +1,9 @@
 ---
 title: ActorFrame
-description: 
+description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-05-19T18:31:46.996Z
-tags: 
+date: 2023-05-20T20:03:06.531Z
+tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
 ---
