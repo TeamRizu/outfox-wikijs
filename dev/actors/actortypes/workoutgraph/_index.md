@@ -1,14 +1,19 @@
 ---
 title: WorkoutGraph
+description: 
+published: true
+date: 2023-05-20T00:34:23.973Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:25.987Z
 ---
 
 A graph showing the difficulty meter values of each entry on a course. **Despite its name, it doesn't actually calculate anything about calories or workout**.
 
 The graph has a hardcoded ceiling of 35, being tied to the maximum difficulty value allowed in legacy SM.
 
-{{<hint type="important">}}
-This actor will only work on Course Mode!
-{{</hint>}}
+> This actor will only work on Course Mode!
+{.is-warning}
 
 ```lua
 Def.WorkoutGraph{
@@ -18,19 +23,16 @@ Def.WorkoutGraph{
 }
 ```
 
-![WorkoutGraph demonstration](/actors/workoutgraph/demo.png)
+![WorkoutGraph demonstration](/resources/actors/workoutgraph/demo.png)
 
 An example of the WorkoutGraph in action, after a 5-song course.
 
-{{<hint>}}
-This image is using custom graphics to demonstrate the functionality of the actor. It is empty graphics by default.
-{{</hint>}}
-
-{{<toc>}}
+> This image is using custom graphics to demonstrate the functionality of the actor. It is empty graphics by default.
+{.is-info}
 
 ## Attributes
 
-There are no special attributes for this actor class. It inherits from [ActorFrame](../actorframe/#attributes).
+There are no special attributes for this actor class. It inherits from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index#attributes).
 
 ## Graphics used
 
@@ -43,9 +45,6 @@ Background for the workout graph.
 - `WorkoutGraph bar`
 
 The vertical bar to indicate the calories burned on each song. 
-
-{{<hint type="important">}}
-{{</hint>}}
 
 ## Functions
 
