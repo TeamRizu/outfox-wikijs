@@ -2,7 +2,7 @@
 title: Acceleration
 description: 
 published: true
-date: 2023-05-20T14:34:17.393Z
+date: 2023-05-20T14:34:59.104Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:26.425Z
@@ -25,7 +25,7 @@ Modstring format: *\<approach rate\> \<magnitude\> boomerang
 
 Example: `*1 100% boomerang`
 
-<video src="/resources/guide-to-modifiers/acceleration/boomerang.webm" controls="">Boomerang video example</video>
+<video style="max-width: 50%" src="/resources/guide-to-modifiers/acceleration/boomerang.webm" controls="">Boomerang video example</video>
 
 ### Available sub modifiers:
 
