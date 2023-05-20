@@ -1,7 +1,13 @@
 ---
-title: "Color modifiers"
-weight: 1
+title: Color modifiers
+description: 
+published: true
+date: 2023-05-20T14:55:58.143Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:51.083Z
 ---
+
 Color modifiers affect the color of notes in some way. A lot of these follow similar behaviors to the Visibility modifiers, alongside with some extra functionalities.
 
 `<color>` can be `'ColorType_Red'`, `'ColorType_Blue'` or `'ColorType_Green'`, and is how one chooses the color channel to affect.
@@ -23,7 +29,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 100% stealthred`
 
-<video src="/mods/vid/stealthcolor.webm" controls="">StealthColor video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/stealthcolor.webm" controls="">StealthColor video example</video>
 
 ## SuddenColor
 Desc: The color channel starts turned off, and turns on at the middle of the field.
@@ -40,7 +46,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 100% suddengreen`
 
-<video src="/mods/vid/suddencolor.webm" controls="">SuddenColor video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/suddencolor.webm" controls="">SuddenColor video example</video>
 
 ### Available sub modifiers:
 ## SuddenOffsetColor
@@ -66,7 +72,7 @@ Example: `HiddenColor('ColorType_Blue',1,1)`
 Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 Example: `*1 100% hiddenblue`
 
-<video src="/mods/vid/hiddencolor.webm" controls="">HiddenColor video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/hiddencolor.webm" controls="">HiddenColor video example</video>
 
 ### Available sub modifiers:
 ## HiddenOffsetColor
@@ -94,7 +100,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 100% blinkred`
 
-<video src="/mods/vid/blinkcolor.webm" controls="">BlinkColor video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/blinkcolor.webm" controls="">BlinkColor video example</video>
 
 ## StealthGlowColor
 Desc: Allows one to modify the color used for the glow effect of the Visibility mods.
@@ -115,7 +121,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 0% stealthglowred, *1 0% stealthglowgreen, *1 25% stealth` `*1 0% stealthglowgreen1, *1 0% stealthglowblue1, *1 0% stealthglowred2, *1 0% stealthglowblue2, *1 0% stealthglowred3, *1 0% stealthglowgreen3, *1 0% stealthglowblue4, 25% stealth`
 
-<video src="/mods/vid/stealthglowcolor.webm" controls="">StealthGlowColor video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/stealthglowcolor.webm" controls="">StealthGlowColor video example</video>
 
 # Gradient Modifiers
 Gradient modifiers allow for arbitrary color pathing, and are not compatible with the color modifiers.
@@ -221,4 +227,4 @@ end
 
 Video Example (Shows colors set for Player 2):
 
-<video src="/mods/vid/gradient.webm" controls="">Gradient video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/color-modifiers/gradient.webm" controls="">Gradient video example</video>
