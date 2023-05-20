@@ -2,7 +2,7 @@
 title: Managing Frames
 description: 
 published: true
-date: 2023-05-20T00:24:10.823Z
+date: 2023-05-20T00:24:50.013Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:16:11.168Z
@@ -15,7 +15,7 @@ The frames in a sprite are composed of an array containing arrays of two values,
 > ```lua
 > self:GetTexture():position( --[[Time in secs]] )
 > ```
-{.is-warning}
+> {.is-warning}
 
 As an example to demonstate each sprite table, we'll utilize the fox from the staff roll.
 
