@@ -2,7 +2,7 @@
 title: Actor Types
 description: 
 published: true
-date: 2023-05-20T20:14:12.012Z
+date: 2023-05-20T20:16:16.030Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -22,36 +22,36 @@ This is a helper function that can be used to dynamically load an actor based on
   <div class="row-justified-flex-div" style="max-width: none;">
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./actor/_index">Def.Actor</a>
+      	<a class="foxb foxb-primary" href="./actortypes/actor">Def.Actor</a>
       	<a class="foxb foxb-primary" href="./actortypes/actorframe">Def.ActorFrame</a>
-        <a class="foxb foxb-primary" href="./actorframetexture/_index">Def.ActorFrameTexture</a>
-        <a class="foxb foxb-primary" href="./actormultivertex/_index">Def.ActorMultiVertex</a>
-        <a class="foxb foxb-primary" href="./actorproxy/_index">Def.ActorProxy</a>
-        <a class="foxb foxb-primary" href="./actorscroller/_index">Def.ActorScroller</a>
-        <a class="foxb foxb-primary" href="./bganimation/_index">Def.BGAnimation</a>
-        <a class="foxb foxb-primary" href="./bitmaptext/_index">Def.BitmapText</a>
-        <a class="foxb foxb-primary" href="./bpmdisplay/_index">Def.BPMDisplay</a>
-        <a class="foxb foxb-primary" href="./controllerstatedisplay/_index">Def.ControllerStateDisplay</a>
-        <a class="foxb foxb-primary" href="./devicelist/_index">Def.DeviceList</a>
-        <a class="foxb foxb-primary" href="./dynamicactorscroller/_index">Def.DynamicActorScroller</a>
-        <a class="foxb foxb-primary" href="./gradedisplay/_index">Def.GradeDisplay</a>
-        <a class="foxb foxb-primary" href="./helpdisplay/_index">Def.HelpDisplay</a>
-        <a class="foxb foxb-primary" href="./inputlist/_index">Def.InputList</a>
-        <a class="foxb foxb-primary" href="./memorycarddisplay/_index">Def.MemoryCardDisplay</a>
-        <a class="foxb foxb-primary" href="./meterdisplay/_index">Def.MeterDisplay</a>
-        <a class="foxb foxb-primary" href="./model/_index">Def.Model</a>
-        <a class="foxb foxb-primary" href="./notefield/_index">Def.NoteField</a>
-        <a class="foxb foxb-primary" href="./percentagedisplay/_index">Def.PercentageDisplay</a>
-        <a class="foxb foxb-primary" href="./quad/_index">Def.Quad</a>
-        <a class="foxb foxb-primary" href="./scoredisplayalivetime/_index">Def.ScoreDisplayAliveTime</a>
-        <a class="foxb foxb-primary" href="./scoredisplaycalories/_index">Def.ScoreDisplayCalories</a>
-        <a class="foxb foxb-primary" href="./songbpmdisplay/_index">Def.SongBPMDisplay</a>
-        <a class="foxb foxb-primary" href="./songmeterdisplay/_index">Def.SongMeterDisplay</a>
-        <a class="foxb foxb-primary" href="./sound/_index">Def.Sound</a>
-        <a class="foxb foxb-primary" href="./sprite/_index">Def.Sprite</a>
-        <a class="foxb foxb-primary" href="./stepsdisplay/_index">Def.StepsDisplay</a>
-        <a class="foxb foxb-primary" href="./textbanner/_index">Def.TextBanner</a>
-        <a class="foxb foxb-primary" href="./workoutgraph/_index">Def.WorkoutGraph</a>
+        <a class="foxb foxb-primary" href="./actortypes/actorframetexture">Def.ActorFrameTexture</a>
+        <a class="foxb foxb-primary" href="./actortypes/actormultivertex">Def.ActorMultiVertex</a>
+        <a class="foxb foxb-primary" href="./actortypes/actorproxy">Def.ActorProxy</a>
+        <a class="foxb foxb-primary" href="./actortypes/actorscroller">Def.ActorScroller</a>
+        <a class="foxb foxb-primary" href="./actortypes/bganimation">Def.BGAnimation</a>
+        <a class="foxb foxb-primary" href="./actortypes/bitmaptext">Def.BitmapText</a>
+        <a class="foxb foxb-primary" href="./actortypes/bpmdisplay">Def.BPMDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/controllerstatedisplay">Def.ControllerStateDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/devicelist">Def.DeviceList</a>
+        <a class="foxb foxb-primary" href="./actortypes/dynamicactorscroller">Def.DynamicActorScroller</a>
+        <a class="foxb foxb-primary" href="./actortypes/gradedisplay">Def.GradeDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/helpdisplay">Def.HelpDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/inputlist">Def.InputList</a>
+        <a class="foxb foxb-primary" href="./actortypes/memorycarddisplay">Def.MemoryCardDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/meterdisplay">Def.MeterDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/model">Def.Model</a>
+        <a class="foxb foxb-primary" href="./actortypes/notefield">Def.NoteField</a>
+        <a class="foxb foxb-primary" href="./actortypes/percentagedisplay">Def.PercentageDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/quad">Def.Quad</a>
+        <a class="foxb foxb-primary" href="./actortypes/scoredisplayalivetime">Def.ScoreDisplayAliveTime</a>
+        <a class="foxb foxb-primary" href="./actortypes/scoredisplaycalories">Def.ScoreDisplayCalories</a>
+        <a class="foxb foxb-primary" href="./actortypes/songbpmdisplay">Def.SongBPMDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/songmeterdisplay">Def.SongMeterDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/sound">Def.Sound</a>
+        <a class="foxb foxb-primary" href="./actortypes/sprite">Def.Sprite</a>
+        <a class="foxb foxb-primary" href="./actortypes/stepsdisplay">Def.StepsDisplay</a>
+        <a class="foxb foxb-primary" href="./actortypes/textbanner">Def.TextBanner</a>
+        <a class="foxb foxb-primary" href="./actortypes/workoutgraph">Def.WorkoutGraph</a>
     	</div>
 		</div>
   </div>
