@@ -1,7 +1,11 @@
 ---
 title: Guide to Modifiers
-weight: 3
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-20T14:26:44.324Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:37.848Z
 ---
 
 Want your arrows to dance around to the music (as seen in [Pump it Up PRO 2](https://youtu.be/TRsUGt-rp2s?t=16) and the [StepMania/ITG Modfile Community](https://youtu.be/73yEAdnsXfc?t=10))?
@@ -16,7 +20,7 @@ Modifiers (or Mods) apply all kinds of effects to the notes in a song - they can
 > You can **manually turn on modifiers on any song** by entering the player options menu (press start twice when you pick a song to play), and choosing **Modifiers** then **Exit** at the bottom.
 Mods in the **Acceleration, Effects, Appearance, and Scroll** categories work best for attacks - feel free to play around!
 
-![The Modifiers menu](/making-simfiles/mods-attacks-mods-menu.png)
+![mods-attacks-mods-menu.png](/resources/guide-to-modifiers/mods-attacks-mods-menu.png){.align-center}
 
 Attacks are one of the easiest ways to add Modifiers to your simfile - Attacks will apply whatever mods you want at specific times you set in the song!
 
@@ -33,17 +37,17 @@ First off:
 2. When editing the chart, press **Enter** where you want the Modifier to start.
 3. Choose **Modifiy attacks at current beat** at the bottom of the menu.
 
-![The Enter key menu](/making-simfiles/mods-attacks-enter-menu.png)
+![mods-attacks-enter-menu.png](/resources/guide-to-modifiers/mods-attacks-enter-menu.png){.align-center}
 
 4. Choose **Add Attack**
 5. Here, you'll enter a Modifier to get applied:
    * Many modifiers from the Player Options menu will work (Beat, Drunk, etc), for now just type `Beat` and press **Enter**.
    * Any attacks you add will show up to the right of the notes, both when editing and playing a simfile in the editor.
-![Prompting to enter an attack's modifier](/making-simfiles/mods-attacks-mod-prompt.png)
+   ![mods-attacks-mod-prompt.png](/resources/guide-to-modifiers/mods-attacks-mod-prompt.png){.align-right}
 
 6. Press **P** to play your song - you should see the attack you added scroll up the screen with the notes.
    * When the attack with your `Beat` modifier scrolls to the top of the screen, the arrows will start bouncing to the beat!
-   <video src="/making-simfiles/mods-attacks-beat.m4v" controls></video>
+   <video src="/resources/guide-to-modifiers/mods-attacks-beat.m4v" controls></video>
 
 ## Editing/Removing Attacks
 
@@ -65,7 +69,7 @@ Attacks only last a few seconds by default - to **make it last longer** you'll n
    * Attack 1: The mod you just added - press enter to change
    * Add Mod: Pick this to add another mod to this attack
 
-![The Attack edit menu](/making-simfiles/mods-attacks-attack-edit-menu.png)
+![mods-attacks-attack-edit-menu.png](/resources/guide-to-modifiers/mods-attacks-attack-edit-menu.png){.align-center}
 
 ### Remove an Attack
 
@@ -92,7 +96,7 @@ Percentages **above 100%** are a-ok if you want *really* strong mods! **Negative
 
 Finally: `No` means the same thing as `0%`. Say, if you have a `Beat` attack earlier in the song, you can turn it off with `0% Beat` or `No Beat` - either works!
 
-<video src="/making-simfiles/mods-attacks-beat-strength.m4v" controls>The difference between 50% Beat and 100% Beat</video>
+<video src="/resources/guide-to-modifiers/mods-attacks-beat-strength.m4v" controls>The difference between 50% Beat and 100% Beat</video>
 
 > In the above video - **Left = 40% Beat, Right = 125% Beat**
 
@@ -113,7 +117,7 @@ Higher numbers apply mods faster, lower numbers (decimals included!) make mods a
 
 > Mod approach rate can also combine with **any strength**, including **0%**! If you want to get rid of a mod really fast, you can use an attack like `*50 0% Beat`.
 
-<video src="/making-simfiles/mods-attacks-beat-speed.m4v" controls>The difference between \*0.5 Beat and \*10 Beat</video>
+<video src="/resources/guide-to-modifiers/mods-attacks-beat-speed.m4v" controls>The difference between \*0.5 Beat and \*10 Beat</video>
 
 > In the above video - **Left = \*0.5 Beat** (fades in half as fast), **Right = \*10 Beat** (fades in 10x as fast!). They both get to the **same strength** at the end, but the **left side takes longer** to do so.
 
@@ -127,7 +131,7 @@ Next up is to play around with Modifiers! Experiment with what effects you can g
 
 Lots, actually!
 
-> **[Check out the Guide to Mods](/dev/mods/)** in the sidebar for **a list of mods** you can use!
+> **Check out the Guide to Mods** in the sidebar for **a list of mods** you can use!
 
 ---
 
