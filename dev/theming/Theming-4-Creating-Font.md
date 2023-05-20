@@ -2,7 +2,7 @@
 title: Creating a Font
 description: 
 published: true
-date: 2023-05-20T16:59:37.589Z
+date: 2023-05-20T19:53:16.424Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:57.387Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-16T06:18:57.387Z
 
 Most themes use custom fonts, which are bitmap images with a bundled INI file that contains information about its width and height information for the engine to then process as glyphs. You can think of them as images that represent each letter.
 
-We have a BitmapText actor, with a default font *(Common Normal)* that has the following text:
+We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor, with a default font *(Common Normal)* that has the following text:
 
 ```lua
 Def.BitmapText{
@@ -23,10 +23,10 @@ Def.BitmapText{
 }
 ```
 
-This actor becomes
+This actor becomes:
 ![basetextexample.png](/resources/theming/creating-a-font/basetextexample.png){.align-center}
 
-We have a BitmapText actor, with a custom that has the following text:
+We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor, with a custom font that has the following text:
 
 ```lua
 Def.BitmapText{
@@ -39,7 +39,7 @@ Def.BitmapText{
 }
 ```
   
-This actor becomes
+This actor becomes:
 ![customtextexample.png](/resources/theming/creating-a-font/customtextexample.png){.align-center}
 
 To create these fonts, we have a tool called [Texture Font Generator](https://github.com/TeamRizu/Texture-Font-Generator-2020-Squirrel/releases), which can create the font bitmaps. Keep in mind that this software currently is Windows only.
