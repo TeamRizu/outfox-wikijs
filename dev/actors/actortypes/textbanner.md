@@ -2,13 +2,13 @@
 title: TextBanner
 description: TextBanner is an automated ActorFrame that processes information from a Song or Course to fill in data to several included BitmapText actors.
 published: true
-date: 2023-05-20T20:07:32.633Z
+date: 2023-05-20T20:08:05.247Z
 tags: textbanner
 editor: markdown
 dateCreated: 2023-05-16T06:16:22.325Z
 ---
 
-TextBanner is an automated [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that processes information from a Song or Course to fill in data to several included [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors.
+TextBanner is an automated [ActorFrame](/en/dev/actors/actortypes/actorframe) that processes information from a Song or Course to fill in data to several included [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors.
 
 This is used by the music wheel and the editor song selection screens to show the information of each song in the wheel or about the current song being selected to edit respectively.
 
@@ -32,7 +32,7 @@ Def.TextBanner {
 
 ## Atributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
+There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ## Data used on load
 
