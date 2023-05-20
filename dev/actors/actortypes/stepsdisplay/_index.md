@@ -1,7 +1,11 @@
 ---
 title: StepsDisplay
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-20T00:28:04.145Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:18.627Z
 ---
 
 Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type. Currently, all setings are done through metrics.
@@ -12,7 +16,7 @@ Def.StepsDisplay{}
 
 ## Attributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](../actorframe/). All special actions are performed with its [functions](#functions).
+There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index). All special actions are performed with its [functions](#functions).
 
 ## Metrics Loading
 
@@ -31,12 +35,14 @@ ShowStepsType | bool | Enables the Steps type to the StepsDisplay.
 ZeroMeterString | string | The string to show when the value is 0.
 MeterFormatString | string | The string to format the value for the difficulty meter.
 
-{{<hint>}}
-The display frame, `Autogen` and `StepsType` are [AutoActors](../_index.md); while `Ticks`, `Meter`, Description and Credit are [BitmapText](../bitmaptext/).
-All of these actors contain their own `On`, `Load` and `Set` commands.
-{{</hint>}}
+> The display frame, `Autogen` and `StepsType` are [AutoActors](/en/dev/actors/actortypes/_index); while `Ticks`, `Meter`, Description and Credit are [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
+> All of these actors contain their own `On`, `Load` and `Set` commands.
+{.is-info}
 
-{{<expand "Default values">}}
+<details>
+
+<summary>Default values</summary>
+
 ```ini
 [StepsDisplay]
 FrameX=0
@@ -78,7 +84,7 @@ StepsTypeX=0
 StepsTypeY=0
 StepsTypeOnCommand=
 ```
-{{</expand>}}
+</details>
 
 ## Updating information
 
