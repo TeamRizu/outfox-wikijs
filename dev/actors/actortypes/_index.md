@@ -2,8 +2,8 @@
 title: Actor Types
 description: 
 published: true
-date: 2023-05-19T17:57:09.238Z
-tags: 
+date: 2023-05-20T20:01:02.123Z
+tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
 ---
