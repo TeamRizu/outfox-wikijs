@@ -1,10 +1,14 @@
 ---
 title: Announcers
+description: Announcers are a set of folders containing audio data for various kinds of situations. These can usually be a voice encouraging the player for their performance, comments about particular songs, among other things.
+published: true
+date: 2023-05-20T21:09:26.194Z
+tags: theming, announcer
+editor: markdown
+dateCreated: 2023-05-16T06:16:29.600Z
 ---
 
 Announcers are a set of folders containing audio data for various kinds of situations. These can usually be a voice encouraging the player for their performance, comments about particular songs, among other things.
-
-{{<toc>}}
 
 # Location of Announcers
 
@@ -67,10 +71,10 @@ ScreenSelectMaster is the name of the class type of several different screens, s
 
 Plays when the player enters the second page.
 
-{{<hint>}}
-Choices on ScreenSelectMaster are split into two pages, all choices after the amount set by the NumChoicesOnPage1 metric are on the second page.
-The default is 1024, so this will never play unless the theme sets the metric lower to have a second page.
-{{</hint>}}
+> Choices on ScreenSelectMaster are split into two pages, all choices after the amount set by the `NumChoicesOnPage1` metric are on the second page.
+> The default is 1024, so this will never play unless the theme sets the metric lower to have a second page.
+{.is-info}
+
 
 ### `<Screen Name> comment <Choice Name>`
 
@@ -86,15 +90,15 @@ Thus:
 ScreenSelectStyle2 comment double
 ```
 
-{{<hint type="important">}}
-`<Choice Name>` will be the name field of the gamecommand that defines the choice, so this could be literally anything the themer feels like.
+> `<Choice Name>` will be the name field of the gamecommand that defines the choice, so this could be literally anything the themer feels like.
+> 
+> For this example, it ended up being double, which would look something like this:
+> ```ini
+> # Note here that the 3 can also change, but DOES NOT apply to the scope of announcers, only the name field.
+> Choice3="name,double"
+> ```
+{.is-info}
 
-For this example, it ended up being double, which would look something like this:
-```ini
-# Note here that the 3 can also change, but DOES NOT apply to the scope of announcers, only the name field.
-Choice3="name,double"
-```
-{{</hint>}}
 
 ## For ScreenSelectMusic
 
@@ -174,18 +178,17 @@ The default value for the minimum combo to be broken to play the sound is 50, bu
 
 ### `gameplay battle trick level<n>`
 
-{{<hint type="caution">}}
-This is leftover code from In The Groove's alpha inventory system. These have no function today.
-{{</hint>}}
+> This is leftover code from In The Groove's alpha inventory system. These have no function today.
+{.is-warning}
+
 
 Plays when a battle trick occurs. In other terms, when a player as sent a trick to the other player.
 Has 3 stages.
 
 ### `gameplay battle damage level<n>`
 
-{{<hint type="caution">}}
-This is leftover code from In The Groove's alpha inventory system. These have no function today.
-{{</hint>}}
+> This is leftover code from In The Groove's alpha inventory system. These have no function today.
+{.is-warning}
 
 Plays when a battle damage occurs. Has 3 stages.
 
@@ -238,7 +241,11 @@ Plays if any of the players has achieved a full combo consisting of only Goods.
 Plays if any of the players have achieved any tier related to `<Grade>`. The player with the highest Grade is the one that will be played.
 
 Because of the Tier system in modern SM, the tier is converted into a human readable string, which is represented by an "old grade".
-{{<expand "Click here for the list of old grades correspondant to the tier.">}}
+  
+<details>
+  
+  <summary>Click here for the list of old grades correspondant to the tier.</summary>
+ 
 | Tier | Old Grade conversion |
 | :--: | :------------------: |
 Grade_Tier01 | AAAA
@@ -250,7 +257,8 @@ Grade_Tier06 | C
 Grade_Tier07 | D
 Grade_Failed | E
 Grade_NoData | N
-{{</expand>}}
+  
+</details>
 
 ### `evaluation final <Grade>`
 
@@ -268,9 +276,8 @@ Plays only on rave mode, when someone loses the match.
 
 Plays only on rave mode, when someone wins the match.
 
-{{<hint>}}
-There's no internal call to play a sound when the rave match is a draw, but can be added in Lua with [a custom announcer sound](#custom-announcer-sounds).
-{{</hint>}}
+> There's no internal call to play a sound when the rave match is a draw, but can be added in Lua with [a custom announcer sound](#custom-announcer-sounds).
+{.is-info}
 
 ### `evaluation cheer`
 
