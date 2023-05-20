@@ -1,22 +1,28 @@
 ---
-title: "Modules"
-weight: 5
+title: Modules
+description: 
+published: true
+date: 2023-05-20T17:02:57.366Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:19:04.889Z
 ---
 
-Introduced in [OutFox Alpha 4](/releases/A4.0/), Modules are Lua files that provide snippet-like functions, tables, and metatables that can be quickly used and unloaded from memory when done.
+Introduced in [OutFox Alpha 4](/en/releases/A40), Modules are Lua files that provide snippet-like functions, tables, and metatables that can be quickly used and unloaded from memory when done.
 These can be loaded by using the `LoadModule` function. Depending on the return methodology from the module, it can be called in several ways.
 
-{{< hint type="important" >}}
-Given the loading nature of modules, it is not recommended to use LoadModule directly if the function
-that will load it is called too quickly (like calling the module inside of a JudgmentMessageCommand),
-specially with modules that require file loading/saving. For that, it is recommended to cache the value
-returned by the module to then use.
 
-```lua
--- An example: caching the result from the Load Configuration module into a variable.
-local moduleResult = LoadModule("Config.Load.lua")("ShowOffsetBar","OutFoxPrefs.ini")
-```
-{{</hint>}}
+> Given the loading nature of modules, it is not recommended to use LoadModule directly if the function
+> that will load it is called too quickly (like calling the module inside of a JudgmentMessageCommand),
+> specially with modules that require file loading/saving. For that, it is recommended to cache the value
+> returned by the module to then use.
+> 
+> ```lua
+> -- An example: caching the result from the Load Configuration module into a variable.
+> local moduleResult = LoadModule("Config.Load.lua")("ShowOffsetBar","OutFoxPrefs.ini")
+> ```
+> {.is-warning}
+
 
 If the module gives a table:
 ```lua
