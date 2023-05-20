@@ -1,6 +1,11 @@
 ---
-title: "Scroll"
-weight: -6
+title: Scroll
+description: 
+published: true
+date: 2023-05-20T15:36:55.909Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:14.620Z
 ---
 
 Scroll modifiers affect the general scroll of the notefield. This is often used to change from upscroll to downscroll among other effects.
@@ -28,7 +33,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 example: `*2 100% reverse` `*0.25 25% reverse2`
 
-<video src="/mods/vid/reverse.webm" controls="">Reverse video example</video>
+<video src="/resources/guide-to-modifiers/scroll/reverse.webm" controls="">Reverse video example</video>
 
 ### Available sub modifiers:
 ## UnboundedReverse
@@ -54,7 +59,7 @@ Modstring format: *\<approach rate\> \<magnitude\> split
 
 example: `*3 75% reverse`
 
-<video src="/mods/vid/split.webm" controls="">Split video example</video>
+<video src="/resources/guide-to-modifiers/scroll/split.webm" controls="">Split video example</video>
 
 ## Alternate
 Desc: Every other column gets reversed, starting with the second column. Also can be activated with `ultraman` in NotITG.
@@ -71,7 +76,7 @@ Modstring format: *\<approach rate\> \<magnitude\> alternate
 
 example: `*1 100% alternate`
 
-<video src="/mods/vid/alternate.webm" controls="">Alternate video example</video>
+<video src="/resources/guide-to-modifiers/scroll/alternate.webm" controls="">Alternate video example</video>
 
 ## Cross
 Desc: The inner part of the notefield gets reversed with the outer sides staying as upscroll.
@@ -88,7 +93,7 @@ Modstring format: *\<approach rate\> \<magnitude\> cross
 
 example: `*4 25% cross`
 
-<video src="/mods/vid/cross.webm" controls="">Cross video example</video>
+<video src="/resources/guide-to-modifiers/scroll/cross.webm" controls="">Cross video example</video>
 
 ## Centered
 Desc: Centered moves the notefield down to where the receptors are at the center of the whole field at 100% (which is usually around the middle of the screen), taking the above scroll modifiers into account (As seen with Alternate in the video example). Commonly used to create "driven drops". Can also be activated with `converge` in modstring form.
@@ -107,7 +112,7 @@ Modstring format: *\<approach rate\> \<magnitude\> centered
 
 example: `*0.5 100% centered`
 
-<video src="/mods/vid/centered.webm" controls="">Centered video example</video>
+<video src="/resources/guide-to-modifiers/scroll/centered.webm" controls="">Centered video example</video>
 
 ## CenteredPath
 Desc: While Centered moves the notefield down in position, CenteredPath moves the columns down their current path in multiples of the column's width (Commonly 64 pixels for dance mode). This consist amount allows for more consistent "driven drops" across different setups. In NotITG, this modifier is called `centered2`.
@@ -126,7 +131,7 @@ Modstring format: *\<approach rate\> \<magnitude\> centeredpath
 
 example: `*0.23 250% centeredpath`
 
-<video src="/mods/vid/centeredpath.webm" controls="">CenteredPath video example</video>
+<video src="/resources/guide-to-modifiers/scroll/centeredpath.webm" controls="">CenteredPath video example</video>
 
 ## What's a "Driven Drop"?
 Driven Drops are an effect where the notes are stationary while the receptor moves down to hit the notes. (As seen in the ITG course, "Driven")
