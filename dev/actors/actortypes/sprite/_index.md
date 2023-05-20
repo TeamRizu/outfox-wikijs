@@ -1,7 +1,11 @@
 ---
 title: Sprite
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-20T00:18:23.953Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:14.886Z
 ---
 
 Allows one to display images on screen. These images can be a png, jpeg, gif or even a video file.
@@ -54,13 +58,13 @@ Def.Sprite{
 
 ## Table of Contents
 
-{{<toc-tree>}}
+- [Managing Frames](/en/dev/actors/actortypes/sprite/Frames)
 
 ## Attributes
 
 | Name | Type | Action |
 | :--- | :--- | :----- |
 Texture | string | Path to the texture to use for this sprite actor.
-Frames | table | The table containing the frame per frame information to be interpreted by the actor. For more information, see [Managing Frames](Frames).
+Frames | table | The table containing the frame per frame information to be interpreted by the actor. For more information, see [Managing Frames](/en/dev/actors/actortypes/sprite/Frames).
 Frame[NNNN] |  number |  Alternative method for Frames's version of { Frame = `number` }, used for backwards compatibility with older actors.
 Delay[NNNN] |  number |  Alternative method for Frames's version of { Delay = `number` }, used for backwards compatibility with older actors.
