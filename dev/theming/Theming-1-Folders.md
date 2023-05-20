@@ -1,6 +1,11 @@
 ---
-title: "The Structure of folders"
-weight: 1
+title: The Structure of folders
+description: 
+published: true
+date: 2023-05-20T16:46:00.886Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:46.002Z
 ---
 
 A theme can consist of the following folders. All of them are optional, but needed to perform certain operations on how to load / fetch files.
@@ -10,29 +15,37 @@ It is important to understand that themes in newer versions of StepMania/OutFox 
 You can create more/less folders than this and call them in your theme by fetching the location of your theme's folder
 and then accessing the data that you need, but for the purposes of this guide, we'll stick to these folders.
 
-{{<columns>}}
-## BGAnimations
-Contains the lua scripts that control the visual elements of screens.
-<--->
-## Fonts
-Text and images containing individual glyphs, or graphical representations of each character on a font.
-{{</columns>}}
-{{<columns>}}
-## Graphics
-Contains images of gameplay objects.
-<--->
-## Language
-Contains INI files that with the transliterated strings. For more information, visit [the Translation guide](../../translation).
-{{</columns>}}
-{{<columns>}}
-## [Modules](../Theming-Modules)
-An optional folder that contains Lua files with simple functions or tables that can be called on demand, rather than
-storing the file on memory all the time.
-<--->
-## Other
-An optional folder that contains special files, but also can contain other kinds of files that don't have a particular folder to reside in.
-{{</columns>}}
-{{<columns>}}
-## [Scripts](../Theming-Scripts)
-Lua files that will be loaded into memory, that can be accessed at any time.
-{{</columns>}}
+<div style="display: flex;">
+  <div style="display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap;">
+    <div style="display: flex; flex-direction: column; margin: 10px; max-width: 512px;">
+      <h1>BGAnimations</h1>
+      <p>Contains the lua scripts that control the visual elements of screens.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1>Fonts</h1>
+      <p>Text and images containing individual glyphs, or graphical representations of each character on a font.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1>Graphics</h1>
+      <p>Contains images of gameplay objects.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1>Language</h1>
+      <p>Contains INI files that with the transliterated strings. For more information, visit <a href="/en/dev/translation">the Translation guide</a></p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1><a href="/en/dev/theming/Theming-Modules">Modules</a></h1>
+      <p>An optional folder that contains Lua files with simple functions or tables that can be called on demand, rather than
+storing the file on memory all the time.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1>Other</h1>
+      <p>An optional folder that contains special files, but also can contain other kinds of files that don't have a particular folder to reside in.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; margin: 10px; width: 45%;">
+      <h1><a href="/en/dev/theming/Theming-Scripts">Scripts</a></h1>
+      <p>Lua files that will be loaded into memory, that can be accessed at any time.</p>
+    </div>
+  </div>
+</div>
+
