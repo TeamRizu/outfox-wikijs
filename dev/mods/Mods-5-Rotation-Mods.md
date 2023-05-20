@@ -1,7 +1,13 @@
 ---
-title: "Rotation"
-weight: -5
+title: Rotation
+description: 
+published: true
+date: 2023-05-20T15:33:06.734Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:18.678Z
 ---
+
 Rotation modifiers rotate the notes on the x, y or z axis, and can also rotate the receptors in some cases.
 
 Some noteskins may affect how the effect looks due to how rotation and zoom interact in the notefield.
@@ -25,7 +31,7 @@ Modstring format: *\<approach rate\> \<magnitude\> dizzy
 
 Example: `*2 314% dizzy`
 
-<video src="/mods/vid/dizzy.webm" controls="">Dizzy video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/rotation/dizzy.webm" controls="">Dizzy video example</video>
 
 ### Available sub modifiers:
 ## DizzyHolds
@@ -51,7 +57,7 @@ Modstring format: *\<approach rate\> \<magnitude\> twirl
 
 Example: `*3 220% twirl`
 
-<video src="/mods/vid/twirl.webm" controls="">Twirl video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/rotation/twirl.webm" controls="">Twirl video example</video>
 
 ## Roll
 Desc: Notes roll as they reach the receptor, with more rotationx added the farther away from the receptor a note is.
@@ -68,7 +74,7 @@ Modstring format: *\<approach rate\> \<magnitude\> roll
 
 Example: `*3.4 170% roll`
 
-<video src="/mods/vid/roll.webm" controls="">Roll video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/rotation/roll.webm" controls="">Roll video example</video>
 
 ## Confusion
 Desc: The notes and receptors spin constantly. Has X, Y and Z variants available.
@@ -89,7 +95,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*2 50% confusion`
 
-<video src="/mods/vid/confusion.webm" controls="">Confusion video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/rotation/confusion.webm" controls="">Confusion video example</video>
 
 ### Available sub modifiers:
 ## ConfusionOffset
@@ -125,4 +131,4 @@ Modstring format: *\<approach rate\> \<magnitude\> orient
 
 Example: `*0.25 100% orient`
 
-<video src="/mods/vid/orient.webm" controls="">Orient video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/rotation/orient.webm" controls="">Orient video example</video>
