@@ -2,7 +2,7 @@
 title: Custom Input
 description: 
 published: true
-date: 2023-05-19T20:36:51.077Z
+date: 2023-05-20T17:01:47.991Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:01.100Z
@@ -14,7 +14,7 @@ OutFox allows custom input to be managed by the theme itself. This allows you fu
 
 # Implementing Input
 
-There are a few ways to implement input, but the general action is to call `Screen:AddInputCallback( input function )` to the [ActorFrame](/dev/actors/actortypes/actorframe) responsible for the input. This can be either a function or a module that will deal with listening and sending instructions back to the engine, that actors can then pick up to provide feedback.
+There are a few ways to implement input, but the general action is to call `Screen:AddInputCallback( input function )` to the [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) responsible for the input. This can be either a function or a module that will deal with listening and sending instructions back to the engine, that actors can then pick up to provide feedback.
 
 ## Module method (OutFox Alpha 4 and onwards)
 ```lua
@@ -64,9 +64,9 @@ When recieving input, you will be given a table by the name of `event`. It gives
 Name | Returns | Description |
 :------------ | :------ | :---------- |
 controller | string | The GameController the event was mapped to, which will depend on what controller was the input mapped to. Will return nil if the button is not mapped to any controller.
-button | string | The semi-raw button that was pressed. This is what the button was mapped to by the keymap settings, but without the conversions that occur when [OnlyDedicatedMenuButtons](/user-guide/config/preferences/#onlydedicatedmenubuttons) is true.  Will be empty if the button was not mapped.
+button | string | The semi-raw button that was pressed. This is what the button was mapped to by the keymap settings, but without the conversions that occur when [OnlyDedicatedMenuButtons](/en/user-guide/config/preferences#onlydedicatedmenubuttons) is true.  Will be empty if the button was not mapped.
 type | string | The type of event. For more information, go to [Understanding Press Events](#understanding-press-events).
-GameButton | string | The cooked button that was pressed. This is applied with mapping that occurs when [OnlyDedicatedMenuButtons](/user-guide/config/preferences/#onlydedicatedmenubuttons) is true applied. This is nil for unmapped buttons.
+GameButton | string | The cooked button that was pressed. This is applied with mapping that occurs when [OnlyDedicatedMenuButtons](/en/user-guide/config/preferences#onlydedicatedmenubuttons) is true applied. This is nil for unmapped buttons.
 PlayerNumber | PlayerNumber | The player that the input is mapped to. Can be nil if its not on either player.
 MultiPlayer | MultiPlayer | A MultiPlayer enumerator that is mapped to the input, can be used on MultiPlayer matches, can be nil if the input is not mapped to any MultiPlayer. Do not confuse this to PlayerNumber.
 
