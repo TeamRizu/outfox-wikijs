@@ -2,7 +2,7 @@
 title: SongMeterDisplay
 description: An automated MeterDisplay that shows the current position of the song being played.
 published: true
-date: 2023-05-20T20:22:09.639Z
+date: 2023-05-20T20:25:20.785Z
 tags: actor, songmeterdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:15:59.976Z
