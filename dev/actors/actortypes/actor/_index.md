@@ -1,8 +1,8 @@
 ---
 title: Actor
-description: 
+description: This is the base that everything derives from. Whatever an Actor can do, everything else can as well.
 published: true
-date: 2023-05-20T20:02:26.721Z
+date: 2023-05-20T20:15:41.383Z
 tags: actor
 editor: markdown
 dateCreated: 2023-05-16T06:13:53.607Z
