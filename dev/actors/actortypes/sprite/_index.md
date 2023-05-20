@@ -1,9 +1,9 @@
 ---
 title: Sprite
-description: 
+description: Allows one to display images on screen. These images can be a png, jpeg, gif or even a video file.
 published: true
-date: 2023-05-20T00:18:23.953Z
-tags: 
+date: 2023-05-20T20:18:06.532Z
+tags: sprite
 editor: markdown
 dateCreated: 2023-05-16T06:16:14.886Z
 ---
