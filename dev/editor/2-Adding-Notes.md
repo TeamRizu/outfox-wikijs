@@ -1,5 +1,11 @@
 ---
 title: Adding/Manipulating notes
+description: 
+published: true
+date: 2023-05-20T14:18:33.684Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:46.975Z
 ---
 
 <!-- TODO: Add images demonstrating each note type. -->
@@ -59,4 +65,4 @@ Converts the selected area into a stop, by compressing the area and placing a st
 ### Convert selection to delay
 Converts the selected area into a delay, by compressing the area and placing a delay with the duration of the selection. Keep in mind however that any notes that are included inside the area will be deleted.
 
-For information about the difference between stops and delays, check out [Defining Timing Data](../1-Defining-Timing-Data).
+For information about the difference between stops and delays, check out [Defining Timing Data](/en/dev/editor/1-Defining-Timing-Data).
