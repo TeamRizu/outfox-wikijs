@@ -2,7 +2,7 @@
 title: Acceleration
 description: 
 published: true
-date: 2023-05-20T14:37:00.455Z
+date: 2023-05-20T14:37:31.989Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:26.425Z
@@ -54,7 +54,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*5 200% brake`
 
-<video src="/resources/guide-to-modifiers/acceleration/brake.webm" controls="">Brake video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/acceleration/brake.webm" controls="">Brake video example</video>
 
 ## Boost
 Desc: Notes start slow at the bottom, but speed up as they approach the receptors.
@@ -71,7 +71,7 @@ Modstring format: *\<approach rate\> \<magnitude\> boost
 
 Example: `*3 150% boost`
 
-<video src="/resources/guide-to-modifiers/acceleration/boost.webm" controls="">Boost video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/acceleration/boost.webm" controls="">Boost video example</video>
 
 ## Expand
 Desc: the visual speed of the field's notes oscilates back and forth, as if the notefield is expanding and contracting. Also has a tangent variant.
@@ -92,7 +92,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.25 120% Expand`
 
-<video src="/resources/guide-to-modifiers/acceleration/expand.webm" controls="">Expand video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/acceleration/expand.webm" controls="">Expand video example</video>
 
 ### Available sub modifiers:
 
@@ -128,7 +128,7 @@ Example: `WaveCol(1, -2, 10, true):WaveCol(2, -1, 5, true):WaveCol(3, 1, 5, true
 Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 Example: `*0.5 200% wave` `*10 -200 wave1, *5 -100% wave2, *5 100% wave3, *10 200% wave4`
 
-<video src="/resources/guide-to-modifiers/acceleration/wave.webm" controls="">Wave video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/acceleration/wave.webm" controls="">Wave video example</video>
 
 ### Available sub modifiers:
 ## WavePeriod
