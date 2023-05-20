@@ -1,6 +1,11 @@
 ---
 title: Tweening
-weight: 4
+description: 
+published: true
+date: 2023-05-20T00:40:01.065Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:26.901Z
 ---
 
 Actors have the ability to transition from point A to point B using [Tweening](https://en.wikipedia.org/wiki/Inbetweening).
@@ -39,31 +44,31 @@ These tweens are what most people would be familiar to those who work with ITG a
 
 The actor transitions at a constant rate.
 
-![linear](/mods/tweens/linear.png)
+![linear.png](/resources/actors/tweens/linear.png){.align-center}
 
 ### accelerate
 
-![accelerate](/mods/tweens/accelerate.png)
+![accelerate.png](/resources/actors/tweens/accelerate.png){.align-center}
 
 ### decelerate
 
-![accelerate](/mods/tweens/decelerate.png)
+![decelerate.png](/resources/actors/tweens/decelerate.png){.align-center}
 
 ### bouncebegin
 
 It's done in Lua in SM5 for some reason.
 
-![bouncebegin](/mods/tweens/bouncebegin.png)
+![bouncebegin.png](/resources/actors/tweens/bouncebegin.png){.align-center}
 
 ### bounceend
 
 It's done in Lua in SM5 for some reason.
 
-![bounceend](/mods/tweens/bounceend.png)
+![bounceend.png](/resources/actors/tweens/bounceend.png){.align-center}
 
 ### spring
 
-![spring](/mods/tweens/spring.png)
+![spring.png](/resources/actors/tweens/spring.png){.align-center}
 
 ### tween (NotITG only)
 
@@ -79,11 +84,11 @@ These tween functions were added in SM5.
 
 ### smooth
 
-![smooth](/mods/tweens/smooth.png)
+![smooth.png](/resources/actors/tweens/smooth.png){.align-center}
 
 ### drop
 
-![drop](/mods/tweens/drop.png)
+![drop.png](/resources/actors/tweens/drop.png){.align-center}
 
 ### bezier
 
@@ -93,7 +98,7 @@ A 2D or 3D bezier curve can be passed into the function to allow for extra tween
 
 OutFox added all of the standard easing functions. All of these are prefixed with `ease` and `in`/`out`/`inout`
 
-![linear](/mods/tweens/of-tweens.png)
+![of-tweens.png](/resources/actors/tweens/of-tweens.png){.align-center}
 
 <!-- We should probably create images for each variant... -->
 
