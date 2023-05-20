@@ -1,7 +1,13 @@
 ---
-title: "Path modifiers"
-weight: -1
+title: Path modifiers
+description: 
+published: true
+date: 2023-05-20T15:20:33.740Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:33.654Z
 ---
+
 Path modifiers affect the path a note takes to the receptor, often curving it in some way or creating a type of wave in the movement.
 
 ## Drunk
@@ -23,7 +29,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*2 300% drunk`
 
-<video src="/mods/vid/drunk.webm" controls="">Drunk video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/drunk.webm" controls="">Drunk video example</video>
 
 ### Available sub modifiers:
 ## DrunkOffset
@@ -90,7 +96,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.25 100% bounce`
 
-<video src="/mods/vid/bounce.webm" controls="">Bounce video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/bounce.webm" controls="">Bounce video example</video>
 
 ### Available sub modifiers:
 ## BouncePeriod
@@ -135,7 +141,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.2 100% tornado`
 
-<video src="/mods/vid/tornado.webm" controls="">Tornado video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/tornado.webm" controls="">Tornado video example</video>
 
 ### Available sub modifiers:
 ## TornadoOffset
@@ -185,7 +191,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.5 300% Bumpy`
 
-<video src="/mods/vid/bumpy.webm" controls="">Bumpy video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/bumpy.webm" controls="">Bumpy video example</video>
 
 ### Available sub modifiers:
 ## BumpyOffset
@@ -238,7 +244,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.2 150% Beat`
 
-<video src="/mods/vid/beat.webm" controls="">Beat video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/beat.webm" controls="">Beat video example</video>
 
 ### Available sub modifiers:
 ## BeatMult
@@ -302,7 +308,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*2 200% zigzag`
 
-<video src="/mods/vid/zigzag.webm" controls="">Zigzag video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/zigzag.webm" controls="">Zigzag video example</video>
 
 ### Available sub modifiers:
 ## ZigzagOffset
@@ -347,7 +353,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 200% sawtooth`
 
-<video src="/mods/vid/sawtooth.webm" controls="">Sawtooth video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/sawtooth.webm" controls="">Sawtooth video example</video>
 
 ### Available sub modifiers:
 ## SawtoothOffset (NotITG only)
@@ -388,7 +394,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 -50% square`
 
-<video src="/mods/vid/square.webm" controls="">Square video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/square.webm" controls="">Square video example</video>
 
 ### Available sub modifiers:
 ## SquareOffset
@@ -432,7 +438,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*3 -150% digital`
 
-<video src="/mods/vid/digital.webm" controls="">Digital video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/digital.webm" controls="">Digital video example</video>
 
 ### Available sub modifiers:
 ## DigitalSteps
@@ -488,7 +494,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 100% spiralx, *1 100% spiraly, *1 -99% spiralxperiod, *1 -99% spiralyperiod`
 
-<video src="/mods/vid/spiral.webm" controls="">Spiral video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/spiral.webm" controls="">Spiral video example</video>
 
 ### Available sub modifiers:
 ## SpiralOffset
@@ -538,7 +544,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*1 100% asymptote`
 
-<video src="/mods/vid/asymptote.webm" controls="">Asymptote video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/asymptote.webm" controls="">Asymptote video example</video>
 
 ### Available sub modifiers:
 ## AsymptoteOffset
@@ -575,7 +581,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.125 200% parabolax`
 
-<video src="/mods/vid/parabola.webm" controls="">Parabola video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/parabola.webm" controls="">Parabola video example</video>
 
 ### Available sub modifiers:
 ## ParabolaOffset
@@ -609,7 +615,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*10 300% cubicz`
 
-<video src="/mods/vid/cubic.webm" controls="">Cubic video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/cubic.webm" controls="">Cubic video example</video>
 
 ### Available sub modifiers:
 ## CubicOffset
@@ -639,7 +645,7 @@ Modstring format: *\<approach rate\> \<magnitude\> xmode
 
 Example: `*1 100% xmode`
 
-<video src="/mods/vid/xmode.webm" controls="">Xmode video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/xmode.webm" controls="">Xmode video example</video>
 
 ## Attenuate
 Desc: Emphasises the note position the further a note gets away from the receptor. Has variants for all axis. NotITG V3 and later does not have the Y axis variant.
@@ -660,7 +666,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*4 200% attenuatex`
 
-<video src="/mods/vid/attenuate.webm" controls="">Attenuate video example</video>
+<video class="normal-scale-video" src="/resources/guide-to-modifiers/path-modifiers/attenuate.webm" controls="">Attenuate video example</video>
 
 ### Available sub modifiers:
 ## AttenuateOffset
