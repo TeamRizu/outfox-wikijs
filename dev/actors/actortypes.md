@@ -2,7 +2,7 @@
 title: Actor Types
 description: 
 published: true
-date: 2023-05-20T20:01:02.123Z
+date: 2023-05-20T20:05:42.287Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -23,7 +23,7 @@ This is a helper function that can be used to dynamically load an actor based on
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<div class="row-justified-flex-div">
       	<a class="foxb foxb-primary" href="./actor/_index">Def.Actor</a>
-      	<a class="foxb foxb-primary" href="./actorframe/_index">Def.ActorFrame</a>
+      	<a class="foxb foxb-primary" href="./actortypes/actorframe">Def.ActorFrame</a>
         <a class="foxb foxb-primary" href="./actorframetexture/_index">Def.ActorFrameTexture</a>
         <a class="foxb foxb-primary" href="./actormultivertex/_index">Def.ActorMultiVertex</a>
         <a class="foxb foxb-primary" href="./actorproxy/_index">Def.ActorProxy</a>
