@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2023-05-20T16:51:59.196Z
+date: 2023-05-20T16:53:05.372Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z
@@ -11,6 +11,7 @@ dateCreated: 2023-05-16T06:18:53.726Z
 A screen generarly consists of 4 separate elements, and 3 special transitional elements, which are its layers. These can contain any kind of object, so they can be Lua scripts, images, video, you name it. These follow a draw order rule to display them.
 
 From draw on top to last (Marked red are the transition-specific layers):
+
 ```kroki
 mermaid
 
@@ -26,11 +27,10 @@ To create a file for a specific layer, just name the file as `[ScreenName] [laye
 ScreenTitleMenu overlay.lua
 ```
 
-An important thing to mention with screen layers is: every layer ***MUST*** return a table. This is needed so the screen manager can create the screen, so either an empty table or an ActorFrame with any kind of content will do. For in-depth information on how to create an ActorFrame base, check [ActorFrames and how to build them](/dev/actors/actortypes/actorframe).
+An important thing to mention with screen layers is: every layer ***MUST*** return a table. This is needed so the screen manager can create the screen, so either an empty table or an ActorFrame with any kind of content will do. For in-depth information on how to create an ActorFrame base, check [ActorFrames and how to build them](/en/dev/actors/actortypes/actorframe/_index).
 
-{{< hint type="important" >}}
-Due to this draw order, keep in mind that **objects created on higher levels will always be shown first before the others.**
-{{</hint>}}
+> Due to this draw order, keep in mind that **objects created on higher levels will always be shown first before the others.**
+{.is-warning}
 
 This layering rule also has rules on how objects behave on those layers, with Decorations being the one more reserved for specific elements.
 
