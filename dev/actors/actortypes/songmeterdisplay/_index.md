@@ -1,10 +1,14 @@
 ---
 title: SongMeterDisplay
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-20T00:12:20.099Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:59.976Z
 ---
 
-An automated [MeterDisplay](../meterdisplay) that shows the current position of the song being played.
+An automated [MeterDisplay](/en/dev/actors/actortypes/meterdisplay/_index) that shows the current position of the song being played.
 
 ```lua
 Def.SongMeterDisplay{
@@ -28,19 +32,17 @@ Def.SongMeterDisplay{
 | Name | Type | Action |
 | :--- | :--- | :----- |
 StreamWidth | number | The width the MeterDisplay. Can be adjusted later with [SetStreamWidth](#setstreamwidth).
-Stream | [Actor](../../actortypes/) | The actor that will represent the progress of the song.
-Tip | [Actor](../../actortypes/) | The actor that will represent the current position of the song.
+Stream | [Actor](/en/dev/actors/actortypes/actor/_index) | The actor that will represent the progress of the song.
+Tip | [Actor](/en/dev/actors/actortypes/actor/_index) | The actor that will represent the current position of the song.
 StartFromZero | bool | New to OutFox: Allows the SongMeterDisplay to start from second 0, rather than the start of the chart.
 
 The **Stream** is the background of the meter, which denotes how far you are in the song, while the **Tip** is the current position.
 
-{{<hint type="important">}}
-The **Stream** attribute is required for the SongMeterDisplay to be created. Otherwise it will return an empty [Actor](../actor/).
-{{</hint>}}
+> The **Stream** attribute is required for the SongMeterDisplay to be created. Otherwise it will return an empty [Actor](/en/dev/actors/actortypes/actor/_index).
+{.is-warning}
 
-{{<hint info>}}
-Both **Stream** and **Tip** can be any kind of [Actor](../../actortypes/).
-{{</hint>}}
+> Both **Stream** and **Tip** can be any kind of [Actor](/en/dev/actors/actortypes/_index).
+{.is-info}
 
 ## Position Logic
 
