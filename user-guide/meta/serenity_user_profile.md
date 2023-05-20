@@ -2,7 +2,7 @@
 title: Serenity User Profile
 description: 
 published: true
-date: 2023-05-20T18:04:46.501Z
+date: 2023-05-20T18:08:06.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:01.113Z
@@ -52,7 +52,8 @@ dateCreated: 2023-05-16T06:24:01.113Z
     <div id="copyData" style="display: none;">
       <br>
       Want the data that we have stored for this profile? Click the button bellow and the JSON Object will be copied to your clipboard. (Tags not included!)
-      <span class="letter-button">
+      <br>
+      <span class="letter-button" style="width: 226px; align-self: center;">
         <a class="letter-button-text" style="cursor: pointer;">
           Copy Data to Clipboard
         </a>
