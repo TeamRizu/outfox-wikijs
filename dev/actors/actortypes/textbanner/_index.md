@@ -1,15 +1,20 @@
 ---
 title: TextBanner
-weight: 0
+description: 
+published: true
+date: 2023-05-20T00:31:22.477Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:22.325Z
 ---
 
-TextBanner is an automated [ActorFrame](../actorframe/) that processes information from a Song or Course to fill in data to several included [BitmapText](../bitmaptext/) actors.
+TextBanner is an automated [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that processes information from a Song or Course to fill in data to several included [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors.
 
 This is used by the music wheel and the editor song selection screens to show the information of each song in the wheel or about the current song being selected to edit respectively.
 
-{{<hint>}}
-The following example uses the SetSong command present in CourseContentsList, which automatically calls SetSong with its own data.
-{{</hint>}}
+> The following example uses the SetSong command present in CourseContentsList, which automatically calls SetSong with its own data.
+{.is-info}
+
 ```lua
 Def.TextBanner {
 	InitCommand=function(self)
@@ -25,11 +30,9 @@ Def.TextBanner {
 }
 ```
 
-{{<toc>}}
-
 ## Atributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](../actorframe/).
+There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
 
 ## Data used on load
 
@@ -44,7 +47,7 @@ ArtistPrependString=string
 AfterSetCommand=function
 ```
 
-`Title`, `SubTitle`, and `Artist` [`OnCommands`](../../ActorsLua-CommandList#commands) define how the [BitmapText](../bitmaptext/) actors will be shown.
+`Title`, `SubTitle`, and `Artist` [`OnCommands`](/en/dev/actors/ActorsLua-CommandList#commands) define how the [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors will be shown.
 
 `ArtistPrependString` is a special metric that appends before the Artist data.
 And example, would be `"/"`.
@@ -64,14 +67,13 @@ If there is a PrependString of "/"..
 `AfterSetCommand` is a function that is called after all data has been processed on the TextBanner.
 This can be useful to fix any visual errors that might happen like overflowing text, incorrect sizing, and others.
 
-{{<hint>}}
-You may notice on the mayority of themes, this metric contains a value like this:
-```ini
-AfterSetCommand=%TextBannerAfterSet
-```
-<!-- TODO: Make an article about how metrics work! -->
-This a special case of using a Lua function directly on the metrics. For more information about this, check out [Function loading in metrics]().
-{{</hint>}}
+> You may notice on the mayority of themes, this metric contains a value like this:
+> ```ini
+> AfterSetCommand=%TextBannerAfterSet
+> ```
+> <!-- TODO: Make an article about how metrics work! -->
+> This a special case of using a Lua function directly on the metrics. For more information about this, check out [Function loading in metrics]().
+{.is-info}
 
 ## Data used on fetch
 
@@ -99,6 +101,5 @@ Updates the TextBanner to show information from the `Song` given.
 
 Updates the TextBanner to display custom information based on the strings provided.
 
-{{<hint type="important">}}
-All parameters must contain some kind of string, otherwise it will error. If there's no information needed on one of the sections, use an empty string instead.
-{{</hint>}}
+> All parameters must contain some kind of string, otherwise it will error. If there's no information needed on one of the sections, use an empty string instead.
+{.is-warning}
