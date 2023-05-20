@@ -1,14 +1,14 @@
 ---
 title: SongBPMDisplay
-description: 
+description: A slightly automated version of BPMDisplay that automatically updates the text to the BPM range from a given player.
 published: true
-date: 2023-05-20T00:09:45.368Z
-tags: 
+date: 2023-05-20T20:47:20.596Z
+tags: actor, songbpmdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:15:56.392Z
 ---
 
-A slightly automated version of [BPMDisplay](/en/dev/actors/actortypes/bpmdisplay/_index) that automatically updates the text to the BPM range from a given player.
+A slightly automated version of [BPMDisplay](/en/dev/actors/actortypes/bpmdisplay) that automatically updates the text to the BPM range from a given player.
 
 ```lua
 Def.SongBPMDisplay{
@@ -22,7 +22,7 @@ Def.SongBPMDisplay{
 | :--- | :--- | :----- |
 Player | PlayerNumber | The player to obtain the current BPM from.
 
-This actor inherits the attributes from [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
+This actor inherits the attributes from [BitmapText](/en/dev/actors/actortypes/bitmaptext).
 
 ## Functions
 
