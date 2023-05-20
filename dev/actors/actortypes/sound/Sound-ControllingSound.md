@@ -1,14 +1,16 @@
 ---
 title: Controlling Sound
-weight: 1
+description: 
+published: true
+date: 2023-05-20T00:16:49.165Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:03.656Z
 ---
 
-The [Def.Sound](../) actor is part of RageSound, another component in the engine that deals with audio, and they both work
-together to provide playback of said sounds. That said, in order to control specific elements from them, you must
-understand how to access them.
+The [Def.Sound](/en/dev/actors/actortypes/sound/_index) actor is part of RageSound, another component in the engine that deals with audio, and they both work together to provide playback of said sounds. That said, in order to control specific elements from them, you must understand how to access them.
 
-Only using commands directly inside [Def.Sound](../) will provide commands related to the sound actor; to use commands
-related to its RageSound component, you must `get()` the component.
+Only using commands directly inside [Def.Sound](/en/dev/actors/actortypes/sound/_index) will provide commands related to the sound actor; to use commands related to its RageSound component, you must `get()` the component.
 
 ```lua
 -- To control actions like volume, you need to access the ActorSound's RageSound, by using the get function.
@@ -46,4 +48,7 @@ LengthSeconds | Sets the length of the sound.
 FadeInSeconds | How long the audio transition to full volume at the start.
 FadeSeconds / FadeOutSeconds | How long the audio transition to silence at the end.
 Volume | How loud will the sound be (0 to 1 value).
+
+--- 
+
 <!--Pan | (Requires the SupportRateChanging flag), sets the direction of the audio to go through, like the left or right channel.-->
