@@ -1,9 +1,9 @@
 ---
 title: Sound
-description: 
+description: Used to play sound files outside of the common theme sound effects and the simfile's song itself.
 published: true
-date: 2023-05-20T00:15:07.840Z
-tags: 
+date: 2023-05-20T20:21:03.337Z
+tags: actor, sound
 editor: markdown
 dateCreated: 2023-05-16T06:16:07.300Z
 ---
