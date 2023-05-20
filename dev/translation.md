@@ -1,9 +1,12 @@
 ---
 title: Translation
 description: Guide on translating themes for Project OutFox.
-weight: 4
+published: true
+date: 2023-05-20T16:23:36.490Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:19:22.684Z
 ---
-
 
 Are you translating a theme to another language? Reading this might help you.
 
@@ -34,6 +37,8 @@ Now open en.ini and your new language file, then copy all the content from en.in
 The language code used for your language file should follow [ISO-1 Language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), while the COUNTRY CODE should follow [ISO 3166-1 Alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
 
 > ⚠️ StepMania Engine doesn't have proper support for more than 2 letters language files: Both StepMania and OutFox, as the date of writting this document, do not follow ISO-1 and ISO 3166-1 standards, however, new languages should not abide by non-standards of StepMania Engine quirks. Your language will still be able to be selected and used, however, instead of showing the Language name, it will show the language code and users won't have the game auto-select the language for them. This will later be fixed at least for OutFox, [following this issue](https://github.com/TeamRizu/OutFox/issues/311).
+{.is-danger}
+
 
 ### What you should translate
 
@@ -77,7 +82,8 @@ SingularSongPlayed=%d Song Played
 SeveralSongsPlayed=%d Songs Played
 PressStart=Press &START; to join.
 ```
-![](/translation/profileSongsPlayed.jpeg)
+
+![profilesongsplayed.jpeg](/resources/translation/profilesongsplayed.jpeg){.align-center}
 
 Here we can see that &START; gets replaced by a green square that represents the start button, and %d gets replaced by a number that's how many songs that profile played.
 
@@ -89,7 +95,7 @@ _Second Line_
 
 Here's an example in action from `_fallback/en.ini`:
 
-![](/translation/cauntionWarning.png)
+![cauntionwarning.png](/resources/translation/cauntionwarning.png){.align-center}
 
 ### Text Context
 
@@ -129,28 +135,22 @@ Many folks are already helping translate the new Soundwaves theme for various la
 
 Translating can be tedious. Sometimes it's hard to locate & remove lines that shouldn't be there or find missing ones. Because of that, translators themselves create tools to make our job easier and faster.
 
-{{< tabs "toolsandpractices" >}}
-{{< tab "Translation Toolkit" >}}
-
+## Tools and Practices {.tabset}
+### Translation Toolkit
 [Translation Toolkit](https://github.com/Tiny-Foxes/Translation-Toolkit) is a tool made by [Ksempac](https://github.com/Ksempac) to help remove lines that are not needed anymore, warn about lines that are missing, check your progress, etc. It supports Linux, Mac, and Windows.
 
 > _This project is intended as a small application to automate some tasks for translators._
 >
 >_It is able to parse, analyze and fix the OutFox translation files._
 
-![](/translation/translationToolkit.png)
-
-{{< /tab >}}
-{{< tab "Stepmania-TranslatorViewMaker" >}}
-
+![translationtoolkit.png](/resources/translation/translationtoolkit.png){.align-center}
+### Stepmania-TranslatorViewMaker
 [Stepmania-TranslatorViewMaker](https://github.com/Tiny-Foxes/Stepmania-TranslatorViewMaker) is a tool made by [Snil4](https://github.com/snil4). It supports any OS that has Python 3 installed.
 
 > _Have you ever tried to translate a program like OutFox and wondered "Hmm, now where can I find that line in the .ini?" Now there's no need to wonder! This program will make a translator view file for your translation .ini and make your translation job easier._
 
-![](/translation/translatorView.jpg)
-{{< /tab >}}
-{{< tab "fini" >}}
-
+![translatorview.jpg](/resources/translation/translatorview.jpg){.align-center}
+### fini
 [fini](https://github.com/Tiny-Foxes/fini) is a tool made by [moruzerinho6](https://github.com/moruzerinho6)
 
 > Adds a extra build process where you can additional features that are not available on default ini file. Use:
@@ -159,8 +159,7 @@ Translating can be tedious. Sometimes it's hard to locate & remove lines that sh
 > - RTL variable to reverse the text only after you build the files.
 > - Any valid ini file is supported, meaning you don't have to remake all your previous work
 
-{{< /tab >}}
-{{< /tabs >}}
+## End Tabset {.tabset}
 
 ### Best practices
 
@@ -175,11 +174,11 @@ When doing a mention of "Steps", ask yourself: is it clear which "type of Steps"
 
 **[Soundwaves](https://github.com/Tiny-Foxes/smtheme-soundwaves-community)** does not have this issue as it says "Taps" instead of Steps and directly says the difficulty.
 
-![](/translation/soundwavesMusicWheel.png)
+![soundwavesmusicwheel.png](/resources/translation/soundwavesmusicwheel.png){.align-center}
 
 #### Reload translations
 
-![](/translation/cauntionWarning.png)
+![cauntionwarning.png](/resources/translation/cauntionwarning.png){.align-center}
 
 Imagine you're editing the Soundwaves ScreenCaution and want to see how the translated string looks. You don't need to restart the entire game to see the changes, here's what you should do instead: Exit the screen you just translated, reload the metrics (`Shift + Insert`; or `Shift + F2` on older alpha versions) and enter the screen again.
 
