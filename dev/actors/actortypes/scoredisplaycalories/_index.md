@@ -1,9 +1,14 @@
 ---
 title: ScoreDisplayCalories
-weight: 0
+description: 
+published: true
+date: 2023-05-20T00:07:17.199Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:52.731Z
 ---
 
-A [BitmapText](../bitmaptext/) that provides the amount of calories burned throughout the session.
+A [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) that provides the amount of calories burned throughout the session.
 
 ```lua
 Def.ScoreDisplayCalories{
@@ -17,4 +22,4 @@ Def.ScoreDisplayCalories{
 | :--- | :--- | :----- |
 PlayerNumber | PlayerNumber | The player to obtain the amount of calories burned throughout the session.
 
-This actor inherits the attributes from [BitmapText](../bitmaptext/#attributes).
+This actor inherits the attributes from [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
