@@ -2,7 +2,7 @@
 title: Serenity User Profile
 description: 
 published: true
-date: 2023-05-20T18:02:29.492Z
+date: 2023-05-20T18:04:46.501Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:01.113Z
@@ -47,10 +47,11 @@ dateCreated: 2023-05-16T06:24:01.113Z
     <div style="overflow-x:auto; display: none;" id="userChartSubmissionDiv">
       <h2 style="align-self: center;">Chart Submission</h2>
     </div>
+    <br>
     If you want a social add/removed from your profile then join the <a href="https://discord.gg/cN4TjgQdcA">Project OutFox Discord Server</a> and contact the moderator team.
     <div id="copyData" style="display: none;">
+      <br>
       Want the data that we have stored for this profile? Click the button bellow and the JSON Object will be copied to your clipboard. (Tags not included!)
-      <div>
       <span class="letter-button">
         <a class="letter-button-text" style="cursor: pointer;">
           Copy Data to Clipboard
