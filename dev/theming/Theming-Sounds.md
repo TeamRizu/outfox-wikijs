@@ -1,6 +1,11 @@
 ---
-title: "Sounds"
-weight: 5
+title: Sounds
+description: 
+published: true
+date: 2023-05-20T17:03:26.532Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:19:12.191Z
 ---
 
 Your theme can contain sounds, which are either sound effects or music that will play across screens or actions. You can find the difference between these items by looking at their file names. The structure goes as follows:
@@ -30,6 +35,5 @@ end
 return THEME:GetPathS("",mySound)
 ```
 
-{{< hint type="important" >}}
-The value requested by this file is an **absolute path**, which is why `THEME:GetPathS` has been included, as it fills the path directory to the current theme's Sounds folder.
-{{</hint>}}
+> The value requested by this file is an **absolute path**, which is why `THEME:GetPathS` has been included, as it fills the path directory to the current theme's Sounds folder.
+{.is-warning}
