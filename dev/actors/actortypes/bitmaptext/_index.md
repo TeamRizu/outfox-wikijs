@@ -1,8 +1,8 @@
 ---
 title: BitmapText
-description: 
+description: The BitmapText actor allows you to insert text into the theme, with any font that has been created and located on the Fonts folder from either your theme or _fallback.
 published: true
-date: 2023-05-19T23:07:50.343Z
+date: 2023-05-20T20:33:45.771Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:34.817Z
@@ -19,9 +19,10 @@ Def.BitmapText{
 
 ## Table of Contents
 
-- [Ensuring string compatibility](/en/dev/actors/actortypes/bitmaptext/Bitmap-EnsuringStringComp)
-- [Inline-Text manipulation](/en/dev/actors/actortypes/bitmaptext/Bitmap-InlineColoring)
+- [Ensuring string compatibility](/en/dev/actors/actortypes/bitmaptext/Bitmap-EnsuringStringComp) Tips to maintain a proper text view.
+- [Inline-Text manipulation](/en/dev/actors/actortypes/bitmaptext/Bitmap-InlineColoring) Learn how to color individual glyphs.
 - [Segments of a BitmapText](/en/dev/actors/actortypes/bitmaptext/Bitmap-Segments)
+{.links-list}
 
 ## Attributes
 
