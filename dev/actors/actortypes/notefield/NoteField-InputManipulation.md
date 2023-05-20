@@ -1,9 +1,14 @@
 ---
 title: Input Manipulation
-weight: 1
+description: 
+published: true
+date: 2023-05-20T00:00:57.325Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:30.554Z
 ---
 
-[NoteField](../) has multiple functions that allow for faking and manipulating input & judgments. Every function mentioned has a snake case alias.
+[NoteField](/en/dev/actors/actortypes/notefield/_index) has multiple functions that allow for faking and manipulating input & judgments. Every function mentioned has a snake case alias.
 
 ## DidTapNote / DidHoldNote
 
@@ -15,7 +20,7 @@ Both functions take three parameters: Column (First column is 1), a TapNoteScore
 
 ## SetPressed
 
-Makes the [NoteField](../) act like the given column is pressed.
+Makes the [NoteField](/en/dev/actors/actortypes/notefield/_index) act like the given column is pressed.
 
 The function takes a column (First column is 1).
 
@@ -23,7 +28,7 @@ The function takes a column (First column is 1).
 
 ## Step
 
-Makes the [NoteField](../) act like a step happened on a given column.
+Makes the [NoteField](/en/dev/actors/actortypes/notefield/_index) act like a step happened on a given column.
 
 The function takes a column (First column is 1), and a TapNoteScore enum.
 
@@ -31,9 +36,9 @@ The function takes a column (First column is 1), and a TapNoteScore enum.
 
 ## Callbacks
 
-A [NoteField](../) can have functions attatched to various actions.
+A [NoteField](/en/dev/actors/actortypes/notefield/_index) can have functions attatched to various actions.
 
-The given callback function are allowed to return its' own values, which the [NoteField](../) will respect instead.
+The given callback function are allowed to return its' own values, which the [NoteField](/en/dev/actors/actortypes/notefield/_index) will respect instead.
 
 Pass `nil` into a set function to clear the callback function.
 
