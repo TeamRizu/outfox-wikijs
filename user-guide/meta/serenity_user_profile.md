@@ -2,7 +2,7 @@
 title: Serenity User Profile
 description: 
 published: true
-date: 2023-05-20T17:57:59.490Z
+date: 2023-05-20T18:01:07.340Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:01.113Z
@@ -34,18 +34,18 @@ dateCreated: 2023-05-16T06:24:01.113Z
       <p style="align-self: center;" id="userMostChartsForMode">Most Charted Mode: Select User to View</p>
     </div>
     <div id="socialsOuterDiv" style="display: none;">
-      <h2>User Socials</h2>
+      <h2 style="align-self: center;">User Socials</h2>
         <div id='socials' style="display: flex; flex-wrap: wrap; justify-items: center; justify-content: center; gap: 30px;">
         </div>
     </div>
     <div style="overflow-x:auto; display: none;" id="userSongSubmissionDiv">
-      <h2>Song Submissions</h2>
+      <h2 style="align-self: center;">Song Submissions</h2>
     </div>
     <div style="overflow-x:auto; display: none;" id="userGraphicSubmissionDiv">
-      <h2>Graphic Submissions</h2>
+      <h2 style="align-self: center;">Graphic Submissions</h2>
     </div>
     <div style="overflow-x:auto; display: none;" id="userChartSubmissionDiv">
-      <h2>Chart Submission</h2>
+      <h2 style="align-self: center;">Chart Submission</h2>
     </div>
     If you want a social add/removed from your profile then join the <a href="https://discord.gg/cN4TjgQdcA">Project OutFox Discord Server</a> and contact the moderator team.
     <div id="copyData" style="display: none;">
