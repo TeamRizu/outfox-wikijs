@@ -1,6 +1,11 @@
 ---
-title: "Scripts"
-weight: 4
+title: Scripts
+description: 
+published: true
+date: 2023-05-20T21:03:22.555Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:19:08.651Z
 ---
 
 Introduced in StepMania 3.95, Scripts are Lua files that are loaded globally to the engine. These are always available to use, from anywhere in the theme. However, it is advised to **use these sparingly** to avoid unnecesary carry over of data, overlapping variable names with other existing Lua naming scopes, and others.
@@ -41,6 +46,6 @@ MyGlobalObject = {
 	...
 }
 
--- to clean the object, just reasign the value back to an empty table.
-MyGlobalObject = {}
+-- to clean the object, just reasign the value back to nil.
+MyGlobalObject = nil
 ```
