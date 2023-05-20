@@ -2,7 +2,7 @@
 title: Serenity User Profile
 description: 
 published: true
-date: 2023-05-20T17:42:24.455Z
+date: 2023-05-20T17:51:22.046Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:01.113Z
@@ -24,14 +24,14 @@ dateCreated: 2023-05-16T06:24:01.113Z
 
   <div id= 'profileContent'>
     <div id="tagsDiv" style="display: none;">
-      <h2>Tags</h2>
+      <h2 style="align-self: center;">Tags</h2>
       <div id='tagsRow' style="display: flex; flex-wrap: wrap; justify-items: center; justify-content: center; gap: 30px;">
       </div>
-      <h2>Resume</h2>
+      <h2 style="align-self: center;">Resume</h2>
       <p id="userResume">Select user to view resume.</p>  
       <!-- Daniel Rotwind has submitted 93 charts, 4 songs and 9 graphics for Project OutFox Serenity.-->
-      <p id="userMostChartsForSong">Most Charted Song: Select User to View.</p>
-      <p id="userMostChartsForMode">Most Charted Mode: Select User to View</p>
+      <p style="align-self: center;" id="userMostChartsForSong">Most Charted Song: Select User to View.</p>
+      <p style="align-self: center;" id="userMostChartsForMode">Most Charted Mode: Select User to View</p>
     </div>
     <div id="socialsOuterDiv" style='display: none'>
       <h2>Socials</h2>
