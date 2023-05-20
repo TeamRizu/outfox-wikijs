@@ -1,7 +1,11 @@
 ---
 title: Sound
-weight: 0
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-05-20T00:15:07.840Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:07.300Z
 ---
 
 Used to play sound files outside of the common theme sound effects and the simfile's song itself.
@@ -36,7 +40,7 @@ Def.Sound{
 
 ## Table of Contents
 
-{{<toc-tree>}}
+- [Controlling Sound](/en/dev/actors/actortypes/sound/Sound-ControllingSound)
 
 ## Attributes
 
@@ -45,5 +49,5 @@ Def.Sound{
 File | string | The audio file to be utilized for this Sound.
 SupportPan | bool | Lets the audio pane from side to side. Useful for audios that need to play on a specific player side.
 SupportsRateChanging | bool | Allows the audio to change rate and pitch.
-IsAction |  bool | Assigns the audio to become a Sound Effect, which allows it to be muted by the player if they so choose from the Effect Volume [Introduced in Project OutFox 4.9.9](/releases/A4.9.9) or by the [MuteActions](/user-guide/config/preferences/#muteactions) preference.
+IsAction |  bool | Assigns the audio to become a Sound Effect, which allows it to be muted by the player if they so choose from the Effect Volume [Introduced in Project OutFox 4.9.9](/en/releases/A499) or by the [MuteActions](/en/user-guide/config/preferences#muteactions) preference.
 Precache | bool | Tells the engine to store this sound on memory for later use.
