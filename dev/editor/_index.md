@@ -2,7 +2,7 @@
 title: Editor
 description: 
 published: true
-date: 2023-05-20T14:16:47.637Z
+date: 2023-05-20T20:35:52.518Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:16:50.596Z
