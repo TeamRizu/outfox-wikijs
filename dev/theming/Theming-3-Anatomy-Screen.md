@@ -1,16 +1,24 @@
 ---
-title: "Anatomy of a screen"
-weight: 3
+title: Anatomy of a screen
+description: 
+published: true
+date: 2023-05-20T16:51:59.196Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:53.726Z
 ---
 
 A screen generarly consists of 4 separate elements, and 3 special transitional elements, which are its layers. These can contain any kind of object, so they can be Lua scripts, images, video, you name it. These follow a draw order rule to display them.
 
 From draw on top to last (Marked red are the transition-specific layers):
-{{< mermaid class="text-center">}}
+```kroki
+mermaid
+
 graph LR
     In:::Transition --> Out:::Transition --> Cancel:::Transition --> Decorations --> Overlay --> Underlay --> Background;
 	classDef Transition fill:#f55
-{{< /mermaid >}}
+  
+```
 
 To create a file for a specific layer, just name the file as `[ScreenName] [layer kind]`, so for example a Lua file that will control the Overlay layer from `ScreenTitleMenu`.
 
