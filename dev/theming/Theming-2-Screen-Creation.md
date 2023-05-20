@@ -1,13 +1,19 @@
 ---
-title: "Creating a custom screen"
-weight: 2
+title: Creating a custom screen
+description: 
+published: true
+date: 2023-05-20T16:50:04.525Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:49.899Z
 ---
 
 OutFox allows for creations of screens outside of the engine scope. This can be useful for elements that want to, for example, have no involvement with the engine at all, and want to process information with your own custom code.
 
 ## Creation of screen definitions
 
-For this, you will need to add the following to the [metrics.ini](yes.md) file, mentioned on a previous chapter.
+For this, you will need to add the following to the metrics.ini file, mentioned on a previous chapter.
+
 ```ini
 # This will be the name for the screen, which we can access in a moment using a metric command or lua.
 [MyCustomScreen]
@@ -17,9 +23,9 @@ Fallback="ScreenWithMenuElements"
 ```
 
 As you notice, we're using the `Fallback` item. This is to have an existing screen as a fail-safe which makes the engine call existing elements that this new screen does not have at the moment, such as its screen overlays, sounds, graphics, etc. By using this, it also fetches its class.
-{{< hint type="warning" >}}
-Every single screen created **must** contain some kind of class, otherwise the engine will not know how to respond to it and crash or send out an error. If you are unsure which class to use, you can rely on **ScreenWithMenuElements**, as it is the most basic screen class type, and the skeleton for every other class.
-{{< /hint >}}
+
+> Every single screen created **must** contain some kind of class, otherwise the engine will not know how to respond to it and crash or send out an error. If you are unsure which class to use, you can rely on **ScreenWithMenuElements**, as it is the most basic screen class type, and the skeleton for every other class.
+{.is-warning}
 
 ## Acessing the screen
 
@@ -29,7 +35,8 @@ Now with the metric information added, we have to have a way to enter the screen
 
 This method will make the screen be the first one loaded as soon as the engine is loaded, which is useful for testing elements that may require a full restart or need quick access to such screen when performing extensive development.
 
-For this, the following needs to be added to the [metrics.ini](yes.md) file.
+For this, the following needs to be added to the metrics.ini file.
+
 ```ini
 [Common]
 # Replace the string with the name of your new screen.
@@ -81,9 +88,8 @@ SCREENMAN:GetTopScreen():SetNextScreenName( "YourScreenName" )
 SCREENMAN:GetTopScreen():PostScreenMessage( "SM_GoToNextScreen", 0 )
 ```
 
-{{<hint info>}}
-Both of these commands can be chained to avoid fetching all screen data multiple times.
-```lua
-SCREENMAN:GetTopScreen():SetNextScreenName( "YourScreenName" ):PostScreenMessage( "SM_GoToNextScreen", 0 )
-```
-{{</hint>}}
+> Both of these commands can be chained to avoid fetching all screen data multiple times.
+> ```lua
+> SCREENMAN:GetTopScreen():SetNextScreenName( "YourScreenName" ):PostScreenMessage( "SM_GoToNextScreen", 0 )
+> ```
+{.is-info}
