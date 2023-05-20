@@ -1,6 +1,11 @@
 ---
-title: "Acceleration"
-weight: -3
+title: Acceleration
+description: 
+published: true
+date: 2023-05-20T14:34:17.393Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:18:26.425Z
 ---
 
 Acceleration modifiers mess with the vertical acceleration of the note. It lets people have notes speed up, slow down, or do a 180 among other things.
@@ -20,9 +25,10 @@ Modstring format: *\<approach rate\> \<magnitude\> boomerang
 
 Example: `*1 100% boomerang`
 
-<video src="/mods/vid/boomerang.webm" controls="">Boomerang video example</video>
+<video src="/resources/guide-to-modifiers/acceleration/boomerang.webm" controls="">Boomerang video example</video>
 
 ### Available sub modifiers:
+
 ## VariableBoomerang
 Desc: When active, Boomerang now takes its' magnitude into account, allowing for more varied effects.
 
@@ -48,7 +54,7 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*5 200% brake`
 
-<video src="/mods/vid/brake.webm" controls="">Brake video example</video>
+<video src="/resources/guide-to-modifiers/acceleration/brake.webm" controls="">Brake video example</video>
 
 ## Boost
 Desc: Notes start slow at the bottom, but speed up as they approach the receptors.
@@ -65,7 +71,7 @@ Modstring format: *\<approach rate\> \<magnitude\> boost
 
 Example: `*3 150% boost`
 
-<video src="/mods/vid/boost.webm" controls="">Boost video example</video>
+<video src="/resources/guide-to-modifiers/acceleration/boost.webm" controls="">Boost video example</video>
 
 ## Expand
 Desc: the visual speed of the field's notes oscilates back and forth, as if the notefield is expanding and contracting. Also has a tangent variant.
@@ -86,9 +92,10 @@ Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 
 Example: `*0.25 120% Expand`
 
-<video src="/mods/vid/expand.webm" controls="">Expand video example</video>
+<video src="/resources/guide-to-modifiers/acceleration/expand.webm" controls="">Expand video example</video>
 
 ### Available sub modifiers:
+
 ## ExpandPeriod
 Desc: Can speed up or slow down the oscilation. Positive speeds up, while negative slows down, -100% stops the effect.
 
@@ -121,7 +128,7 @@ Example: `WaveCol(1, -2, 10, true):WaveCol(2, -1, 5, true):WaveCol(3, 1, 5, true
 Modstring format: *\<approach rate\> \<magnitude\> \<modstring variant\>
 Example: `*0.5 200% wave` `*10 -200 wave1, *5 -100% wave2, *5 100% wave3, *10 200% wave4`
 
-<video src="/mods/vid/wave.webm" controls="">Wave video example</video>
+<video src="/resources/guide-to-modifiers/acceleration/wave.webm" controls="">Wave video example</video>
 
 ### Available sub modifiers:
 ## WavePeriod
