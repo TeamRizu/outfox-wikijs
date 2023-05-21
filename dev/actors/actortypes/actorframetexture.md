@@ -2,19 +2,19 @@
 title: ActorFrameTexture
 description: 
 published: true
-date: 2023-05-21T01:04:55.311Z
+date: 2023-05-21T01:05:17.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:04.787Z
 ---
 
-It’s like an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index), but instead of displaying what’s inside onto the screen, it places the contents of the [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) onto a Texture that a [Sprite](/en/dev/actors/actortypes/sprite/_index) (or any other actor that can load textures) can read from.
+It’s like an [ActorFrame](/en/dev/actors/actortypes/actorframe), but instead of displaying what’s inside onto the screen, it places the contents of the [ActorFrame](/en/dev/actors/actortypes/actorframe) onto a Texture that a [Sprite](/en/dev/actors/actortypes/sprite) (or any other actor that can load textures) can read from.
 
-Popularized by its’ use in NotITG, although the behavior is different. NotITG’s version places the screen itself onto a texture instead of what’s inside the [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) and requires basezoom to be used on sprites to make the image fit inside the game window.
+Popularized by its’ use in NotITG, although the behavior is different. NotITG’s version places the screen itself onto a texture instead of what’s inside the [ActorFrame](/en/dev/actors/actortypes/actorframe) and requires basezoom to be used on sprites to make the image fit inside the game window.
 
 ## Usage Example
 
-This example will create an ActorFrameTexture that uses a sample [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index), and project it to the center to the screen in half of the available size of the viewport window.
+This example will create an ActorFrameTexture that uses a sample [BitmapText](/en/dev/actors/actortypes/bitmaptext), and project it to the center to the screen in half of the available size of the viewport window.
 
 ```lua
 -- This ActorFrame will contain everything.
@@ -70,7 +70,7 @@ local AFT = Def.ActorFrameTexture{
 t[#t+1] = AFT
 ```
 
-Now that we've created the ActorFrameTexture, it will be sent into a global texture, that we can then grab into a [Sprite](/en/dev/actors/actortypes/sprite/_index), and it can be done in two ways. These will be shown inside the OnCommand in the [Sprite](/en/dev/actors/actortypes/sprite/_index).
+Now that we've created the ActorFrameTexture, it will be sent into a global texture, that we can then grab into a [Sprite](/en/dev/actors/actortypes/sprite), and it can be done in two ways. These will be shown inside the OnCommand in the [Sprite](/en/dev/actors/actortypes/sprite).
 
 ```lua
 -- Method 1: Load sprite directly into sprite.
