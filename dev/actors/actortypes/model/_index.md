@@ -2,7 +2,7 @@
 title: Model
 description: 
 published: true
-date: 2023-05-19T23:49:31.822Z
+date: 2023-05-21T01:08:37.373Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:19.640Z
