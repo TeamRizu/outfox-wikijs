@@ -1,14 +1,14 @@
 ---
 title: ActorScroller
-description: 
+description: An ActorFrame that acts as a scroller, allowing for a selection-styled menu with choices and animations.
 published: true
-date: 2023-05-19T20:21:16.765Z
+date: 2023-05-21T01:06:56.877Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:16.017Z
 ---
 
-The Actorscroller is an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that acts as a scroller, allowing for a selection-styled menu with choices and animations.
+The Actorscroller is an [ActorFrame](/en/dev/actors/actortypes/actorframe) that acts as a scroller, allowing for a selection-styled menu with choices and animations.
 
 ```lua
 Def.ActorScroller{
@@ -41,7 +41,7 @@ WrapScroller |  bool | Wraps the items of the scroller to attempt a seamless tra
 
 ## Adding actors
 
-To add actors to the ActorScroller, simply add them directly to the scroller, or using the `children` attribute for [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
+To add actors to the ActorScroller, simply add them directly to the scroller, or using the `children` attribute for [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ### The direct method.
 ```lua
@@ -64,7 +64,7 @@ return af
 
 ### The function method
 
-> All actors being added via the `children` method have to be added to an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) wrapper, which will be included in this demonstration.
+> All actors being added via the `children` method have to be added to an [ActorFrame](/en/dev/actors/actortypes/actorframe) wrapper, which will be included in this demonstration.
 {.is-info}
 
 ```lua
@@ -98,7 +98,7 @@ return af
 
 To perform a different scroll to the ActorScroller, the `TransformFunction` is used. This function provides 4 arguments:
 
-- `self` ([Actor](/en/dev/actors/actortypes/actor/_index)): The actor in question.
+- `self` ([Actor](/en/dev/actors/actortypes/actor)): The actor in question.
 - `offset` (number): The relative 0 offset of the current item.
 
 > By this, it means that, if the value is 0, That's the current item. Anything before or after is - 1 / + 1 respectively.
