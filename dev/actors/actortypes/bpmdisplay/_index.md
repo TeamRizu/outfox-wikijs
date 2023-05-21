@@ -2,7 +2,7 @@
 title: BPMDisplay
 description: 
 published: true
-date: 2023-05-19T23:22:23.806Z
+date: 2023-05-21T01:08:04.549Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:38.589Z
@@ -16,11 +16,11 @@ Def.BPMDisplay{}
 
 ## Attributes
 
-There are no special attributes with this actor type. It inherits its attributes from [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
+There are no special attributes with this actor type. It inherits its attributes from [BitmapText](/en/dev/actors/actortypes/bitmaptext).
 
 ## Functions
 
-> These functions also work on [SongBPMDisplay](/en/dev/actors/actortypes/songbpmdisplay/_index).
+> These functions also work on [SongBPMDisplay](/en/dev/actors/actortypes/songbpmdisplay).
 {.is-info}
 
 ### `SetFromGameState`
