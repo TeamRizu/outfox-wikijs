@@ -2,7 +2,7 @@
 title: ActorFrame
 description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-06-01T01:28:38.804Z
+date: 2023-06-01T01:29:22.633Z
 tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
@@ -39,7 +39,7 @@ DiffuseColor | color | Diffuse coloring for the ActorFrame.
 SpecularColor | color | Specular coloring for the ActorFrame.
 LightDirection | {0,0,0} | The direction of the lighting for the ActorFrame.
 
-This actor inherits attributes from [Actor](/en/dev/actors/actortypes/actor/_index).
+This actor inherits attributes from [Actor](/en/dev/actors/actortypes/actor).
 
 ## Inline building
 
@@ -59,9 +59,9 @@ Def.ActorFrame{
 
 Because lua tables can be concatenated (added) to each other, so can ActorFrames.
 
-This can allow for programatically creating [Actor](/en/dev/actors/actortypes/actor/_index) in batches as needed.
+This can allow for programatically creating [Actor](/en/dev/actors/actortypes/actor) in batches as needed.
 
-However, if one does not plan on creating [Actor](/en/dev/actors/actortypes/actor/_index) programmaticly, then a simple `return Def.ActorFrame{...` is all that's needed. Storing it into a local variable that gets returned will waste resources.
+However, if one does not plan on creating [Actor](/en/dev/actors/actortypes/actor) programmaticly, then a simple `return Def.ActorFrame{...` is all that's needed. Storing it into a local variable that gets returned will waste resources.
 
 There are two ways to add onto an ActorFrame.
 
