@@ -2,7 +2,7 @@
 title: ActorFrame
 description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-06-01T01:28:27.513Z
+date: 2023-06-01T01:28:38.804Z
 tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
@@ -135,7 +135,7 @@ If FOV is zero, this also sets the positive z-space limit as well.
 Sets the field of view for the ActorFrame.
 
 ### `GetChild`
-`()`
+`(string sName)`
 
 Returns the child with a name of <code>sName</code>.
 If there are multiple children with that name, returns an array of those children.
