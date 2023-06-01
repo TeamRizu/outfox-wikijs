@@ -2,7 +2,7 @@
 title: ActorFrame
 description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-06-01T01:29:22.633Z
+date: 2023-06-01T01:29:40.270Z
 tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
@@ -107,8 +107,8 @@ Adds a child to the ActorFrame from the specified path. Returns true if its succ
 ### `AddChild`
 `(function Actor)`
 
-Adds a collection of [Actors]() from `actors` to the ActorFrame via a function.
-Just like regular ActorFrames or [Actors](), it must return some kind of table.
+Adds a collection of [Actors](/en/dev/actors/actortypes/actor) from `actors` to the ActorFrame via a function.
+Just like regular ActorFrames or [Actors](/en/dev/actors/actortypes/actor), it must return some kind of table.
 
 ```lua
 self:AddChild(function()
