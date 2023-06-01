@@ -2,7 +2,7 @@
 title: ActorFrame
 description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-05-20T20:03:31.282Z
+date: 2023-06-01T01:28:27.513Z
 tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
@@ -96,3 +96,49 @@ return Def.ActorFrame{
 	--It's the third actor
 }
 ```
+
+## Functions
+
+### `AddChildFromPath`
+`(string sPath)`
+
+Adds a child to the ActorFrame from the specified path. Returns true if its successful.
+
+### `AddChild`
+`(function Actor)`
+
+Adds a collection of [Actors]() from `actors` to the ActorFrame via a function.
+Just like regular ActorFrames or [Actors](), it must return some kind of table.
+
+```lua
+self:AddChild(function()
+	return Def.BitmapText{
+		Font = "Common Normal",
+		Text = "I am text, added during runtime!",
+		-- Let's use item here to avoid confusion with self.
+		InitCommand = function(item)
+			item:Center()
+		end
+	}
+end)
+```
+
+### `fardistz`
+`(float fFarDistZ)`
+
+Sets how far back in z-space an ActorFrame's contents can be visible.
+If FOV is zero, this also sets the positive z-space limit as well.
+
+### `fov`
+`(float fFOV)`
+
+Sets the field of view for the ActorFrame.
+
+### `GetChild`
+`()`
+
+Returns the child with a name of <code>sName</code>.
+If there are multiple children with that name, returns an array of those children.
+The table also acts as a pass through layer, function calls pass through to the last child of that name.
+
+For more information about how obtaining ActorFrame childs work, check [Obtaining Childs and ActorFrame Levels](/en/dev/actors/actortypes/actor/obtainlevels).
