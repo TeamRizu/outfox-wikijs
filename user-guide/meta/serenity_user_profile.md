@@ -2,7 +2,7 @@
 title: Serenity User Profile
 description: 
 published: true
-date: 2023-06-20T22:58:45.401Z
+date: 2023-06-20T23:00:09.933Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:01.113Z
@@ -11,8 +11,8 @@ dateCreated: 2023-05-16T06:24:01.113Z
 <div style="display: flex; align-items: center; flex-direction: column;">
   <label for="user-select">Select User:</label>
 
-  <select name="users" id="user-select" style="min-width: 260px; width: 30%; padding: 16px 20px; border-color: #019b81; border: solid; border-width: 2px; border-radius: 8px; background-color: #003028;">
-    <option value="">Select an option</option>
+  <select name="users" id="user-select" style="min-width: 260px; color: white; width: 30%; padding: 16px 20px; border-color: #019b81; border: solid; border-width: 2px; border-radius: 8px; background-color: #003028;">
+    <option value="" style="color: white;">Select an option</option>
   </select>
 </div>
 
