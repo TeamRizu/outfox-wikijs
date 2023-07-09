@@ -2,7 +2,7 @@
 title: Anatomy of an Actor
 description: 
 published: true
-date: 2023-07-09T01:02:29.587Z
+date: 2023-07-09T01:03:49.858Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:13:49.909Z
@@ -26,7 +26,7 @@ Every actor starts with a `Def.` prefix, followed by the actor type itself. An a
 
 Names allow one to easily grab the actor through functions like `GetChild`, but there are other exampled given later.
 
-When the definition is complete, the actor has to be "returned" for the game to see it. Most of the time, [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) are usually what's returned instead of just a single actor.
+When the definition is complete, the actor has to be "returned" for the game to see it. Most of the time, [ActorFrame](/en/dev/actors/actortypes/actorframe) are usually what's returned instead of just a single actor.
 
 ## Commands
 
