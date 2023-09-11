@@ -11671,7 +11671,7 @@
                 {
                   "author": "-YOSEFU-",
                   "meter": 5,
-                  "difficulty": "Beginner",
+                  "difficulty": "Novice",
                   "is_modchart": false,
                   "peak_nps": 1.25,
                   "chart_info": {
@@ -11774,7 +11774,7 @@
                 {
                   "author": "Rippy Ripster",
                   "meter": 6,
-                  "difficulty": "Beginner",
+                  "difficulty": "Novice",
                   "is_modchart": false,
                   "peak_nps": 3.75,
                   "chart_info": {
