@@ -8773,7 +8773,7 @@
           },
           "genre": "Techno Dance",
           "license": "CC BY 4.0",
-          "music_authors": "SiLiS",
+          "music_authors": ["SiLiS"],
           "graphic_authors": ["Daniel Rotwind"],
           "chart_authors": ["Daniel Rotwind", "-YOSEFU-", "Marukomuru"],
           "charts": {
