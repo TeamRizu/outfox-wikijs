@@ -2,7 +2,7 @@
 title: Getting started
 description: First-time setup tasks for Project OutFox.
 published: true
-date: 2023-10-12T00:39:06.363Z
+date: 2023-10-12T00:41:22.163Z
 tags: tutorial
 editor: markdown
 dateCreated: 2023-05-16T06:24:12.310Z
@@ -26,7 +26,7 @@ The most popular game type, `dance`, is placed at the top. If this is your first
 button on the main menu.
 {.is-warning}
 
-![select-game-type.png](/resources/get-started/select-game-type.png){.align-right}
+![select-game-type.png](/resources/get-started/select-game-type.png)
 
 ## Install songs
 
@@ -60,7 +60,7 @@ Songs
 
 Packs are typically distributed as ZIP files. Extract the archive with your preferred software, and copy the group folder containing the song directories to the Songs folder, matching the structure above.
 
-![songsonwheel.jpg](/resources/get-started/songsonwheel.jpg){.align-right}
+![songsonwheel.jpg](/resources/get-started/songsonwheel.jpg)
 
 > **Note:** If the songs do not appear, be sure to check that you have not accidentally nested your folders too deep inside a redundant folder.
 {.is-info}
@@ -80,13 +80,13 @@ Each game type has its own default keyboard configuration. For example, `dance` 
 
 If your controller does not perform as well or function as expected, you can switch to the alternate XInput input mode from **Options > Experimental Settings**.
 
-![enable-hidapi.jpg](/resources/get-started/enable-hidapi.jpg){.align-right}
+![enable-hidapi.jpg](/resources/get-started/enable-hidapi.jpg)
 
 XInput will sometimes also require you to map your controller to the input engine's virtual gamepad, allowing the game to properly interface with the device.
 
 This menu can be found at **Options > Input & Calibration > Map Controller**.
 
-![config-joy.png](/resources/get-started/config-joy.png){.align-right}
+![config-joy.png](/resources/get-started/config-joy.png)
 
 ## Calibrate your audio sync
 
@@ -99,7 +99,7 @@ In a rhythm game, timing is everything. But latency produced by your audio outpu
 
 This calibration will repeat continuously. Every 24 notes, your inputs will be used to calculate a new offset. Once you feel the judgment has been set correctly, press the `Back` button (mapped to Escape by default). It will ask you for confirmation in setting the new offset.
 
-![sync-screen.jpg](/resources/get-started/sync-screen.jpg){.align-right}
+![sync-screen.jpg](/resources/get-started/sync-screen.jpg)
 
 Alternatively, if you wish to automatically calibrate in-game while playing your song of choice, you can press `F6` twice during gameplay to enable **AutoSync Machine**, which will last until the end of the song or when exited with the `Back` button. A message will appear asking to confirm your changes.
 
@@ -151,7 +151,7 @@ You can manage profiles from **Options > Profiles**. From here you can create a 
 
 From the profile editor (highlight a profile and press Start, and then select "Edit profile"), you can input fitness-related information, change the layout of the optional "Detailed Stats" pane during gameplay, and add an avatar to your profile (avatars are loaded from the Appearance/Avatars directory).
 
-![create-profile.jpg](/resources/get-started/create-profile.jpg){.align-right}
+![create-profile.jpg](/resources/get-started/create-profile.jpg)
 
 # Next steps
 
