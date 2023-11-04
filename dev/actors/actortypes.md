@@ -1,8 +1,8 @@
 ---
 title: Actor Types
-description: 
+description: A list of the available actors in the game.
 published: true
-date: 2023-05-20T20:16:16.030Z
+date: 2023-11-04T04:43:02.840Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -18,44 +18,37 @@ This is a helper function that can be used to dynamically load an actor based on
 
 <!--{{<toc>}}-->
 
-<div style="display: flex; justify-content: center;">
-  <div class="row-justified-flex-div" style="max-width: none;">
-    <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
-    	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./actortypes/actor">Def.Actor</a>
-      	<a class="foxb foxb-primary" href="./actortypes/actorframe">Def.ActorFrame</a>
-        <a class="foxb foxb-primary" href="./actortypes/actorframetexture">Def.ActorFrameTexture</a>
-        <a class="foxb foxb-primary" href="./actortypes/actormultivertex">Def.ActorMultiVertex</a>
-        <a class="foxb foxb-primary" href="./actortypes/actorproxy">Def.ActorProxy</a>
-        <a class="foxb foxb-primary" href="./actortypes/actorscroller">Def.ActorScroller</a>
-        <a class="foxb foxb-primary" href="./actortypes/bganimation">Def.BGAnimation</a>
-        <a class="foxb foxb-primary" href="./actortypes/bitmaptext">Def.BitmapText</a>
-        <a class="foxb foxb-primary" href="./actortypes/bpmdisplay">Def.BPMDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/controllerstatedisplay">Def.ControllerStateDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/devicelist">Def.DeviceList</a>
-        <a class="foxb foxb-primary" href="./actortypes/dynamicactorscroller">Def.DynamicActorScroller</a>
-        <a class="foxb foxb-primary" href="./actortypes/gradedisplay">Def.GradeDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/helpdisplay">Def.HelpDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/inputlist">Def.InputList</a>
-        <a class="foxb foxb-primary" href="./actortypes/memorycarddisplay">Def.MemoryCardDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/meterdisplay">Def.MeterDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/model">Def.Model</a>
-        <a class="foxb foxb-primary" href="./actortypes/notefield">Def.NoteField</a>
-        <a class="foxb foxb-primary" href="./actortypes/percentagedisplay">Def.PercentageDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/quad">Def.Quad</a>
-        <a class="foxb foxb-primary" href="./actortypes/scoredisplayalivetime">Def.ScoreDisplayAliveTime</a>
-        <a class="foxb foxb-primary" href="./actortypes/scoredisplaycalories">Def.ScoreDisplayCalories</a>
-        <a class="foxb foxb-primary" href="./actortypes/songbpmdisplay">Def.SongBPMDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/songmeterdisplay">Def.SongMeterDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/sound">Def.Sound</a>
-        <a class="foxb foxb-primary" href="./actortypes/sprite">Def.Sprite</a>
-        <a class="foxb foxb-primary" href="./actortypes/stepsdisplay">Def.StepsDisplay</a>
-        <a class="foxb foxb-primary" href="./actortypes/textbanner">Def.TextBanner</a>
-        <a class="foxb foxb-primary" href="./actortypes/workoutgraph">Def.WorkoutGraph</a>
-    	</div>
-		</div>
-  </div>
-</div>
+- [Def.Actor](./actortypes/actor)
+- [Def.ActorFrame](./actortypes/actorframe)
+- [Def.ActorFrameTexture](./actortypes/actorframetexture)
+- [Def.ActorMultiVertex](./actortypes/actormultivertex)
+- [Def.ActorProxy](./actortypes/actorproxy)
+- [Def.ActorScroller](./actortypes/actorscroller)
+- [Def.BGAnimation](./actortypes/bganimation)
+- [Def.BitmapText](./actortypes/bitmaptext)
+- [Def.BPMDisplay](./actortypes/bpmdisplay)
+- [Def.ControllerStateDisplay](./actortypes/controllerstatedisplay)
+- [Def.DeviceList](./actortypes/devicelist)
+- [Def.DynamicActorScroller](./actortypes/dynamicactorscroller)
+- [Def.GradeDisplay](./actortypes/gradedisplay)
+- [Def.HelpDisplay](./actortypes/helpdisplay)
+- [Def.InputList](./actortypes/inputlist)
+- [Def.MemoryCardDisplay](./actortypes/memorycarddisplay)
+- [Def.MeterDisplay](./actortypes/meterdisplay)
+- [Def.Model](./actortypes/model)
+- [Def.NoteField](./actortypes/notefield)
+- [Def.PercentageDisplay](./actortypes/percentagedisplay)
+- [Def.Quad](./actortypes/quad)
+- [Def.ScoreDisplayAliveTime](./actortypes/scoredisplayalivetime)
+- [Def.ScoreDisplayCalories](./actortypes/scoredisplaycalories)
+- [Def.SongBPMDisplay](./actortypes/songbpmdisplay)
+- [Def.SongMeterDisplay](./actortypes/songmeterdisplay)
+- [Def.Sound](./actortypes/sound)
+- [Def.Sprite](./actortypes/sprite)
+- [Def.StepsDisplay](./actortypes/stepsdisplay)
+- [Def.TextBanner](./actortypes/textbanner)
+- [Def.WorkoutGraph](./actortypes/workoutgraph)
+{.links-list}
 
 ## ActorFrameTexture
 
