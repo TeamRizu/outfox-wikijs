@@ -2,7 +2,7 @@
 title: BGAnimation
 description: 
 published: true
-date: 2023-05-19T23:05:12.384Z
+date: 2023-11-04T04:45:41.986Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:19.810Z
