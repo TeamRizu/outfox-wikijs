@@ -2,13 +2,13 @@
 title: ScreenWithMenuElements
 description: 
 published: true
-date: 2023-11-04T04:13:09.390Z
+date: 2023-11-04T04:21:45.944Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:13:09.390Z
 ---
 
-> Parent of: [Screen](/en/dev/screens/Screen)
+> Dependant of [Screen](/en/dev/screens/Screen).
 {.is-info}
 
 ---
