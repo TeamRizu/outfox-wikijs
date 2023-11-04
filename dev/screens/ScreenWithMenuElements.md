@@ -2,7 +2,7 @@
 title: ScreenWithMenuElements
 description: 
 published: true
-date: 2023-11-04T04:22:13.679Z
+date: 2023-11-04T04:22:29.173Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:13:09.390Z
@@ -15,7 +15,7 @@ dateCreated: 2023-11-04T04:13:09.390Z
 
 The screen for almost all defined screens in the game.
 
-As a recommendation when [Creating a custom screen](/en/dev/theming/Theming-2-Screen-Creation) making custom screens, it is advised to use this screen for its simple base.
+As a recommendation when [making custom screens](/en/dev/theming/Theming-2-Screen-Creation), it is advised to use this screen for its simple base.
 
 # Available Metrics
 
