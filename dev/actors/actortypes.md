@@ -2,7 +2,7 @@
 title: Actor Types
 description: A list of the available actors in the game.
 published: true
-date: 2023-11-04T04:43:02.840Z
+date: 2023-11-04T04:48:59.292Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -18,18 +18,18 @@ This is a helper function that can be used to dynamically load an actor based on
 
 <!--{{<toc>}}-->
 
-- [Def.Actor](./actortypes/actor)
-- [Def.ActorFrame](./actortypes/actorframe)
-- [Def.ActorFrameTexture](./actortypes/actorframetexture)
-- [Def.ActorMultiVertex](./actortypes/actormultivertex)
-- [Def.ActorProxy](./actortypes/actorproxy)
-- [Def.ActorScroller](./actortypes/actorscroller)
-- [Def.BGAnimation](./actortypes/bganimation)
-- [Def.BitmapText](./actortypes/bitmaptext)
-- [Def.BPMDisplay](./actortypes/bpmdisplay)
-- [Def.ControllerStateDisplay](./actortypes/controllerstatedisplay)
-- [Def.DeviceList](./actortypes/devicelist)
-- [Def.DynamicActorScroller](./actortypes/dynamicactorscroller)
+- [Def.Actor *This is the base that everything derives from. Whatever an Actor can do, everything else can as well.*](./actortypes/actor)
+- [Def.ActorFrame *ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.*](./actortypes/actorframe)
+- [Def.ActorFrameTexture *Project items on an ActorFrame into a texture you can manipulate.*](./actortypes/actorframetexture)
+- [Def.ActorMultiVertex *Allows for arbitrary polygons to be created.*](./actortypes/actormultivertex)
+- [Def.ActorProxy *Render another actor without worrying about duplicating logic*](./actortypes/actorproxy)
+- [Def.ActorScroller *An ActorFrame that acts as a scroller, allowing for a selection-styled menu with choices and animations.*](./actortypes/actorscroller)
+- [Def.BGAnimation *A compatibility actor class that allows you to run older .ini files for background animations.*](./actortypes/bganimation)
+- [Def.BitmapText *Render text in the game.*](./actortypes/bitmaptext)
+- [Def.BPMDisplay *A general-purpose BPM display that cycles between two values.*](./actortypes/bpmdisplay)
+- [Def.ControllerStateDisplay *A more visual style of Test Input.*](./actortypes/controllerstatedisplay)
+- [Def.DeviceList *Showcase connected devices.*](./actortypes/devicelist)
+- [Def.DynamicActorScroller *A runtime version of ActorScroller.*](./actortypes/dynamicactorscroller)
 - [Def.GradeDisplay](./actortypes/gradedisplay)
 - [Def.HelpDisplay](./actortypes/helpdisplay)
 - [Def.InputList](./actortypes/inputlist)
