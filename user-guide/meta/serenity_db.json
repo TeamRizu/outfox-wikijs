@@ -6730,6 +6730,22 @@
                   }
                 }
               ]
+            },
+            "kb2": {
+              "single": [
+                {
+                  "author": "Melone",
+                  "meter": 2,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 3.35,
+                  "chart_info": {
+                    "notes": 269,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                }
+              ]
             }
           }
         },
@@ -10817,8 +10833,8 @@
       "title": "OutFox Serenity Volume 3",
       "abrev": "v3",
       "description": "TBD.",
-      "charts_for_modes": ["pump", "dance", "kb6"],
-      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment"],
+      "charts_for_modes": ["pump", "dance", "kb6", "smx", "pomu", "taiko", "gddm", "gh"],
+      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment", "Kurio Prokos", "AAquatek", "Team COWCOW"],
       "graphic_authors": ["DeBisco", "Melone", "art.horizon"],
       "chart_authors": [
         "Rippy Ripster",
@@ -10827,7 +10843,10 @@
         "Melone",
         "-YOSEFU-",
         "Komi",
-        "Daniel Rotwind"
+        "Daniel Rotwind",
+        "Komi",
+        "Mintorment",
+        "Slammin"
       ],
       "graphics": {
         "background": {
@@ -10879,7 +10898,8 @@
             "-YOSEFU-",
             "Melone",
             "Marukomuru",
-            "Telperion"
+            "Telperion",
+            "Daniel Rotwind"
           ],
           "charts": {
             "dance": {
@@ -11473,11 +11493,27 @@
           "length": "2:43",
           "bpm": 200,
           "graphics": {
+            "background": {
+              "author": "art.horizon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Thomas%20Dingwall%20a.k.a%20td%20-%20CHEER/background.png?raw=true"
+            },
+            "jacket": {
+              "author": "art.horizon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Thomas%20Dingwall%20a.k.a%20td%20-%20CHEER/jacket.png?raw=true"
+            },
+            "banner": {
+              "author": "art.horizon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Thomas%20Dingwall%20a.k.a%20td%20-%20CHEER/banner.png?raw=true"
+            },
+            "bga": null
           },
           "genre": "Rock",
           "license": "All Rights Reserved",
           "music_authors": ["Thomas Dingwall a.k.a td"],
-          "graphic_authors": [],
+          "graphic_authors": ["art.horizon"],
           "chart_authors": ["Rippy Ripster"],
           "charts": {
             "gddm": {
@@ -11539,12 +11575,28 @@
           "length": "2:17",
           "bpm": 200,
           "graphics": {
+            "background": {
+              "author": "Lirodon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Mintorment%20-%20Eradication%20of%20Light/background.jpg?raw=true"
+            },
+            "jacket": {
+              "author": "Lirodon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Mintorment%20-%20Eradication%20of%20Light/jacket.jpg?raw=true"
+            },
+            "banner": {
+              "author": "Lirodon",
+              "license": "CC BY 4.0",
+              "link": "https://github.com/TeamRizu/OutFox-Serenity/blob/v3s3/OutFox%20Serenity%20Volume%203/Mintorment%20-%20Eradication%20of%20Light/banner.jpg?raw=true"
+            },
+            "bga": null
           },
           "genre": "Eneretic Hardcore",
           "license": "CC BY 4.0",
           "music_authors": ["Mintorment"],
           "graphic_authors": ["Lirodon"],
-          "chart_authors": ["Melone", "Colin", "Mintorment"],
+          "chart_authors": ["Melone", "Colin", "Mintorment", "-YOSEFU-", "Slammin"],
           "charts": {
             "taiko": {
               "taiko": [
@@ -11754,6 +11806,116 @@
                   }
                 }
               ]
+            },
+            "pump": {
+              "single": [
+                {
+                  "author": "Slammin",
+                  "meter": 6,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 6.67,
+                  "chart_info": {
+                    "notes": 311,
+                    "jumps": 22,
+                    "holds": 32,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                },
+                {
+                  "author": "Slammin",
+                  "meter": 13,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 8.33,
+                  "chart_info": {
+                    "notes": 558,
+                    "jumps": 69,
+                    "holds": 151,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                },
+                {
+                  "author": "Slammin",
+                  "meter": 19,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 13.33,
+                  "chart_info": {
+                    "notes": 781,
+                    "jumps": 79,
+                    "holds": 217,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                }
+              ],
+              "half-double": [
+                {
+                  "author": "Slammin",
+                  "meter": 14,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 10.00,
+                  "chart_info": {
+                    "notes": 580,
+                    "jumps": 69,
+                    "holds": 161,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                }
+              ],
+              "double": [
+                {
+                  "author": "Slammin",
+                  "meter": 12,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 7.50,
+                  "chart_info": {
+                    "notes": 524,
+                    "jumps": 37,
+                    "holds": 164,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                },
+                {
+                  "author": "Slammin",
+                  "meter": 21,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 13.33,
+                  "chart_info": {
+                    "notes": 773,
+                    "jumps": 70,
+                    "holds": 269,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                }
+              ]
             }
           }
         },
@@ -11859,11 +12021,110 @@
               ]
             }
           }
+        },
+        {
+          "title": "Like a Dream",
+          "length": "1:47",
+          "bpm": 170,
+          "graphics": {
+          },
+          "genre": "Rock",
+          "license": "CC BY-SA 4.0",
+          "music_authors": ["Kurio Prokos"],
+          "graphic_authors": [],
+          "chart_authors": ["Melone"],
+          "charts": {
+            "smx": {
+              "single": [
+                {
+                  "author": "Melone",
+                  "meter": 6,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 2.12,
+                  "chart_info": {
+                    "notes": 118,
+                    "jumps": 0,
+                    "holds": 2,
+                    "mines": 0,
+                    "hands": 0,
+                    "rolls": 0,
+                    "lifts": 0,
+                    "fakes": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "TR1CKST3RZ",
+          "length": "1:49",
+          "bpm": 160,
+          "graphics": {
+          },
+          "genre": "Partyhouse",
+          "license": "CC BY-SA 4.0",
+          "music_authors": ["AAquatek"],
+          "graphic_authors": [],
+          "chart_authors": ["-YOSEFU-"],
+          "charts": {
+            "dance": {
+              "single": [
+                {
+                  "author": "-YOSEFU-",
+                  "meter": 18,
+                  "difficulty": "Expert",
+                  "is_modchart": false,
+                  "peak_nps": 14.00,
+                  "chart_info": {
+                    "notes": 898,
+                    "jumps": 49,
+                    "holds": 43,
+                    "mines": 20,
+                    "hands": 0,
+                    "rolls": 1,
+                    "lifts": 4,
+                    "fakes": 0
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "title": "Mango Mangroove",
+          "length": "2:39",
+          "bpm": 200,
+          "graphics": {
+          },
+          "genre": "Rave",
+          "license": "CC BY-SA 4.0",
+          "music_authors": ["Team COWCOW"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
         }
       ]
     }
   ],
   "user_hall": [
+    {
+      "name": "art.horizon",
+      "socials": {
+        "github": "https://github.com/Arthorization",
+        "twitch": "https://www.twitch.tv/arthorization",
+        "youtube": "https://www.youtube.com/channel/UCK8VrO4QsATuit-H1Y1b5Sw"
+      }
+    },
+    {
+      "name": "TEAM COWCOW",
+      "socials": {
+        "moo moo twitter": "https://twitter.com/Mrmoomooc0w",
+        "Wyvren twitter": "https://twitter.com/NokoniPuro"
+      },
+      "pretags": ["VOICE_TO_SHARE"]
+    },
     {
       "name": "Ryuto Setsujin",
       "socials": {
