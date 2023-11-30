@@ -2811,7 +2811,8 @@
             "Gr00txD",
             "Jack5",
             "K.TURN",
-            "shockdude"
+            "shockdude",
+            "Melone"
           ],
           "charts": {
             "dance": {
@@ -3580,6 +3581,22 @@
                     "rolls": 2,
                     "lifts": 0,
                     "fakes": 0
+                  }
+                }
+              ]
+            },
+            "kb6": {
+              "single": [
+                {
+                  "author": "Melone",
+                  "meter": 18,
+                  "difficulty": "Expert",
+                  "is_modchart": false,
+                  "peak_nps": 19.12,
+                  "chart_info": {
+                    "notes": 820,
+                    "holds": 32,
+                    "mines": 0
                   }
                 }
               ]
