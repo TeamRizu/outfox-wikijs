@@ -1764,7 +1764,8 @@
             "shockdude",
             "Jack5",
             "Telperion",
-            "Melone"
+            "Melone",
+            "Komi"
           ],
           "charts": {
             "dance": {
@@ -2326,6 +2327,58 @@
                     "rolls": 0,
                     "lifts": 0,
                     "fakes": 0
+                  }
+                }
+              ]
+            },
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "Komi",
+                  "meter": 4,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 3.37,
+                  "chart_info": {
+                    "notes": 173,
+                    "holds": 3,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 7,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 5.89,
+                  "chart_info": {
+                    "notes": 416,
+                    "holds": 2,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 8,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 10.10,
+                  "chart_info": {
+                    "notes": 648,
+                    "holds": 3,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 10,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 20.20,
+                  "chart_info": {
+                    "notes": 819,
+                    "holds": 3,
+                    "mines": 0
                   }
                 }
               ]
