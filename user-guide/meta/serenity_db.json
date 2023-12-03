@@ -10851,7 +10851,7 @@
       "abrev": "v3",
       "description": "TBD.",
       "charts_for_modes": ["pump", "dance", "kb6", "smx", "pomu", "taiko", "gddm", "gh"],
-      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment", "Kurio Prokos", "AAquatek", "Team COWCOW"],
+      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment", "Kurio Prokos", "AAquatek", "Team COWCOW", "Sukima Altera", "SenPi", "H5", "DashyDesu"],
       "graphic_authors": ["DeBisco", "Melone", "art.horizon"],
       "chart_authors": [
         "Rippy Ripster",
@@ -12118,6 +12118,71 @@
           "genre": "Rave",
           "license": "CC BY-SA 4.0",
           "music_authors": ["Team COWCOW"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
+        },
+        {
+          "title": "FunkBoi",
+          "length": "2:05",
+          "bpm": 185,
+          "graphics": {
+          },
+          "genre": "Party",
+          "license": "OpenTaiko Default License",
+          "music_authors": ["SenPi"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
+        },
+        {
+          "title": "Re:Collapse",
+          "length": "2:20",
+          "bpm": 215,
+          "graphics": {
+          },
+          "genre": "Hard Piano",
+          "license": "OpenTaiko Default License",
+          "music_authors": ["H5", "DashyDesu"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
+        },
+        {
+          "title": "ΣxilƎ",
+          "length": "2:05",
+          "bpm": 320,
+          "graphics": {
+          },
+          "genre": "Synth",
+          "license": "OpenTaiko Default License",
+          "music_authors": ["mrcool909090"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
+        },
+        {
+          "title": "Liar Prison",
+          "length": "2:45",
+          "bpm": 160,
+          "graphics": {
+          },
+          "genre": "Synth Vocal",
+          "license": "OpenTaiko Default License",
+          "music_authors": ["SiLiS"],
+          "graphic_authors": [],
+          "chart_authors": [],
+          "charts": {}
+        },
+        {
+          "title": "RUiNED GLORY",
+          "length": "2:49",
+          "bpm": 200,
+          "graphics": {
+          },
+          "genre": "Hardcore",
+          "license": "OpenTaiko Default License",
+          "music_authors": ["Sukima Altera"],
           "graphic_authors": [],
           "chart_authors": [],
           "charts": {}
