@@ -11024,9 +11024,10 @@
         "-YOSEFU-",
         "Komi",
         "Daniel Rotwind",
-        "Komi",
         "Mintorment",
-        "Slammin"
+        "Slammin",
+        "DashyDesu",
+        "bol"
       ],
       "graphics": {
         "background": {
@@ -12359,7 +12360,7 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["SenPi"],
           "graphic_authors": [],
-          "chart_authors": [],
+          "chart_authors": ["Komi"],
           "charts": {
             "taiko": {
               "taiko": [
@@ -12401,7 +12402,7 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["H888"],
           "graphic_authors": [],
-          "chart_authors": [],
+          "chart_authors": ["DashyDesu", "bol"],
           "charts": {
             "taiko": {
               "taiko": [
@@ -12479,8 +12480,73 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["mrcool909090"],
           "graphic_authors": [],
-          "chart_authors": [],
-          "charts": {}
+          "chart_authors": ["Komi", "bol"],
+          "charts": {
+            "taiko": {
+              "taiko": [
+                {
+                  "author": ["Komi", "bol"],
+                  "meter": 6,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 5.33,
+                  "chart_info": {
+                    "notes": 280,
+                    "holds": 21,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["Komi", "bol"],
+                  "meter": 6,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 4.00,
+                  "chart_info": {
+                    "notes": 310,
+                    "holds": 20,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["Komi", "bol"],
+                  "meter": 9,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 12.00,
+                  "chart_info": {
+                    "notes": 629,
+                    "holds": 67,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["Komi", "bol"],
+                  "meter": 9,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 10.67,
+                  "chart_info": {
+                    "notes": 862,
+                    "holds": 19,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["Komi", "bol"],
+                  "meter": 11,
+                  "difficulty": "Edit",
+                  "is_modchart": false,
+                  "peak_nps": 21.33,
+                  "chart_info": {
+                    "notes": 1244,
+                    "holds": 17,
+                    "mines": 0
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "Liar Prison",
@@ -12492,7 +12558,7 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["SiLiS"],
           "graphic_authors": [],
-          "chart_authors": [],
+          "chart_authors": ["Komi"],
           "charts": {
             "taiko": {
               "taiko": [
@@ -12570,7 +12636,7 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["Sukima Altera"],
           "graphic_authors": [],
-          "chart_authors": [],
+          "chart_authors": ["DashyDesu", "bol"],
           "charts": {
             "taiko": {
               "taiko": [
@@ -12630,6 +12696,12 @@
     }
   ],
   "user_hall": [
+    {
+      "name": "DashyDesu",
+      "socials": {
+        "youtube": "https://www.youtube.com/channel/UCNqRcr0Ar5E7UeH7DriFB2A"
+      }
+    },
     {
       "name": "H888",
       "socials": {
