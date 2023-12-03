@@ -12402,7 +12402,72 @@
           "music_authors": ["H888"],
           "graphic_authors": [],
           "chart_authors": [],
-          "charts": {}
+          "charts": {
+            "taiko": {
+              "taiko": [
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 5,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 4.48,
+                  "chart_info": {
+                    "notes": 392,
+                    "holds": 19,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 8,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 8.06,
+                  "chart_info": {
+                    "notes": 554,
+                    "holds": 10,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 8,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 10.75,
+                  "chart_info": {
+                    "notes": 887,
+                    "holds": 1,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 10,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 21.50,
+                  "chart_info": {
+                    "notes": 1151,
+                    "holds": 11,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 11,
+                  "difficulty": "Edit",
+                  "is_modchart": false,
+                  "peak_nps": 18.81,
+                  "chart_info": {
+                    "notes": 1211,
+                    "holds": 1,
+                    "mines": 0
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "ΣxilƎ",
