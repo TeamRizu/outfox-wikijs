@@ -12493,7 +12493,72 @@
           "music_authors": ["SiLiS"],
           "graphic_authors": [],
           "chart_authors": [],
-          "charts": {}
+          "charts": {
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "Komi",
+                  "meter": 2,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 2.67,
+                  "chart_info": {
+                    "notes": 154,
+                    "holds": 4,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 4,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 4.00,
+                  "chart_info": {
+                    "notes": 313,
+                    "holds": 14,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 6,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 5.33,
+                  "chart_info": {
+                    "notes": 502,
+                    "holds": 18,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 8,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 8.00,
+                  "chart_info": {
+                    "notes": 648,
+                    "holds": 14,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 10,
+                  "difficulty": "Edit",
+                  "is_modchart": false,
+                  "peak_nps": 13.33,
+                  "chart_info": {
+                    "notes": 1101,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "RUiNED GLORY",
