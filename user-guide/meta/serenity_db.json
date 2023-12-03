@@ -11665,6 +11665,70 @@
                   }
                 }
               ]
+            },
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "sadkay",
+                  "meter": 3,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 2.23,
+                  "chart_info": {
+                    "notes": 84,
+                    "holds": 14,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "sadkay",
+                  "meter": 5,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 3.35,
+                  "chart_info": {
+                    "notes": 190,
+                    "holds": 13,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "sadkay",
+                  "meter": 6,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 6.14,
+                  "chart_info": {
+                    "notes": 419,
+                    "holds": 4,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "sadkay",
+                  "meter": 8,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 8.37,
+                  "chart_info": {
+                    "notes": 613,
+                    "holds": 4,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "sadkay",
+                  "meter": 10,
+                  "difficulty": "Edit",
+                  "is_modchart": false,
+                  "peak_nps": 1.68,
+                  "chart_info": {
+                    "notes": 713,
+                    "holds": 3,
+                    "mines": 0
+                  }
+                }
+              ]
             }
           }
         },
