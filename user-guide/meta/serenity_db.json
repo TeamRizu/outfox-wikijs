@@ -10851,7 +10851,7 @@
       "abrev": "v3",
       "description": "TBD.",
       "charts_for_modes": ["pump", "dance", "kb6", "smx", "pomu", "taiko", "gddm", "gh"],
-      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment", "Kurio Prokos", "AAquatek", "Team COWCOW", "Sukima Altera", "SenPi", "H5", "DashyDesu"],
+      "music_authors": ["DeBisco", "SiLiS", "Sevish", "mrcool909090", "Mintorment", "Kurio Prokos", "AAquatek", "Team COWCOW", "Sukima Altera", "SenPi", "H888"],
       "graphic_authors": ["DeBisco", "Melone", "art.horizon"],
       "chart_authors": [
         "Rippy Ripster",
@@ -12143,7 +12143,7 @@
           },
           "genre": "Hard Piano",
           "license": "OpenTaiko Default License",
-          "music_authors": ["H5", "DashyDesu"],
+          "music_authors": ["H888"],
           "graphic_authors": [],
           "chart_authors": [],
           "charts": {}
@@ -12191,6 +12191,29 @@
     }
   ],
   "user_hall": [
+    {
+      "name": "H888",
+      "socials": {
+        "H5 twitter": "https://twitter.com/guageHHH5",
+        "DashyDesu youtube": "https://www.youtube.com/channel/UCNqRcr0Ar5E7UeH7DriFB2A"
+      },
+      "pretags": ["VOICE_TO_SHARE"]
+    },
+    {
+      "name": "SenPi",
+      "socials": {
+        "youtube": "https://www.youtube.com/channel/UCgxTGqeL0hb45_ZcN6msMqw",
+        "soundcloud": "https://soundcloud.com/senpimusic"
+      }
+    },
+    {
+      "name": "Sukima Altera",
+      "socials": {
+        "youtube": "https://www.youtube.com/channel/UC0WQwYcO2gcjYIqUfhL9ZcA",
+        "soundcloud": "https://soundcloud.com/sukima-altera",
+        "bandcamp": "https://yokaicore.bandcamp.com/"
+      }
+    },
     {
       "name": "art.horizon",
       "socials": {
