@@ -11027,7 +11027,9 @@
         "Mintorment",
         "Slammin",
         "DashyDesu",
-        "bol"
+        "bol",
+        "DragonRatTiger",
+        "Shoxk"
       ],
       "graphics": {
         "background": {
@@ -11852,7 +11854,7 @@
                   "is_modchart": false,
                   "peak_nps": 3.33,
                   "chart_info": {
-                    "notes": 184,
+                    "notes": 183,
                     "holds": 0,
                     "mines": 0
                   }
@@ -11864,7 +11866,7 @@
                   "is_modchart": false,
                   "peak_nps": 4.17,
                   "chart_info": {
-                    "notes": 293,
+                    "notes": 291,
                     "holds": 0,
                     "mines": 0
                   }
@@ -11876,7 +11878,7 @@
                   "is_modchart": false,
                   "peak_nps": 8.33,
                   "chart_info": {
-                    "notes": 512,
+                    "notes": 508,
                     "holds": 3,
                     "mines": 0
                   }
@@ -12360,12 +12362,48 @@
           "license": "OpenTaiko Default License",
           "music_authors": ["SenPi"],
           "graphic_authors": [],
-          "chart_authors": ["Komi"],
+          "chart_authors": ["Komi", "Colin", "DragonRatTiger", "Shoxk"],
           "charts": {
             "taiko": {
               "taiko": [
                 {
+                  "author": "DragonRatTiger",
+                  "meter": 2,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 1.54,
+                  "chart_info": {
+                    "notes": 101,
+                    "holds": 6,
+                    "mines": 0
+                  }
+                },
+                {
                   "author": "Komi",
+                  "meter": 6,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 6.17,
+                  "chart_info": {
+                    "notes": 325,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Shoxk",
+                  "meter": 7,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 7.71,
+                  "chart_info": {
+                    "notes": 583,
+                    "holds": 2,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Colin",
                   "meter": 9,
                   "difficulty": "Hard",
                   "is_modchart": false,
