@@ -12506,7 +12506,60 @@
           "music_authors": ["Sukima Altera"],
           "graphic_authors": [],
           "chart_authors": [],
-          "charts": {}
+          "charts": {
+            "taiko": {
+              "taiko": [
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 4,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 3.33,
+                  "chart_info": {
+                    "notes": 313,
+                    "holds": 16,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 5,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 5.00,
+                  "chart_info": {
+                    "notes": 478,
+                    "holds": 11,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 8,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 10.00,
+                  "chart_info": {
+                    "notes": 849,
+                    "holds": 2,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": ["DashyDesu", "bol"],
+                  "meter": 10,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 13.33,
+                  "chart_info": {
+                    "notes": 1049,
+                    "holds": 7,
+                    "mines": 0
+                  }
+                }
+              ]
+            }
+          }
         }
       ]
     }
