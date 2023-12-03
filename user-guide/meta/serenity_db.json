@@ -6431,7 +6431,8 @@
             "-YOSEFU-",
             "Marukomuru",
             "kals",
-            "Kawafumi"
+            "Kawafumi",
+            "Komi"
           ],
           "charts": {
             "dance": {
@@ -6758,6 +6759,58 @@
                   "peak_nps": 3.35,
                   "chart_info": {
                     "notes": 269,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                }
+              ]
+            },
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "Komi",
+                  "meter": 3,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 1.68,
+                  "chart_info": {
+                    "notes": 131,
+                    "holds": 8,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 5,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 2.79,
+                  "chart_info": {
+                    "notes": 220,
+                    "holds": 7,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 5,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 3.91,
+                  "chart_info": {
+                    "notes": 397,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 7,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 6.70,
+                  "chart_info": {
+                    "notes": 622,
                     "holds": 0,
                     "mines": 0
                   }
