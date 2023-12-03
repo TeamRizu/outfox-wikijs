@@ -34,7 +34,8 @@
         "pomu",
         "pump",
         "smx",
-        "techno"
+        "techno",
+        "taiko"
       ],
       "music_authors": [
         "Aspid Cat",
@@ -9892,7 +9893,7 @@
       "title": "OutFox Serenity Volume 2 Winter Update",
       "abrev": "v2.5",
       "description": "Released February 21, 2023, the Winter Update (version 2.5) adds three new songs by Akako Hinami and Zenth, as well as new charts for other songs from previous versions.",
-      "charts_for_modes": ["dance", "pump", "bemu", "pomu", "kb6"],
+      "charts_for_modes": ["dance", "pump", "bemu", "pomu", "kb5", "kb6", "taiko"],
       "music_authors": ["Akako Hinami", "Jose Varela"],
       "graphic_authors": ["Lirodon", "Melone"],
       "chart_authors": [
@@ -9905,7 +9906,8 @@
         "-YOSEFU-",
         "Chriszo",
         "Xiddy",
-        "bol"
+        "bol",
+        "DiamondN1nja"
       ],
       "graphics": {
         "background": {
@@ -10284,7 +10286,8 @@
             "Daniel Rotwind",
             "Rippy Ripster",
             "Marukomuru",
-            "Melone"
+            "Melone",
+            "DiamondN1nja"
           ],
           "charts": {
             "dance": {
@@ -10532,6 +10535,58 @@
                   "chart_info": {
                     "notes": 554,
                     "holds": 104,
+                    "mines": 0
+                  }
+                }
+              ]
+            },
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "DiamondN1nja",
+                  "meter": 1,
+                  "difficulty": "Novice",
+                  "is_modchart": false,
+                  "peak_nps": 1.00,
+                  "chart_info": {
+                    "notes": 86,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 2,
+                  "difficulty": "Easy",
+                  "is_modchart": false,
+                  "peak_nps": 2.00,
+                  "chart_info": {
+                    "notes": 168,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 5,
+                  "difficulty": "Medium",
+                  "is_modchart": false,
+                  "peak_nps": 4.00,
+                  "chart_info": {
+                    "notes": 328,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 6,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 4.50,
+                  "chart_info": {
+                    "notes": 432,
+                    "holds": 0,
                     "mines": 0
                   }
                 }
