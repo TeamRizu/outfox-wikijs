@@ -12360,7 +12360,36 @@
           "music_authors": ["SenPi"],
           "graphic_authors": [],
           "chart_authors": [],
-          "charts": {}
+          "charts": {
+            "taiko": {
+              "taiko": [
+                {
+                  "author": "Komi",
+                  "meter": 9,
+                  "difficulty": "Hard",
+                  "is_modchart": false,
+                  "peak_nps": 11.56,
+                  "chart_info": {
+                    "notes": 894,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                },
+                {
+                  "author": "Komi",
+                  "meter": 10,
+                  "difficulty": "Edit",
+                  "is_modchart": false,
+                  "peak_nps": 15.42,
+                  "chart_info": {
+                    "notes": 1017,
+                    "holds": 0,
+                    "mines": 0
+                  }
+                }
+              ]
+            }
+          }
         },
         {
           "title": "Re:Collapse",
