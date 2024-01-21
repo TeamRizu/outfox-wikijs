@@ -2,7 +2,7 @@
 title: StepsDisplay
 description: Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type.
 published: true
-date: 2023-05-20T20:17:34.234Z
+date: 2024-01-21T23:25:39.460Z
 tags: stepsdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
@@ -16,7 +16,7 @@ Def.StepsDisplay{}
 
 ## Attributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index). All special actions are performed with its [functions](#functions).
+There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe). All special actions are performed with its [functions](#functions).
 
 ## Metrics Loading
 
