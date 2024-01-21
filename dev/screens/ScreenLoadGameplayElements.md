@@ -2,7 +2,7 @@
 title: ScreenDebugOverlay
 description: 
 published: true
-date: 2024-01-21T22:53:18.740Z
+date: 2024-01-21T22:58:38.556Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:46:06.091Z
@@ -27,6 +27,17 @@ The background can be controlled with a single metric to change it's color. It c
 # In this example, we're using RGBA color with the color function.
 BackgroundColor=color("0,0,0,0.5")
 ```
+
+The header can be controlled using the following metrics:
+```ini
+HeaderTextX=SCREEN_LEFT+80
+HeaderTextY=SCREEN_TOP+18
+HeaderTextOnCommand=diffusebottomedge,color("0.5,0.5,0.5,1");strokecolor,color("0,0,0,0.5")
+HeaderTextOffCommand=
+```
+> Keep in mind that you may encounter lines with the prefix `DebugMenuHeader`.
+> Those are the old name for the header, which was renamed to `HeaderText`.
+{.is-info}
 
 ## Controlling the lines
 
