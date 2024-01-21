@@ -2,7 +2,7 @@
 title: List of Screens
 description: A list of the currently available screens in Project OutFox
 published: true
-date: 2024-01-21T22:58:43.092Z
+date: 2024-01-21T23:01:38.786Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T03:57:24.623Z
@@ -28,6 +28,7 @@ The following list contains the screens currently available on Project OutFox. M
 - [ScreenLoadGameplayElements](/en/dev/screens/ScreenLoadGameplayElements) A loading screen for extra gameplay elements.
 - [ScreenDebugOverlay](/en/dev/screens/ScreenDebugOverlay) The debug screen.
 {.links-list}
+- [ScreenSystemLayer](/en/dev/screens/ScreenSystemLayer) Overlay screen that showcases the system messages and player credit info.
 
 ## Gameplay-based screens
 
