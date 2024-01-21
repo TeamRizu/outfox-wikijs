@@ -2,7 +2,7 @@
 title: ScreenDebugOverlay
 description: 
 published: true
-date: 2024-01-21T22:46:06.091Z
+date: 2024-01-21T22:53:18.740Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T22:46:06.091Z
@@ -16,13 +16,19 @@ This screen does not feature any Lua commands, as it is meant for direct interac
 
 # Customizing the debug overlay
 
-The debug overlay is composed of 3 main objects:
+The debug overlay is composed of 4 main objects:
 - `Background`: The actual background that will be drawn behind the screen. Often semi-transparent.
 - `HeaderText`: A [BitmapText](/en/dev/actors/actortypes/bitmaptext) actor that displays the "Debug Menu" text.
-- `LineTexts`: A collection of Bitmap text actors that visually represent the actors. This is not an ActorScroller, but instead an ActorFrame that fixes the item positions on the screen. Controlling these is explained in: [Controlling the ines](#controlling-the-lines).
+- `LineTexts`: A collection of Bitmap text actors that visually represent the actors. This is not an ActorScroller, but instead an ActorFrame that fixes the item positions on the screen. Controlling these is explained in: [Controlling the lines](#controlling-the-lines).
 - `PageText`: The section that manages each tab of the overlay (with the Function keys) on the top of the screen.
 
-# Controlling the lines
+The background can be controlled with a single metric to change it's color. It cannot be animated.
+```ini
+# In this example, we're using RGBA color with the color function.
+BackgroundColor=color("0,0,0,0.5")
+```
+
+## Controlling the lines
 
 Both the PageText and Line texts are basic ActorFrames that are controlled via different sets of commands. Below are the metrics and actions of each.
 
@@ -37,18 +43,27 @@ Each action line is composed of two [BitmapText](/en/dev/actors/actortypes/bitma
 
 These are controlled via Commands.
 ```ini
+# Default command for ButtonText when the screen starts
 ButtonTextOnCommand=NoStroke;zoom,0.8
+# Animation that plays when the line has been pressed.
 ButtonTextToggledCommand=accelerate,0.025;glow,color("1,0,0,1");sleep,0.125;decelerate,0.2;glow,color("1,0,0,0");
+# Default command for FunctionText when the screen starts
 FunctionTextOnCommand=NoStroke;zoom,0.8
 ```
 
 To modify the spacing or position of all items, the following metrics are used:
 ```ini
+# Color when setting is on.
 LineOnColor=color("1,1,1,1")
+# Color when setting is off.
 LineOffColor=color("0.6,0.6,0.6,1")
+# Where do we start putting these lines?
 LineStartY=SCREEN_TOP+50
+# How far apart (in pixels) should each item be?
 LineSpacing=16
+# Controls X position of the assigned button
 LineButtonX=SCREEN_CENTER_X-50
+# Controls X position of the Function name
 LineFunctionX=SCREEN_CENTER_X-30
 ```
 
@@ -58,13 +73,18 @@ Each tab is just a single [BitmapText](/en/dev/actors/actortypes/bitmaptext) act
 
 These pages are controlled via commands called by the screen.
 ```ini
+# Default command for PageText when the screen starts
 PageTextOnCommand=NoStroke;zoom,0.75
+# Animation that plays when the tab has been activated.
 PageTextGainFocusCommand=diffuse,color("1,1,1,1")
+# Animation that plays when exiting the current tab.
 PageTextLoseFocusCommand=diffuse,color("0.6,0.6,0.6,1")
 ```
 
 To modify the spacing or position of the tabs, the following metrics are used:
 ```ini
+# Where should the pages begin horizontally?
 PageStartX=SCREEN_CENTER_X-100
+# How far apart (in piexls) should each tab text be?
 PageSpacingX=120
 ```
