@@ -2,7 +2,7 @@
 title: StepsDisplay
 description: Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type.
 published: true
-date: 2024-01-21T23:25:39.460Z
+date: 2024-01-21T23:26:01.378Z
 tags: stepsdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
@@ -35,7 +35,7 @@ ShowStepsType | bool | Enables the Steps type to the StepsDisplay.
 ZeroMeterString | string | The string to show when the value is 0.
 MeterFormatString | string | The string to format the value for the difficulty meter.
 
-> The display frame, `Autogen` and `StepsType` are [AutoActors](/en/dev/actors/actortypes/_index); while `Ticks`, `Meter`, Description and Credit are [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index).
+> The display frame, `Autogen` and `StepsType` are [AutoActors](/en/dev/actors/actortypes); while `Ticks`, `Meter`, Description and Credit are [BitmapText](/en/dev/actors/actortypes/bitmaptext).
 > All of these actors contain their own `On`, `Load` and `Set` commands.
 {.is-info}
 
