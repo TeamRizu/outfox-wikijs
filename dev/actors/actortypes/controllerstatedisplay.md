@@ -2,13 +2,13 @@
 title: ControllerStateDisplay
 description: 
 published: true
-date: 2023-11-04T04:47:31.413Z
+date: 2024-01-21T22:26:42.107Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:42.391Z
 ---
 
-Creates an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that contains button sprites for a specific game mode to indicate their pressed state. A more visual version of Test Input.
+Creates an [ActorFrame](/en/dev/actors/actortypes/actorframe) that contains button sprites for a specific game mode to indicate their pressed state. A more visual version of Test Input.
 
 > The class only detects input from MultiPlayer players. These are a different kind of player that are exclusively on controllers.
 {.is-info}
@@ -23,7 +23,7 @@ Def.ControllerStateDisplay{
 
 ## Attributes
 
-There are no special attributes to this actor class. It inherits from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
+There are no special attributes to this actor class. It inherits from [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ## Loaded Graphics
 
