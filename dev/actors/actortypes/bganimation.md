@@ -2,7 +2,7 @@
 title: BGAnimation
 description: 
 published: true
-date: 2023-11-04T04:45:41.986Z
+date: 2024-01-21T22:26:29.269Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:19.810Z
@@ -24,7 +24,7 @@ Def.BGAnimation{
 AniDir | string | The directory to find the animation data from.
 LengthSeconds | number | Backwards-Compatibility: If this is given, it will create a dummy actor that sleeps for the given amount of time.
 
-It inherits attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
+It inherits attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ## Loading process
 
