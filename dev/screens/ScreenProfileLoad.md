@@ -2,7 +2,7 @@
 title: ScreenProfileLoad
 description: 
 published: true
-date: 2024-01-21T23:36:29.893Z
+date: 2024-01-21T23:37:29.004Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T23:36:29.893Z
@@ -33,7 +33,7 @@ SCREENMAN:GetTopScreen():Continue()
 
 # Functions
 
-### `Continue`
+## `Continue`
 
 Runs the profile loading process and exits to the next screen when done.
 
@@ -43,7 +43,7 @@ OnCommand=function(self)
 end
 ```
 
-### `HaveProfileToLoad`
+## `HaveProfileToLoad`
 
 Returns true if there are any profiles available that need to be loaded.
 
