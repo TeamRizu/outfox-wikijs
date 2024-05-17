@@ -2,7 +2,7 @@
 title: OutFox Serenity
 description: Read about the history OutFox Serenity and what it is about.
 published: true
-date: 2023-08-10T21:35:11.364Z
+date: 2024-05-17T20:41:58.881Z
 tags: serenity
 editor: markdown
 dateCreated: 2023-05-16T06:23:56.832Z
@@ -10,11 +10,7 @@ dateCreated: 2023-05-16T06:23:56.832Z
 
 <div style="display: flex; justify-content: center;">
 	<div class="column-aligned-flex-div" style="max-width: 570px;">
-    <p>Hey! There are new pages with more info about OutFox Serenity, check them out!</p>
-    <div class="row-justified-flex-div">
-      <a class="foxb foxb-primary" href="./serenity_user_profile">Serenity User Profiles</a>
-      <a class="foxb foxb-primary" href="./serenity_volume_resume">Serenity Volume Resume</a>
-    </div>
+    <p>We're working on a page that resumes the contribution and and content of each volume, we'll update his section when it's done!</p>
 	</div>
 </div>
 
