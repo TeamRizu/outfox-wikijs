@@ -1,13 +1,12 @@
 ---
 title: Serenity Volumes Resume
 description: 
-published: true
-date: 2023-07-04T16:44:48.128Z
+published: false
+date: 2024-05-17T20:45:22.638Z
 tags: serenity
 editor: markdown
 dateCreated: 2023-05-16T06:24:04.844Z
 ---
-
 
 <h1 id="javascriptwarn">This page requires JavaScript to work.</h1>
 <div style="display: flex; align-items: center; flex-direction: column;">
