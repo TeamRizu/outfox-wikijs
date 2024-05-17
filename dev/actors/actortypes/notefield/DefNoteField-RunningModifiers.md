@@ -2,15 +2,15 @@
 title: Doing Mods with Def.NoteField
 description: 
 published: true
-date: 2023-05-19T23:57:49.214Z
+date: 2024-05-17T21:32:45.944Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:23.169Z
 ---
 
-Usually, a Player controls a [NoteField](/en/dev/actors/actortypes/notefield/_index), which includes positioning, zooming, rotation and vanish point manipulation. The game itself would also handle approach rates for modifiers used on a Player.
+Usually, a Player controls a [NoteField](/en/dev/actors/actortypes/notefield/), which includes positioning, zooming, rotation and vanish point manipulation. The game itself would also handle approach rates for modifiers used on a Player.
 
-With [Def.NoteField](/en/dev/actors/actortypes/notefield/_index), this is now done manually, since there is no "Player" to handle everything.
+With [Def.NoteField](/en/dev/actors/actortypes/notefield/), this is now done manually, since there is no "Player" to handle everything.
 
 ## Applying modifiers
 
@@ -45,7 +45,7 @@ Def.NoteField{
 
 ## NoteData
 
-A [NoteField](/en/dev/actors/actortypes/notefield/_index) starts with the chart the specified player used. However, SetNoteDataFromLua is usable on a Def.NoteField, allowing one to change the chart used. Unlike player, there is no SetNoteData function (for now), so the table format from GetNoteData has to be followed.
+A [NoteField](/en/dev/actors/actortypes/notefield/) starts with the chart the specified player used. However, SetNoteDataFromLua is usable on a Def.NoteField, allowing one to change the chart used. Unlike player, there is no SetNoteData function (for now), so the table format from GetNoteData has to be followed.
 
 ## Replicating Mini and Perspective
 
