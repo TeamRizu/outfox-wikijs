@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-29T21:27:52.393Z
+date: 2024-08-29T21:45:37.082Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -17,7 +17,7 @@ The OutFox Online system present in Project OutFox allows player to submit score
 ![ofevalsm4alpha.png](/dev/outfoxonline/ofevalsm4alpha.png){.align-center}
 <small>Theme is StepMania 4's Alpha theme. Originally made by Chris Danford, Plaguefox. [Ported to SM5 by MadkaT182](https://github.com/MadkaT182/SM4Alpha).</small>
 
-It supports guest profiles, so you can take your session and scores on the go, by just entering a 4-digit pin code assigned to your profile.
+It supports [guest profiles](/dev/outfoxonline/guestprofiles), so you can take your session and scores on the go, by just entering a 4-digit pin code assigned to your profile.
 
 ![oftokencyberia.png](/dev/outfoxonline/oftokencyberia.png)
 <small>Theme is [CyberiaStyle: LAST APPROACH](https://josevarela.net/SMArchive/Themes/ThemePreview.php?Category=StepMania%205&ID=CS8LA), by gl_yukt.</small>
