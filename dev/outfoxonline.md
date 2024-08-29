@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-29T20:31:25.653Z
+date: 2024-08-29T20:46:49.843Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -25,7 +25,9 @@ For theme creators, you don't actually have to do anything to make OutFox Online
 > For info about this overlay, check out [the online overlay page](/en/dev/outfoxonline/onlineoverlay) for commands and examples.
 {.is-info}
 
-TODO: add info about its functionality.
+In addition to this system, it allow allows interoperability with [GrooveStats](https://groovestats.com) and [BoogieStats](https://boogiestats.andr.host/) (with an compatible theme that supports BoogieStats) for score submissions and general networking, as well as other systems that want a GET/POST request via a domain whitelist.
+
+![ofgsinteropeval.png](/dev/outfoxonline/ofgsinteropeval.png){.align-center}
 
 ## Available actors
 
