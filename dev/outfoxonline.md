@@ -2,17 +2,30 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-29T20:46:49.843Z
+date: 2024-08-29T21:21:41.233Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
 ---
 
 # OutFox Online
-The OutFox Online system present in Project OutFox allows player to submit scores from their machines, use temporary profiles on public cabinets, and etc.
-
 > This system applies for Project Outfox Alpha V Pre043 and above.
 {.is-info}
+
+The OutFox Online system present in Project OutFox allows player to submit scores from their machines, use temporary profiles on public cabinets, and etc.
+
+![ofevalsm4alpha.png](/dev/outfoxonline/ofevalsm4alpha.png){.align-center}
+<small>Theme is StepMania 4's Alpha theme. Originally made by Chris Danford, Plaguefox. [Ported to SM5 by MadkaT182](https://github.com/MadkaT182/SM4Alpha).</small>
+
+It supports guest profiles, so you can take your session and scores on the go, by just entering a 4-digit pin code assigned to your profile.
+
+![oftokencyberia.png](/dev/outfoxonline/oftokencyberia.png)
+<small>Theme is [CyberiaStyle: LAST APPROACH](https://josevarela.net/SMArchive/Themes/ThemePreview.php?Category=StepMania%205&ID=CS8LA), by gl_yukt.</small>
+
+In addition to this system, it allow allows interoperability with [GrooveStats](https://groovestats.com) and [BoogieStats](https://boogiestats.andr.host/) (with an compatible theme that supports BoogieStats) for score submissions and general networking, as well as other systems that want a GET/POST request via a domain whitelist. No need for an external client!
+
+![ofgsinteropeval.png](/dev/outfoxonline/ofgsinteropeval.png){.align-center}
+<small>Theme is Simply Love, made by hurtpiggypig and Mad Matt. Then converted to SM5 by quietly-turning, but now handled by teej and natano.</small>
 
 ## Implementation
 
@@ -24,10 +37,6 @@ For theme creators, you don't actually have to do anything to make OutFox Online
 
 > For info about this overlay, check out [the online overlay page](/en/dev/outfoxonline/onlineoverlay) for commands and examples.
 {.is-info}
-
-In addition to this system, it allow allows interoperability with [GrooveStats](https://groovestats.com) and [BoogieStats](https://boogiestats.andr.host/) (with an compatible theme that supports BoogieStats) for score submissions and general networking, as well as other systems that want a GET/POST request via a domain whitelist.
-
-![ofgsinteropeval.png](/dev/outfoxonline/ofgsinteropeval.png){.align-center}
 
 ## Available actors
 
