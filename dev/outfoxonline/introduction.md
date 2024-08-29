@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-29T19:15:27.583Z
+date: 2024-08-29T20:27:03.186Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -22,7 +22,7 @@ For theme creators, you don't actually have to do anything to make OutFox Online
 
 <small>Theme is [pop-candy 2](https://josevarela.net/SMArchive/Themes/ThemePreview.php?Category=SM3.9&ID=pcd2) by LOLO, Hirose Madoka and [fether](https://fether.exblog.jp/), [ported to SM5 by Inorizushi](https://github.com/Inorizushi/popcandy2-SM5).</small>
 
-> For info about this overlay, check out [the online overlay page](/en/dev/outfoxonline/statusoverlay) for commands and examples.
+> For info about this overlay, check out [the online overlay page](/en/dev/outfoxonline/onlineoverlay) for commands and examples.
 {.is-info}
 
 TODO: add info about its functionality.
