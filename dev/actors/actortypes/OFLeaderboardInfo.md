@@ -2,7 +2,7 @@
 title: OutFox Online Leaderboard Info
 description: An Autoscroller actor that outputs the leaderboard info of the current song and difficulty from OutFox Online.
 published: false
-date: 2024-08-29T23:44:59.670Z
+date: 2024-08-29T23:45:23.253Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T18:56:34.928Z
@@ -141,7 +141,7 @@ Date | String | The date when this score took place.
 > If a score isn't present on a particular column, the data will be `null`! Make sure to check if the data is available to avoid errors.
 {.is-warning}
 
-> The date outputted from the server is in a timestamp format, so you'll need some conversion to present the date in a more readable format. The following example displays this date in a MM/DD/YY format.
+> The date provided from the server is in a timestamp format, so you'll need some conversion to present the date in a more readable format. The following example displays this date in a MM/DD/YY format.
 > ```lua
 > local year, month, day = param.Date:match("([%d]+)-([%d]+)-([%d]+)")
 > self:GetChild("Date"):settext( string.format("%d/%d/%d", month, day, string.sub(""..year,2)) )
