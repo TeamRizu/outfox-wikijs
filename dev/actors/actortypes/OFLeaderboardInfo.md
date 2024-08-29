@@ -2,7 +2,7 @@
 title: OutFox Online Leaderboard Info
 description: An Autoscroller actor that outputs the leaderboard info of the current song and difficulty from OutFox Online.
 published: false
-date: 2024-08-29T18:56:34.928Z
+date: 2024-08-29T20:32:11.251Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T18:56:34.928Z
@@ -13,7 +13,7 @@ dateCreated: 2024-08-29T18:56:34.928Z
 > This actor is only present on Project OutFox Alpha V pre043 onwards.
 {.is-info}
 
-> This actor is part of the OutFox Online system. For more information on this system, check out [OutFox Online System](/dev/outfoxonline/introduction).
+> This actor is part of the OutFox Online system. For more information on this system, check out [OutFox Online System](/dev/outfoxonline).
 {.is-info}
 
 The OutFox Online Leaderboard Info actor is an [Dynamic ActorScroller](/en/dev/actors/actortypes/dynamicactorscroller) that outputs the information of the scores in a particular song - per-player - from the OutFox Online leaderboards.
