@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-29T23:39:04.982Z
+date: 2024-08-30T03:10:50.223Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -29,7 +29,7 @@ In addition to this system, it also allows interoperability with [GrooveStats](h
 
 ## Implementation
 
-For theme creators, you don't actually have to do anything to make OutFox Online work in your theme. All you need is your theme being able to either load [ScreenProfileLoad]() or [ScreenSelectProfile]() for login. The engine takes care of the rest.
+For theme creators, you don't actually have to do anything to make OutFox Online work in your theme. All you need is your theme being able to either load [ScreenProfileLoad](/dev/screens/ScreenProfileLoad) or [ScreenSelectProfile](/dev/screens/ScreenSelectProfile) for login. The engine takes care of the rest.
 
 The system runs entirely on the engine and takes care of profile loading, score saving and profile syncing for you. All of these actions are reported on the screen via an overlay in a new layer in ScreenSystemLayer called `ScreenSystemLayer ofonline.lua`.
 
