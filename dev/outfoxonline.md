@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: false
-date: 2024-08-30T03:10:50.223Z
+date: 2024-08-30T03:19:09.567Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -44,5 +44,15 @@ The system runs entirely on the engine and takes care of profile loading, score 
 
 Actors for specific actions are available for fetching information from the server on your theme. Use these to integrate Outfox Online even further.
 
-- [OFLeaderboardInfo *OutFox Online Leaderboard Info*](/en/dev/actors/actortypes/OFLeaderboardInfo)
+- [OFLeaderboardInfo *OutFox Online Leaderboard Info*](/dev/actors/actortypes/OFLeaderboardInfo)
+{.links-list}
+
+## Screens managed by the system
+
+The system also brings in new screens and expands on others to handle requests.
+
+- [ScreenOutFoxOnlineLogin *OutFox Online Login Screen*](/dev/screens/ScreenOutFoxOnlineLogin)
+- [ScreenProfileLoad *Standard Profile Loader*](/dev/screens/ScreenProfileLoad)
+- [ScreenSelectProfile *Profile Picker Screen*](/dev/screens/ScreenSelectProfile)
+- [ScreenEvaluation *Evaluation Screens*](/dev/screens/ScreenEvaluation)
 {.links-list}
