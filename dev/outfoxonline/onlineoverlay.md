@@ -2,7 +2,7 @@
 title: Online Overlay
 description: The in-game overlay for OutFox Online that displays on top of every theme.
 published: false
-date: 2024-08-29T20:26:37.605Z
+date: 2024-08-31T02:02:29.889Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T20:26:37.605Z
@@ -28,6 +28,8 @@ Status | String | Depending on the command, this variable can return a `success`
 Message | String | An optional variable which outputs a reason, normally present alongside an error status.
 
 > As it is a MessageCommand, other actors can be used outside of the overlay to report the same messages.
+> 
+> Feel free to modify this overlay for your theme, or even disable it completely and implement the same messages in different ways.
 {.is-info}
 
 
