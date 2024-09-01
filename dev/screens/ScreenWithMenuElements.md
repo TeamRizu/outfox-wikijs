@@ -2,7 +2,7 @@
 title: ScreenWithMenuElements
 description: 
 published: true
-date: 2023-11-04T04:22:29.173Z
+date: 2024-09-01T15:58:52.326Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:13:09.390Z
@@ -86,5 +86,5 @@ Sets whether the screen allows late joining. This allows an extra player to join
 SCREENMAN:GetTopScreen():SetAllowLateJoin(true)
 ```
 
-> This only works for screens that are just ScreenWithMenuElements, as most derived screens have their own hard coded function for whether late joining is allowed.
+> This only works for screens that are just ScreenWithMenuElements, as most derived screens have their own hard coded function to determine whether late joining is allowed or not.
 {.is-warning}
