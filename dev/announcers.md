@@ -1,8 +1,8 @@
 ---
 title: Announcers
-description: Announcers are a set of folders containing audio data for various kinds of situations, like commentating con your performance.
+description: Announcers are a set of folders containing audio data for various kinds of situations, like commentating on your performance.
 published: true
-date: 2024-09-01T15:42:42.901Z
+date: 2024-09-01T15:43:23.691Z
 tags: announcer, theming
 editor: markdown
 dateCreated: 2023-05-16T06:16:29.600Z
