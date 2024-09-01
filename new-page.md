@@ -1,11 +1,11 @@
 ---
 title: Project Outfox Wiki Test
 description: 
-published: true
-date: 2023-05-16T19:51:26.455Z
+published: false
+date: 2024-09-01T05:10:55.473Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-16T19:51:26.455Z
+dateCreated: 2023-11-04T05:02:33.182Z
 ---
 
 Welcome to the documentation wiki for [Project OutFox](https://projectoutfox.com)! **Project OutFox** is a multi-moded rhythm game sandbox. It features 17 (and growing!) different simulation styles allowing players to create unique experiences in charting, gimmicks and effects to outfox their friends! The game allows for full customisation and supports a number of community led custom chart formats.
