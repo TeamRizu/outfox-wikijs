@@ -2,6 +2,16 @@
 title: Game Module: kbm
 description: Details about the `kbm` game module supported by Project OutFox.
 published: true
+date: 2023-11-04T05:08:06.464Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:09.019Z
+---
+
+---
+title: Game Module: kbm
+description: Details about the `kbm` game module supported by Project OutFox.
+published: true
 date: 2023-05-18T20:58:10.261Z
 tags: 
 editor: markdown

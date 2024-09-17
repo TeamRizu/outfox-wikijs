@@ -2,7 +2,7 @@
 title: ActorScroller
 description: An ActorFrame that acts as a scroller, allowing for a selection-styled menu with choices and animations.
 published: true
-date: 2023-05-21T01:06:56.877Z
+date: 2023-11-04T05:09:27.077Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:16.017Z

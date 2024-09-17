@@ -1,9 +1,12 @@
 ---
-title: "Game Module: ez2d"
+title: Game Module: ez2d
 description: Details about the `ez2d` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:07:51.672Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:49.704Z
 ---
-
 
 <!--
 insert picture of gameplay 

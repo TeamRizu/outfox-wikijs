@@ -2,6 +2,16 @@
 title: Game Module: kickbox
 description: Details about the `kickbox` mode supported by Project OutFox.
 published: true
+date: 2023-11-04T05:08:12.006Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:17.520Z
+---
+
+---
+title: Game Module: kickbox
+description: Details about the `kickbox` mode supported by Project OutFox.
+published: true
 date: 2023-05-18T20:25:03.110Z
 tags: 
 editor: markdown

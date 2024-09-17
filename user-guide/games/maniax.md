@@ -1,9 +1,12 @@
 ---
-title: "Game Module: maniax"
+title: Game Module: maniax
 description: Details about the `maniax` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:14.642Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:21.279Z
 ---
-
 
 <!--
 insert picture of gameplay 

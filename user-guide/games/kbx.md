@@ -1,7 +1,11 @@
 ---
-title: "Game Module: kbx"
+title: Game Module: kbx
 description: Details about the `kbx` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:09.346Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:12.670Z
 ---
 
 ![kb4 game-play, default theme](/user-guide/kb4gameplayold.jpg)

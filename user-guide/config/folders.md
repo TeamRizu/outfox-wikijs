@@ -1,6 +1,11 @@
 ---
 title: Content folders
-weight: 0
+description: 
+published: true
+date: 2024-09-01T15:36:12.774Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:13.815Z
 ---
 
 Project OutFox uses various folders to store content, such as songs, save data, themes, noteskins, etc. Content is stored in one of the three following locations;

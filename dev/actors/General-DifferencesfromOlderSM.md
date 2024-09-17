@@ -1,6 +1,11 @@
 ---
 title: Behavioral differences from SM 3.95/ITG
-weight: 2
+description: 
+published: true
+date: 2023-11-04T05:05:15.582Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:38.215Z
 ---
 
 <!-- TODO: This is likely far from done. Add anything that's found that could be useful here if you'd like. -->

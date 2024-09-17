@@ -2,7 +2,7 @@
 title: OutFox GLSL variables
 description: 
 published: true
-date: 2024-08-16T17:17:29.463Z
+date: 2024-08-16T17:17:32.197Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-16T17:17:29.463Z

@@ -2,14 +2,13 @@
 title: HelpDisplay
 description: 
 published: true
-date: 2023-05-19T23:40:33.319Z
+date: 2023-11-04T06:03:16.711Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:00.331Z
 ---
 
-The HelpDisplay is an actor which relies on [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) to draw text meant to guide the player in interacting with the interface with
-helpful text that flips to segments in a given amount of time.
+The HelpDisplay is an actor which relies on [BitmapText](/en/dev/actors/actortypes/bitmaptext) to draw text meant to guide the player in interacting with the interface with helpful text that flips to segments in a given amount of time.
 
 By default it uses the `[HelpDisplay]` metrics group to get information about the [OnCommand](/en/dev/actors/ActorsLua-CommandList#commands), time to how the tip (`TipShowTime`) and how often it needs to switch the help block (`TipSwitchTime`).
 
@@ -37,12 +36,12 @@ For example, if my HelpDisplay has a interval time of 5 seconds and a help text 
 
 ## Functions
 
-### SetTipsColonSeparated
+### `SetTipsColonSeparated`
 `( string text )`
 
 Alias of [settips](#settips). Splits the text using the `::` flag. Check [Formatting Help Text for SetTipsColonSeparated](#formatting-help-text-settipscolonseparated) for info on how to format it.
 
-### settips
+### `settips`
 `( table<string> text, table<string> textAlt )`
 
 Using a table of strings, it formats the text to contain the help information.
@@ -57,7 +56,7 @@ self:settips(myHelpText)
 
 `textAlt` is an optional table to have text in case there are missing glyphs on the current font. Check [Ensuring string compatibility](/en/dev/actors/actortypes/bitmaptext/Bitmap-EnsuringStringComp) for more information.
 
-### gettips()
+### `gettips()`
 Returns two tables which contain the help text currently being displayed on the HelpDisplay.
 ```lua
 local helpText, helpTextAit = self:gettips()
@@ -67,7 +66,11 @@ for data in ivalues(helpText) do
 end
 ```
 
-### SetSecsBetweenSwitches
+### `SetSecsBetweenSwitches`
 `( float seconds )`
 
 Tells the help display how long it has to wait before switching to the next help block.
+
+```lua
+self:SetSecsBetweenSwitches(1.5)
+```

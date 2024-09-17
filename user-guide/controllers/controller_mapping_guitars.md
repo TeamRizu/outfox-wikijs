@@ -1,7 +1,11 @@
 ---
 title: Guitars Mapping
 description: Guitar controller mapping recommendations guide for Project OutFox.
-weight: 3
+published: true
+date: 2023-11-04T05:07:34.993Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:26.747Z
 ---
 
 {{< toc >}}

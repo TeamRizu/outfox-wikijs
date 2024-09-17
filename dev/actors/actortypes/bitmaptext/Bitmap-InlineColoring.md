@@ -2,7 +2,7 @@
 title: Inline-Text manipulation
 description: 
 published: true
-date: 2023-05-19T23:17:25.007Z
+date: 2023-11-04T05:11:06.707Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:27.288Z

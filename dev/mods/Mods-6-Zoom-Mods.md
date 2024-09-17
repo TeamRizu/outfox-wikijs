@@ -2,7 +2,7 @@
 title: Zoom
 description: 
 published: true
-date: 2023-05-20T16:09:31.269Z
+date: 2023-11-04T05:06:34.580Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:22.503Z

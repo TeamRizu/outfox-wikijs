@@ -2,6 +2,16 @@
 title: Game Module: ds3ddx
 description: Details about the `ds3ddx` mode supported by Project OutFox.
 published: true
+date: 2023-11-04T05:07:48.797Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:46.000Z
+---
+
+---
+title: Game Module: ds3ddx
+description: Details about the `ds3ddx` mode supported by Project OutFox.
+published: true
 date: 2023-05-18T20:27:29.536Z
 tags: 
 editor: markdown

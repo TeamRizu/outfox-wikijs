@@ -1,7 +1,11 @@
 ---
-title: "Game Module: be-mu"
+title: Game Module: be-mu
 description: Details about the `be-mu` game module supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:07:40.510Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:34.624Z
 ---
 
 ![be-mu-seven long note game-play, default theme](https://user-images.githubusercontent.com/11047768/135678430-b92b84e3-c24b-40f8-b01a-8adcc8c38fd3.png)

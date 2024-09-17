@@ -1,6 +1,11 @@
 ---
-title: "Editor Preferences"
-weight: 0
+title: Editor Preferences
+description: 
+published: true
+date: 2023-11-04T05:05:23.763Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:39.355Z
 ---
 
 The editor brings editor specific changes that allow you to tweak certain aspects for editing your content.

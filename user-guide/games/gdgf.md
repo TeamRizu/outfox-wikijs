@@ -1,9 +1,12 @@
 ---
-title: "Game Module: gdgf"
+title: Game Module: gdgf
 description: Details about the `gdgf` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:07:57.337Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:57.529Z
 ---
-
 
 <!--
 insert picture of gameplay 

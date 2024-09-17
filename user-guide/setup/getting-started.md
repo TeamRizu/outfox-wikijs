@@ -2,7 +2,7 @@
 title: Getting started
 description: First-time setup tasks for Project OutFox.
 published: true
-date: 2024-09-17T22:20:56.919Z
+date: 2024-09-17T22:20:59.725Z
 tags: tutorial
 editor: markdown
 dateCreated: 2023-05-16T06:24:12.310Z

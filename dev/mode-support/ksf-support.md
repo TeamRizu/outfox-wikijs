@@ -1,7 +1,11 @@
 ---
 title: KSF
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:05:51.069Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:19.924Z
 ---
 
 Project OutFox contains a parser for the KSF chart format, which is used for Kick It Up and 'Pump it Up'-style charts. This has been supported as early as StepMania 3.9, so everything listed here is what OutFox supports. At this point, most everyone has moved away from the KSF format in favor of SM or SSC. Like SM and SSC, sections follow this format: `#SECTION:DATA;`, which means `#`, `:` and `;` shouldn't be used in the data segment.

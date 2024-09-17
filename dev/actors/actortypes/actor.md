@@ -2,7 +2,7 @@
 title: Actor
 description: This is the base that everything derives from. Whatever an Actor can do, everything else can as well.
 published: true
-date: 2024-01-22T18:10:25.254Z
+date: 2024-01-22T18:10:28.731Z
 tags: actor
 editor: markdown
 dateCreated: 2023-05-16T06:13:53.607Z

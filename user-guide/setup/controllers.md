@@ -2,7 +2,7 @@
 title: Configure controllers
 description: Controller configuration guide for Project OutFox.
 published: true
-date: 2023-05-18T19:49:19.886Z
+date: 2023-11-04T05:08:54.088Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:08.553Z

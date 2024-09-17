@@ -1,7 +1,11 @@
 ---
-title: "Game Module: gddm"
+title: Game Module: gddm
 description: Details about the `gddm` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:07:54.648Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:53.704Z
 ---
 
 ![gddm-new game-play, default theme](https://user-images.githubusercontent.com/11047768/135682218-0706dc51-438b-4971-85a6-cedc6729cca2.png)

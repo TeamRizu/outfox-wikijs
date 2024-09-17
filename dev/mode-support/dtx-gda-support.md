@@ -1,7 +1,11 @@
 ---
 title: DTX & GDA/G2D Support
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:05:47.669Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:15.037Z
 ---
 
 _Preview shot of this mode from Alpha 4.9.8 with fallback theme_

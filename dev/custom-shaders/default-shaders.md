@@ -2,7 +2,7 @@
 title: Default Shaders
 description: 
 published: true
-date: 2024-08-16T17:04:38.108Z
+date: 2024-08-16T17:04:40.581Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-16T17:04:38.108Z

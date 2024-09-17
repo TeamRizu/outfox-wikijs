@@ -2,7 +2,7 @@
 title: WorkoutGraph
 description: A graph showing the difficulty meter values of each entry on a course. Despite its name, it doesn't actually calculate anything about calories or workout.
 published: true
-date: 2023-05-20T20:06:34.339Z
+date: 2023-11-04T05:10:32.872Z
 tags: workoutgraph
 editor: markdown
 dateCreated: 2023-05-16T06:16:25.987Z

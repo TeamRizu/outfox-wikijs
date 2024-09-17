@@ -2,7 +2,7 @@
 title: BitmapText
 description: The BitmapText actor allows you to insert text into the theme, with any font that has been created and located on the Fonts folder from either your theme or _fallback.
 published: true
-date: 2023-05-20T20:33:45.771Z
+date: 2023-11-04T05:09:32.571Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:34.817Z

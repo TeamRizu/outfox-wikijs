@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2023-05-20T16:53:05.372Z
+date: 2023-11-04T05:07:07.332Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z

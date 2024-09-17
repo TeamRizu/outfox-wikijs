@@ -2,7 +2,7 @@
 title: Column movement
 description: 
 published: true
-date: 2023-05-20T15:03:27.042Z
+date: 2023-11-04T05:06:26.272Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:10.746Z

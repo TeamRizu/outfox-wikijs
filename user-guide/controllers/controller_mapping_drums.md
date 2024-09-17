@@ -1,7 +1,11 @@
 ---
 title: Drums Mapping
 description: Drum controller mapping recommendations guide for Project OutFox.
-weight: 3
+published: true
+date: 2023-11-04T05:07:32.220Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:23.142Z
 ---
 
 {{< toc >}}

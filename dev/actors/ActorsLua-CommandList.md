@@ -1,6 +1,11 @@
 ---
 title: Command List
-weight: 4
+description: 
+published: true
+date: 2023-11-04T05:05:04.568Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:21.655Z
 ---
 
 OutFox has actors and actors can have commands. Makes sense that there would be a lot of commands pre-defined by the game, so this is a list of what commands the game has, how and when they're used and what parameters they give.

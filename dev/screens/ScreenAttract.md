@@ -2,7 +2,7 @@
 title: ScreenAttract
 description: 
 published: true
-date: 2023-11-04T04:18:33.411Z
+date: 2023-11-04T05:06:51.429Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:18:33.411Z

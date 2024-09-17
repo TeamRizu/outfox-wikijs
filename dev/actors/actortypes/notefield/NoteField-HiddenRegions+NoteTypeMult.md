@@ -1,6 +1,11 @@
 ---
 title: Hidden Regions & NoteType Multipliers
-weight: 1
+description: 
+published: true
+date: 2023-11-04T05:11:17.286Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:15:26.812Z
 ---
 
 Hidden Regions & NoteType Mult are two sets of functions that allow for manipulating notes.

@@ -2,7 +2,7 @@
 title: How a Player Manipulates its' NoteField
 description: 
 published: true
-date: 2023-05-19T23:59:33.926Z
+date: 2023-11-04T05:11:23.622Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:34.296Z

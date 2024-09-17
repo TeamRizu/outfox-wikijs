@@ -2,7 +2,7 @@
 title: Perspective
 description: 
 published: true
-date: 2023-05-20T15:30:02.585Z
+date: 2023-11-04T05:06:23.474Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:06.975Z

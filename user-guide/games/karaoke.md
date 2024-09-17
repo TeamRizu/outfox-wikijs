@@ -1,9 +1,12 @@
 ---
-title: "Game Module: karaoke"
+title: Game Module: karaoke
 description: Details about the `karaoke` game module supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:03.789Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:05.222Z
 ---
-
 
 <!--
 insert picture of gameplay 

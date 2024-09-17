@@ -2,7 +2,7 @@
 title: PercentageDisplay
 description: 
 published: true
-date: 2023-05-20T00:03:06.888Z
+date: 2023-11-04T05:10:06.350Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:41.805Z

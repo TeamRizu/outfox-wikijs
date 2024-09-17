@@ -2,18 +2,18 @@
 title: Obtaining Childs and ActorFrame Levels
 description: 
 published: true
-date: 2023-05-19T18:22:36.385Z
+date: 2023-11-04T05:19:23.594Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:13:57.266Z
 ---
 
-When using [Actors](/en/dev/actors/actortypes/actor/_index), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe/_index) or [Actors](/en/dev/actors/actortypes/actor/_index).
+When using [Actors](/en/dev/actors/actortypes/actor), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe) or [Actors](/en/dev/actors/actortypes/actor).
 
-> `self:GetChild()` can only be used by [ActorFrames](../../actorframe/).
+> `self:GetChild()` can only be used by [ActorFrames](../../actorframe).
 {.is-warning}
 
-You can think of an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) as a tree of objects. This is the original table. And now you've called GetParent on the [ActorProxy](/en/dev/actors/actortypes/actorproxy/_index).
+You can think of an [ActorFrame](/en/dev/actors/actortypes/actorframe) as a tree of objects. This is the original table. And now you've called GetParent on the [ActorProxy](/en/dev/actors/actortypes/actorproxy).
 
 ```lua
 Def.ActorFrame{
@@ -36,7 +36,7 @@ graph LR
 	style AP fill:#585,color:#fff,stroke-width:4px
 ```
 
-When calling it, you go back up a level, which in this case, it will become [ActorFrame](/en/dev/actors/actortypes/actorframe/_index).
+When calling it, you go back up a level, which in this case, it will become [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ```kroki
 mermaid
@@ -48,7 +48,7 @@ graph LR
 	style AP stroke-width:4px
 ```
 
-In this new location, we get the `MyText` actor, which can be achieved by calling the GetChild command, and can also return back to the [ActorFrame](/en/dev/actors/actortypes/actorframe/_index), as we're now in a level that can get both actors *(shown in orange)*.
+In this new location, we get the `MyText` actor, which can be achieved by calling the GetChild command, and can also return back to the [ActorFrame](/en/dev/actors/actortypes/actorframe), as we're now in a level that can get both actors *(shown in orange)*.
 
 ```lua
 Def.ActorFrame{
@@ -71,7 +71,7 @@ graph LR
 	style AP fill:#585,color:#fff,stroke-width:4px
 ```
 
-The command uses a String argument, but can also grab from nested tables in case of an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) not having actors with names assigned. On those cases, actors are just indexed on that [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) set.
+The command uses a String argument, but can also grab from nested tables in case of an [ActorFrame](/en/dev/actors/actortypes/actorframe) not having actors with names assigned. On those cases, actors are just indexed on that [ActorFrame](/en/dev/actors/actortypes/actorframe) set.
 
 ### Example Without Names
 

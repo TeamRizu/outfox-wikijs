@@ -2,8 +2,8 @@
 title: Sprite
 description: Allows one to display images on screen. These images can be a png, jpeg, gif or even a video file.
 published: true
-date: 2024-01-21T23:24:58.359Z
-tags: actor, def.sprite, sprite
+date: 2024-01-21T23:25:01.521Z
+tags: sprite, def.sprite, actor
 editor: markdown
 dateCreated: 2023-05-16T06:16:14.886Z
 ---

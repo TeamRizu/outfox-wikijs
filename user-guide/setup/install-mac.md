@@ -2,7 +2,7 @@
 title: Installation on Mac OS
 description: Installation guide for Project OutFox on Mac OS systems.
 published: true
-date: 2023-05-17T20:30:20.137Z
+date: 2023-11-04T05:09:02.359Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:20.107Z

@@ -2,7 +2,7 @@
 title: Acceleration
 description: 
 published: true
-date: 2023-05-20T14:37:31.989Z
+date: 2023-11-04T05:06:37.273Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:26.425Z

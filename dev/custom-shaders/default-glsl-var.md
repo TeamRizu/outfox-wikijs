@@ -2,7 +2,7 @@
 title: Standard GLSL variables and attributes
 description: 
 published: true
-date: 2024-08-16T17:12:12.147Z
+date: 2024-08-16T17:12:45.531Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-16T17:12:12.147Z

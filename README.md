@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2024-09-17T22:55:33.458Z
+tags: 
+editor: markdown
+dateCreated: 2024-09-04T10:13:10.709Z
+---
+
 Welcome to the documentation wiki for Project OutFox! 
 
 Project OutFox is a multi mode mix of rhythm, simulation and parser compatibility to create a unique sandbox experience for players.

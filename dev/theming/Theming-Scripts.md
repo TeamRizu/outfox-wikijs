@@ -2,7 +2,7 @@
 title: Scripts
 description: 
 published: true
-date: 2023-05-20T21:03:22.555Z
+date: 2023-11-04T05:07:18.225Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:08.651Z

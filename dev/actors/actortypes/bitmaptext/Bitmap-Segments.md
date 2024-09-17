@@ -2,7 +2,7 @@
 title: Segments of a BitmapText
 description: 
 published: true
-date: 2023-05-19T23:19:34.789Z
+date: 2023-11-04T05:11:09.221Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:30.932Z

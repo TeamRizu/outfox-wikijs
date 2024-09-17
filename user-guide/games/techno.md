@@ -1,9 +1,12 @@
 ---
-title: "Game Module: techno"
+title: Game Module: techno
 description: Details about the `techno` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:33.899Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:47.850Z
 ---
-
 
 <!--
 insert picture of gameplay 

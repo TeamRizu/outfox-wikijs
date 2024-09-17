@@ -2,6 +2,16 @@
 title: Game Module: para
 description: Details about the `para` mode supported by Project OutFox.
 published: true
+date: 2023-11-04T05:08:17.505Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:24.931Z
+---
+
+---
+title: Game Module: para
+description: Details about the `para` mode supported by Project OutFox.
+published: true
 date: 2023-05-18T21:03:45.102Z
 tags: 
 editor: markdown

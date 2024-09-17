@@ -1,7 +1,11 @@
 ---
 title: TJA Compatibility
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:06:00.886Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:32.596Z
 ---
 
 Project OutFox is working on support on the parser for the TJA (Taikojiro) chart format, which is the standard format used in conjunction with the ``taiko`` game types. The following page contains details on the Taiko parsing options that Project OutFox currently supports. This is a living document - it will be incomplete as Squirrel finds time to update and confirm/clarify items that are missing or unknown.

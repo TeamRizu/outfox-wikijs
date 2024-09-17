@@ -2,12 +2,11 @@
 title: About Project Outfox
 description: 
 published: true
-date: 2023-05-16T06:02:00.683Z
+date: 2023-11-04T05:08:36.759Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T05:59:42.350Z
 ---
-
 
 ## What is Project OutFox?
 

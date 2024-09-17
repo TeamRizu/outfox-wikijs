@@ -1,7 +1,11 @@
 ---
 title: Effect Simfiles
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:05:37.291Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:01.799Z
 ---
 
 Normal gameplay is as follows: Notes move up or down towards the target on a usually static background, and the player hits the notes when they reach the target. Simple.

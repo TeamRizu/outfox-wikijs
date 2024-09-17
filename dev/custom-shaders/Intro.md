@@ -2,7 +2,7 @@
 title: Shaders and the Custom Shader System
 description: 
 published: true
-date: 2024-08-16T17:01:39.928Z
+date: 2024-08-16T17:01:48.770Z
 tags: 
 editor: markdown
 dateCreated: 2024-08-16T17:01:39.928Z

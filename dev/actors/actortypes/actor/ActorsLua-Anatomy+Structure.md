@@ -2,7 +2,7 @@
 title: Anatomy of an Actor
 description: 
 published: true
-date: 2023-07-09T01:03:49.858Z
+date: 2023-11-04T05:10:58.542Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:13:49.909Z

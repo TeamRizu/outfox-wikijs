@@ -2,7 +2,7 @@
 title: Path modifiers
 description: 
 published: true
-date: 2023-05-20T15:20:33.740Z
+date: 2023-11-04T05:06:43.143Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:33.654Z

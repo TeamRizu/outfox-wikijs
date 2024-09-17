@@ -1,8 +1,12 @@
 ---
 title: Converting INI files to Lua
-weight: 5
+description: 
+published: true
+date: 2023-11-04T05:05:10.075Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:13:30.648Z
 ---
-
 
 <!-- There's probably a lot that I'm missing in here. If you've got something, please contribute! -->
 

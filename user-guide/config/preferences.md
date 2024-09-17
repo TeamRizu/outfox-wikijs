@@ -1,6 +1,11 @@
 ---
 title: Preferences.ini
-weight: 3
+description: 
+published: true
+date: 2024-09-01T15:36:12.774Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:17.672Z
 ---
 
 **Preferences.ini** is a file that contains many of the system preferences. Some of them are accessible within Project OutFox's settings menu, but some of them are only accessible by editing the file. Manual edits to Preferences.ini must be performed when the game is closed, or else they may be automatically overwritten.

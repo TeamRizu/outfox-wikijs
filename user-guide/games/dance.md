@@ -1,9 +1,12 @@
 ---
-title: "Game Module: dance"
+title: Game Module: dance
 description: Details about the `dance` module supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:07:45.923Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:22:42.187Z
 ---
-
 
 <!--
 insert picture of gameplay 

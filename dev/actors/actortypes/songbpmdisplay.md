@@ -2,7 +2,7 @@
 title: SongBPMDisplay
 description: A slightly automated version of BPMDisplay that automatically updates the text to the BPM range from a given player.
 published: true
-date: 2023-11-04T04:37:47.201Z
+date: 2023-11-04T05:10:16.906Z
 tags: actor, songbpmdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:15:56.392Z

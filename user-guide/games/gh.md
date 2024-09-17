@@ -1,9 +1,12 @@
 ---
-title: "Game Module: gh"
+title: Game Module: gh
 description: Details about the `gh` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:01.054Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:01.460Z
 ---
-
 
 <!--
 insert picture of gameplay 

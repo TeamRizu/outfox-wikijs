@@ -1,6 +1,11 @@
 ---
 title: Keyboard Shortcuts
-weight: 1
+description: 
+published: true
+date: 2023-11-04T05:09:10.505Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:24:31.262Z
 ---
 
 Project OutFox has quite a few keyboard shortcuts to make certain tasks easier.

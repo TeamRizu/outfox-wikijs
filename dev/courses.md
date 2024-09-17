@@ -1,6 +1,11 @@
 ---
-title: "Courses"
-weight: 0
+title: Courses
+description: 
+published: true
+date: 2024-09-17T22:55:44.111Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:35.412Z
 ---
 
 {{<toc>}}

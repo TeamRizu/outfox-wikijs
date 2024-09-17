@@ -2,7 +2,7 @@
 title: ScreenOptions
 description: A screen that allows you to set options to players, or system-wide.
 published: true
-date: 2024-01-21T22:25:01.476Z
+date: 2024-01-21T22:25:04.813Z
 tags: 
 editor: markdown
 dateCreated: 2024-01-21T19:02:27.883Z

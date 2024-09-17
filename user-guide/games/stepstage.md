@@ -2,6 +2,16 @@
 title: Game Module: stepstage
 description: Details about the `stepstage` mode supported by Project OutFox.
 published: true
+date: 2023-11-04T05:08:28.089Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:40.434Z
+---
+
+---
+title: Game Module: stepstage
+description: Details about the `stepstage` mode supported by Project OutFox.
+published: true
 date: 2023-05-18T20:17:04.868Z
 tags: 
 editor: markdown

@@ -2,7 +2,7 @@
 title: Installation
 description: Installation guide for Project OutFox.
 published: true
-date: 2023-05-17T02:07:02.011Z
+date: 2023-11-04T05:09:07.701Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:27.644Z

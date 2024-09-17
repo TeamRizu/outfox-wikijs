@@ -2,7 +2,7 @@
 title: Translation
 description: Guide on translating themes for Project OutFox.
 published: true
-date: 2023-05-20T16:23:36.490Z
+date: 2024-09-17T22:55:59.708Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:22.684Z

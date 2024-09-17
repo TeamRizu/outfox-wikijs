@@ -1,7 +1,11 @@
 ---
 title: SM
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:05:57.707Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:28.556Z
 ---
 
 Project OutFox contains a parser for the SM chart format, which has existed as early as StepMania 3.9, and is what most StepMania-based engines support as a base format & simfile cache format. With SM5, this has been succeeded by the SSC format, but for completeness, the following page contains details about what the SM format supports and used to support.

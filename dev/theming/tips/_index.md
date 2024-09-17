@@ -1,7 +1,11 @@
 ---
 title: Theming tips and tricks
-weight: 3
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:10:35.318Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:19:19.214Z
 ---
 
 This section is meant to showcase methods to create certain kinds of actors and recommended practices that are commonly found in themes.

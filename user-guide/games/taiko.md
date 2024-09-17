@@ -1,7 +1,11 @@
 ---
-title: "Game Module: taitai"
+title: Game Module: taitai
 description: Details about the `taitai` mode supported by Project OutFox.
-weight: 2
+published: true
+date: 2023-11-04T05:08:30.985Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:44.160Z
 ---
 
 <!--

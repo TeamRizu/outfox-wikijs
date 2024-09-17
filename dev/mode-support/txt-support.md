@@ -1,7 +1,11 @@
 ---
 title: TXT Compatibility
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:06:04.083Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:36.765Z
 ---
 
 Project OutFox is working on support on the parser for the Karaoke TXT (UltraStar) chart format, which is the standard format used in conjunction with the ``karaoke`` game types. The following page contains details on the Karaoke file parsing options that Project OutFox will support. This is a living document - it will be incomplete as Squirrel finds time to update and confirm/clarify items that are missing or unknown.

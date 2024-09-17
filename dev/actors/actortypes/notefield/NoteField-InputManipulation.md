@@ -2,7 +2,7 @@
 title: Input Manipulation
 description: 
 published: true
-date: 2023-05-20T00:00:57.325Z
+date: 2023-11-04T05:11:19.775Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:30.554Z

@@ -2,7 +2,7 @@
 title: Quad
 description: 
 published: true
-date: 2023-05-20T00:04:33.886Z
+date: 2023-11-04T05:10:08.807Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:45.473Z

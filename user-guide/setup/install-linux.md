@@ -2,7 +2,7 @@
 title: Installation on Linux & Raspberry Pi
 description: Installation guide for Project OutFox on Linux & Raspberry Pi systems.
 published: true
-date: 2023-05-17T20:22:35.555Z
+date: 2023-11-04T05:08:59.698Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:16.142Z

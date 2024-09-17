@@ -2,7 +2,7 @@
 title: Installation on Windows
 description: Installation guide for Project OutFox on Windows systems.
 published: true
-date: 2023-05-17T20:26:34.364Z
+date: 2023-11-04T05:09:05.009Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:24:23.818Z

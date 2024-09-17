@@ -2,7 +2,7 @@
 title: OutFox Serenity
 description: Read about the history OutFox Serenity and what it is about.
 published: true
-date: 2024-05-17T20:41:58.881Z
+date: 2024-05-17T20:42:02.801Z
 tags: serenity
 editor: markdown
 dateCreated: 2023-05-16T06:23:56.832Z

@@ -1,7 +1,11 @@
 ---
 title: BMS/BME/PMS Support
-weight: 1
-geekdocCollapseSection: true
+description: 
+published: true
+date: 2023-11-04T05:05:43.943Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:17:09.756Z
 ---
 
 Project OutFox contains parsers for the ``BMS`` and ``PMS`` chart formats, which are the standard formats used in conjunction with mostly the ``be-mu`` and ``po-mu`` game types. The following page contains details on the ``BMS``/``PMS`` channels that _Project OutFox_ currently supports. This is a living document, and will be updated as progress is made to expand the work to support as much of these as possible.

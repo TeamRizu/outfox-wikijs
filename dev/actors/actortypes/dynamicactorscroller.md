@@ -2,18 +2,17 @@
 title: DynamicActorScroller
 description: 
 published: true
-date: 2023-05-19T23:29:25.315Z
+date: 2023-11-04T06:42:03.837Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:49.481Z
 ---
 
-The DynamicActorScroller is an [ActorScroller](/en/dev/actors/actortypes/actorscroller/_index) that fills in its children on the fly.
+The DynamicActorScroller is an [ActorScroller](/en/dev/actors/actortypes/actorscroller) that fills in its children on the fly.
 
-The best example for the use of this class is the HighScore scroller, which constantly updates itself with new
-information everytime an item is deloaded from the screen.
+The best example for the use of this class is the HighScore scroller, which constantly updates itself with new information everytime an item is deloaded from the screen.
 
-The biggest different about this and [ActorScroller](/en/dev/actors/actortypes/actorscroller/_index) is that DynamicActorScroller ***requires only 1 [Actor](/en/dev/actors/actortypes/actor/_index) to be inside it. It cannot be more than 1.***
+The biggest different about this and [ActorScroller](/en/dev/actors/actortypes/actorscroller) is that DynamicActorScroller ***requires only 1 [Actor](/en/dev/actors/actortypes/actor) to be included. It cannot be more than 1.***
 
 ```lua
 Def.DynamicActorScroller{
@@ -34,14 +33,18 @@ Def.DynamicActorScroller{
 
 ## Attributes
 
-The attributes for DynamicActorScroller are the same as [ActorScroller](/en/dev/actors/actortypes/actorscroller/_index), except for an addition.
+The attributes for DynamicActorScroller are the same as [ActorScroller](/en/dev/actors/actortypes/actorscroller), except for an addition.
 
 | Name | Type | Action |
 | :--- | :--- | :----- |
-LoadFunction |  function |  **New to DynamicActorScroller**, determines the ammount of items to be generated. provides two arguments which are nil.
+LoadFunction |  function |  **New to DynamicActorScroller**, determines the ammount of items to be generated. provides two arguments which are nil at the start.
+
+The following are the regular attributes.
+| Name | Type | Action |
+| :--- | :--- | :----- |
 NumItemsToDraw | number | How many items will be drawn at once on the ActorScroller.
 SecondsPerItem | number | How long will the scroller take before moving to the next item.
-TransformFunction |  function | The function that positions every item in the ActorScroller. For more information, check [Transforming the Scroller](/en/dev/actors/actortypes/actorscroller/_index#transforming-the-scroller).
+TransformFunction |  function | The function that positions every item in the ActorScroller. For more information, check [Transforming the Scroller](/en/dev/actors/actortypes/actorscroller#transforming-the-scroller).
 Subdivisions |  number |  How many subdivisions should there be between each item? This allows for smoother movement for scrollers that contain any mathematical curve.
 UseMask | bool | Toggles a mask on the top and bottom of the ActorScroller.
 MaskHeight | number | Height of the mask present on the top and bottom of the ActorScroller. Requires `UseMask` to be `true`.
@@ -53,7 +56,7 @@ WrapScroller |  bool | Wraps the items of the scroller to attempt a seamless tra
 
 As mentioned previously, this actor class only allows 1 actor in it, which will be processed to be filled on the fly. If more are provided, it will complain about it, and stop the game due to a [failed assert](https://en.wikipedia.org/wiki/Assertion_(software_development)).
 
-Adding actors can be done with the same methods presented on [Adding Actors on ActorScroller](/en/dev/actors/actortypes/actorscroller/_index#adding-actors).
+Adding actors can be done with the same methods presented on [Adding Actors on ActorScroller](/en/dev/actors/actortypes/actorscroller#adding-actors).
 
 Upon adding the actor, a new attribute is added to the list, which is `LoadFunction`. This attribute is  responsible to manage and update the actors based on the relative position of the current choice.
 

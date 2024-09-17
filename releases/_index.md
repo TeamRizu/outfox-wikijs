@@ -2,7 +2,7 @@
 title: Release History
 description: 
 published: true
-date: 2023-05-17T01:45:45.084Z
+date: 2024-09-17T22:52:42.097Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:22:06.578Z
@@ -10,7 +10,10 @@ dateCreated: 2023-05-16T06:22:06.578Z
 
 # Release Notes
 
-- [OutFox LTS 0.4.18](/en/releases/A4180)
+- [OutFox LTS 0.5.0 - 042](/en/releases/A500r042)
+- [OutFox LTS 0.5.0 - 041](/en/releases/A500r041)
+- [OutFox LTS 0.5.0 - Full](/en/releases/A500FULL)
+- [OutFox Alpha 0.4.18 (LTS Branch)](/en/releases/A4180)
 - [OutFox Alpha 4.17.0](/en/releases/A4170)
 - [OutFox Alpha 4.16.0](/en/releases/A4160)
 - [OutFox Alpha 4.15.1](/en/releases/A4151)

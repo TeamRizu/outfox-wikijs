@@ -1,5 +1,11 @@
 ---
 title: Defining Timing Data
+description: 
+published: true
+date: 2023-11-04T05:05:26.351Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:16:43.233Z
 ---
 
 when playing a song, several aspects of the chart will be used for timing information. These are essential to have

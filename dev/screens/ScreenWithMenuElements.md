@@ -2,7 +2,7 @@
 title: ScreenWithMenuElements
 description: 
 published: true
-date: 2024-09-01T15:58:52.326Z
+date: 2024-09-01T15:58:54.903Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:13:09.390Z

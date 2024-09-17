@@ -2,7 +2,7 @@
 title: MeterDisplay
 description: The base for SongMeterDisplay, which uses two Actors to render the progress of a given value.
 published: true
-date: 2023-05-20T20:27:19.153Z
+date: 2023-11-04T05:09:58.515Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:11.487Z

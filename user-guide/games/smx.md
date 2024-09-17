@@ -2,6 +2,16 @@
 title: Game Module: smx
 description: Details about the `smx` mode supported by Project OutFox.
 published: true
+date: 2023-11-04T05:08:25.557Z
+tags: 
+editor: markdown
+dateCreated: 2023-05-16T06:23:36.562Z
+---
+
+---
+title: Game Module: smx
+description: Details about the `smx` mode supported by Project OutFox.
+published: true
 date: 2023-05-18T20:14:40.031Z
 tags: 
 editor: markdown

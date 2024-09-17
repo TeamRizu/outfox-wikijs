@@ -2,7 +2,7 @@
 title: Managing Frames
 description: 
 published: true
-date: 2023-05-20T00:24:50.013Z
+date: 2023-11-04T05:11:28.560Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:16:11.168Z
