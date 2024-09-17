@@ -2,7 +2,7 @@
 title: NoteLoader support
 description: 
 published: true
-date: 2024-09-01T15:35:32.071Z
+date: 2024-09-17T10:39:11.646Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:17:05.636Z
@@ -16,7 +16,7 @@ Click on a button below to learn more about the parsers!
   <div class="row-justified-flex-div" style="max-width: none;">
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./bms-pms-support">BMS/BME/PMS</a>
+      	<a class="foxb foxb-primary" href="/bms-pms-support">BMS/BME/PMS</a>
       	<a class="foxb foxb-primary" href="./dtx-gda-support">DTX/GDA/G2A</a>
         <a class="foxb foxb-primary" href="./ksf-support">KSF</a>
         <a class="foxb foxb-primary" href="./sm-support">SM</a>
