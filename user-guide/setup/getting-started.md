@@ -2,7 +2,7 @@
 title: Getting started
 description: First-time setup tasks for Project OutFox.
 published: true
-date: 2023-10-12T00:41:22.163Z
+date: 2024-09-17T22:20:56.919Z
 tags: tutorial
 editor: markdown
 dateCreated: 2023-05-16T06:24:12.310Z
@@ -16,7 +16,7 @@ Some of these instructions assume usage of the included default theme (Soundwave
 
 When launching Project OutFox for the first time (or without save data present), you will be prompted to select which **game type** you would like to begin with.
 
-Project OutFox supports a variety of [game types](/en/user-guide/games/_index), which simulate the button layouts and game mechanics of different types of rhythm games. Game types are further divided into **styles**, which are permutations such as alternate controller usage.
+Project OutFox supports a variety of [game types](/en/user-guide/games), which simulate the button layouts and game mechanics of different types of rhythm games. Game types are further divided into **styles**, which are permutations such as alternate controller usage.
 
 The most popular game type, `dance`, is placed at the top. If this is your first time playing OutFox, this is a straightforward and easy-to-understand game mode with plenty of content readily available for download.
 
