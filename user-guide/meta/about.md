@@ -2,7 +2,7 @@
 title: About Project Outfox
 description: 
 published: true
-date: 2023-11-04T05:08:36.759Z
+date: 2024-09-19T20:33:26.581Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T05:59:42.350Z
@@ -31,9 +31,9 @@ As Project OutFox is a continuation of the 5.0.12 and 5.1 codebase (not â€œ5.2â€
 | ------------ | ------ | --------- | -------- | 
 | [Squirrel](https://github.com/Scraticus) | [Jose Varela](https://github.com/JoseVarelaP) | [Moru Zerinho6](https://github.com/moruzerinho6) | [Daniel Rotwind](https://github.com/DanielRotwind) 
 | [Jousway](https://github.com/Jousway) | [Lirodon](https://github.com/ListenerJubatus)| [Moneko](https://github.com/JustMoneko) |[shockdude](https://github.com/shockdude)|
-| [Cube](https://github.com/concubidated) | [dj505](https://github.com/dj505)| [Hanubeki](https://github.com/hanubeki) | [Sevish](https://sevish.com/) 
-| [MrThatKid](https://github.com/MrThatKid) | | [Gabrimax98](https://github.com/Gabrimax98) |[Melone](https://twitter.com/exibiIiA) |
-| [Jose Varela](https://github.com/JoseVarelaP) | | | [Colin](https://twitter.com/colinmcguire_)|
+| [Cube](https://github.com/concubidated) | [dj505](https://github.com/dj505)| [Hanubeki](https://github.com/hanubeki) | [Melone](https://twitter.com/exibiIiA) 
+| [MrThatKid](https://github.com/MrThatKid) | | [Gabrimax98](https://github.com/Gabrimax98) | [Colin](https://twitter.com/colinmcguire_) |
+| [Jose Varela](https://github.com/JoseVarelaP) | | | |
 
 
 The development members are the ones that make OutFox possible. They're the people working on the game engine.
