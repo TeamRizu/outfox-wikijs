@@ -1,8 +1,8 @@
 ---
 title: Guest Profiles in Outfox Online
 description: A summary on how Guest profiles work for Outfox Online
-published: false
-date: 2024-08-31T01:04:37.761Z
+published: true
+date: 2024-10-09T19:57:34.851Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T21:57:35.953Z
@@ -16,6 +16,9 @@ If the `Allow Guests` option is enabled from the Network settings screen, any pl
 
 ![oftokenguests.png](/dev/outfoxonline/oftokenguests.png){.align-center}
 <small>Theme is Simply Love, made by hurtpiggypig and Mad Matt. Then converted to SM5 by quietly-turning, but now handled by teej and natano.</small>
+
+> NFC support is still on early planning stages.
+{.is-info}
 
 > If your theme has custom theme preferences that are saved in a special file on the profile, these won't appear as it will be treated like a new profile.
 {.is-info}
