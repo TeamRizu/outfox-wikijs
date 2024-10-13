@@ -2,7 +2,7 @@
 title: Courses
 description: 
 published: true
-date: 2024-09-17T22:55:44.111Z
+date: 2024-10-13T03:45:41.807Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:16:35.412Z
@@ -81,13 +81,12 @@ Example
 | Song | Credits |
 | Difficulty | Hard |
 
-{{<hint info>}}
 The difficulty value can also represent a range of difficulties, by placing two values separated by two dots. (..)
 ```
 #SONG:Pack Name/Song Name:5..9:[showcourse/noshowcourse/nodifficult/award];
 ```
-If no difficulties are found in the range, a guess of 3 to 6 is used instead, otherwise it picks the closest difficulty.
-{{</hint>}}
+> If no difficulties are found in the range, a guess of 3 to 6 is used instead, otherwise it picks the closest difficulty.
+{.is-info}
 
 #### Special #SONG tags
 For the `#SONG` tag in particular, special data types are available to obtain certain songs
@@ -154,9 +153,9 @@ its entries upon completion until the player loses.
 
 ### #LIVES
 Defines the number of lives available to the player to start with.
-{{<hint info>}}
-If this value is set, the course automatically becomes an "Oni" course with the "Lives" meter bar.
-{{</hint>}}
+
+>If this value is set, the course automatically becomes an "Oni" course with the "Lives" meter bar.
+{.is-info}
 
 ```
 #LIVES:3;
@@ -164,9 +163,8 @@ If this value is set, the course automatically becomes an "Oni" course with the 
 
 ### #GAINSECONDS
 Defines how many seconds the player will earn upon completion of a song.
-{{<hint info>}}
-Upon defining this tag, the course is considered an "Oni" course, with the "survival" meter bar.
-{{</hint>}}
+> Upon defining this tag, the course is considered an "Oni" course, with the "survival" meter bar.
+{.is-info}
 
 ```
 #GAINSECONDS:2.5;
