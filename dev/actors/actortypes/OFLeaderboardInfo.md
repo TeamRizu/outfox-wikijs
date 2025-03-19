@@ -1,8 +1,8 @@
 ---
-title: OutFox Online Leaderboard Info
+title: OFLeaderboardInfo
 description: An Autoscroller actor that outputs the leaderboard info of the current song and difficulty from OutFox Online.
 published: true
-date: 2024-10-09T20:03:10.838Z
+date: 2025-03-19T22:49:08.651Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T18:56:34.928Z
