@@ -34,8 +34,6 @@ You can also use this [Discord Server](https://discord.gg/cN4TjgQdcA):
 Use "feature-request" channel to request features or give ideas.
 Use "bugs-crashlogs" channel to report bugs and game crashes.
 
-You can also use [our forum](https://discourse.projectmoon.dance/)
-
 ## Are there ways I can contribute?
 
 - You can report bugs and make feature suggestions on our Discord server.

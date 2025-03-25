@@ -155,6 +155,6 @@ From the profile editor (highlight a profile and press Start, and then select "E
 
 # Next steps
 
-The only thing left to do is have fun! If you need more help with Project OutFox, check out the other pages in our wiki documentation, and join other members of our community on our [Discord server](https://discord.gg/cN4TjgQdcA) or [forum](https://discourse.projectmoon.dance/).
+The only thing left to do is have fun! If you need more help with Project OutFox, check out the other pages in our wiki documentation, and join other members of our community on our [Discord server](https://discord.gg/cN4TjgQdcA).
 
 Thank you for supporting Project OutFox!

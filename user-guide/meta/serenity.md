@@ -101,7 +101,6 @@ Another possible reason is that your submission does not follow the **music guid
 
 - [Discord](https://discord.gg/mNcFU67mK7)
 - [Reddit](https://www.reddit.com/r/OutFox) (Post or Private Message any Mods)
-- [Project OutFox Forum](https://discourse.projectmoon.dance/) (Create a post)
 - [Twitter](https://twitter.com/projectoutfox) (Private Message)
 - [Facebook](https://www.facebook.com/ProjectOutFox/) (Private Message)
 - [Github](https://github.com/TeamRizu/OutFox/discussions) (New Discussion)

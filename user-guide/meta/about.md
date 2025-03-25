@@ -42,7 +42,7 @@ The design members are the ones who work on assets, themes and frontend.
 
 The community members assists by creating, maintaining and expanding community projects and organizations, such as:
 
-- Moderating the [Discord Server](https://discord.gg/cN4TjgQdcA), [Forum](https://discourse.projectmoon.dance/), [Subreddit](https://www.reddit.com/r/OutFox/) and our [Bug Hunter Repository](https://github.com/TeamRizu/OutFox);
+- Moderating the [Discord Server](https://discord.gg/cN4TjgQdcA), [Subreddit](https://www.reddit.com/r/OutFox/) and our [Bug Hunter Repository](https://github.com/TeamRizu/OutFox);
 - Coordinating [Tiny-Foxes](https://github.com/Tiny-Foxes), a community group focusing on add-ons and localizations for Project OutFox.
 
 The Serenity Team is a subset of Community team, created to help work on the creation and organization of [OutFox Community Pack](https://projectoutfox.com/outfox-serenity).
