@@ -2,7 +2,7 @@
 title: Actor
 description: This is the base that everything derives from. Whatever an Actor can do, everything else can as well.
 published: true
-date: 2024-01-22T18:10:28.731Z
+date: 2025-03-26T17:54:55.761Z
 tags: actor
 editor: markdown
 dateCreated: 2023-05-16T06:13:53.607Z
@@ -27,7 +27,7 @@ Def.Actor{
 
 | Name | Type | Description |
 | :--- | :--- | ----------- |
-[Name]Command | function | The basis for any command. Check [Commands](/en/dev/actors/actortypes/actor/ActorsLua-Anatomy+Structure#commands) for more information.
+[Name]Command | function | The basis for any command. Check [Commands](#commands) for more information.
 Name | string | The name for the actor. Giving this a value allows this actor to be obtain by its name by any other actor. Check [Obtaining Childs and ActorFrame Levels](/en/dev/actors/actortypes/actor/obtainlevels) for more information.
 BaseRotationX | number | The base rotation for the X axis. Any rotation value is added ON TOP of this value.
 BaseRotationY | number | The base rotation for the Y axis. Any rotation value is added ON TOP of this value.
