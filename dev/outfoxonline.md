@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: true
-date: 2024-10-09T19:56:33.377Z
+date: 2025-03-26T17:47:28.108Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -12,7 +12,7 @@ dateCreated: 2024-08-29T19:04:10.028Z
 > This system applies for Project Outfox Alpha V Pre043 and above.
 {.is-info}
 
-The Outfox Online system present in Project Outfox allows players to submit scores from their machines, use temporary profiles on public cabinets, and etc.
+The Outfox Online system present in Project Outfox allows players to submit scores from their machines, use temporary profiles on public cabinets, check out their scores through an online portal, and more in the future.
 
 ## Features 
 ![ofevalsm4alpha.png](/dev/outfoxonline/ofevalsm4alpha.png){.align-center}
