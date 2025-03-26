@@ -2,7 +2,7 @@
 title: Screen
 description: The screen for almost all defined screens in the game.
 published: true
-date: 2023-11-04T05:06:48.836Z
+date: 2025-03-26T17:49:48.266Z
 tags: screen
 editor: markdown
 dateCreated: 2023-11-04T03:55:53.747Z
@@ -28,10 +28,8 @@ The base screen. Every single screen in the game runs under this class.
 
 This screen class contains the `PrepareScreens`, `PersistScreens` and `GroupedScreens` metrics, which apply to all screens that take this one as a base (a.k.a [ScreenWithMenuElements](../ScreenWithMenuElements), [ScreenTitleMenu](../ScreenTitleMenu), etc.)
 
-The game loads screens into a pool of "Prepared" screens, which are screen previously loaded to be available on demand.
-When a screen pops off the stack, it goes to the prepared list.
-Preloading the lightweight screens can improve responsiveness, but preloading the expensive screens may use too much memory
-and take too long to load all at once.
+The game loads screens into a pool of "Prepared" screens, which are screen previously loaded to be available on demand. When a screen pops off the stack, it goes to the prepared list.
+Preloading the lightweight screens can improve responsiveness, but preloading the expensive screens may use too much memory and take too long to load all at once.
 
 Some example cases for the usage of these screens would be the following:
 
