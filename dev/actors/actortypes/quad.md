@@ -2,13 +2,13 @@
 title: Quad
 description: 
 published: true
-date: 2023-11-04T05:10:08.807Z
+date: 2025-03-26T18:05:42.993Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:45.473Z
 ---
 
-An arbitrary rectangle. Acts like a [Sprite](/en/dev/actors/actortypes/sprite/_index) with a blank texture.
+An arbitrary rectangle. Acts like a [Sprite](/en/dev/actors/actortypes/sprite) with a blank texture.
 
 ```lua
 -- Generate a 64 x 64 rectangle on the center of the screen, and color it Yellow.
@@ -20,4 +20,4 @@ Def.Quad{
 }
 ```
 
-This actor does not contain any attributes, and uses all the functions available for [Actor](/en/dev/actors/actortypes/actor/_index).
+This actor does not contain any attributes, and uses all the functions available for [Actor](/en/dev/actors/actortypes/actor).
