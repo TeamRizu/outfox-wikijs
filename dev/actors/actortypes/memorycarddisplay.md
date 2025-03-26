@@ -2,13 +2,13 @@
 title: MemoryCardDisplay
 description: 
 published: true
-date: 2023-11-04T05:09:56.032Z
+date: 2025-03-26T18:02:00.962Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:07.741Z
 ---
 
-Creates an [ActorFrame](/en/dev/actors/actortypes/actorframe/_index) that contains a [Sprite](/en/dev/actors/actortypes/sprite/_index) with the current status for a Player's MemoryCard.
+Creates an [ActorFrame](/en/dev/actors/actortypes/actorframe) that contains a [Sprite](/en/dev/actors/actortypes/sprite) with the current status for a Player's MemoryCard.
 
 ```lua
 Def.MemoryCardDisplay{
