@@ -2,8 +2,8 @@
 title: Connecting to OutFox Online
 description: This small guide will explain how to connect to OutFox online, and the ways you can connect through other Project OutFox powered machines.
 published: false
-date: 2025-03-25T19:30:19.338Z
-tags: outfoxonline, guide
+date: 2025-03-26T00:08:21.974Z
+tags: guide, outfoxonline
 editor: markdown
 dateCreated: 2025-03-25T19:30:19.338Z
 ---
@@ -17,7 +17,7 @@ Before starting this guide, **make sure you make an [OutFox Online account](http
 In order to access OutFox Online, you need to make your OutFox client connect to the server. You can do this by going to Options -> Network Options, and you'll see an `OutFox Online` option on the list.
 
 ![online-options-before-connect.png](/user-guide/online-options-before-connect.png)
-<small>Theme is StepMania Ultimate, created by Luiszan, ported to OutFox by Jose_Varela.</small>
+<small>Theme is StepMania Ultimate, created by Luiszan, [ported to OutFox by Jose_Varela](https://github.com/JoseVarelaP/ultimate-of-theme).</small>
 
 Just press enter, and you'll see its text update to `Connecting...` as it performs the handshake.
 
@@ -58,3 +58,5 @@ At this point, you can just play like normal. There's no more steps to do as the
 If you're not on the computer you made the profile in, there's nothing to worry about. **You can still use the same profile on other machines/cabinets that use Project OutFox!**
 
 All you'll need to do is generate a Login Pin for your specific profile. This will be used on the guest login prompt.
+
+![online-pin-login-screen.png](/user-guide/online-pin-login-screen.png)
