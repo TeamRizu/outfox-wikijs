@@ -2,13 +2,13 @@
 title: TextBanner
 description: TextBanner is an automated ActorFrame that processes information from a Song or Course to fill in data to several included BitmapText actors.
 published: true
-date: 2023-11-04T05:10:30.361Z
+date: 2025-03-26T18:06:20.732Z
 tags: textbanner
 editor: markdown
 dateCreated: 2023-05-16T06:16:22.325Z
 ---
 
-TextBanner is an automated [ActorFrame](/en/dev/actors/actortypes/actorframe) that processes information from a Song or Course to fill in data to several included [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors.
+TextBanner is an automated [ActorFrame](/en/dev/actors/actortypes/actorframe) that processes information from a Song or Course to fill in data to several included [BitmapText](/en/dev/actors/actortypes/bitmaptext) actors.
 
 This is used by the music wheel and the editor song selection screens to show the information of each song in the wheel or about the current song being selected to edit respectively.
 
@@ -47,7 +47,7 @@ ArtistPrependString=string
 AfterSetCommand=function
 ```
 
-`Title`, `SubTitle`, and `Artist` [`OnCommands`](/en/dev/actors/ActorsLua-CommandList#commands) define how the [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actors will be shown.
+`Title`, `SubTitle`, and `Artist` [`OnCommands`](/en/dev/actors/ActorsLua-CommandList#commands) define how the [BitmapText](/en/dev/actors/actortypes/bitmaptext) actors will be shown.
 
 `ArtistPrependString` is a special metric that appends before the Artist data.
 And example, would be `"/"`.
