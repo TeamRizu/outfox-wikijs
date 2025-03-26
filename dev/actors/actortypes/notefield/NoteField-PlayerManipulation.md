@@ -2,13 +2,13 @@
 title: How a Player Manipulates its' NoteField
 description: 
 published: true
-date: 2023-11-04T05:11:23.622Z
+date: 2025-03-26T18:04:46.190Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:34.296Z
 ---
 
-Some modifiers require the Player to perform some adjustments to the [NoteField](/en/dev/actors/actortypes/notefield/_index). This page documents what gets affected and how.
+Some modifiers require the Player to perform some adjustments to the [NoteField](/en/dev/actors/actortypes/notefield). This page documents what gets affected and how.
 
 > Note that this is useful knowledge if trying to replicate some modifiers on a Def.NoteField by itself or if you need something to follow what a Player does.
 {.is-info}
