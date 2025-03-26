@@ -2,7 +2,7 @@
 title: Actor
 description: This is the base that everything derives from. Whatever an Actor can do, everything else can as well.
 published: true
-date: 2025-03-26T17:55:38.437Z
+date: 2025-03-26T17:56:58.674Z
 tags: actor
 editor: markdown
 dateCreated: 2023-05-16T06:13:53.607Z
@@ -122,7 +122,7 @@ end
 
 When using [Actors](/en/dev/actors/actortypes/actor), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe) or [Actors](/en/dev/actors/actortypes/actor).
 
-> `self:GetChild()` can only be used by [ActorFrames](../../actorframe).
+> `self:GetChild()` can only be used by [ActorFrames](/en/dev/actors/actortypes/actorframe).
 {.is-warning}
 
 You can think of an [ActorFrame](/en/dev/actors/actortypes/actorframe) as a tree of objects. This is the original table. And now you've called GetParent on the [ActorProxy](/en/dev/actors/actortypes/actorproxy).
