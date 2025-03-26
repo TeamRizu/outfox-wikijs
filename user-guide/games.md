@@ -2,7 +2,7 @@
 title: Supported Game Modules
 description: The different game modules supported by Project OutFox.
 published: true
-date: 2024-09-01T15:36:11.121Z
+date: 2025-03-26T00:09:26.707Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:22:30.625Z
@@ -119,38 +119,38 @@ As of OutFox-alpha-4.18.1, they include:
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<h2>Dance / Fitness Pad Based Modes:</h2>
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./dance">dance</a>
-      	<a class="foxb foxb-primary" href="./pump">pump</a>
-        <a class="foxb foxb-primary" href="./techno">techno</a>
-        <a class="foxb foxb-primary" href="./smx">smx</a>
-        <a class="foxb foxb-primary" href="./stepstage">stepstage</a>
-        <a class="foxb foxb-primary" href="./kickbox">kickbox</a>
+      	<a class="foxb foxb-primary" href="./games/dance">dance</a>
+      	<a class="foxb foxb-primary" href="./games/pump">pump</a>
+        <a class="foxb foxb-primary" href="./games/techno">techno</a>
+        <a class="foxb foxb-primary" href="./games/smx">smx</a>
+        <a class="foxb foxb-primary" href="./games/stepstage">stepstage</a>
+        <a class="foxb foxb-primary" href="./games/kickbox">kickbox</a>
     	</div>
 		</div>
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<h2>Sensor / Mixed Sensor Based Modes:</h2>
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./ds3ddx">ds3ddx</a>
-      	<a class="foxb foxb-primary" href="./para">para</a>
-        <a class="foxb foxb-primary" href="./ez2d">ez2d</a>
+      	<a class="foxb foxb-primary" href="./games/ds3ddx">ds3ddx</a>
+      	<a class="foxb foxb-primary" href="./games/para">para</a>
+        <a class="foxb foxb-primary" href="./games/ez2d">ez2d</a>
     	</div>
 		</div>
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<h2>MIDI Instrument / Controller Based Modes:</h2>
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./gddm">gddm</a>
-      	<a class="foxb foxb-primary" href="./gdgf">gdgf</a>
-        <a class="foxb foxb-primary" href="./gh">gh</a>
-        <a class="foxb foxb-primary" href="./taiko">taitai</a>
-        <a class="foxb foxb-primary" href="./bongo">bongo</a>
-        <a class="foxb foxb-primary" href="./kbm">kbm</a>
+      	<a class="foxb foxb-primary" href="./games/gddm">gddm</a>
+      	<a class="foxb foxb-primary" href="./games/gdgf">gdgf</a>
+        <a class="foxb foxb-primary" href="./games/gh">gh</a>
+        <a class="foxb foxb-primary" href="./games/taiko">taitai</a>
+        <a class="foxb foxb-primary" href="./games/bongo">bongo</a>
+        <a class="foxb foxb-primary" href="./games/kbm">kbm</a>
     	</div>
 		</div>
     <div class="column-aligned-flex-div" style="max-width: none; margin: 10px;">
     	<h2>Controller / Key Based Modes:</h2>
     	<div class="row-justified-flex-div">
-      	<a class="foxb foxb-primary" href="./bemu">be-mu</a>
-      	<a class="foxb foxb-primary" href="./pomu">po-mu</a>
+      	<a class="foxb foxb-primary" href="./games/bemu">be-mu</a>
+      	<a class="foxb foxb-primary" href="./games/pomu">po-mu</a>
     	</div>
 		</div>
   </div>
