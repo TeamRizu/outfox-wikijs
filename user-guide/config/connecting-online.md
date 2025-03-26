@@ -2,7 +2,7 @@
 title: Connecting to OutFox Online
 description: This small guide will explain how to connect to OutFox online, and the ways you can connect through other Project OutFox powered machines.
 published: false
-date: 2025-03-26T00:08:21.974Z
+date: 2025-03-26T02:28:56.414Z
 tags: guide, outfoxonline
 editor: markdown
 dateCreated: 2025-03-25T19:30:19.338Z
@@ -49,14 +49,23 @@ Click on the "Link Additional" button on the dashboard, and a new section will a
 
 Once you provide the link code, you'll see a confirmation message saying that the account is linked!
 
-# Step 3: Using the profile
-
 At this point, you can just play like normal. There's no more steps to do as the game will automatically login with your profile when you start playing. You'll see this as the login screen automatically shows up.
 
-# Step 4: Playing outside of your computer
+# Step 3: Playing outside of your computer / public cabinet
 
 If you're not on the computer you made the profile in, there's nothing to worry about. **You can still use the same profile on other machines/cabinets that use Project OutFox!**
 
 All you'll need to do is generate a Login Pin for your specific profile. This will be used on the guest login prompt.
 
 ![online-pin-login-screen.png](/user-guide/online-pin-login-screen.png)
+
+To generate the pin, head over to https://outfox.online/dashboard/profiles. This is where you'll see all the profiles you've linked to your account. Just choose which profile you want to use on the cabinet, click/press on "Generate Pin", and input the pin it gives you back on the machine!
+
+![online-dashboard-profiles.png](/user-guide/online-dashboard-profiles.png)
+
+![online-pin-success.png](/user-guide/online-pin-success.png)
+
+And voila! Your profile has now been loaded on the cabinet, and you play as normal. All scores made during the session will be saved to your account, along with any mods you've setup during the session, which will be carried over for next time when you play on the same cabinet, or the computer you made the account on.
+
+> Some themes might not respect the modfiers you saved on OutFox Online (like Simply Love)! Please keep this in mind if some settings don't transfer during load.
+{.is-warning}
