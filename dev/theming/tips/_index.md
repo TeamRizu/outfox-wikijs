@@ -2,7 +2,7 @@
 title: Theming tips and tricks
 description: 
 published: true
-date: 2023-11-04T05:10:35.318Z
+date: 2025-03-26T18:16:28.939Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:19.214Z
@@ -12,9 +12,7 @@ This section is meant to showcase methods to create certain kinds of actors and 
 
 ## Verifying Command availability
 <!-- [Verifying Commmand availability](cmdavailable.md) -->
-While developing a theme, you may come across commands and functions that are available for current or future versions of OutFox,
-however it is recommended to make sure that your theme is still compatible for users that run older versions of OutFox or StepMania,
-and this can be done via a check for its existance.
+While developing a theme, you may come across commands and functions that are available for current or future versions of OutFox, however it is recommended to make sure that your theme is still compatible for users that run older versions of OutFox or StepMania, and this can be done via a check for its existance.
 
 Let's say for example that you want to use the `GetTotalScoresWithGrade` Profile function that is available in OutFox Alpha 4.15.
 That command is not available on previous versions nor in StepMania, so you can use an if check to verify that it exists.
