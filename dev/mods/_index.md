@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-05-16T06:18:37.848Z
 ---
 
-Want your arrows to dance around to the music (as seen in [Pump it Up PRO 2](https://youtu.be/TRsUGt-rp2s?t=16) and the [StepMania/ITG Modfile Community](https://youtu.be/73yEAdnsXfc?t=10))?
+Want your arrows to dance around to the music (as seen in [Pump it Up PRO 2](https://youtu.be/TRsUGt-rp2s?t=16))?
 
 Well, if you're a fan of modifiers and attacks, this guide is for you!
 
