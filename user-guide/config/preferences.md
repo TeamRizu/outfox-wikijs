@@ -909,11 +909,11 @@ The input drivers the game will use. If nothing is specified, the following defa
 
 Windows: ``Para,legacy,minisdl``
 
-Mac: ``portmidi,SDL``
+Mac: ``portmidi,SDL`` (lts4), ``SDL2`` (alpha5)
 
-Linux: ``SDL``
+Linux: ``SDL`` (lts4), ``SDL2`` (alpha5)
 
-The possible values are ``Rtio`` (Windows-only), ``legacy`` (Windows-only), ``SDL``, ``Reflex``, ``rtmidi``, ``Python23IO``, ``portmidi``, ``para``, ``minisdl`` and ``ps3ddr`` (alpha5-only)
+The possible values are ``Rtio`` (Windows-only), ``legacy`` (Windows-only), ``SDL``, ``SDL2`` (alpha5-only), ``Reflex``, ``rtmidi``, ``Python23IO``, ``portmidi``, ``para``, ``minisdl`` and ``ps3ddr`` (alpha5-only)
 
 Default value: nothing
 
