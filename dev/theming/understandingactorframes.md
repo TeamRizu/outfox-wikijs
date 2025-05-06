@@ -2,7 +2,7 @@
 title: Understanding ActorFrames
 description: An overview on how ActorFrames work. Part of the theming guide.
 published: true
-date: 2025-05-06T17:04:53.577Z
+date: 2025-05-06T17:05:17.031Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T17:02:49.884Z
@@ -55,7 +55,3 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 
 
 You can add more [Actors](/en/dev/actors/actortypes/actor) into an [ActorFrame](/en/dev/actors/actortypes/actorframe) in a few ways, which are based on Lua's method of appending onto an existing table.
-
-## Method 1: Directly writing to the table
-
-In this one, you just write onto the table like before
