@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2025-05-06T02:23:24.041Z
+date: 2025-05-06T03:22:49.417Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z
@@ -57,3 +57,6 @@ They are run as soon as the screen has to perform a change that will end up unlo
 - Lua based input is not available on this layer, as no input is ever sent.
 - For **Cancel**, the transition command to run the animation uses `StartTransitioningCommand`. Using OnCommand or InitCommand will
 make the animation run as soon as the screen is loaded.
+
+With that example, let's add a background!
+-[Next: Stylizing the background](/en/dev/theming/stylebackground)
