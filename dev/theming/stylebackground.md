@@ -2,7 +2,7 @@
 title: Stylizing the background
 description: A rundown of creating a background layer for a screen, and seeing the loading rules for this layer in particular.
 published: true
-date: 2025-05-06T03:38:51.429Z
+date: 2025-05-06T17:04:39.738Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T03:28:58.051Z
@@ -37,3 +37,8 @@ You can open this menu by holding the F2 key. This will bring up an overlay with
 If you see the options, you'll notice that there's an option called "Reload Background Screens", which you can enable with the 8 Key on your keyboard, so give that a press. And voila, the background refreshes with the new color you specified.
 
 ![backgroundactor-colortwo.png](/dev/theming/backgroundactor-colortwo.png)
+
+Now that we have set this up, why do we have the [Quad](/en/dev/actors/actortypes/quad) wrapped around an [ActorFrame](/en/dev/actors/actortypes/actorframe)?
+
+- [Next: Understanding ActorFrames. *An overview on how ActorFrames work.*](/en/dev/theming/stylebackground)
+{.links-list}
