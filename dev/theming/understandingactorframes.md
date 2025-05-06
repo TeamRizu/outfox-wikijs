@@ -2,7 +2,7 @@
 title: Understanding ActorFrames
 description: An overview on how ActorFrames work. Part of the theming guide.
 published: true
-date: 2025-05-06T17:02:49.884Z
+date: 2025-05-06T17:04:53.577Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T17:02:49.884Z
@@ -20,7 +20,7 @@ return Def.ActorFrame{
 }
 ``` 
 
-If you remember from ["My First BGAnimation"](/en/dev/theming/my-first-bga), we've specified some rules to take in consideration when building a screen, like always having to return a table. Well, any kind of actor can be considered a table, because they technically are, but the ActorFrames serve a quite useful feature: They're containers for other [Actors](/en/dev/actors/actortypes/actor).
+If you remember from ["My First BGAnimation"](/en/dev/theming/myfirstbga), we've specified some rules to take in consideration when building a screen, like always having to return a table. Well, any kind of actor can be considered a table, because they technically are, but the ActorFrames serve a quite useful feature: They're containers for other [Actors](/en/dev/actors/actortypes/actor).
 
 
 ```lua
