@@ -2,7 +2,7 @@
 title: The Structure of folders
 description: 
 published: true
-date: 2023-11-04T05:07:01.819Z
+date: 2025-05-06T02:16:45.782Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:46.002Z
@@ -49,3 +49,7 @@ storing the file on memory all the time.</p>
   </div>
 </div>
 
+Once you created these folders (mind you, all are optional, and the guide will tell you when each one is going to be created), let's discuss about screens.
+
+- [Next: What are screens? *A brief overview of what screens are.*](/en/dev/theming/myfirstbga)
+{.links-list}
