@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2024-09-18T01:58:47.945Z
+date: 2025-05-06T02:23:24.041Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z
@@ -27,7 +27,9 @@ To create a file for a specific layer, just name the file as `[ScreenName] [laye
 ScreenTitleMenu overlay.lua
 ```
 
-An important thing to mention with screen layers is: every layer ***MUST*** return a table. This is needed so the screen manager can create the screen, so either an empty table or an ActorFrame with any kind of content will do. For in-depth information on how to create an ActorFrame base, check [ActorFrames and how to build them](/en/dev/actors/actortypes/actorframe).
+An important thing to mention with screen layers is: every layer ***MUST*** return a table. This is needed so the screen manager can create the screen, so either an empty table or an ActorFrame with any kind of content will do. For in-depth information on how to create an ActorFrame base, please check:
+- [ActorFrames *ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.*](/en/dev/actors/actortypes/actorframe)
+{.links-list}
 
 > Due to this draw order, keep in mind that **objects created on higher levels will always be shown first before the others.**
 {.is-warning}
