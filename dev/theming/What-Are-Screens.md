@@ -2,15 +2,18 @@
 title: What are screens?
 description: An explanation about screens in Project Outfox, as they represent the container for every visual element for your theme. Part of the theming guide.
 published: true
-date: 2025-05-06T01:43:03.249Z
+date: 2025-05-06T01:46:55.724Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T01:37:44.431Z
 ---
 
-Before starting with anything on themes, we first need to look into what you're actually looking in your game right now. 
+Before starting with anything on themes, we first need to look into what you're actually looking in your game right now. Doesn't matter the theme you're using, it applies to all of them.
 
 ![screen-selectmusic-demo.png](/dev/theming/screen-selectmusic-demo.png)
+<small>
+  Theme is [sm5-ultimate](https://github.com/luizsan/ultimate). [Developed by Luizsan](https://github.com/luizsan), updated for Project OutFox by [Jose_Varela](https://github.com/JoseVarelaP/ultimate-of-theme).
+</small>
 
 All that you're seeing is contained on a [Screen](/en/dev/screens/Screen). These screens, depending on which class they're defined as, will output information (or your own) that the player can then interact with.
 
