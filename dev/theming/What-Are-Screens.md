@@ -2,7 +2,7 @@
 title: What are screens?
 description: An explanation about screens in Project Outfox, as they represent the container for every visual element for your theme. Part of the theming guide.
 published: true
-date: 2025-05-06T01:46:55.724Z
+date: 2025-05-06T01:47:15.205Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T01:37:44.431Z
