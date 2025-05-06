@@ -2,7 +2,7 @@
 title: My First BGAnimation
 description: Learn how to make your first BGAnimation file, which displays elements on the screen!
 published: true
-date: 2025-05-06T02:20:41.786Z
+date: 2025-05-06T03:35:24.246Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T02:13:55.382Z
@@ -36,6 +36,8 @@ return Def.ActorFrame{
 
 Now, save the file, and go back to the title screen. There are multiple ways of reloading your screen for testing, which will go over in a future chapter, but for now, restart the game and head back to the screen.
 
+![myfirstactor-barebitmaptext.png](/dev/theming/myfirstactor-barebitmaptext.png)
+
 You'll see the text is there...! On the top left corner of the screen... what gives? Well, since we didn't specify any instructions to the [BitmapText](/en/dev/actors/actortypes/bitmaptext) actor, it will just generate at the game's "origin point".
 
 The origin point is effectively the default area where every actor will spawn at, if no instructions are given. So, let's move it somewhere else. For this, we'll use the On command to give this actor instructions.
@@ -48,6 +50,8 @@ end
 ```
 
 Return to the Title Screen, and now the text is at the center of the screen!
+
+![myfirstactor-centerbitmaptext.png](/dev/theming/myfirstactor-centerbitmaptext.png)
 
 But what about those instructions? What do they do?
 
