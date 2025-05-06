@@ -2,7 +2,7 @@
 title: Stylizing the background
 description: A rundown of creating a background layer for a screen, and seeing the loading rules for this layer in particular.
 published: true
-date: 2025-05-06T17:04:39.738Z
+date: 2025-05-06T17:05:41.894Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T03:28:58.051Z
@@ -40,5 +40,5 @@ If you see the options, you'll notice that there's an option called "Reload Back
 
 Now that we have set this up, why do we have the [Quad](/en/dev/actors/actortypes/quad) wrapped around an [ActorFrame](/en/dev/actors/actortypes/actorframe)?
 
-- [Next: Understanding ActorFrames. *An overview on how ActorFrames work.*](/en/dev/theming/stylebackground)
+- [Next: Understanding ActorFrames. *An overview on how ActorFrames work.*](/en/dev/theming/understandingactorframes)
 {.links-list}
