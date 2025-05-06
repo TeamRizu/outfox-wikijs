@@ -2,7 +2,7 @@
 title: Understanding ActorFrames
 description: An overview on how ActorFrames work. Part of the theming guide.
 published: true
-date: 2025-05-06T17:06:37.159Z
+date: 2025-05-06T17:06:41.978Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T17:02:49.884Z
@@ -40,7 +40,7 @@ return Def.ActorFrame{
     		Font="Common Normal",
         Text="I'm a new actor!",
         OnCommand=function(self)
-        	self:y(30)
+        		self:y(30)
         end
     }
 }
