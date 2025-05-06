@@ -2,7 +2,7 @@
 title: Introduction to theming
 description: Learn how to make a theme! This guide will go through the steps to make a basic theme from scratch, and teach you some tips along the way.
 published: true
-date: 2025-05-06T01:39:35.284Z
+date: 2025-05-06T01:39:46.640Z
 tags: theming
 editor: markdown
 dateCreated: 2023-05-16T06:19:15.636Z
@@ -22,6 +22,7 @@ This guide will comprise of the process on how to create such theme from scratch
 
 - [Theming differences between older versions *It is important to note the following aspects when starting to make your theme.*](/en/dev/theming/Theming-0-Differences)
 - [The Structure of folders *Learn how to structure your theme with the appropiate content folders.*](/en/dev/theming/Theming-1-Folders)
+{.links-list}
 
 # Chapter 2: Screens
 
