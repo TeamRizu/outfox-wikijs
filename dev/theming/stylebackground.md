@@ -2,7 +2,7 @@
 title: Stylizing the background
 description: A rundown of creating a background layer for a screen, and seeing the loading rules for this layer in particular.
 published: true
-date: 2025-05-06T03:34:44.089Z
+date: 2025-05-06T03:38:51.429Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T03:28:58.051Z
@@ -31,5 +31,9 @@ This is because the background is special, where it is always running as long as
 But what if you want to see the changes? Well, this is where we're going to introduce our first helper: The creator menu!
 
 You can open this menu by holding the F2 key. This will bring up an overlay with options on the top of the screen.
+
+![backgroundactor-creatormenu.png](/dev/theming/backgroundactor-creatormenu.png)
+
+If you see the options, you'll notice that there's an option called "Reload Background Screens", which you can enable with the 8 Key on your keyboard, so give that a press. And voila, the background refreshes with the new color you specified.
 
 ![backgroundactor-colortwo.png](/dev/theming/backgroundactor-colortwo.png)
