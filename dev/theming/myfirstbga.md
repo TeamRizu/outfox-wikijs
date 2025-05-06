@@ -2,7 +2,7 @@
 title: My First BGAnimation
 description: Learn how to make your first BGAnimation file, which displays elements on the screen!
 published: true
-date: 2025-05-06T02:13:55.382Z
+date: 2025-05-06T02:20:41.786Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T02:13:55.382Z
@@ -13,6 +13,8 @@ Now that we know that all actors are in a [Screen](/en/dev/screens/Screen), it's
 Head over to the folder of the theme you just created, and make a BGAnimations folder. This folder will contain all of the information for the actors that will be present on each screen.
 
 In this example, we'll make our own actors on ScreenTitleMenu, which as the name implies, is the Title screen, where you get to see the options like "Start Game", "Options", "Edit Songs/Courses", etc.
+
+Create a file inside your BGAnimations folder called `ScreenTitleMenu overlay.lua`.
 
 Since we're working in Lua, the same rules on that programming language apply here, but also some extra rules are in need of explanation.
 
@@ -84,3 +86,8 @@ This tells the [Bitmap](/en/dev/actors/actortypes/bitmaptext) actor, to run the 
 > ```
 
 Do note that these three commands are not the only ones available; you can make your own custom commands! Which will be discussed on a later chapter.
+
+Now that we created the actor, what is that `overlay` bit on the filename?
+
+- [Next: Anatomy of a screen *See how a screen is created, how its drawn and how to construct your actors around it.*](/en/dev/theming/Theming-3-Anatomy-Screen)
+{.links-list}
