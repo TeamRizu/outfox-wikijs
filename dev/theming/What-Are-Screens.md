@@ -2,7 +2,7 @@
 title: What are screens?
 description: An explanation about screens in Project Outfox, as they represent the container for every visual element for your theme. Part of the theming guide.
 published: true
-date: 2025-05-06T01:37:44.431Z
+date: 2025-05-06T01:40:59.424Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T01:37:44.431Z
@@ -17,7 +17,7 @@ All that you're seeing is contained on a [Screen](/en/dev/screens/Screen). These
 For example:
 - All of the text that you're seeing is created by either using [Def.BitmapText](/en/dev/actors/actortypes/bitmaptext), or [Def.Text](/en/dev/actors/actortypes/text). The former being the standard form to make text, and the latter the newer method where it uses fonts for the same task.
 - All of the images are created by the game using [Def.Sprite](/en/dev/actors/actortypes/sprite), but the engine can also take care of handling some of those for you.
-- Some actors can be automated to perform certain tasks, like the difficulty numbers, which use [Def.RollingNumbers](/en/dev/actors/actortypes/rollingnumber) to animate the rolling from one number to the other.
+- Some actors can be automated to perform certain tasks, like the difficulty numbers, which use [Def.RollingNumbers](/en/dev/actors/actortypes/rollingnumbers) to animate the rolling from one number to the other.
 - The wheel at the bottom of the screen is handled by the theme's metrics, which declare how the wheels will be *transformed* and calculated (However, you can also make your own wheel yourself, you're not limited to the one provided by the engine).
 - Some themes may have a notefield present, to preview what the player is about to face. These are done using [Def.NoteField](/en/dev/actors/actortypes/notefield) actors.
 
