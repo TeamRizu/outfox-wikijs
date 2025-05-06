@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2025-05-06T03:22:49.417Z
+date: 2025-05-06T03:23:26.820Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z
@@ -59,4 +59,5 @@ They are run as soon as the screen has to perform a change that will end up unlo
 make the animation run as soon as the screen is loaded.
 
 With that example, let's add a background!
--[Next: Stylizing the background](/en/dev/theming/stylebackground)
+- [Next: Stylizing the background *Let's add a background layer, and see the special rules.*](/en/dev/theming/stylebackground)
+{.links-list}
