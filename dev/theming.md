@@ -2,7 +2,7 @@
 title: Introduction to theming
 description: Learn how to make a theme! This guide will go through the steps to make a basic theme from scratch, and teach you some tips along the way.
 published: true
-date: 2025-05-06T01:39:46.640Z
+date: 2025-05-06T01:48:01.953Z
 tags: theming
 editor: markdown
 dateCreated: 2023-05-16T06:19:15.636Z
@@ -24,9 +24,14 @@ This guide will comprise of the process on how to create such theme from scratch
 - [The Structure of folders *Learn how to structure your theme with the appropiate content folders.*](/en/dev/theming/Theming-1-Folders)
 {.links-list}
 
-# Chapter 2: Screens
+# Chapter 2: Screens and actors
 
 - [What are screens? *A brief overview of what screens are.*](/en/dev/theming/What-Are-Screens)
+
+## 2.1: BGAnimations
+
+- [My First BGAnimation *Learn how to make your first BGAnimation file, which displays elements on the screen!*](/en/dev/theming/MyFirstBGA)
+
 - [Anatomy of a screen *See how a screen is created, how its drawn and how to construct your actors around it.*](/en/dev/theming/Theming-3-Anatomy-Screen)
 {.links-list}
 
