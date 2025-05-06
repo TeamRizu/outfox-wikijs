@@ -2,7 +2,7 @@
 title: Introduction to theming
 description: Learn how to make a theme! This guide will go through the steps to make a basic theme from scratch, and teach you some tips along the way.
 published: true
-date: 2024-09-17T22:55:57.116Z
+date: 2025-05-06T01:39:23.188Z
 tags: theming
 editor: markdown
 dateCreated: 2023-05-16T06:19:15.636Z
@@ -18,21 +18,24 @@ Themes in OutFox (and general StepMania) are visual/gameplay tweaks that can com
 
 This guide will comprise of the process on how to create such theme from scratch, provide tips along the way, as well as best practices and history throughout the years.
 
-## Introduction
-
+# Chapter 1: Introduction
 
 - [Theming differences between older versions *It is important to note the following aspects when starting to make your theme.*](/en/dev/theming/Theming-0-Differences)
 - [The Structure of folders *Learn how to structure your theme with the appropiate content folders.*](/en/dev/theming/Theming-1-Folders)
+
+# Chapter 2: Screens
+
+- [What are screens? *A brief overview of what screens are.*](/en/dev/theming/WhatAreScreens)
 - [Anatomy of a screen *See how a screen is created, how its drawn and how to construct your actors around it.*](/en/dev/theming/Theming-3-Anatomy-Screen)
 {.links-list}
 
-## Adding your own content
+# Chapter 3: Adding your own content
 - [Creating a Font *Learn how to make your own fonts and apply them to your theme.*](/en/dev/theming/Theming-4-Creating-Font)
 {.links-list}
 - [Sounds *Learn how to handle sound in your theme.*](/en/dev/theming/Theming-Sounds)
 - [Scripts *The usage of Scripts and how to use them responsibly.*](/en/dev/theming/Theming-Scripts)
 
-## Advanced topics
+# Chapter 4: Advanced topics
 
 - [Creating a custom screen *A more advanced topic, where you can create your own screens to do anything with.*](/en/dev/theming/Theming-2-Screen-Creation)
 - [Custom Input *An addendum to making a custom screen, learn how to make your own input so you can interact with your new content!*](/en/dev/theming/Theming-Custom-Input)
