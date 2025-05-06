@@ -2,7 +2,7 @@
 title: What are screens?
 description: An explanation about screens in Project Outfox, as they represent the container for every visual element for your theme. Part of the theming guide.
 published: true
-date: 2025-05-06T02:18:24.237Z
+date: 2025-05-06T16:48:09.746Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T01:37:44.431Z
@@ -26,5 +26,5 @@ For example:
 
 These are a few examples of the vast selection of [Actor Types](/en/dev/actors/actortypes) that the game provides you to play with. But, to start with our operation, we suggest starting by creating a Lua file that will represent your first file.
 
-- [My First BGAnimation *Learn how to make your first BGAnimation file, which displays elements on the screen!*](/en/dev/theming/myfirstbga)
+- [Next: My First BGAnimation *Learn how to make your first BGAnimation file, which displays elements on the screen!*](/en/dev/theming/myfirstbga)
 {.links-list}
