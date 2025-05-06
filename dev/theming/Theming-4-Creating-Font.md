@@ -2,7 +2,7 @@
 title: Creating a Font
 description: 
 published: true
-date: 2023-11-04T05:07:10.006Z
+date: 2025-05-06T02:27:20.427Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:57.387Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-16T06:18:57.387Z
 
 Most themes use custom fonts, which are bitmap images with a bundled INI file that contains information about its width and height information for the engine to then process as glyphs. You can think of them as images that represent each letter.
 
-We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor, with a default font *(Common Normal)* that has the following text:
+We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext) actor, with a default font *(Common Normal)* that has the following text:
 
 ```lua
 Def.BitmapText{
@@ -26,7 +26,7 @@ Def.BitmapText{
 This actor becomes:
 ![basetextexample.png](/resources/theming/creating-a-font/basetextexample.png){.align-center}
 
-We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor, with a custom font that has the following text:
+We have a [BitmapText](/en/dev/actors/actortypes/bitmaptext) actor, with a custom font that has the following text:
 
 ```lua
 Def.BitmapText{
