@@ -2,7 +2,7 @@
 title: Anatomy of a screen
 description: 
 published: true
-date: 2025-05-07T06:02:20.649Z
+date: 2025-05-07T06:03:09.822Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:53.726Z
@@ -35,7 +35,7 @@ This layering rule also has rules on how objects behave on those layers, with De
 
 ### Background Layer
 
-The lowest drawn layer, being the first drawn. Can be used to elements that will contain visual glare for movement. A rule for this layer is its method for loading, which is cached. This means that any moment that changes are applied, they will not be shown until the user goes to a different screen that does not contain the same background file.
+The lowest drawn layer, being the first drawn. Can be used to elements that will contain visual glare for movement. A rule for this layer is its method for loading, which is cached. This means that any moment that changes are applied, they will not be shown until the user goes to a different screen that does not contain the same background file, or reloading using the "Reload Background Screens" option on OutFox's Creator Menu.
 
 ### Underlay / Overlay
 
