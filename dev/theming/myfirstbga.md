@@ -2,7 +2,7 @@
 title: My First BGAnimation
 description: Learn how to make your first BGAnimation file, which displays elements on the screen!
 published: true
-date: 2025-05-06T03:35:24.246Z
+date: 2025-05-07T06:04:32.577Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T02:13:55.382Z
@@ -14,11 +14,7 @@ Head over to the folder of the theme you just created, and make a BGAnimations f
 
 In this example, we'll make our own actors on ScreenTitleMenu, which as the name implies, is the Title screen, where you get to see the options like "Start Game", "Options", "Edit Songs/Courses", etc.
 
-Create a file inside your BGAnimations folder called `ScreenTitleMenu overlay.lua`.
-
-Since we're working in Lua, the same rules on that programming language apply here, but also some extra rules are in need of explanation.
-
-- Screens are basically tables that the engine will parse into actors, so all screens must end up returning some actor.
+Create a file inside your BGAnimations folder called `ScreenTitleMenu overlay.lua`. Since we're working in Lua, the same rules on that programming language apply here.
 
 # Making your first actor!
 
