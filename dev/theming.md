@@ -2,7 +2,7 @@
 title: Introduction to theming
 description: Learn how to make a theme! This guide will go through the steps to make a basic theme from scratch, and teach you some tips along the way.
 published: true
-date: 2025-05-07T06:25:56.101Z
+date: 2025-05-07T06:26:11.577Z
 tags: theming
 editor: markdown
 dateCreated: 2023-05-16T06:19:15.636Z
@@ -43,7 +43,7 @@ This guide will comprise of the process on how to create such theme from scratch
 
 ## 2.3: Sprites
 
-- [Adding Sprites **](theming/addingsprites)
+- [Adding Sprites **](addingsprites)
 
 # Chapter 3: Adding your own content
 - [Creating a Font *Learn how to make your own fonts and apply them to your theme.*](/en/dev/theming/Theming-4-Creating-Font)
