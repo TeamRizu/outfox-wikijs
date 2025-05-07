@@ -2,7 +2,7 @@
 title: Understanding ActorFrames
 description: An overview on how ActorFrames work. Part of the theming guide.
 published: true
-date: 2025-05-07T06:05:12.066Z
+date: 2025-05-07T06:14:24.830Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T17:02:49.884Z
@@ -56,4 +56,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJiYWNrZ3JvdW5kOiB0
 
 </center>
 
-You can add more [Actors](/en/dev/actors/actortypes/actor) into an [ActorFrame](/en/dev/actors/actortypes/actorframe) in a few ways, which are based on Lua's method of appending onto an existing table.
+You can add more [Actors](/en/dev/actors/actortypes/actor) into an [ActorFrame](/en/dev/actors/actortypes/actorframe) in a few ways, which are based on Lua's method of appending onto an existing table, you can look at these methods on the [ActorFrame](/en/dev/actors/actortypes/actorframe)'s definition page.
+
+- [ActorFrame *ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.*](/en/dev/actors/actortypes/actorframe#inline-building)
+{.links-list}
