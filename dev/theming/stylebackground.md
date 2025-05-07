@@ -2,7 +2,7 @@
 title: Stylizing the background
 description: A rundown of creating a background layer for a screen, and seeing the loading rules for this layer in particular.
 published: true
-date: 2025-05-06T17:05:41.894Z
+date: 2025-05-07T05:54:37.922Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T03:28:58.051Z
@@ -20,7 +20,7 @@ return Def.ActorFrame{
 }
 ``` 
 
-Once you save the file, restart the game again (faster reloading methods will be discussed later) and you'll see that now the dark area has been replaced with a blue color.
+Once you save the file, restart the game again (faster reloading methods will be discussed later) and you'll see that now the dark area has been replaced with a green color.
 
 ![backgroundactor-colorone.png](/dev/theming/backgroundactor-colorone.png)
 
