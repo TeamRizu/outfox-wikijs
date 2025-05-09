@@ -2,7 +2,7 @@
 title: Adding Sprites
 description: Learn how to add sprites to your theme. Part of the theming guide.
 published: true
-date: 2025-05-09T00:06:06.864Z
+date: 2025-05-09T00:07:09.672Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-07T06:24:58.781Z
@@ -37,5 +37,5 @@ Now, reload the Title Menu, and voila! You'll see your image at the center of th
 
 If you'd like to view Sprites in more detail, you can check out the dedicated page for Sprites. 
 
-- [Sprites](/en/dev/actortypes/Sprite)
+- [Sprites](/en/dev/actors/actortypes/sprite)
 {.links-list}
