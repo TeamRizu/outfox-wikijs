@@ -2,7 +2,7 @@
 title: Screen
 description: The screen for almost all defined screens in the game.
 published: true
-date: 2025-03-26T17:49:48.266Z
+date: 2025-03-26T17:49:51.041Z
 tags: screen
 editor: markdown
 dateCreated: 2023-11-04T03:55:53.747Z

@@ -2,7 +2,7 @@
 title: TextBanner
 description: TextBanner is an automated ActorFrame that processes information from a Song or Course to fill in data to several included BitmapText actors.
 published: true
-date: 2025-03-26T18:06:20.732Z
+date: 2025-03-26T18:06:23.307Z
 tags: textbanner
 editor: markdown
 dateCreated: 2023-05-16T06:16:22.325Z

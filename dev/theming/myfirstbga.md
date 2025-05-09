@@ -2,7 +2,7 @@
 title: My First BGAnimation
 description: Learn how to make your first BGAnimation file, which displays elements on the screen!
 published: true
-date: 2025-05-07T06:04:32.577Z
+date: 2025-05-07T06:04:35.431Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T02:13:55.382Z

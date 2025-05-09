@@ -2,7 +2,7 @@
 title: The Structure of folders
 description: 
 published: true
-date: 2025-05-06T02:17:10.691Z
+date: 2025-05-06T02:17:13.319Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:46.002Z

@@ -2,8 +2,8 @@
 title: Connecting to OutFox Online
 description: This small guide will explain how to connect to OutFox online, and the ways you can connect through other Project OutFox powered machines.
 published: true
-date: 2025-03-26T02:29:47.318Z
-tags: guide, outfoxonline
+date: 2025-03-26T02:29:49.898Z
+tags: outfoxonline, guide
 editor: markdown
 dateCreated: 2025-03-25T19:30:19.338Z
 ---

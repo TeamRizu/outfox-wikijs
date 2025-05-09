@@ -2,7 +2,7 @@
 title: Theming tips and tricks
 description: 
 published: true
-date: 2025-05-07T06:27:51.684Z
+date: 2025-05-07T06:27:54.446Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:19.214Z

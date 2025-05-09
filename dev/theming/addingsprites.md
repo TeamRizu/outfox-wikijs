@@ -2,7 +2,7 @@
 title: Adding Sprites
 description: Learn how to add sprites to your theme. Part of the theming guide.
 published: true
-date: 2025-05-09T00:07:09.672Z
+date: 2025-05-09T00:07:12.124Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-07T06:24:58.781Z

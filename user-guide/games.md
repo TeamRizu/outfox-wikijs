@@ -2,7 +2,7 @@
 title: Supported Game Modules
 description: The different game modules supported by Project OutFox.
 published: true
-date: 2025-03-26T00:09:26.707Z
+date: 2025-03-26T00:09:29.504Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:22:30.625Z

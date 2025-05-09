@@ -2,7 +2,7 @@
 title: Custom Input
 description: 
 published: true
-date: 2025-05-07T06:10:23.570Z
+date: 2025-05-07T06:10:26.749Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:19:01.100Z

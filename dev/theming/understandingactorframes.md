@@ -2,7 +2,7 @@
 title: Understanding ActorFrames
 description: An overview on how ActorFrames work. Part of the theming guide.
 published: true
-date: 2025-05-07T06:17:03.052Z
+date: 2025-05-07T06:25:03.464Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-06T17:02:49.884Z

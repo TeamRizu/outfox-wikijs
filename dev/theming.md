@@ -2,7 +2,7 @@
 title: Introduction to theming
 description: Learn how to make a theme! This guide will go through the steps to make a basic theme from scratch, and teach you some tips along the way.
 published: true
-date: 2025-05-07T06:27:55.770Z
+date: 2025-05-07T06:27:58.619Z
 tags: theming
 editor: markdown
 dateCreated: 2023-05-16T06:19:15.636Z

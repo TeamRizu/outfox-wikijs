@@ -2,7 +2,7 @@
 title: Creating a Font
 description: 
 published: true
-date: 2025-05-06T02:27:20.427Z
+date: 2025-05-06T02:27:23.055Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:18:57.387Z

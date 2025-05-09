@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: true
-date: 2025-03-26T17:47:28.108Z
+date: 2025-03-26T17:47:30.666Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
