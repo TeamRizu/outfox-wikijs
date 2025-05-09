@@ -2,7 +2,7 @@
 title: Adding Sprites
 description: Learn how to add sprites to your theme. Part of the theming guide.
 published: true
-date: 2025-05-07T06:24:58.781Z
+date: 2025-05-09T00:05:46.781Z
 tags: guide, theming
 editor: markdown
 dateCreated: 2025-05-07T06:24:58.781Z
@@ -34,3 +34,8 @@ Well, this is that special function I was talking about. This is called "GetPath
 This means, instead of having to write a path like `../../Graphics/myimage`, you can instead just write `THEME:GetPathG("","myimage")`, and the game will automatically look for an file with the specified name. It can even alert you if the file is missing or doesn't match.
 
 Now, reload the Title Menu, and voila! You'll see your image at the center of the screen.
+
+If you'd like to view Sprites in more edtail, you can hcecokut the dedicated page for Sprites. 
+
+- [Sprites](/en/dev/actortypes/Sprite)
+{.links-list}
