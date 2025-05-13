@@ -2,13 +2,56 @@
 title: ScreenSelectProfile
 description: Screen dedicated for selecting profiles
 published: true
-date: 2025-05-13T06:25:03.390Z
+date: 2025-05-13T06:32:47.620Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T06:24:07.936Z
 ---
 
 ScreenSelectProfile manages selection of profiles for gameplay. Most of the interactions done in this screen are done via Lua, interfaced with some dedicated functions provided by the engine.
+
+![screen-demo.png](/dev/screens/screenselectprofiles/screen-demo.png)
+
+<small>The ScreenSelectProfile screen from Soundwaves.</small>
+
+# Available Metrics
+
+The following are the metrics that this screen uses (from `_fallback`):
+```ini
+Fallback="ScreenWithMenuElements"
+Class="ScreenSelectProfile"
+LoginScreenName="ScreenOutFoxOnlineLoginFromSelect"
+#
+ScreenOnCommand=%function(self) self:lockinput(1); end;
+#
+NextScreen=Branch.AfterSelectProfile()
+PrevScreen=Branch.TitleMenu()
+StartScreen=Branch.AfterSelectProfile()
+#
+TimerSeconds=30
+LockInputSecs=0.35
+#
+CodeNames=SelectProfileKeys()
+CodeUp="+MenuUp"
+CodeUp2="+Up"
+CodeUp3="+MenuLeft"
+CodeUp4="+Left"
+CodeDown="+MenuDown"
+CodeDown2="+Down"
+CodeDown3="+MenuRight"
+CodeDown4="+Right"
+CodeStart="+Start"
+CodeBack="Back"
+CodeCenter="Center"
+CodeDownLeft="DownLeft"
+CodeDownRight="DownRight"
+```
+
+# OutFox Online Interoperability
+
+If the client is connected to [OutFox Online](/en/dev/outfoxonline), upon making a selection and calling `Finish()`, the engine will verify if the selected profiles are eligible for automatic login.
+
+If a selected profile is not eligible (a.k.a they don't have a token assigned to them), if they have the "Allow Guest Profiles" option enabled on [ScreenNetworkOptions](/en/dev/screens/ScreenNetworkOptions), the game will automatically overwrite the NextScreen to the value of `LoginScreenName`.
 
 # Functions
 
