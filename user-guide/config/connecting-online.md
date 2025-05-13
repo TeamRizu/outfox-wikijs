@@ -2,13 +2,13 @@
 title: Connecting to OutFox Online
 description: This small guide will explain how to connect to OutFox online, and the ways you can connect through other Project OutFox powered machines.
 published: true
-date: 2025-03-26T02:29:49.898Z
-tags: outfoxonline, guide
+date: 2025-05-13T04:10:08.953Z
+tags: guide, outfoxonline
 editor: markdown
 dateCreated: 2025-03-25T19:30:19.338Z
 ---
 
-Connecting to OutFox Online is a simple process, but requires a few steps to go through beforehand.
+Connecting to OutFox Online is a simple process, so let's go through the steps.
 
 Before starting this guide, **make sure you make an [OutFox Online account](https://outfox.online/register)** so you get access to your own dashboard for the following steps.
 
@@ -41,7 +41,7 @@ Maybe you want a profile that is for pure keyboard play, or one for playing on a
 - Select "Link Online Account".
 > If the profile is already linked, it will say "Relink Online Account" instead.
 
-This will ask for a Link Code, which you can find on your online dashboard. So head to https://outfox.online/dashboard to generate one. 
+This will ask for a Link Code, which you can find on your online dashboard. So head to https://outfox.online/dashboard to generate one.
 
 Click on the "Link Additional" button on the dashboard, and a new section will appear with instructions on what to do next with this code.
 
