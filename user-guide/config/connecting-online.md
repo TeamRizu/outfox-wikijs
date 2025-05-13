@@ -2,7 +2,7 @@
 title: Connecting to OutFox Online
 description: This small guide will explain how to connect to OutFox online, and the ways you can connect through other Project OutFox powered machines.
 published: true
-date: 2025-05-13T04:10:08.953Z
+date: 2025-05-13T04:11:56.975Z
 tags: guide, outfoxonline
 editor: markdown
 dateCreated: 2025-03-25T19:30:19.338Z
@@ -55,11 +55,14 @@ At this point, you can just play like normal. There's no more steps to do as the
 
 If you're not on the computer you made the profile in, there's nothing to worry about. **You can still use the same profile on other machines/cabinets that use Project OutFox!**
 
+> By default, guest login is disabled. To turn it on, enable "Allow Online Guests" on the Network Options screen shown at the beginning of this guide.
+{.is-info}
+
 All you'll need to do is generate a Login Pin for your specific profile. This will be used on the guest login prompt.
 
 ![online-pin-login-screen.png](/user-guide/online-pin-login-screen.png)
 
-To generate the pin, head over to https://outfox.online/dashboard/profiles. This is where you'll see all the profiles you've linked to your account. Just choose which profile you want to use on the cabinet, click/press on "Generate Pin", and input the pin it gives you back on the machine!
+To generate the pin, head over to https://outfox.online/dashboard/profiles (or scan the QR code that is provided on the guest login screen). This is where you'll see all the profiles you've linked to your account. Just choose which profile you want to use on the cabinet, click/press on "Generate Pin", and input the pin it gives you back on the machine!
 
 ![online-dashboard-profiles.png](/user-guide/online-dashboard-profiles.png)
 
