@@ -2,13 +2,13 @@
 title: ScreenSelectProfile
 description: Screen dedicated for selecting profiles
 published: true
-date: 2025-05-13T06:24:07.936Z
+date: 2025-05-13T06:25:03.390Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T06:24:07.936Z
 ---
 
-ScreenSelectProfiles manages selection of profiles for gameplay. Most of the interactions done in this screen are done via Lua, interfaced with some dedicated functions provided by the engine.
+ScreenSelectProfile manages selection of profiles for gameplay. Most of the interactions done in this screen are done via Lua, interfaced with some dedicated functions provided by the engine.
 
 # Functions
 
@@ -40,6 +40,13 @@ Tells the screen that we're with profile selection, and must start performing lo
 - If a player requested to load from the memory card and it's not available.
 - The assigned index is higher than the actual number of profiles.
 
+```lua
+SCREENMAN:GetTopScreen():Finish()
+```
+
 ## Cancel()
 
 Cancels operation and backs out from the screen.
+```lua
+SCREENMAN:GetTopScreen():Cancel()
+```
