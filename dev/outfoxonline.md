@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: true
-date: 2025-03-26T17:47:30.666Z
+date: 2025-05-13T04:43:56.108Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -36,14 +36,14 @@ In addition to this system, it also allows interoperability with [GrooveStats](h
 
 For theme creators, you don't actually have to do anything to make OutFox Online work in your theme. All you need is your theme being able to either load [ScreenProfileLoad](/dev/screens/ScreenProfileLoad) or [ScreenSelectProfile](/dev/screens/ScreenSelectProfile) for login. The engine takes care of the rest.
 
-Users can quickly connect to Outfox Online via the [ScreenOptionsNetwork](/dev/screens/ScreenOptionsNetwork) screen with a one-press `Connect` button.
+Users can quickly connect to Outfox Online via the [ScreenNetworkOptions](/dev/screens/ScreenNetworkOptions) screen with a one-press `Connect` button.
 
 ![ofonlinenetworksettings.png](/dev/outfoxonline/ofonlinenetworksettings.png){.align-center}
 <small>Theme is ITG: GrooveNights by DivinElegy (Now known as [peekingboo](https://www.twitch.tv/peekingboo)), [ported to Project Outfox by Jose_Varela](https://github.com/JoseVarelaP/SM5-GrooveNights).</small>
 
-> Please note that if the user does not have the `Auto Connect To OutFox Online` (AutoConnectToServer) preference enabled, they'll need to navigate to [ScreenOptionsNetwork](/dev/screens/ScreenOptionsNetwork) to connect to Outfox Online on every boot. Otherwise, you're going to be have confused people wondering where the screen is.
+> Please note that if the user does not have the `Auto Connect To OutFox Online` (AutoConnectToServer) preference enabled, they'll need to navigate to [ScreenNetworkOptions](/dev/screens/ScreenNetworkOptions) to connect to Outfox Online on every boot. Otherwise, you're going to be have confused people wondering where the screen is.
 >
-> So please consider checking if your theme contains [ScreenOptionsNetwork](/dev/screens/ScreenOptionsNetwork) on your settings screen. 
+> So please consider checking if your theme contains [ScreenNetworkOptions](/dev/screens/ScreenNetworkOptions) on your settings screen. 
 {.is-info}
 
 
