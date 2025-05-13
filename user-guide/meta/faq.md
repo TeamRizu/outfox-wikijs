@@ -91,11 +91,13 @@ Currently the game features two modes: a HIDAPI-based "Legacy" input system, sim
 
 ## Is online mode available yet? If not, is it coming?
 
-Short answer: no it's not available, yes it's coming. Long answer: It'll take a while, the engine is still being optimised and the online system is still in development (being done by Cube). 
+Short answer: Yes.
 
-This doesn't mean Online isn't important for us, it's a lot, it was one of Team Rizu first plans but the engine just wasn't ready for their plans. 
+Long answer: It is available in recent Alpha V test builds. One of the major features are per-chart leaderboards, shown in the client and website. Multiplayer is coming soon.
 
-Resume: As your read this, both the game engine and online mode are still in development.
+The website is https://outfox.online. For a tutorial, see [Connecting to OutFox Online](/user-guide/config/connecting-online). For more information about the system, see [OutFox Online System](/dev/outfoxonline).
+
+Resume: As you read this, multiplayer is still in development.
 
 ## How do I insert Noteskins/Themes/Avatars/Judgments/Toasties into Project OutFox?
 
