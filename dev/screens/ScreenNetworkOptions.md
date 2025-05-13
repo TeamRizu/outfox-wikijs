@@ -2,8 +2,8 @@
 title: ScreenNetworkOptions
 description: Engine screen dedicated to network settings
 published: true
-date: 2025-05-13T04:25:43.642Z
-tags: screen, network, options
+date: 2025-05-13T04:42:51.700Z
+tags: network, options, screen
 editor: markdown
 dateCreated: 2025-05-13T04:25:43.642Z
 ---
@@ -34,8 +34,7 @@ The dedicated connection button to connect to OutFox Online. Upon interacting wi
 An option to auto connect to OutFox Online when the game starts up. Disabled by default.
 
 ## Enable Discord Rich Presence
-
-Enables Discord's Rich Presence, which makes gameplay info be dislayed on your discord profile while the game is on.
+Enables Rich Presence functionality for Discord, which makes gameplay info be dislayed on your Discord profile while the game is on. These will update information depending on which screen you are.
 
 > You must restart the game for this option to take effect.
 {.is-info}
