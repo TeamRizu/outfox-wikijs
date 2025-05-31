@@ -2,7 +2,7 @@
 title: 3D Perspectives on Actors
 description: This document will go into detail about setting up an ActorFrame to perform operations that resemble a 3D enviroment.
 published: true
-date: 2025-05-31T07:47:11.523Z
+date: 2025-05-31T07:53:23.581Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-31T07:47:11.523Z
@@ -42,7 +42,7 @@ self:fardistz(3000) -- This will set it to 3000px.
 
 # First-Person Enviroment Example
 
-To perform this kind of 3D projection, we'll be performing a trick that's usually shown in OpenGL where the "Camera" - which is what the user is seeing - is completely stationary, and instead, the entire world (objects and all) are moving relative to that camera.
+To perform this kind of 3D projection, we'll be performing a trick that's usually shown in 3D rendering where the "Camera" - which is what the user is seeing - is completely stationary, and instead, the entire world (objects and all) are moving relative to that camera.
 
 To start, we need to setup some variables, and some functions: such as a way to calculate the vector position of the "Camera", and every object you want to place down. For this, here's a simple `Vector3` metatable that will help out with these calculations.
 
