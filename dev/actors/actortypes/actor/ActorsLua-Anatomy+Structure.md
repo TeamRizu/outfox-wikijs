@@ -72,7 +72,7 @@ end
 
 If one wants to pass custom parameters into the command, a single table has to be used to wrap every parameter passed.
 
-These command functions generally take two paramters: The actor calling the function (often called `self`), and the parameters table passed into the command. The paramters table is optional.
+These command functions generally take two parameters: The actor calling the function (often called `self`), and the parameters table passed into the command. The parameters table is optional.
 
 ```lua
 self:playcommand("Action", { --[[Values are added here like a regular table.]] })

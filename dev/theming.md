@@ -21,7 +21,7 @@ This guide will comprise of the process on how to create such theme from scratch
 # Chapter 1: Introduction
 
 - [Theming differences between older versions *It is important to note the following aspects when starting to make your theme.*](Theming-0-Differences)
-- [The Structure of folders *Learn how to structure your theme with the appropiate content folders.*](Theming-1-Folders)
+- [The Structure of folders *Learn how to structure your theme with the appropriate content folders.*](Theming-1-Folders)
 {.links-list}
 
 # Chapter 2: Screens and actors
@@ -57,7 +57,7 @@ This guide will comprise of the process on how to create such theme from scratch
 - [Creating a custom screen *A more advanced topic, where you can create your own screens to do anything with.*](Theming-2-Screen-Creation)
 - [Custom Input *An addendum to making a custom screen, learn how to make your own input so you can interact with your new content!*](Theming-Custom-Input)
 - [Modules *A system that allows on-demand functions/snippets to be loaded.*](Theming-Modules)
-- [Theming tips and tricks *Miscelaneous tips you can check out for your theme.*](tips)
+- [Theming tips and tricks *Miscellaneous tips you can check out for your theme.*](tips)
 {.links-list}
 
 *Guide Written and Maintained by Jose_Varela.*

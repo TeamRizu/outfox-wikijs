@@ -1,6 +1,6 @@
 ---
 title: 3D Perspectives on Actors
-description: This document will go into detail about setting up an ActorFrame to perform operations that resemble a 3D enviroment.
+description: This document will go into detail about setting up an ActorFrame to perform operations that resemble a 3D environment.
 published: true
 date: 2025-05-31T07:53:23.581Z
 tags: 
@@ -23,7 +23,7 @@ For this, we need to describe some quirks about 3D in Project OutFox (and other 
 
 # Adjusting the FOV
 
-To adjust the FOV on your enviroment [ActorFrame](/en/dev/actors/actortypes/actorframe), you have two options:
+To adjust the FOV on your environment [ActorFrame](/en/dev/actors/actortypes/actorframe), you have two options:
 
 - Adjust the FOV attribute on the [Def.ActorFrame](/en/dev/actors/actortypes/actorframe) object.
 - Use the `self:fov` function on said [ActorFrame](/en/dev/actors/actortypes/actorframe).
@@ -40,7 +40,7 @@ To adjust the draw distance, we make use of the `fardistz` function, available f
 self:fardistz(3000) -- This will set it to 3000px.
 ```
 
-# First-Person Enviroment Example
+# First-Person Environment Example
 
 To perform this kind of 3D projection, we'll be performing a trick that's usually shown in 3D rendering where the "Camera" - which is what the user is seeing - is completely stationary, and instead, the entire world (objects and all) are moving relative to that camera.
 
@@ -104,7 +104,7 @@ local rad = math.pi/180
 local cam = Vector3.new(0,0,0)
 ```
 
-Since the "Camera" in Project OutFox doesn't ever move, we'll do a technique were an [ActorFrame](/en/dev/actors/actortypes/actorframe) will pretend to the camera, and another one, the enviroment that it will project from.
+Since the "Camera" in Project OutFox doesn't ever move, we'll do a technique were an [ActorFrame](/en/dev/actors/actortypes/actorframe) will pretend to the camera, and another one, the environment that it will project from.
 
 ```lua
 --[[
@@ -123,7 +123,7 @@ local EnvCamera = Def.ActorFrame{
     end
 }
 
-local Enviroment = Def.ActorFrame{
+local Environment = Def.ActorFrame{
 		FOV=90,
     OnCommand=function (self)
         self:fardistz(9e9)

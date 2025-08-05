@@ -96,7 +96,7 @@ Here is example output from ldd:
 In this example, `libbz2.so.1.0` is missing.
 
 Here's a list of what libraries it looks for and what Debian/Ubuntu/Fedora package it corresponds to. Most systems should have most of these already.
-Library name|Debian/Ubuntu pacakge|Fedora package
+Library name|Debian/Ubuntu package|Fedora package
 --------|-------|--------
 libOpenGL.so.0|libopengl0|libglvnd-opengl
 libGLX.so.0|libglx0|libglvnd-glx
@@ -124,7 +124,7 @@ Assuming the third device is where the audio should be, the whole line for Sound
 
 ---
 ### Needing to force ALSA instead of PulseAudio.
-A wrapper program called `pasuspender` can be used to temporarilly disable pulseaudio and make OutFox use the ALSA drivers.
+A wrapper program called `pasuspender` can be used to temporarily disable pulseaudio and make OutFox use the ALSA drivers.
 
 In the terminal, it would be used like this:
 ```

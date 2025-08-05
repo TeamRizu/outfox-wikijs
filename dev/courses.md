@@ -23,7 +23,7 @@ Project OutFox/Courses/
 └───Singular course.crs
 ```
 
-A colection (folder) can have as many courses inside of it as it wishes. The name of the folder is not used
+A collection (folder) can have as many courses inside of it as it wishes. The name of the folder is not used
 on selection however, as described on the `instruction.txt` file.
 >Course files (.crs) typically go in folders, though they aren't shown like that on the wheel... yet. (Coming soon: a metric that allows a theme to do that, once we get the wheel to treat course directories like song directories)
 
@@ -109,7 +109,7 @@ Instead of a particular song, a random one can be chosen by using the wildcard o
 ```
 
 ```
-#SONG:*; # Will pick a random song from the entire instalation.	
+#SONG:*; # Will pick a random song from the entire installation.	
 ```
 
 ### #COURSETRANSLIT

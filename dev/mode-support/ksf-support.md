@@ -109,7 +109,7 @@ Example:
 ```
 ---
 ## ``DIFFICULTY``
-Sets the rating of the chart. Otherwise, values from the Difficulty secion above are used.
+Sets the rating of the chart. Otherwise, values from the Difficulty section above are used.
 
 Example:
 
@@ -253,9 +253,9 @@ Example: `|E12|` Makes a 12 beat delay segment.
 ---
 <!-- I'm unsure about this -->
 #### ``|Dn|``
-Sets a delay segment at the given beat for n miliseconds
+Sets a delay segment at the given beat for n milliseconds
 
-Example: `|D1000|` Makes a 1000 milisecond (1 second) delay segment.
+Example: `|D1000|` Makes a 1000 millisecond (1 second) delay segment.
 
 ---
 #### ``|Mn|`` / ``|Cn|``

@@ -18,7 +18,7 @@ Point and column numbering start at 1 in SM5, while it starts at 0 in NotITG.
 
 To stop the current chain of spline points, a 'null point' (Where both position and magnitude are at zero) can be used as a 'null terminator' or sorts. This is only applicable for points after the first.
 
-The following types are avaiable for modsplines (designated as `<axis>`):
+The following types are available for modsplines (designated as `<axis>`):
 - X (Positioning on the x axis, affects receptors & notes. Works in multiples of ARROW_SIZE)
 - Y (Positioning on the y axis, affects receptors & notes. Works in multiples of ARROW_SIZE. The quirks of SpiralY apply here if holds or rolls are involved.)
 - Z (Positioning on the z axis, affects receptors & notes. Works in multiples of ARROW_SIZE)
@@ -26,7 +26,7 @@ The following types are avaiable for modsplines (designated as `<axis>`):
 - RotY (Rotation on the y axis, affects notes only. Works in radians. Known as "RotationY" in NotITG, but uses RotY for functions. Also affects hold heads in SM5 without extra mods needed.)
 - RotZ (Rotation on the z axis, affects notes only. Works in radians. Known as "RotationZ" in NotITG, but uses RotZ for functions. Also affects hold heads in SM5 without extra mods needed.)
 - Zoom (Zoom all three axis with the Mini calculations, affects receptors & notes. Known as "Size", "Tiny" (Modstring only) or "Zoom" (Modstring only) in NotITG)
-- SkewX (Aribtrary amounts of skewx, affects receptors & notes. Works like NoteSkewX. Known as "Skew" in NotITG)
+- SkewX (Arbitrary amounts of skewx, affects receptors & notes. Works like NoteSkewX. Known as "Skew" in NotITG)
 - SkewY (Arbitrary amounts of skewy, affects receptors & notes. Works like NoteSkewY. Not available in NotITG v4.0)
 - Stealth (Arbitrary amounts of stealth.)
 

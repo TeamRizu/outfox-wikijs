@@ -23,7 +23,7 @@ There are a few ways to go about this, and it varys depending on what version of
 
 ### ApplyGameCommand (SM3.95/oITG/nITG)
 
-ApplyGameCommand is a GameState function that provides a way to send modifiers among other commands. The first paramter is the command type followed by the parameters. (In this case, a modstring) The second parameter is what player to apply the command (1 = player 1). If not specified, it applies to all players.
+ApplyGameCommand is a GameState function that provides a way to send modifiers among other commands. The first parameter is the command type followed by the parameters. (In this case, a modstring) The second parameter is what player to apply the command (1 = player 1). If not specified, it applies to all players.
 
 ```lua
 GAMESTATE:ApplyGameCommand("mod, *0.5 420 beat", 1)
@@ -41,7 +41,7 @@ Old modfiles used to require going into marathon mode to play the scripted modif
 ```
 (ex: Beat starts at 0 seconds and ends at 10. Stealth turns on at 5 seconds and ends 1.6 seconds later)
 
-Nowadays, this is considered obsolete in favor of lua-powered modifiers. It's still usuable in SM5.
+Nowadays, this is considered obsolete in favor of lua-powered modifiers. It's still usable in SM5.
 
 ### #ATTACKS (Simfiles, nITG/SM5)
 
@@ -118,7 +118,7 @@ return Def.ActorFrame {
 
 ## Modfile templates
 
-Starting to make a modfile can seem really daunting if one does not know how to begin. Luckilly, there are many templates out there to help with creating modfiles.
+Starting to make a modfile can seem really daunting if one does not know how to begin. Luckily, there are many templates out there to help with creating modfiles.
 
 Ones made for SM3.95 and Open/NotITG are usually done with .xml files, and some rare .lua files.
 
@@ -221,7 +221,7 @@ TODO: I'm gonna need everyone else's help from the mods community when we start 
 
 - XeroOl's Galaxy Mod Loader (XGML) template
 	- https://github.com/XeroOl/notitg-xgml
-	- Predecesor to mirin
+	- Predecessor to mirin
 	- Considered deprecated/obsolete?
 	- Has addons to extend template functionality
 		- https://github.com/XeroOl/notitg-xgml-addons

@@ -37,7 +37,7 @@ The attributes for DynamicActorScroller are the same as [ActorScroller](/en/dev/
 
 | Name | Type | Action |
 | :--- | :--- | :----- |
-LoadFunction |  function |  **New to DynamicActorScroller**, determines the ammount of items to be generated. provides two arguments which are nil at the start.
+LoadFunction |  function |  **New to DynamicActorScroller**, determines the amount of items to be generated. provides two arguments which are nil at the start.
 
 The following are the regular attributes.
 | Name | Type | Action |

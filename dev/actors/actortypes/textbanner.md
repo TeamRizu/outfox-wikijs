@@ -30,9 +30,9 @@ Def.TextBanner {
 }
 ```
 
-## Atributes
+## Attributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe).
+There are no special attributes for this actor class. It inherits the attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
 ## Data used on load
 
@@ -67,7 +67,7 @@ If there is a PrependString of "/"..
 `AfterSetCommand` is a function that is called after all data has been processed on the TextBanner.
 This can be useful to fix any visual errors that might happen like overflowing text, incorrect sizing, and others.
 
-> You may notice on the mayority of themes, this metric contains a value like this:
+> You may notice on the majority of themes, this metric contains a value like this:
 > ```ini
 > AfterSetCommand=%TextBannerAfterSet
 > ```

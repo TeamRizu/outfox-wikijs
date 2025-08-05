@@ -125,7 +125,7 @@ TransformFunction=function(self, offset, itemIndex, numItems)
 end
 ```
 
-Here we're telling the game to perform the operation on the X and Y axis, and they're using cosine and sine respectively. [These two values return a value of -1 to 1](https://en.wikipedia.org/wiki/Sine_and_cosine#/media/File:Sine_cosine_one_period.svg). By having these two values in sync with each other, we're effectively creating a circunference, which in turns provides us with a circle.
+Here we're telling the game to perform the operation on the X and Y axis, and they're using cosine and sine respectively. [These two values return a value of -1 to 1](https://en.wikipedia.org/wiki/Sine_and_cosine#/media/File:Sine_cosine_one_period.svg). By having these two values in sync with each other, we're effectively creating a circumference, which in turns provides us with a circle.
 
 ### Subdivisions
 

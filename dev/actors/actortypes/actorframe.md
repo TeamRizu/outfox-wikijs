@@ -59,7 +59,7 @@ Def.ActorFrame{
 
 Because lua tables can be concatenated (added) to each other, so can ActorFrames.
 
-This can allow for programatically creating [Actor](/en/dev/actors/actortypes/actor) in batches as needed.
+This can allow for programmatically creating [Actor](/en/dev/actors/actortypes/actor) in batches as needed.
 
 However, if one does not plan on creating [Actor](/en/dev/actors/actortypes/actor) programmaticly, then a simple `return Def.ActorFrame{...` is all that's needed. Storing it into a local variable that gets returned will waste resources.
 
@@ -142,4 +142,4 @@ If there are multiple children with that name, returns an array of those childre
 The table also acts as a pass through layer, function calls pass through to the last child of that name.
 
 obtainlevels
-For more information about how obtaining ActorFrame childs work, check [Obtaining Childs and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-childs-and-actorframe-levels).
+For more information about how obtaining ActorFrame children work, check [Obtaining Children and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-childs-and-actorframe-levels).

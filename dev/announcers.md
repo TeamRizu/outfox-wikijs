@@ -24,7 +24,7 @@ Project OutFox/Announcers/
 		└───OutFox.ogg
 ```
 
-# Funcionality
+# Functionality
 
 Depending on the screen the player is currently on, certain announcer sounds will play. Here we will list the items used in the engine, and talk about custom sounds.
 
@@ -244,7 +244,7 @@ Because of the Tier system in modern SM, the tier is converted into a human read
   
 <details>
   
-  <summary>Click here for the list of old grades correspondant to the tier.</summary>
+  <summary>Click here for the list of old grades correspondent to the tier.</summary>
  
 | Tier | Old Grade conversion |
 | :--: | :------------------: |

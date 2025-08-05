@@ -18,7 +18,7 @@ local MyRageSound = self:get()
 ```
 
 With this object obtained, you can control elements like the sound's position, volume, pitch and speed.
-Note that some components need some flags to be enabled which have been pointed out as commments alongside them.
+Note that some components need some flags to be enabled which have been pointed out as comments alongside them.
 ```lua
 -- This function will return the value for the Def.Sound's RageSound component, which allows for expanded
 -- controls.

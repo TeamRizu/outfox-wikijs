@@ -113,7 +113,7 @@ SEVOL:100
 ```
 ---
 ## ``DEMOSTART``
-This allows for the preview of the song file set in ``WAVE``. It is set to play when in screen select music, (The music wheel) and will play from the point chosen here. This system mimicks the ``#PREVIEW`` system in BMS, but does not require you to load two files. It simply uses the one song file, and will play from the point selected.
+This allows for the preview of the song file set in ``WAVE``. It is set to play when in screen select music, (The music wheel) and will play from the point chosen here. This system mimics the ``#PREVIEW`` system in BMS, but does not require you to load two files. It simply uses the one song file, and will play from the point selected.
 
 You need to set a time within the file, or this can cause issues with some simulators. If your song file was 93 seconds long, and you set ``DEMOSTART:99``, this can cause undesirable behaviour in other simulators. If the number is invalid in OutFox, it will just play from the beginning, so do set this right!
 

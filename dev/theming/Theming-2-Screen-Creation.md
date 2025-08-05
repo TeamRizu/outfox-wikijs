@@ -27,7 +27,7 @@ As you notice, we're using the `Fallback` item. This is to have an existing scre
 > Every single screen created **must** contain some kind of class, otherwise the engine will not know how to respond to it and crash or send out an error. If you are unsure which class to use, you can rely on **ScreenWithMenuElements**, as it is the most basic screen class type, and the skeleton for every other class.
 {.is-warning}
 
-## Acessing the screen
+## Accessing the screen
 
 Now with the metric information added, we have to have a way to enter the screen. There are mainly 3 ways to send the user to the screen.
 

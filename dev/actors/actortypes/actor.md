@@ -28,7 +28,7 @@ Def.Actor{
 | Name | Type | Description |
 | :--- | :--- | ----------- |
 [Name]Command | function | The basis for any command. Check [Commands](#commands) for more information.
-Name | string | The name for the actor. Giving this a value allows this actor to be obtain by its name by any other actor. Check [Obtaining Childs and ActorFrame Levels](#obtaining-childs-and-actorframe-levels) for more information.
+Name | string | The name for the actor. Giving this a value allows this actor to be obtain by its name by any other actor. Check [Obtaining Children and ActorFrame Levels](#obtaining-children-and-actorframe-levels) for more information.
 BaseRotationX | number | The base rotation for the X axis. Any rotation value is added ON TOP of this value.
 BaseRotationY | number | The base rotation for the Y axis. Any rotation value is added ON TOP of this value.
 BaseRotationZ | number | The base rotation for the Z axis. Any rotation value is added ON TOP of this value.
@@ -102,7 +102,7 @@ end
 
 If one wants to pass custom parameters into the command, a single table has to be used to wrap every parameter passed.
 
-These command functions generally take two paramters: The actor calling the function (often called `self`), and the parameters table passed into the command. The paramters table is optional.
+These command functions generally take two parameters: The actor calling the function (often called `self`), and the parameters table passed into the command. The parameters table is optional.
 
 ```lua
 self:playcommand("Action", { --[[Values are added here like a regular table.]] })
@@ -118,7 +118,7 @@ end
 <!-- TODO: Document the difference between the two and add more notes!-->
 
 
-# Obtaining Childs and ActorFrame Levels
+# Obtaining Children and ActorFrame Levels
 
 When using [Actors](/en/dev/actors/actortypes/actor), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe) or [Actors](/en/dev/actors/actortypes/actor).
 

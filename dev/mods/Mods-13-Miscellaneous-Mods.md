@@ -20,7 +20,7 @@ Modstring format: clearall
 ## HoldGrainMult
 Desc: Adds a multiplier to the 'step size' of holds, allowing one to control how 'granular' a hold is. In NotITG, this is known as "granulate" or "grain" (alias).
 
-Negative values make the hold smoother (with a 'limit' of -93.75% which results in a step size of 1 pixel), but could cost performance due to the extra calculations being done. Positive values make the hold look more polygonal (with no real limit). Very noticable on modifiers that work on position, like Drunk.
+Negative values make the hold smoother (with a 'limit' of -93.75% which results in a step size of 1 pixel), but could cost performance due to the extra calculations being done. Positive values make the hold look more polygonal (with no real limit). Very noticeable on modifiers that work on position, like Drunk.
 
 Common values can range from practically anywhere due to it being a multiplier. Try starting with -50% or 100% and go further if extra points or less points are desired.
 
@@ -228,7 +228,7 @@ Desc: Performs clipping on the trigonometric waves used in many modifiers and th
 
 The following are available:
 - SinClip (sine wave clipping. Affects Wave (all non-tan variants), SpiralY, Bumpy (all non-tan variants), Beat (all variants), Zigzag (All variants), Digital (All non-tan variants), Bounce (All variants), Blink (All variants), Pulse (all non-tan variants),
-- CosClip (cosine wave clipping. Affects Tornado (all non-tan varians), Tipsy (all non-tan variants), Expand, Drunk (all non-tan variants), SpiralX
+- CosClip (cosine wave clipping. Affects Tornado (all non-tan variants), Tipsy (all non-tan variants), Expand, Drunk (all non-tan variants), SpiralX
 - TanClip (tangent wave clipping, use values close to 100% for visible effects. Affects all tangent variants of all modifiers)
 
 Quirks: Going beyond 100% may result in interesting effects on some modifiers. In NotITG, this was 'fixed'.
@@ -340,7 +340,7 @@ PlayerOptions format: NoteSkinCol(\<column\>, \<noteskin name\>)
 
 Example: `NoteSkinCol(nil, 'lambda')`
 
-Modstring format: \<noteskin name\> noteskin\<column\> (ommitting column will hit all columns)
+Modstring format: \<noteskin name\> noteskin\<column\> (omitting column will hit all columns)
 
 Example: `lambda noteskin`
 

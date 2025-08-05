@@ -69,7 +69,7 @@ end
 
 ### Some bugs to point out from CMD
 
-- `self` cannot be utilized to obtain itself as `self` is a non-existant object in its scope.
+- `self` cannot be utilized to obtain itself as `self` is a non-existent object in its scope.
 
 ```lua
 -- This will fail because the engine doesn't know what self is in this scope.

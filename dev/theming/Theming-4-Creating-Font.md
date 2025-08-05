@@ -60,7 +60,7 @@ The smaller window area provides info into what font to use, its size to render,
 
 **Page**: is the glyph map to render out with the current font.
 
-> It is recommended to use a monospaced font for GUI elements, as it allows readability and accesibility for dyslexic individuals.
+> It is recommended to use a monospaced font for GUI elements, as it allows readability and accessibility for dyslexic individuals.
 {.is-info}
 
 The tool allows for different kinds of options on what glyphs to export, which are the following:

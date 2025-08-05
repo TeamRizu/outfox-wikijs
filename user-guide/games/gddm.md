@@ -99,6 +99,6 @@ This mode needed 'hidden lane' support. That is, two different note lanes occupy
 
 This mode simulates DTXMania, as there is more content for that simulator, and it follows a practice. There are _many_ forks of this project, so we spent some time with the community working out the features to add/discard from OutFox.
 
-The parser for this mode inherits a lot of the functionality of the `BMS` extended set, so OutFox by nature has a wider optional set of features due to this. One can also use `PMS`, or any other of the `BMS` derived parser features. We do not recommend this option if you want to keep your charts compatible with the orginal DTXMania of course!
+The parser for this mode inherits a lot of the functionality of the `BMS` extended set, so OutFox by nature has a wider optional set of features due to this. One can also use `PMS`, or any other of the `BMS` derived parser features. We do not recommend this option if you want to keep your charts compatible with the original DTXMania of course!
 
 _Written and Maintained with ♡ by Squirrel, with thanks to the DTXMania community; APPROVED, np\_sub and Furukon._

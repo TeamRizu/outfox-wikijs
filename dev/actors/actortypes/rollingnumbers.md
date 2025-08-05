@@ -59,7 +59,7 @@ self:Load("MyNumbers")
 
 # Actor Behaviour
 
-Based on the value of `ApproachSeconds`, the actor will attempt to approach the **target value** in the same ammount of time. Attempting to use `targetnumber` without loading a metrics group previously will lead to warning requesting a group.
+Based on the value of `ApproachSeconds`, the actor will attempt to approach the **target value** in the same amount of time. Attempting to use `targetnumber` without loading a metrics group previously will lead to warning requesting a group.
 
 > You must use `Load` to load the metrics for a RollingNumbers actor before doing anything else.
 {.is-warning}

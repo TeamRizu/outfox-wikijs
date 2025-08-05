@@ -84,7 +84,7 @@ Example:
 ``` 
 ---
 ## ``GENRE``
-This is the genre of the song. Some examples are `Rock`, `Dubstep`, and `Classical`. Anythng can be put here as a genre.
+This is the genre of the song. Some examples are `Rock`, `Dubstep`, and `Classical`. Anything can be put here as a genre.
 
 Example:
 
@@ -143,7 +143,7 @@ Example:
 ``` 
 ---
 ## ``MUSIC``
-This defines the file to use for the song's music. This is usualy in the same folder as the simfile. This is a relative path.
+This defines the file to use for the song's music. This is usually in the same folder as the simfile. This is a relative path.
 
 Example:
 
@@ -152,7 +152,7 @@ Example:
 ``` 
 ---
 ## ``INSTRUMENTTRACK``
-Specifies a song file to use for an instrument track. This is a relative path. Valid intrument tracks are: "Guitar", "Rhythm", "Bass", "Vocal", "Drum1", "Drum2", "Drum3" and "Drum4"
+Specifies a song file to use for an instrument track. This is a relative path. Valid instrument tracks are: "Guitar", "Rhythm", "Bass", "Vocal", "Drum1", "Drum2", "Drum3" and "Drum4"
 
 Example:
 
@@ -218,13 +218,13 @@ BGCHANGE format:
 - beat: The beat this BGCHANGE occurs on. Can be negative to start before the first beat.
 - file_or_folder: The relative path to the file to use for the BGCHANGE. Lua files are allowed. If a folder is given, it looks for "default.lua".
 - update_rate: The update rate of the BGCHANGE.
-- crossfade: set to 1 if using a crossfade. Overriden by Effect.
-- stretchrewind: set to 1 if using stretchrewind. Overriden by Effect.
-- stretchnoloop: set to 1 if using stretchnoloop. Overriden by Effect.
+- crossfade: set to 1 if using a crossfade. Overridden by Effect.
+- stretchrewind: set to 1 if using stretchrewind. Overridden by Effect.
+- stretchnoloop: set to 1 if using stretchnoloop. Overridden by Effect.
 - Effect: What BackgroundEffect to use.
 - File2: The second file to load for this BGCHANGE.
 - Transition: How the background transitions to this.
-- Color1/Color2: Formatted as `red^green^blue^alpha`, with the values being from 1 to 0, Passed to the BackgroundEffect with the LuaThreadVaraible "Color1"/"Color2" in web hexadecimal format as a string. Alpha is optional.
+- Color1/Color2: Formatted as `red^green^blue^alpha`, with the values being from 1 to 0, Passed to the BackgroundEffect with the LuaThreadVariable "Color1"/"Color2" in web hexadecimal format as a string. Alpha is optional.
 
 Often, a last entry with "-nosongbg-" as the file is placed so the song's starting background doesn't show up at the end.
 
@@ -253,7 +253,7 @@ The second line explained: `52.000=blossom2.jpg=1.000=0=0=1=====`
 - Color2: none
 ---
 ## ``FGCHANGES``
-Like BGCHANGES, FGCHANGES follow the same format, but happen in a Foregound layer, above the players and most everything else. Commonly used in gimmick files to script modifiers or other visual aspects.
+Like BGCHANGES, FGCHANGES follow the same format, but happen in a Foreground layer, above the players and most everything else. Commonly used in gimmick files to script modifiers or other visual aspects.
 
 Example:
 
@@ -375,7 +375,7 @@ There are two special cases involving the Hard difficulty. If the description is
 
 ### Note layout
 
-Each measure has a minumum of four lines, with each measure being comma separated. The number of characters per row corresponds to the number of columns the mode has. (eg: dance-single has four columns, so each row has four characters)
+Each measure has a minimum of four lines, with each measure being comma separated. The number of characters per row corresponds to the number of columns the mode has. (eg: dance-single has four columns, so each row has four characters)
 
 4 rows per measure allows for 4ths, 8 rows per measure allows for 8ths, 16 rows per measure allows for 16ths, etc.
 
@@ -394,7 +394,7 @@ L|Lifts|N/A
 F|Fakes|They can only be fake taps. You can't do fake holds with this.
 
 ### Attack Notes
-Attacks can be attatched to notes by having `{}` after the note.
+Attacks can be attached to notes by having `{}` after the note.
 
 The format is `{modstring:lengthseconds}`
 

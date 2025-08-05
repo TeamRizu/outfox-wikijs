@@ -94,7 +94,7 @@ Example: `*3 150% tipsy` `*3 150% tantipsy`
 ## TipsyOffset
 Desc: TipsyOffset shifts the point in time of where Tipsy is in its' sinusoidal pattern.
 
-Values of -100 to 100% have a noticable effect.
+Values of -100 to 100% have a noticeable effect.
 
 Available Variants: TipsyOffset, TanTipsyOffset
 
@@ -103,7 +103,7 @@ Available Variants (modstring): tipsyoffset, tantipsyoffset
 ## TipsySpacing
 Desc: TipsySpacing shifts the phase for each column after the first column.
 
-Values of -100 to 100% have a noticable effect.
+Values of -100 to 100% have a noticeable effect.
 
 Available Variants: TipsySpacing, TanTipsySpacing
 

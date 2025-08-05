@@ -183,7 +183,7 @@ Usage Example:
 ```
 #TOTAL 430
 ```
-The `TOTAL` command is to set the value of what could be considered an extension of the 'gauge' in older simulators, before _life gauges_ existed. The value of `TOTAL` is added to a normal gauge to increase it's length. if the value was 300, then the gauge would go from 0 to 100% in size, to the intial value (normally around 25% + 300% for a total gauge size of 325%). 
+The `TOTAL` command is to set the value of what could be considered an extension of the 'gauge' in older simulators, before _life gauges_ existed. The value of `TOTAL` is added to a normal gauge to increase it's length. if the value was 300, then the gauge would go from 0 to 100% in size, to the initial value (normally around 25% + 300% for a total gauge size of 325%). 
 
 This only occurs when the notes are hit and combo is kept, otherwise things would return to the old gauge size. It was more of a consideration on gauge/groove/clear amounts (what you needed to reach to be considered a pass in that song). This did lead to some confusion on how `TOTAL` should affect the gameplay/level of the chart.
 

@@ -59,7 +59,7 @@ return Def.ActorFrame{
 
 # Anatomy of the event variable
 
-When recieving input, you will be given a table by the name of `event`. It gives you base elements, which contain all the information you need to determine what the user has performed to then report back to the theme.
+When receiving input, you will be given a table by the name of `event`. It gives you base elements, which contain all the information you need to determine what the user has performed to then report back to the theme.
 
 Name | Returns | Description |
 :------------ | :------ | :---------- |
@@ -77,7 +77,7 @@ Inside this table, is another table called `DeviceInput` (can be accessed from `
 Name | Returns | Description |
 :------------ | :------ | :---------- |
 device | string | Type of the device, which will start with `"Device_"`, and then followed with a InputDeviceNames entry.
-button | string | The button that was pressed, which will start with `"DeviceButton_"`, and then followed with the key correspondant on the device.
+button | string | The button that was pressed, which will start with `"DeviceButton_"`, and then followed with the key correspondent on the device.
 level | float | A floating point value for analog input.
 z | float | A floating point value for determining what level is the mousewheel at.
 down | bool | Determines if the button is down. This is a combination of level with a threshold. and debouncing applied.
@@ -188,7 +188,7 @@ OnCommand = function(self)
 	SCREENMAN:GetTopScreen():AddInputCallback( self.callback )
 end,
 -- And now, when leaving, it will have the right actor to remove.
-OffCommmand = function(self)
+OffCommand = function(self)
 	SCREENMAN:GetTopScreen():RemoveInputCallback( self.callback )
 end
 ```

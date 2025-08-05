@@ -263,7 +263,7 @@ A screen the theme can go to. There are screens for gameplay, selecting music, p
 
 Displays the data for a given chart. Can show difficulty number, description, credit, if it's autogen and steps type.
 
-Currently, all setings are done through metrics.
+Currently, all settings are done through metrics.
 
 ## StepsDisplayList
 

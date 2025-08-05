@@ -28,7 +28,7 @@ Returns a value from 0 to 1.
 
 ### Battery
 
-Returns a converted value from the current lifes left and the starting ammount of batteries.
+Returns a converted value from the current lives left and the starting amount of batteries.
 
 ```
 Lives Left / Batteries Max
@@ -36,7 +36,7 @@ Lives Left / Batteries Max
 
 ### Time
 
-Retuns a converted value from the current time remaining against a hard-coded value of 90. This value is clamped to return a value from 0 to 1.
+Returns a converted value from the current time remaining against a hard-coded value of 90. This value is clamped to return a value from 0 to 1.
 
 ```
 Time Left / 90.

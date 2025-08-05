@@ -15,7 +15,7 @@ Desc: Drunk makes the notes and receptors move left and right in a constantly sh
 
 Common values can be practically any value, due to its' wide use in modfiles. Try starting with -200 to 200% for an initial effect.
 
-Quirks: When combined with Tipsy in SM5.1 and earlier, hold bodies may detatch from the hold head. The phase of the sinusoidal wave depends on game uptime unless the mod timer is changed.
+Quirks: When combined with Tipsy in SM5.1 and earlier, hold bodies may detach from the hold head. The phase of the sinusoidal wave depends on game uptime unless the mod timer is changed.
 
 Available variants: Drunk, DrunkY, DrunkZ, TanDrunk, TanDrunkY, TanDrunkZ
 
@@ -145,7 +145,7 @@ Example: `*0.2 100% tornado`
 
 ### Available sub modifiers:
 ## TornadoOffset
-Desc: Offsets the phase of the sinusoidal curves for each column. Large values are needed for noticable effects.
+Desc: Offsets the phase of the sinusoidal curves for each column. Large values are needed for noticeable effects.
 
 Available variants: TornadoOffset, TornadoZOffset, TanTornadoOffset, TanTornadoZOffset
 
@@ -555,7 +555,7 @@ PlayerOptions format: AsymptoteOffset(\<magnitude\>, \<approach rate\>)
 Modstring format: *\<approach rate\> \<magnitude\> asymptoteoffset
 
 ## AsymptoteScale
-Desc: Affects the curve before veering off towards the asymptote. Negative values make the curve more noticable. Going past -100% flips the curve. Being at -100% hides the notefield. (Has an alias of "asymptotesize" in NotITG)
+Desc: Affects the curve before veering off towards the asymptote. Negative values make the curve more noticeable. Going past -100% flips the curve. Being at -100% hides the notefield. (Has an alias of "asymptotesize" in NotITG)
 
 PlayerOptions format: AsymptoteScale(\<magnitude\>, \<approach rate\>)
 

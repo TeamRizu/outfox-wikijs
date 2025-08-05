@@ -18,7 +18,7 @@ When the screen is set to this class/fallback, the
 # Available Metrics
 | Name | Default Value | Description |
 | --- | --- | --- |
-| BackGoesToStartScreen | true | Changes the behaviour for the back button to use the NextScreen insted of PrevScreen. |
+| BackGoesToStartScreen | true | Changes the behaviour for the back button to use the NextScreen instead of PrevScreen. |
 | ResetGameState | false | Requests the game to reset GameState. |
 | AttractVolume | 1 | Sets the starting volume for the screen. |
 

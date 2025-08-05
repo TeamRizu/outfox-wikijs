@@ -371,7 +371,7 @@ Default value: 0
 
 ### ConstantUpdateDeltaSeconds
 
-Experimantal feature that forces a specific update loop, in seconds. Having a value of ``0.0`` disables it.
+Experimental feature that forces a specific update loop, in seconds. Having a value of ``0.0`` disables it.
 
 Default value: 0.000000
 
@@ -447,7 +447,7 @@ Default value: 120.000000
 
 ### DDRStyleRandom
 
-When on, random backrounds use the song's directory as the seed, ensuring a conststent set of backgrounds for each song.
+When on, random backgrounds use the song's directory as the seed, ensuring a conststent set of backgrounds for each song.
 
 Possible values are ``0`` or ``1``. 0 is ``Off`` and 1 is ``On``.
 
@@ -493,7 +493,7 @@ Default value: nothing
 
 ### DefaultRecordLength
 
-How long a recording section in the editor is by defualt, in seconds.
+How long a recording section in the editor is by default, in seconds.
 
 Default value: 4.000000
 
@@ -857,7 +857,7 @@ Default value: 0
 
 ### HighResolutionTextures
 
-Set if high resoltuion textures are used. Not all themes support this. ``Auto`` makes high resolution happen if the window's height is greather than 480 pixels. Unused by the engine as a whole, but still has an enum for it.
+Set if high resoltuion textures are used. Not all themes support this. ``Auto`` makes high resolution happen if the window's height is greater than 480 pixels. Unused by the engine as a whole, but still has an enum for it.
 
 Possible values are ``Auto``, ``Force Off``, and ``Force On``.
 
@@ -1155,7 +1155,7 @@ Allows saving scores in a format made for Padmiss.
 
 Possible values are ``0`` or ``1``. 0 is ``Off`` and 1 is ``On``.
 
-Default vlaue: 0
+Default value: 0
 
 ### MemoryCardProfileImportSubdirs
 
@@ -1179,37 +1179,37 @@ Default value: 1
 
 The bus to use for reading P1's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCardUsbBusP2
 
 The bus to use for reading P2's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCardUsbLevelP1
 
 The level to use for reading P1's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCardUsbLevelP2
 
 The level to use for reading P2's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCardUsbPortP1
 
 The port to use for reading P1's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCardUsbPortP2
 
 The port to use for reading P2's USB profile from.
 
-Defaut value: -1
+Default value: -1
 
 ### MemoryCards
 
@@ -1217,7 +1217,7 @@ Enables the memory card system, allowing USB profiles to be used.
 
 Possible values are ``0`` or ``1``. 0 is disabled and 1 is enabled.
 
-Defaut value: 0
+Default value: 0
 
 ### MenuTimer
 
@@ -1533,7 +1533,7 @@ Default value: nothing
 
 ### Python23IO_Mode
 
-The IO mode to use for the Pyton board.
+The IO mode to use for the Python board.
 
 Possible values are ``HDP3IO``, ``HDP2IO``, ``SDP2IO``, ``SDP3IOHDXB``, ``SDP3IO`` and ``none`.`
 
@@ -1667,7 +1667,7 @@ Default value: 1
 
 ### ShowDeltaClock
 
-Adds additional information about **frametime** to the top right of the screen. Those values can be used to view how much time your script (from Themes or modfiles) adds to the frametime, anything above 16ms is very slow and calls for optimization, the more consistant those values are, the better the game will feel.
+Adds additional information about **frametime** to the top right of the screen. Those values can be used to view how much time your script (from Themes or modfiles) adds to the frametime, anything above 16ms is very slow and calls for optimization, the more consistent those values are, the better the game will feel.
 
 Possible values are ``0`` or ``1``. 0 is "Hide" and 1 is "Show".
 
@@ -1803,7 +1803,7 @@ Default value: 0
 
 ### SongBackgrounds
 
-Show the backround of the song being played.
+Show the background of the song being played.
 
 Possible values are ``0`` or ``1``. 0 is ``Off`` and 1 is ``On``.
 
