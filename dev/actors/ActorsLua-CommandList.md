@@ -967,7 +967,7 @@ Called when the music wheel is starting the roulette
 ---
 ### `StartRandomMessageCommand`
 
-Called when the music wheel choosing a random song from the Random item.
+Called when the music wheel is choosing a random song from the Random item.
 
 ---
 ### `CoinInsertedMessageCommand`

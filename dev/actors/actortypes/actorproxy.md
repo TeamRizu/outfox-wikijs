@@ -80,7 +80,7 @@ t[#t+1] = Def.ActorProxy{
 return t
 ```
 
-> Alternatively, the handle can also be provided by calling GetChild to that same actor from the Proxy itself, by utilizing the tricks from [Obtaining Children and ActorFrame levels](/en/dev/actors/actortypes/actor#obtaining-childs-and-actorframe-levels).
+> Alternatively, the handle can also be provided by calling GetChild to that same actor from the Proxy itself, by utilizing the tricks from [Obtaining Children and ActorFrame levels](/en/dev/actors/actortypes/actor#obtaining-children-and-actorframe-levels).
 {.is-info}
 
 ```lua

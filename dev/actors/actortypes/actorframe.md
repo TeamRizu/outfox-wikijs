@@ -142,4 +142,4 @@ If there are multiple children with that name, returns an array of those childre
 The table also acts as a pass through layer, function calls pass through to the last child of that name.
 
 obtainlevels
-For more information about how obtaining ActorFrame children work, check [Obtaining Children and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-childs-and-actorframe-levels).
+For more information about how obtaining ActorFrame children work, check [Obtaining Children and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-children-and-actorframe-levels).
