@@ -109,7 +109,7 @@ In simfile, it's listed as the beat it happens, the speed to go to, how long the
 
 ### Scroll segments (SCROLLS)
 
-Allows one to alter the scrolling factor for a section (as opposed to the whole field). When given a factor of 0, the chart stops visibly scrollnig, but notes can still be hit. Visually ignored if CMod is used.
+Allows one to alter the scrolling factor for a section (as opposed to the whole field). When given a factor of 0, the chart stops visibly scrolling, but notes can still be hit. Visually ignored if CMod is used.
 
 In simfile, it's listed as the beat it happens, and then the factor to switch to.
 ```
