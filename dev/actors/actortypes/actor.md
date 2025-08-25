@@ -28,7 +28,7 @@ Def.Actor{
 | Name | Type | Description |
 | :--- | :--- | ----------- |
 [Name]Command | function | The basis for any command. Check [Commands](#commands) for more information.
-Name | string | The name for the actor. Giving this a value allows this actor to be obtain by its name by any other actor. Check [Obtaining Children and ActorFrame Levels](#obtaining-children-and-actorframe-levels) for more information.
+Name | string | The name for the actor. Giving this a value allows this actor to be obtain by its name by any other actor. Check [Obtaining Child and ActorFrame Levels](#obtaining-child-and-actorframe-levels) for more information.
 BaseRotationX | number | The base rotation for the X axis. Any rotation value is added ON TOP of this value.
 BaseRotationY | number | The base rotation for the Y axis. Any rotation value is added ON TOP of this value.
 BaseRotationZ | number | The base rotation for the Z axis. Any rotation value is added ON TOP of this value.
@@ -118,7 +118,7 @@ end
 <!-- TODO: Document the difference between the two and add more notes!-->
 
 
-# Obtaining Children and ActorFrame Levels
+# Obtaining Child and ActorFrame Levels
 
 When using [Actors](/en/dev/actors/actortypes/actor), you can use `self:GetParent()` and `self:GetChild()` to get elements from other [ActorFrames](/en/dev/actors/actortypes/actorframe) or [Actors](/en/dev/actors/actortypes/actor).
 
