@@ -14,7 +14,7 @@ The online overlay runs on [ScreenSystemLayer](/en/dev/screens/ScreenSystemLayer
 
 The full name for this file is called: `ScreenSystemLayer ofonline.lua`, and is present on the BGAnimations folder.
 
-By default it sits dormant on each side of the screen for each player, and upon receiveing notifications, it runs a command to determine what to report back to the players.
+By default it sits dormant on each side of the screen for each player, and upon receiving notifications, it runs a command to determine what to report back to the players.
 
 ![ofonlineoverlayconnectd.png](/dev/outfoxonline/ofonlineoverlayconnectd.png){.align-center}
 
@@ -22,7 +22,7 @@ The command received is a MessageCommand called `MessageOFNetworkResponse`. In t
 
 | Title | Type | Description |
 | --- | --- | --- |
-Name | String | The name of the command that it just receieved.
+Name | String | The name of the command that it just received.
 PlayerNumber | PlayerNumber | The player this command belongs to.
 Status | String | Depending on the command, this variable can return a `success` or `error` based on the output of the response.
 Message | String | An optional variable which outputs a reason, normally present alongside an error status.

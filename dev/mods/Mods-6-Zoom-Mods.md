@@ -83,9 +83,9 @@ Modstring format: \<enable\> tinyusesminicalc
 ## Pulse
 Desc: Pulse is a set of mods that make the notes zoom in and out as they approach the receptors.
 
-PulseOuter affects the main pulsing effect, while PulseInner offsets the maximum & minumum zoom. Also has a tangent-based variant.
+PulseOuter affects the main pulsing effect, while PulseInner offsets the maximum & minimum zoom. Also has a tangent-based variant.
 
-PulseOuter is noticable at 100%, and 100% PulseInner offsets the zoom to between 2x and 1x zoom.
+PulseOuter is noticeable at 100%, and 100% PulseInner offsets the zoom to between 2x and 1x zoom.
 
 Quirks: N/A
 
@@ -120,7 +120,7 @@ Desc: Affects the speed of the pulsing with a multiplier (1 + magnitude).
 
 Positive magnitudes slow down the pulsing, negative magnitudes speed it up.
 
--100% freezes the effect at the minumum.
+-100% freezes the effect at the minimum.
 
 Available Variants: PulsePeriod, TanPulsePeriod
 

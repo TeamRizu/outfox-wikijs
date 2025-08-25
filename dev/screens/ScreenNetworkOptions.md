@@ -34,7 +34,7 @@ The dedicated connection button to connect to OutFox Online. Upon interacting wi
 An option to auto connect to OutFox Online when the game starts up. Disabled by default.
 
 ## Enable Discord Rich Presence
-Enables Rich Presence functionality for Discord, which makes gameplay info be dislayed on your Discord profile while the game is on. These will update information depending on which screen you are.
+Enables Rich Presence functionality for Discord, which makes gameplay info be displayed on your Discord profile while the game is on. These will update information depending on which screen you are.
 
 > You must restart the game for this option to take effect.
 {.is-info}

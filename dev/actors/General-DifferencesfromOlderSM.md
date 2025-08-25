@@ -60,7 +60,7 @@ SM5 applies the zoom and then applies the rotation.
 
 In Project OutFox, this can be worked around by setting the `rotafterzoom` attribute to false, returning the SM3.95 behavior.
 
-The notes & receptors already have this active to help with easilly replicating modifier effects from the other engines.
+The notes & receptors already have this active to help with easily replicating modifier effects from the other engines.
 
 In SM5.2 and earlier, this has to be done with wrapper states or actorframes. This is done by having the wrapper do the positioning and zooming, while the main actor gets everything else. (This is still doable in Project OutFox if you're aiming to write content for multiple SM5s)
 

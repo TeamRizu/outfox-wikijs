@@ -35,7 +35,7 @@ First off:
 1. **Open a Simfile** in the Outfox editor **(Title Screen > Edit/Share > Edit Songs/Steps)**. Pick a song, then pick a difficulty (chart).
 
 2. When editing the chart, press **Enter** where you want the Modifier to start.
-3. Choose **Modifiy attacks at current beat** at the bottom of the menu.
+3. Choose **Modify attacks at current beat** at the bottom of the menu.
 
 ![mods-attacks-enter-menu.png](/resources/guide-to-modifiers/mods-attacks-enter-menu.png){.align-center}
 
@@ -65,7 +65,7 @@ Attacks only last a few seconds by default - to **make it last longer** you'll n
 3. From here, press **Enter** on any of these options to change them:
 
    * Starting time: When this attack starts. It's better to remove/re-add an attack if you want to change when it starts.
-   * Seconds Remaining: How long the attack lasts (defalt: 5 seconds)
+   * Seconds Remaining: How long the attack lasts (default: 5 seconds)
    * Attack 1: The mod you just added - press enter to change
    * Add Mod: Pick this to add another mod to this attack
 

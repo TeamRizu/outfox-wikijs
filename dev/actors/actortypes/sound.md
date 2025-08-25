@@ -29,7 +29,7 @@ Def.Sound{
 		self:play()
 
 		-- If the audio has the "(loop)" flag set on its filename, it will loop infinetly. So to top it, use the
-		-- appropiate command.
+		-- appropriate command.
 		self:stop()
 
 		-- If the sound needs to be paused on a particular frame, and not to reset, use the pause command.
@@ -60,7 +60,7 @@ local MyRageSound = self:get()
 ```
 
 With this object obtained, you can control elements like the sound's position, volume, pitch and speed.
-Note that some components need some flags to be enabled which have been pointed out as commments alongside them.
+Note that some components need some flags to be enabled which have been pointed out as comments alongside them.
 ```lua
 -- This function will return the value for the Def.Sound's RageSound component, which allows for expanded
 -- controls.

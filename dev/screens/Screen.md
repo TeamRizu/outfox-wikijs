@@ -63,7 +63,7 @@ GroupedScreens="ScreenMenu,ScreenSubMenu"
 ## Case 3: Entering ungrouped screens.
 
 If a screen is added to the screen stack that isn't in the current screen **Group** (which is done by using `GroupedScreens`),
-the screen group is reset. All prepared screens are unloaded and the persistance list is erased.
+the screen group is reset. All prepared screens are unloaded and the persistence list is erased.
 
 An example:
 

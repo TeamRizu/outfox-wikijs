@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-05-16T06:19:08.651Z
 ---
 
-Introduced in StepMania 3.95, Scripts are Lua files that are loaded globally to the engine. These are always available to use, from anywhere in the theme. However, it is advised to **use these sparingly** to avoid unnecesary carry over of data, overlapping variable names with other existing Lua naming scopes, and others.
+Introduced in StepMania 3.95, Scripts are Lua files that are loaded globally to the engine. These are always available to use, from anywhere in the theme. However, it is advised to **use these sparingly** to avoid unnecessary carry over of data, overlapping variable names with other existing Lua naming scopes, and others.
 
 It is recommended practice to ensure script data is kept to a minimum to avoid collision with objects like song data, scores, player data, mods, profile information, song rates, and others.
 
@@ -16,9 +16,9 @@ An example of a script file can be the following:
 ```lua
 MyGlobalObject = {}
 
--- Add some objets to this variable.
+-- Add some objects to this variable.
 MyGlobalObject.CustomFunction = function( val )
-	SCREENMAN:SystemMessage( "I've just recieved ".. val )
+	SCREENMAN:SystemMessage( "I've just received ".. val )
 end
 ```
 

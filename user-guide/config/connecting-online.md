@@ -70,5 +70,5 @@ To generate the pin, head over to https://outfox.online/dashboard/profiles (or s
 
 And voila! Your profile has now been loaded on the cabinet, and you play as normal. All scores made during the session will be saved to your account, along with any mods you've setup during the session, which will be carried over for next time when you play on the same cabinet, or the computer you made the account on.
 
-> Some themes might not respect the modfiers you saved on OutFox Online (like Simply Love)! Please keep this in mind if some settings don't transfer during load.
+> Some themes might not respect the modifiers you saved on OutFox Online (like Simply Love)! Please keep this in mind if some settings don't transfer during load.
 {.is-warning}

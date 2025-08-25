@@ -57,7 +57,7 @@ RadarValueMapP2OnCommand=diffuse,PlayerColor(PLAYER_2)
 ### `SetFromRadarValues`
 `(PlayerNumber player, RadarValues data)`
 
-Sets the data for the GrooveRadar from a chart's RadarValues. These values are generated data when saving the chart which precalculate information like jump intensity, chaos charting, ammount of holds, etc.
+Sets the data for the GrooveRadar from a chart's RadarValues. These values are generated data when saving the chart which precalculate information like jump intensity, chaos charting, amount of holds, etc.
 
 If RadarValues is nil, it will perform the same action as [`SetEmpty`](#setempty).
 

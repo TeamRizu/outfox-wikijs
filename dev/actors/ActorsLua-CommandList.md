@@ -967,12 +967,12 @@ Called when the music wheel is starting the roulette
 ---
 ### `StartRandomMessageCommand`
 
-Called when the music wheel chosing a random song from the Random item.
+Called when the music wheel is choosing a random song from the Random item.
 
 ---
 ### `CoinInsertedMessageCommand`
 
-Called when insering a coin and clearing credits.
+Called when inserting a coin and clearing credits.
 
 Themes can use this command to update other actors about coin information (Does not send any data).
 
@@ -1273,7 +1273,7 @@ Parameters:
 ---
 ### `StepP1MessageCommand / StepP2MessageCommand`
 
-Called when any player steps. For backwards compatbility with older content.
+Called when any player steps. For backwards compatibility with older content.
 
 ---
 ### `JudgmentMessageCommand`
@@ -1321,7 +1321,7 @@ Parameters:
 ---
 ### `<DeviceInput>PressedMessageCommand / <DeviceInput>ReleasedMessageCommand`
 
-Called from ScreenTestInput when recieving input. \<DeviceInput> is replaced with a ToString'd input name.
+Called from ScreenTestInput when receiving input. \<DeviceInput> is replaced with a ToString'd input name.
 
 ---
 ### `UpdateScreenheaderMessageCommand`

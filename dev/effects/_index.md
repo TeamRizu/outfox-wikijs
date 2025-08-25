@@ -12,7 +12,7 @@ Normal gameplay is as follows: Notes move up or down towards the target on a usu
 
 Effect simfiles change this up, which can result in interesting gameplay results.
 
-There are multiple 'catagories' of effect files:
+There are multiple 'categories' of effect files:
 - "Gimmick" charts
     - While not really an 'effect', per-say, gimmick charts can change up how one reads a chart.
     - A single BPM or stop doesn't really count as a 'gimmick'.

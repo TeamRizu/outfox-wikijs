@@ -36,7 +36,7 @@ The function takes a column (First column is 1), and a TapNoteScore enum.
 
 ## Callbacks
 
-A [NoteField](/en/dev/actors/actortypes/notefield/_index) can have functions attatched to various actions.
+A [NoteField](/en/dev/actors/actortypes/notefield/_index) can have functions attached to various actions.
 
 The given callback function are allowed to return its' own values, which the [NoteField](/en/dev/actors/actortypes/notefield/_index) will respect instead.
 

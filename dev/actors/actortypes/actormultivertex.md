@@ -121,7 +121,7 @@ For written examples, please check [Usage Examples](#usage-examples).
 | Fan | Constructs an 8 polygonal shape that can be used to resemble a fan. | ![drawmode_fan.svg](/resources/actors/actormultivertex/drawmode_fan.svg) |
 | Strip | Suspiciously similar to DrawMode_QuadStrip. | ![drawmode_quadstrip.svg](/resources/actors/actormultivertex/drawmode_quadstrip.svg) |
 | Triangles | Draws a 3 point polygonal shape that is separated from any adjacent or subsequent point. | ![drawmode_triangle.svg](/resources/actors/actormultivertex/drawmode_triangle.svg) |
-| LineStrip | Draws a continous line based on the points given to the Polygon. Width of the line is scaled by the theme's internal height, plus the manual value assigned. | ![drawmode_linestrip.svg](/resources/actors/actormultivertex/drawmode_linestrip.svg) |
+| LineStrip | Draws a continuous line based on the points given to the Polygon. Width of the line is scaled by the theme's internal height, plus the manual value assigned. | ![drawmode_linestrip.svg](/resources/actors/actormultivertex/drawmode_linestrip.svg) |
 | SymmetricQuadStrip | todo | todo |
 
 The following are introduced for OutFox.

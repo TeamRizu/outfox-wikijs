@@ -36,7 +36,7 @@ Now open en.ini and your new language file, then copy all the content from en.in
 
 The language code used for your language file should follow [ISO-1 Language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes), while the COUNTRY CODE should follow [ISO 3166-1 Alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
 
-> ⚠️ StepMania Engine doesn't have proper support for more than 2 letters language files: Both StepMania and OutFox, as the date of writting this document, do not follow ISO-1 and ISO 3166-1 standards, however, new languages should not abide by non-standards of StepMania Engine quirks. Your language will still be able to be selected and used, however, instead of showing the Language name, it will show the language code and users won't have the game auto-select the language for them. This will later be fixed at least for OutFox, [following this issue](https://github.com/TeamRizu/OutFox/issues/311).
+> ⚠️ StepMania Engine doesn't have proper support for more than 2 letters language files: Both StepMania and OutFox, as the date of writing this document, do not follow ISO-1 and ISO 3166-1 standards, however, new languages should not abide by non-standards of StepMania Engine quirks. Your language will still be able to be selected and used, however, instead of showing the Language name, it will show the language code and users won't have the game auto-select the language for them. This will later be fixed at least for OutFox, [following this issue](https://github.com/TeamRizu/OutFox/issues/311).
 {.is-danger}
 
 
@@ -50,7 +50,7 @@ WindowTitle=Project OutFox
 StepMania=Project OutFox
 # Dedicated Character Display strings
 ModelLoadError=Model for %s (%s) Has a invalid model. Please check if the model.txt file is correctly named and formatted.
-ModelAnimLoadError=An animation file for %s's model (%s) is invalid or non-existant. Please check the animation folders and see if there's any file missing.
+ModelAnimLoadError=An animation file for %s's model (%s) is invalid or non-existent. Please check the animation folders and see if there's any file missing.
 LocationLoadError=Current Location (%s) is missing its location model. Please check if the model.txt file is correctly named and formatted.
 SongLoaderSingleSong=Random Song Play: Current Folder only contains 1 song. OutFox might get confused when picking the song via random. Selecting to index 1.
 SongLoaderNoSongs=Random Song Play: No songs were found in your OutFox install folder! Switching back to fallback music.

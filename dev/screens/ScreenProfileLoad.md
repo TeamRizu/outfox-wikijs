@@ -1,6 +1,6 @@
 ---
 title: ScreenProfileLoad
-description: Reponsible for automating the process of loading the profiles in a safe manner.
+description: Responsible for automating the process of loading the profiles in a safe manner.
 published: true
 date: 2024-01-21T23:37:49.122Z
 tags: 
@@ -11,7 +11,7 @@ dateCreated: 2024-01-21T23:36:29.893Z
 > Depends on [ScreenWithMenuElementsBlank]().
 {.is-info}
 
-This screen is reponsible for automating the process of loading the profiles in a safe manner.
+This screen is responsible for automating the process of loading the profiles in a safe manner.
 
 Only a metric is used here to toggle a setting:
 ```ini

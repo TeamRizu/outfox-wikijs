@@ -31,7 +31,7 @@ Load the graphics from a defined "metrics" group. It will seek for grade images 
 [sMetricsGroup] Grade
 ```
 
-> Internally it is called metrics, but this actor doesn't use any kind of graphics directly, other than the ammount of grades defined by `PlayerStageStats::NumGradeTiersUsed`.
+> Internally it is called metrics, but this actor doesn't use any kind of graphics directly, other than the amount of grades defined by `PlayerStageStats::NumGradeTiersUsed`.
 {.is-info}
 
 ### `SetGrade`

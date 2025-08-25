@@ -19,7 +19,7 @@ Applying modifiers is instant, unlike the approach rate behavior usually seen.
 This can be done through multiple ways:
 
 ### 1. Using the ModsFromString function in the NoteField.
-- Allows one to easilly set the modifiers on the [NoteField](/en/dev/actors/actortypes/notefield/_index) through modstrings.
+- Allows one to easily set the modifiers on the [NoteField](/en/dev/actors/actortypes/notefield/_index) through modstrings.
 - Some modifiers will not be usable through modstrings.
 
 ```lua

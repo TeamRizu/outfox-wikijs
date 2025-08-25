@@ -60,7 +60,7 @@ local function ConvertText( child )
 		}
 	end
 	
-	-- We're done. Apply the resulting table's atributes to the text.
+	-- We're done. Apply the resulting table's attributes to the text.
 	for k,v in pairs( ColoringProcess ) do
 		child:AddAttribute( v.Start, v.Attr )
 	end

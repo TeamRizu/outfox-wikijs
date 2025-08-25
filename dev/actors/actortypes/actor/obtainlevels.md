@@ -1,5 +1,5 @@
 ---
-title: Obtaining Childs and ActorFrame Levels
+title: Obtaining Child and ActorFrame Levels
 description: 
 published: true
 date: 2023-11-04T05:19:23.594Z

@@ -10,7 +10,7 @@ dateCreated: 2023-05-16T06:18:46.002Z
 
 A theme can consist of the following folders. All of them are optional, but needed to perform certain operations on how to load / fetch files.
 
-It is important to understand that themes in newer versions of StepMania/OutFox rely on `_fallback`, a special theme folder located on `Appearance/Themes/` which contains all of the information neccessary to run any kind of theme. Earlier in the day, since there was no such thing, every theme distributed had to contain the same information in order to run, which in term would lead to a lot of repeated code for something that was never used.
+It is important to understand that themes in newer versions of StepMania/OutFox rely on `_fallback`, a special theme folder located on `Appearance/Themes/` which contains all of the information necessary to run any kind of theme. Earlier in the day, since there was no such thing, every theme distributed had to contain the same information in order to run, which in term would lead to a lot of repeated code for something that was never used.
 
 You can create more/less folders than this and call them in your theme by fetching the location of your theme's folder
 and then accessing the data that you need, but for the purposes of this guide, we'll stick to these folders.

@@ -18,7 +18,7 @@ insert picture of gameplay
 
 This mode was added in the 3.0.2, with the first mode being 8 panel. Like most modes from this period, there were not many theme items or specifics in scoring or timing windows at all. It was rendered almost unplayable due to the rapid code changes of the time, and was fixed in the side fork of 3.9.5 around spring 2004.
 
-In the development of SM 4.0, this mode was broken with the rapid changes brought into the game and was then fixed again by Team SSC in StepMania 5 Preview 4 aroun 2010, restoring doubles and noteskin support. 
+In the development of SM 4.0, this mode was broken with the rapid changes brought into the game and was then fixed again by Team SSC in StepMania 5 Preview 4 around 2010, restoring doubles and noteskin support. 
 
 I have not added the fixes/tweaks done to this mode in the history that were added to the _OutFox_ codebase; though much was done to include the 9 panel support requested by a lot of the community. 
 

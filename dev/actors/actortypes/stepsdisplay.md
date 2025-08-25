@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
 ---
 
-Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type. Currently, all setings are done through metrics.
+Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type. Currently, all settings are done through metrics.
 
 ```lua
 Def.StepsDisplay{}
@@ -16,7 +16,7 @@ Def.StepsDisplay{}
 
 ## Attributes
 
-There are no special atributes for this actor class. It inherits the atributes from [ActorFrame](/en/dev/actors/actortypes/actorframe). All special actions are performed with its [functions](#functions).
+There are no special attributes for this actor class. It inherits the attributes from [ActorFrame](/en/dev/actors/actortypes/actorframe). All special actions are performed with its [functions](#functions).
 
 ## Metrics Loading
 
@@ -25,7 +25,7 @@ When using the `Load` command, the following metrics are read to generate the St
 | Name | Type | Action |
 | :--- | :--- | :----- |
 NumTicks | number | Amount of ticks to show all the time.
-MaxTicks | number | The max ammount of ticks to draw.
+MaxTicks | number | The max amount of ticks to draw.
 ShowTicks | bool | Enables the ticks. These are graphics that indicate the number of difficulty in individual blocks.
 ShowMeter | bool | Enables the meter number.
 ShowDescription | bool | Enables the chart description (if available).

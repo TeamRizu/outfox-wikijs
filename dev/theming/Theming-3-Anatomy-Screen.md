@@ -49,7 +49,7 @@ A specifically-visual layer, where objects can be placed for decorations. Most a
 
 ### In / Out / Cancel
 
-Pure visual layers that serve as entrace, exit and backing out of a screen respectively.
+Pure visual layers that serve as entrance, exit and backing out of a screen respectively.
 They are run as soon as the screen has to perform a change that will end up unloading itself.
 - Lua based input is not available on this layer, as no input is ever sent.
 - For **Cancel**, the transition command to run the animation uses `StartTransitioningCommand`. Using OnCommand or InitCommand will

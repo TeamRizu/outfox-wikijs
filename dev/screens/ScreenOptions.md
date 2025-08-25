@@ -45,7 +45,7 @@ By default, the game will provide you with a 5-button individual navigation mode
 
 However, if the need requires to use the classic 3-button navigation mode where movement was performed only using Left, Right and Start, you can switch the `NavigationMode` metric to `toggle`. This brings back the "Scroll Down" button, located on the start of every row, which allows you to move to the next row without modifying values.
 
-> If the `NagivationMode` is set to `toggle`, you may notice that the "Scroll Down" **may not show up**. This is due to the game checking for a preference called `ArcadeOptionsNavigation` *(Otherwise known as Options Navigation in Input Options)*.
+> If the `NavigationMode` is set to `toggle`, you may notice that the "Scroll Down" **may not show up**. This is due to the game checking for a preference called `ArcadeOptionsNavigation` *(Otherwise known as Options Navigation in Input Options)*.
 > Unless this preference is set to "Arcade Mode" it will not apply the "Scroll Down" button.
 >{.is-warning}
 

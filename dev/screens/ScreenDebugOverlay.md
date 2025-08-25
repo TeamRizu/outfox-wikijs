@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-01-21T22:46:06.091Z
 ---
 
-The debug overlay is one of the Overlay Screens run by the game. It is reponsible for access to several utilities in the case of theme debugging, logic testing, and arcade operation.
+The debug overlay is one of the Overlay Screens run by the game. It is responsible for access to several utilities in the case of theme debugging, logic testing, and arcade operation.
 
 ![screendebugoverlay-showcase.png](/dev/screens/screendebugoverlay/screendebugoverlay-showcase.png)
 

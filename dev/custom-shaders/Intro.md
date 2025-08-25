@@ -42,7 +42,7 @@ To enable custom shaders, set the preference `CustomShadersDisabled` to 0.
 If disabled, attempting to do anything involving custom shaders will just give a warning in the game logs.
 
 ## Checking for ability to use Custom Shaders
-If you are a gimmick or theme creator, you can easilly check in lua with GetPreference:
+If you are a gimmick or theme creator, you can easily check in lua with GetPreference:
 ```lua
 local noShader = PREFSMAN:GetPreference('CustomShadersDisabled') -- true = custom shaders are disabled
 ```

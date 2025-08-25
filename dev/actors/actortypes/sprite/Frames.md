@@ -17,7 +17,7 @@ The frames in a sprite are composed of an array containing arrays of two values,
 > ```
 > {.is-warning}
 
-As an example to demonstate each sprite table, we'll utilize the fox from the staff roll.
+As an example to demonstrate each sprite table, we'll utilize the fox from the staff roll.
 
 ## Standard format
 

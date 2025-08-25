@@ -26,7 +26,7 @@ Once you save the file, restart the game again (faster reloading methods will be
 
 We've just made our own background layer, very nice. But now try to change the color on it. Try for example: `Color.Blue`. Have you noticed something? Maybe that the color isn't updating?
 
-This is because the background is special, where it is always running as long as the screen is correspondant to the screen is defined in, so, as long as you're in ScreenTitleMenu, no matter how many times you reload it, it will run the same background from where it was. This is done to make seamless playback while switching screens.
+This is because the background is special, where it is always running as long as the screen is correspondent to the screen is defined in, so, as long as you're in ScreenTitleMenu, no matter how many times you reload it, it will run the same background from where it was. This is done to make seamless playback while switching screens.
 
 But what if you want to see the changes? Well, this is where we're going to introduce our first helper: The creator menu!
 

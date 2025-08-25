@@ -121,15 +121,15 @@ PlayerOptions format: ScrollBPM(\<BPM value\>, \<approach rate\>)
 
 Example: `ScrollBPM(1, 2)`
 
-## AvarageScrollBPM
+## AverageScrollBPM
 Desc: This is the underlying BPM value that AMod uses. When this is zero, AMod is turned off.
 Common values are the same as those for AMod.
 
 Quirks: Like the BPM-based speed mods, the magnitude is often in the 100s, so a larger approach rate might be needed.
 
-PlayerOptions format: AvarageScrollBPM(\<BPM value\>, \<approach rate\>)
+PlayerOptions format: AverageScrollBPM(\<BPM value\>, \<approach rate\>)
 
-Example: `AvarageScrollBPM(200, 0.5)`
+Example: `AverageScrollBPM(200, 0.5)`
 
 ## MaxScrollBPM
 Desc: This is the underlying BPM value that MMod uses. When this is zero, MMod is turned off, and AMod is able to be used.

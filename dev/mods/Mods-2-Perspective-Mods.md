@@ -8,12 +8,12 @@ editor: markdown
 dateCreated: 2023-05-16T06:18:06.975Z
 ---
 
-Perspective modifiers tilt and skew the notefield itself to allow for a feeling of depth. Scripted modfiles can use these to do effects like rocking the notefield back and forth among other effects (And is definitely noticable with 3D noteskins).
+Perspective modifiers tilt and skew the notefield itself to allow for a feeling of depth. Scripted modfiles can use these to do effects like rocking the notefield back and forth among other effects (And is definitely noticeable with 3D noteskins).
 
-Unlike most modifiers available through PlayerOptions, these functions only return values in terms of tilt and skew and don't return the current/previous approach rate. Perspecitve modifiers aren't column-specific either.
+Unlike most modifiers available through PlayerOptions, these functions only return values in terms of tilt and skew and don't return the current/previous approach rate. Perspective modifiers aren't column-specific either.
 
 ## Hallway
-Desc: The notefield is tilted away from the player, so that notes start far away and come closer. Very noticable with 3D noteskins.
+Desc: The notefield is tilted away from the player, so that notes start far away and come closer. Very noticeable with 3D noteskins.
 
 Tilt is negative, while Skew is at zero.
 
@@ -34,7 +34,7 @@ Example: `*1 150% hallway`
 <video class="normal-scale-video" src="/resources/guide-to-modifiers/perspective/hallway.webm" controls="">Distant video example</video>
 
 ## Distant
-Desc: The notefield is tilted towards the player, so that notes start close to the screen and go away. Very noticable with 3D noteskins.
+Desc: The notefield is tilted towards the player, so that notes start close to the screen and go away. Very noticeable with 3D noteskins.
 
 Tilt is positive, while Skew is at zero.
 
