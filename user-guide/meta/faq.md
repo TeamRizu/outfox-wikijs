@@ -45,9 +45,9 @@ Go into your game folder and check if there's a file called `portable.ini` (or j
 
 If there's no `portable.ini` in your game folder, then you need to go into a specific path based on your OS:
 
-- Windows: `appdata/roaming/Project OutFox`
-- Mac: `~/Library/Logs/OutFox/`
-- Linux: `/home/user/.OutFox`
+- Windows: `%APPDATA%\Project OutFox`
+- macOS: `~/Library/Logs/Project OutFox`
+- Linux: `~/.project-outfox`
 
 ## Why do I have to configure my pad while older versions of StepMania could work with no problem?
 
