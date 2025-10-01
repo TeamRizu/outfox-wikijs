@@ -180,7 +180,7 @@ Install either ``libglvnd`` and/or ``libopengl0`` based on your distro. On some 
 
 This is due to the renderer not supporting scaled screens yet. To fix this, right-click the game executable and select "Get info" (or highlight the file and press Command (⌘)+I, and toggle the "Open in Low Resolution" option under General.
 
-### What modes does OutFox currently support?
+## What modes does OutFox currently support?
 
 The modes as of **Alpha 4.14.0 (April 2022)** are as follows:
 
@@ -225,7 +225,7 @@ d86.4     | Feet dance Station Radio 3 panel
 rb        | band style drums (5 lane)
 ```
 
-### What NotesLoaders Does OutFox Support?
+## What NotesLoaders Does OutFox Support?
 
 The NoteLoaders as of **Alpha 4.15.0 (June 2022)** OutFox Supports and their level of completeness to the specifications:
 
