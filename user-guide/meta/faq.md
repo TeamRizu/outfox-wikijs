@@ -184,7 +184,6 @@ This is due to the renderer not supporting scaled screens yet. To fix this, righ
 
 The modes as of **Alpha 4.14.0 (April 2022)** are as follows:
 
-```
 Name      | Description
 ----------|------------
 dance     | The classic 4k dance game + Solo (3, 4, 6 and 8 (Double) Panels)
@@ -205,12 +204,9 @@ smx       | 5k cardinal style dance game (5 Solo/Backup, 6 Solo/Backup)
 stepstage | Based on the defunct game Stepping Stage by Jaleco in 2000 (single and twin)
 kickbox   | Obscure lash a soft dance pad to a punching bag mode (4, 6, 8 sensor Mode)
 
-```
-
 The Modes we can talk about are as follows: 
 **PLEASE NOTE: These are proposed and are scheduled on the road map, limitations or code problems may delay or change these modes, so it is why there is no date or ETA given.**
 
-```
 Name      | Description
 ----------|------------
 piu       | A major refactoring to a more accurate mode, to update it to closer to mainline style
@@ -223,13 +219,11 @@ karaoke   | A (.. do i need to explain this?) singing mode. Will happen if squir
 jam       | A mode properly supporting O2Jam and it's modes, with full .OJM loader support
 d86.4     | Feet dance Station Radio 3 panel
 rb        | band style drums (5 lane)
-```
 
 ## What NotesLoaders Does OutFox Support?
 
 The NoteLoaders as of **Alpha 4.15.0 (June 2022)** OutFox Supports and their level of completeness to the specifications:
 
-```
 Name     | Notes:
 ---------|------------
 BMS      | 92% See Wiki for more details
@@ -251,14 +245,11 @@ QUA/.qp  | 94% (Missing Warps)
 SM       | 100% (+ OF fixes)
 SSC      | 100% (+ OF fixes v0.84 proposed)
 TJA      | 65% (Taiko loader in progress)
-```
 
 PLEASE NOTE: These are proposed and are scheduled on the road map, limitations or code problems may delay or change these modes, so it is why there is no date or ETA given.
 
-```
 Name  | Notes:
 ------|------------
 OJM   | 0%
 ???   | 0%
 ???   | 0%
-```
