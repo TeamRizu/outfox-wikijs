@@ -175,16 +175,6 @@ Install either ``libglvnd`` and/or ``libopengl0`` based on your distro. On some 
 
 ## Mac
 
-### I'm having issues launching the game and I have Alpha 4.9.5 or lower.
-
-If you receive errors such as "No noteskins found" or other unusual behavior, you will have to change macOS security settings in order for Project OutFox to operate correctly. MacOS performs a process every time a new program has been downloaded called quarantine, which will require Gatekeeper (The OS's security manager) to verify its signature. The OS does not trust unsigned applications, and prevents access to external files unless given manual permission by the user.
-
-To do this, open Terminal and run the following command: ``xattr -dr com.apple.quarantine /path/to/OutFox``, replacing ``/path/to/OutFox`` with the path to the directory containing the OutFox executable (manually typing it out, or dragging the folder containing the game executable directly onto the window to fill it automatically).
-
-<video src="/quarantine.webm" controls="">Quarantine video example</video>
-
-On older builds, macOS Catalina also generated a message stating that the game was requesting permission to  receive keystrokes from any application. This was a side effect of previous code that has since been removed.
-
 ### The game is rendering small in the bottom corner of the window.
 
 This is due to the renderer not supporting scaled screens yet. To fix this, right-click the game executable and select "Get info" (or highlight the file and press Command (⌘)+I, and toggle the "Open in Low Resolution" option under General.
