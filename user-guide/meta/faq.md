@@ -82,7 +82,7 @@ From the Team:
 
 > We asked if it was ok to close the source while this process was done, and it was deemed wise for the health of the repo and the need of people who are just wanting to play. Its why we've been around the repo but not on it as taint can happen and we do not wish this. SSC did this same behaviour before us, so we did not see it as a problem. Some vocal members of the community disagreed, including some of the previous SMDev Team. We have also been compared to past SM repo contributors who may have left a less than savoury memory in the minds of some, and it has also been hard to differentiate from history we have no involvement with.
 
-> Moving forward with the project, it has become apparent that OutFox has moved beyond a lot of what the community _expects_ StepMania to be, and has grown into a project that is well beyond just being a _DDR_ or _ITG_ clone. We have had to 'rename' our internal branding and naming conventions away from StepMania, this was due to us wishing to license/digitally sign the binaries we make, and with gaining this with the SM name being almost impossible, we had to change name to OutFox. Moving forward we continue to keep this promise to ensure our builds are signed on Mac OS (and soon Windows) so it makes the game play experience better for everyone. With us also releasing on _Steam_ it has become even more important that we continue consistent naming conventions. 
+> Moving forward with the project, it has become apparent that OutFox has moved beyond a lot of what the community _expects_ StepMania to be, and has grown into a project that is well beyond just being a _DDR_ or _ITG_ clone. We have had to 'rename' our internal branding and naming conventions away from StepMania, this was due to us wishing to license/digitally sign the binaries we make, and with gaining this with the SM name being almost impossible, we had to change name to OutFox. Moving forward we continue to keep this promise to ensure our builds are signed on macOS (and soon Windows) so it makes the game play experience better for everyone. With us also releasing on _Steam_ it has become even more important that we continue consistent naming conventions. 
 
 > The project is about providing a free game with unencumbered assets and also packs of properly licensed content for the community, and this covers more than dance alone. We are not for profit, we do not ever wish to profit from this community, as we have been part of it for so long. We will announce more information in due course about our future, for now we are as excited as you on the progression of this project.
 
@@ -174,7 +174,7 @@ If you see anyone else saying they work on OutFox then do not trust and please r
 
 Install either ``libglvnd`` and/or ``libopengl0`` based on your distro. On some distros the package is known as ``libglvnd-opengl``.
 
-## Mac
+## macOS
 
 ### The game is rendering small in the bottom corner of the window.
 
