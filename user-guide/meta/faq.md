@@ -31,8 +31,9 @@ If you can, do those in our [Issue Tracker Repository](https://github.com/TeamRi
 
 You can also use this [Discord Server](https://discord.gg/cN4TjgQdcA):
 
-Use "feature-request" channel to request features or give ideas.
-Use "bugs-crashlogs" channel to report bugs and game crashes.
+Use "[add-this-to-outfox](https://discord.com/channels/422897054386225173/1188312202655055873)" forum channel to request features or give ideas.
+
+Use "[test-build-bug-reporting](https://discord.com/channels/422897054386225173/1070335916750684241)" forum channel to report bugs and game crashes for the latest test builds.
 
 ## Are there ways I can contribute?
 
