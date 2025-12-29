@@ -572,7 +572,7 @@ CircleSize:4
 ```
 `Circle Size` (CS) is a variable that lives a double life in the beatmaps or charts. In `circles` it defines the size of the hit objects, within the range of 1 to 10. Higher values helpfully make the circles _smaller_. In the community it is seen that the majority of the beatmaps use between 2.5 and 4.0. This is followed by 4.0 to 5.7, with values outside of these ranges almost never being used, mainly due to them being too small on some devices to hit, or just too big to make an efficient beatmap that flows with effects (Sliders/spinners overlapping etc due to scale).
 
-If the chart is above 7, it is likely that one of the Osu games mods, `Hard Rock` is being used. Outside of this, it is very unlikely to be used. The sliders in the editor do not permit for values outside of 2.0 to 7.0, so one needs to manually edit this value in the `.osu` file. 
+The sliders in the editor do not permit for values outside of 2.0 to 7.0, so one needs to manually edit this value in the `.osu` file. 
 
 The other life this value leads, is within the `catch` mode. In this mode, the Circle Size defines the size of the fruit and the catcher sprites. It works as above, higher numbers make the fruit and catch _smaller_. This mode usually has values between 2 and 7, which is commonly seen as 3-4. 
 
