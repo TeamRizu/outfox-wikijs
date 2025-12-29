@@ -477,8 +477,6 @@ Version:OutFox Easy Mod File 2021
 ```
 This entry in the list allows a chart author to name a difficulty 'version' for the particular `.osu` file within a collection for one song. It is usually used for descriptive difficulty information, or to 'theme' difficulties, for example (`spring easy`, `summer hard`, `autumn extreme`, `winter death`). 
 
-Other authors use this field to also add the number of keys the chart has in `mania` mode, for example `[3k]`, `[6k]`, `[10k]` would let people know it uses 3 columns, 6 columns and 10 columns respectively before the difficulty name.
-
 There is no specific detail given for this entry, other than it being used within the online portion of the game for difficulty and to give information on the music wheel when choosing a song. It is better to give some detail about the difficulty in the entry given, as you can risk not being ranked, and upsetting players.
 
 On _OutFox_ this entry is used for the 'multi-chart per folder' setup some packs have in the new ``kbx`` mode. This gives you seamless loading capabilities without having to split up multi-song chart packs.
