@@ -584,7 +584,7 @@ However, if the mode is `mania`, this value becomes something completely differe
 
 The `.osu` file does not reflect the _KeyCount_ word. It remains as `CircleSize`. The difference is, the mode uses whole numbers, so there will be no `CircleSize:4.3`.
 
-The values used for this version of `CircleSize` you will see 3 to 10. This is contrary to what the official documentation says, it is not 1 to 9. 
+The values used for this version of `CircleSize` you will see 1 to 10.
 
 _OutFox_ computes these column amounts as `CircleSize - 1` as our columns begin at 0. The new `kb` mode will support all key modes from 1 to 10, with 2 player support.
 
