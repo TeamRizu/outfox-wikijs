@@ -2,16 +2,16 @@
 title: ScreenAttract
 description: 
 published: true
-date: 2026-01-13T22:34:27.178Z
+date: 2026-01-13T22:34:44.283Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T04:18:33.411Z
 ---
 
-> Parent of [ScreenWithMenuElements](/en/dev/screens/ScreenWithMenuElements).
+> Parent of [ScreenWithMenuElements](/dev/screens/ScreenWithMenuElements).
 {.is-info}
 
-A screen dedicated to present a timed screen, meant to showcase the game to bystanders to get interest to play. This is commonly used in screens like [ScreenHowToPlay](/en/dev/screens/ScreenHowToPlay), [ScreenDemonstration](/en/dev/screens/ScreenDemonstration), [ScreenHighScores](/en/dev/screens/ScreenHighScores).
+A screen dedicated to present a timed screen, meant to showcase the game to bystanders to get interest to play. This is commonly used in screens like [ScreenHowToPlay](/dev/screens/ScreenHowToPlay), [ScreenDemonstration](/dev/screens/ScreenDemonstration), [ScreenHighScores](/dev/screens/ScreenHighScores).
 
 ![vtheme-demonstration.png](/dev/screens/vtheme-demonstration.png)
 <small>An example of [ScreenDemonstration](/en/dev/screens/ScreenDemonstration), a screen which uses ScreenAttract as an extension and for controls.</small>
