@@ -2,7 +2,7 @@
 title: ScreenSelectProfile
 description: Screen dedicated for selecting profiles
 published: true
-date: 2025-05-13T06:32:47.620Z
+date: 2026-01-13T22:19:37.922Z
 tags: 
 editor: markdown
 dateCreated: 2025-05-13T06:24:07.936Z
@@ -76,20 +76,22 @@ Trace("Player 1's index is ".. ind)
 
 ## Finish()
 
-Tells the screen that we're with profile selection, and must start performing load operations. This command can end up as a no-op if certain conditions are met:
-
-- No players have joined.
-- Both player's have the same index assigned.
-- If a player requested to load from the memory card and it's not available.
-- The assigned index is higher than the actual number of profiles.
+Tells the screen that we're done with profile selection, and must start performing load operations. 
 
 ```lua
 SCREENMAN:GetTopScreen():Finish()
 ```
 
+This command can end prematurely any of the following conditions are met:
+
+- No players have joined.
+- Both players have the same index assigned.
+- If a player requested to load from the memory card and it's not available.
+- The assigned index is higher than the actual number of profiles.
+
 ## Cancel()
 
-Cancels operation and backs out from the screen.
+Cancels operation and backs out from the screen using `PrevScreen`.
 ```lua
 SCREENMAN:GetTopScreen():Cancel()
 ```
