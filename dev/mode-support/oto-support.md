@@ -477,8 +477,6 @@ Version:OutFox Easy Mod File 2021
 ```
 This entry in the list allows a chart author to name a difficulty 'version' for the particular `.osu` file within a collection for one song. It is usually used for descriptive difficulty information, or to 'theme' difficulties, for example (`spring easy`, `summer hard`, `autumn extreme`, `winter death`). 
 
-Other authors use this field to also add the number of keys the chart has in `mania` mode, for example `[3k]`, `[6k]`, `[10k]` would let people know it uses 3 columns, 6 columns and 10 columns respectively before the difficulty name.
-
 There is no specific detail given for this entry, other than it being used within the online portion of the game for difficulty and to give information on the music wheel when choosing a song. It is better to give some detail about the difficulty in the entry given, as you can risk not being ranked, and upsetting players.
 
 On _OutFox_ this entry is used for the 'multi-chart per folder' setup some packs have in the new ``kbx`` mode. This gives you seamless loading capabilities without having to split up multi-song chart packs.
@@ -574,7 +572,7 @@ CircleSize:4
 ```
 `Circle Size` (CS) is a variable that lives a double life in the beatmaps or charts. In `circles` it defines the size of the hit objects, within the range of 1 to 10. Higher values helpfully make the circles _smaller_. In the community it is seen that the majority of the beatmaps use between 2.5 and 4.0. This is followed by 4.0 to 5.7, with values outside of these ranges almost never being used, mainly due to them being too small on some devices to hit, or just too big to make an efficient beatmap that flows with effects (Sliders/spinners overlapping etc due to scale).
 
-If the chart is above 7, it is likely that one of the Osu games mods, `Hard Rock` is being used. Outside of this, it is very unlikely to be used. The sliders in the editor do not permit for values outside of 2.0 to 7.0, so one needs to manually edit this value in the `.osu` file. 
+The sliders in the editor do not permit for values outside of 2.0 to 7.0, so one needs to manually edit this value in the `.osu` file. 
 
 The other life this value leads, is within the `catch` mode. In this mode, the Circle Size defines the size of the fruit and the catcher sprites. It works as above, higher numbers make the fruit and catch _smaller_. This mode usually has values between 2 and 7, which is commonly seen as 3-4. 
 
@@ -586,7 +584,7 @@ However, if the mode is `mania`, this value becomes something completely differe
 
 The `.osu` file does not reflect the _KeyCount_ word. It remains as `CircleSize`. The difference is, the mode uses whole numbers, so there will be no `CircleSize:4.3`.
 
-The values used for this version of `CircleSize` you will see 3 to 10. This is contrary to what the official documentation says, it is not 1 to 9. 
+The values used for this version of `CircleSize` you will see 1 to 10.
 
 _OutFox_ computes these column amounts as `CircleSize - 1` as our columns begin at 0. The new `kb` mode will support all key modes from 1 to 10, with 2 player support.
 
