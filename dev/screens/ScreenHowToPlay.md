@@ -2,8 +2,8 @@
 title: ScreenHowToPlay
 description: A screen meant to showcase players how to play the game.
 published: true
-date: 2026-01-13T22:49:09.075Z
-tags: screen, howtoplay
+date: 2026-01-19T18:29:08.093Z
+tags: howtoplay, screen
 editor: markdown
 dateCreated: 2026-01-13T22:49:09.075Z
 ---
@@ -25,7 +25,11 @@ CharacterName | "" | Specify if a specific character should be used in the tutor
 
 ## Judgment calculation
 
-ScreenHowToPlay uses the judgment metrics (`NumW2`, `NumMisses`) to count how much it needs to actually press buttons before ignoring every note afterwards.
+ScreenHowToPlay uses the judgment metrics (`NumW2`, `NumMisses`) to count how many notes it needs to press before ignoring every note afterwards.
+
+## Demonstration chart
+
+The screen uses a file called `ScreenHowToPlay steps`, which is a .sm/.ssc file that contains the chart used. The chart is always locked to the BPM declared on 
 
 ## 3D Models in the screen
 
