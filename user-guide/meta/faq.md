@@ -31,8 +31,9 @@ If you can, do those in our [Issue Tracker Repository](https://github.com/TeamRi
 
 You can also use this [Discord Server](https://discord.gg/cN4TjgQdcA):
 
-Use "feature-request" channel to request features or give ideas.
-Use "bugs-crashlogs" channel to report bugs and game crashes.
+Use "[add-this-to-outfox](https://discord.com/channels/422897054386225173/1188312202655055873)" forum channel to request features or give ideas.
+
+Use "[test-build-bug-reporting](https://discord.com/channels/422897054386225173/1070335916750684241)" forum channel to report bugs and game crashes for the latest test builds.
 
 ## Are there ways I can contribute?
 
@@ -45,9 +46,9 @@ Go into your game folder and check if there's a file called `portable.ini` (or j
 
 If there's no `portable.ini` in your game folder, then you need to go into a specific path based on your OS:
 
-- Windows: `appdata/roaming/Project OutFox`
-- Mac: `~/Library/Logs/OutFox/`
-- Linux: `/home/user/.OutFox`
+- Windows: `%APPDATA%\Project OutFox`
+- macOS: `~/Library/Logs/Project OutFox`
+- Linux: `~/.project-outfox`
 
 ## Why do I have to configure my pad while older versions of StepMania could work with no problem?
 
@@ -81,7 +82,7 @@ From the Team:
 
 > We asked if it was ok to close the source while this process was done, and it was deemed wise for the health of the repo and the need of people who are just wanting to play. Its why we've been around the repo but not on it as taint can happen and we do not wish this. SSC did this same behaviour before us, so we did not see it as a problem. Some vocal members of the community disagreed, including some of the previous SMDev Team. We have also been compared to past SM repo contributors who may have left a less than savoury memory in the minds of some, and it has also been hard to differentiate from history we have no involvement with.
 
-> Moving forward with the project, it has become apparent that OutFox has moved beyond a lot of what the community _expects_ StepMania to be, and has grown into a project that is well beyond just being a _DDR_ or _ITG_ clone. We have had to 'rename' our internal branding and naming conventions away from StepMania, this was due to us wishing to license/digitally sign the binaries we make, and with gaining this with the SM name being almost impossible, we had to change name to OutFox. Moving forward we continue to keep this promise to ensure our builds are signed on Mac OS (and soon Windows) so it makes the game play experience better for everyone. With us also releasing on _Steam_ it has become even more important that we continue consistent naming conventions. 
+> Moving forward with the project, it has become apparent that OutFox has moved beyond a lot of what the community _expects_ StepMania to be, and has grown into a project that is well beyond just being a _DDR_ or _ITG_ clone. We have had to 'rename' our internal branding and naming conventions away from StepMania, this was due to us wishing to license/digitally sign the binaries we make, and with gaining this with the SM name being almost impossible, we had to change name to OutFox. Moving forward we continue to keep this promise to ensure our builds are signed on macOS (and soon Windows) so it makes the game play experience better for everyone. With us also releasing on _Steam_ it has become even more important that we continue consistent naming conventions. 
 
 > The project is about providing a free game with unencumbered assets and also packs of properly licensed content for the community, and this covers more than dance alone. We are not for profit, we do not ever wish to profit from this community, as we have been part of it for so long. We will announce more information in due course about our future, for now we are as excited as you on the progression of this project.
 
@@ -173,27 +174,16 @@ If you see anyone else saying they work on OutFox then do not trust and please r
 
 Install either ``libglvnd`` and/or ``libopengl0`` based on your distro. On some distros the package is known as ``libglvnd-opengl``.
 
-## Mac
-
-### I'm having issues launching the game and I have Alpha 4.9.5 or lower.
-
-If you receive errors such as "No noteskins found" or other unusual behavior, you will have to change macOS security settings in order for Project OutFox to operate correctly. MacOS performs a process every time a new program has been downloaded called quarantine, which will require Gatekeeper (The OS's security manager) to verify its signature. The OS does not trust unsigned applications, and prevents access to external files unless given manual permission by the user.
-
-To do this, open Terminal and run the following command: ``xattr -dr com.apple.quarantine /path/to/OutFox``, replacing ``/path/to/OutFox`` with the path to the directory containing the OutFox executable (manually typing it out, or dragging the folder containing the game executable directly onto the window to fill it automatically).
-
-<video src="/quarantine.webm" controls="">Quarantine video example</video>
-
-On older builds, macOS Catalina also generated a message stating that the game was requesting permission to  receive keystrokes from any application. This was a side effect of previous code that has since been removed.
+## macOS
 
 ### The game is rendering small in the bottom corner of the window.
 
 This is due to the renderer not supporting scaled screens yet. To fix this, right-click the game executable and select "Get info" (or highlight the file and press Command (⌘)+I, and toggle the "Open in Low Resolution" option under General.
 
-### What modes does OutFox currently support?
+## What modes does OutFox currently support?
 
 The modes as of **Alpha 4.14.0 (April 2022)** are as follows:
 
-```
 Name      | Description
 ----------|------------
 dance     | The classic 4k dance game + Solo (3, 4, 6 and 8 (Double) Panels)
@@ -214,12 +204,9 @@ smx       | 5k cardinal style dance game (5 Solo/Backup, 6 Solo/Backup)
 stepstage | Based on the defunct game Stepping Stage by Jaleco in 2000 (single and twin)
 kickbox   | Obscure lash a soft dance pad to a punching bag mode (4, 6, 8 sensor Mode)
 
-```
-
 The Modes we can talk about are as follows: 
 **PLEASE NOTE: These are proposed and are scheduled on the road map, limitations or code problems may delay or change these modes, so it is why there is no date or ETA given.**
 
-```
 Name      | Description
 ----------|------------
 piu       | A major refactoring to a more accurate mode, to update it to closer to mainline style
@@ -232,13 +219,11 @@ karaoke   | A (.. do i need to explain this?) singing mode. Will happen if squir
 jam       | A mode properly supporting O2Jam and it's modes, with full .OJM loader support
 d86.4     | Feet dance Station Radio 3 panel
 rb        | band style drums (5 lane)
-```
 
-### What NotesLoaders Does OutFox Support?
+## What NotesLoaders Does OutFox Support?
 
 The NoteLoaders as of **Alpha 4.15.0 (June 2022)** OutFox Supports and their level of completeness to the specifications:
 
-```
 Name     | Notes:
 ---------|------------
 BMS      | 92% See Wiki for more details
@@ -260,14 +245,11 @@ QUA/.qp  | 94% (Missing Warps)
 SM       | 100% (+ OF fixes)
 SSC      | 100% (+ OF fixes v0.84 proposed)
 TJA      | 65% (Taiko loader in progress)
-```
 
 PLEASE NOTE: These are proposed and are scheduled on the road map, limitations or code problems may delay or change these modes, so it is why there is no date or ETA given.
 
-```
 Name  | Notes:
 ------|------------
 OJM   | 0%
 ???   | 0%
 ???   | 0%
-```
