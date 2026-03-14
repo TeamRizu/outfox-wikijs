@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-05-16T06:16:35.412Z
 ---
 
-{{<toc>}}
-
 ## Location of Courses
 
 The default location for courses are in `Project OutFox/Courses`, with the following structure:
