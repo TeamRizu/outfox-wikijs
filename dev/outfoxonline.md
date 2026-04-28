@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: true
-date: 2026-04-28T21:35:32.428Z
+date: 2026-04-28T21:36:24.728Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -30,6 +30,7 @@ In addition to this system, it also allows interoperability with [GrooveStats](h
 
 ![ofgsinteropeval.png](/dev/outfoxonline/ofgsinteropeval.png){.align-center}
 <small>Theme is Simply Love, made by hurtpiggypig and Mad Matt. Then converted to SM5 by quietly-turning, but now handled by teej and natano.</small>
+
 
 # Implementation
 
