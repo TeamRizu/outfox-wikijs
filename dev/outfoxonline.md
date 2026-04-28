@@ -2,7 +2,7 @@
 title: OutFox Online System
 description: A rundown of the OutFox Online system, and how it can be implemented in themes.
 published: true
-date: 2026-04-28T21:36:24.728Z
+date: 2026-04-28T21:37:23.457Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T19:04:10.028Z
@@ -32,7 +32,7 @@ In addition to this system, it also allows interoperability with [GrooveStats](h
 <small>Theme is Simply Love, made by hurtpiggypig and Mad Matt. Then converted to SM5 by quietly-turning, but now handled by teej and natano.</small>
 
 
-# Implementation
+# Implementing for theme creators
 
 For theme creators, you don't actually have to do anything to make OutFox Online work in your theme. All you need is your theme being able to either load [ScreenProfileLoad](/dev/screens/ScreenProfileLoad) or [ScreenSelectProfile](/dev/screens/ScreenSelectProfile) for login. The engine takes care of the rest.
 
