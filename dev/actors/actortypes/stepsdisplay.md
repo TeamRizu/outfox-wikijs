@@ -2,7 +2,7 @@
 title: StepsDisplay
 description: Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type.
 published: true
-date: 2026-05-03T22:51:22.380Z
+date: 2026-05-03T23:03:49.944Z
 tags: stepsdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
@@ -14,10 +14,8 @@ Displays the data for a given chart. Can show difficulty number, description, cr
 Def.StepsDisplay{}
 ```
 
-![sw-stepslook.png](/resources/actors/stepsdisplay/sw-stepslook.png){.align-center}
-<center>
-  <small>Example of a StepsDisplay from the default Soundwaves theme.</small>
-</center>
+![sw-stepslook.png](/resources/actors/stepsdisplay/cs-stepslook.png){.align-center}
+<small>Example of a StepsDisplay from [CyberiaStyle 7](https://josevarela.net/SMArchive/Themes/ThemePreview.php?Category=StepMania%205&ID=CS7MS), by gl_yukt.</small>{.align-center}
 
 ## Attributes
 
