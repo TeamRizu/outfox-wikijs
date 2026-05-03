@@ -2,7 +2,7 @@
 title: Guest Profiles in Outfox Online
 description: A summary on how Guest profiles work for Outfox Online
 published: true
-date: 2026-05-03T23:02:02.138Z
+date: 2026-05-03T23:03:39.431Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T21:57:35.953Z
@@ -10,7 +10,7 @@ dateCreated: 2024-08-29T21:57:35.953Z
 
 Guest profiles in Project Outfox behave as empty profiles, which are ready for all kinds of interactions. For Outfox Online, these are used to allow content to be synced across your profiles and machines.
 
-If the `Allow Guests` option is enabled from the Network settings screen, any player who doesn't have a player assigned beforehand is given the option to login to their OutFox Online profile via an Auth code which they can retrieve from their Outfox Online dashboard.
+If the `Allow Guests` option is enabled from the Network settings screen, any player who doesn't have a player assigned beforehand is given the option to login to their OutFox Online profile via an Auth code which they can retrieve from their [Outfox Online dashboard](https://outfox.online/dashboard).
 
 ![oftokenguests.png](/dev/outfoxonline/oftokenguests.png){.align-center}
 <small>Theme is Simply Love, made by hurtpiggypig and Mad Matt. Then converted to SM5 by quietly-turning, but now handled by teej and natano.</small>
