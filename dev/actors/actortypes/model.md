@@ -1,8 +1,8 @@
 ---
-title: Def.Model
+title: Model
 description: 
 published: true
-date: 2026-05-03T23:10:21.428Z
+date: 2026-05-03T23:10:40.098Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:19.640Z
