@@ -2,7 +2,7 @@
 title: LifeMeter
 description: 
 published: true
-date: 2026-05-03T18:06:58.931Z
+date: 2026-05-03T18:07:56.992Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T06:30:08.753Z
@@ -24,7 +24,7 @@ Returns the current life of the player.
 
 ```lua
 # For this example, we're going to grab the player's current health.
-local health = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):GetLife()
+local health = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):GetLife()
 ```
 
 |Life Type| Return Type|
@@ -38,7 +38,7 @@ local health = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):GetLife()
 Returns `true` if the player is in a danger situation. For all three life types, this is determined by a `DangerThreshold` metric.
 
 ```lua
-local indanger = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):IsInDanger()
+local indanger = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):IsInDanger()
 ```
 
 ## `IsHot`
@@ -46,7 +46,7 @@ local indanger = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):IsInDanger()
 Returns `true` if the player is `Hot`. This means that the player currently has max health. This applies for **Bar** and **Battery**.
 
 ```lua
-local ishot = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):IsHot()
+local ishot = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1)::IsHot()
 ```
 
 > The **Time** life type will never return true, despite reaching its max time.
@@ -55,7 +55,7 @@ local ishot = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):IsHot()
 ## `IsFailing`
 
 ```lua
-local isFailing = SCREENMAN:GetTopScreen():GetChild("PlayerP1"):IsFailing()
+local isFailing = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):IsFailing()
 ```
 
 |Life Type|Return Type|
