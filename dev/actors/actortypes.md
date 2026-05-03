@@ -2,7 +2,7 @@
 title: Actor Types
 description: A list of the available actors in the game.
 published: true
-date: 2023-11-04T06:44:00.387Z
+date: 2026-05-03T23:08:16.244Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -66,10 +66,6 @@ The following actors cannot be generated with Lua, but instead can be accessed b
 - [NoteColumnRenderer](./actortypes/NoteColumnRenderer) This is a dedicated actor for a column in the notefield, and can be treated like any other actor.
 - [Player](./actortypes/player) The entirety of the playfield. Holds the judgment, hold judgments, combo and the NoteField.
 {.links-list}
-
-## Banner
-
-A song or course banner, meant for use with custom music wheels or any other place a song's banner would show up.
 
 ## ComboGraph
 
@@ -141,23 +137,6 @@ Def.GrooveRadar {
 	InitCommand=function(self)
 		-- Let's use random values to fill the graph.
 		self:SetFromValues({1,0.5,0.8,0.4,1})
-	end
-}
-```
-
-## HoldJudgment
-
-Often found in Player, though there is no way to grab the ones that are in Player.
-
-The judgment that shows up on a column when dropping or clearing a hold & roll.
-
-There is an extra function to allow tracking the hold judgments from a MultiPlayer.
-
-```lua
-Def.HoldJudgment{
-	File=THEME:GetPathG("Hold","Judgment"),
-	InitCommand=function(self)
-		
 	end
 }
 ```
