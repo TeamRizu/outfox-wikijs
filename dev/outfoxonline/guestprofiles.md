@@ -2,13 +2,11 @@
 title: Guest Profiles in Outfox Online
 description: A summary on how Guest profiles work for Outfox Online
 published: true
-date: 2024-10-09T19:57:37.219Z
+date: 2026-05-03T23:02:02.138Z
 tags: outfoxonline
 editor: markdown
 dateCreated: 2024-08-29T21:57:35.953Z
 ---
-
-# Guest Profiles in Outfox Online
 
 Guest profiles in Project Outfox behave as empty profiles, which are ready for all kinds of interactions. For Outfox Online, these are used to allow content to be synced across your profiles and machines.
 
