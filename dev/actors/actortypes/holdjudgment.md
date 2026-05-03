@@ -2,7 +2,7 @@
 title: HoldJudgment
 description: The actorframe representing if you held a hold/roll successfully or not.
 published: true
-date: 2026-05-03T18:21:07.454Z
+date: 2026-05-03T18:21:21.224Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-03T18:21:07.454Z
@@ -16,7 +16,7 @@ Normally this is used only with images, which the game can accomodate, but it ca
 > You must return *some* image or the game will complain!
 {.is-warning}
 
-All animations for this actor are handled by the `HoldJudgment` metrics group on your theme. The following is the default animations from the fallback theme.
+All animations for this actor are handled by the `HoldJudgment` metrics group on your theme. The following are the default animations from the fallback theme.
 
 ```ini
 [HoldJudgment]
