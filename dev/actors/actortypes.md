@@ -2,7 +2,7 @@
 title: Actor Types
 description: A list of the available actors in the game.
 published: true
-date: 2026-05-03T23:08:16.244Z
+date: 2026-05-03T23:09:38.824Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -147,27 +147,11 @@ This is an actor type created from _fallback's scripts.
 
 Displays lua script errors as they happen. Most themers shouldn't need to touch this.
 
-## LifeMeter
-
-Cannot be created from lua, but can be grabbed from ScreenGameplay.
-
-Often used in gameplay screens. This shows how much life a Player currently has.
-
 ## LifeMeterBattery
 
 Cannot be created from lua.
 
 Often used in gameplay screens. This shows how many more mistakes a player is allowed before failing.
-
-## MemoryCardDisplay
-
-Shows the current state of a player's inserted memory card. Made of images, with one for each state.
-
-```lua
-Def.MemoryCardDisplay{
-	PlayerNumber=PLAYER_1
-}
-```
 
 ## MenuTimer
 
@@ -237,12 +221,6 @@ Can't be defined in lua, but can be defined in a theme's metrics.
 A screen the theme can go to. There are screens for gameplay, selecting music, pre-gameplay, etc. Each screen has a background, underlay, overlay and decorations that can be used.
 
 <!--TODO: Do I note down the other ScreenTypes listed in luadocs?-->
-
-## StepsDisplay
-
-Displays the data for a given chart. Can show difficulty number, description, credit, if it's autogen and steps type.
-
-Currently, all settings are done through metrics.
 
 ## StepsDisplayList
 
