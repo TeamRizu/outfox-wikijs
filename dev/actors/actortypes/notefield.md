@@ -2,7 +2,7 @@
 title: NoteField
 description: 
 published: true
-date: 2023-11-04T05:10:03.656Z
+date: 2026-05-03T22:43:18.902Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:15:38.026Z
@@ -50,6 +50,7 @@ Because Player is set to PLAYER_1, it will also grab the Chart that Player 1 sel
 - [Hidden Regions & NoteType Multipliers](/en/dev/actors/actortypes/notefield/NoteField-HiddenRegions+NoteTypeMult)
 - [How a Player Manipulates its' NoteField](/en/dev/actors/actortypes/notefield/NoteField-PlayerManipulation)
 - [Input Manipulation](/en/dev/actors/actortypes/notefield/NoteField-InputManipulation)
+{.links-list}
 
 ## Attributes
 
