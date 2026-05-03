@@ -2,13 +2,13 @@
 title: StepsDisplay
 description: Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type.
 published: true
-date: 2026-05-03T23:03:49.944Z
+date: 2026-05-03T23:07:00.396Z
 tags: stepsdisplay
 editor: markdown
 dateCreated: 2023-05-16T06:16:18.627Z
 ---
 
-Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type. Currently, all settings are done through metrics.
+Displays the data for a given chart. Can show difficulty number, description, credit, if it’s autogen and steps type. All settings are done through metrics.
 
 ```lua
 Def.StepsDisplay{}
