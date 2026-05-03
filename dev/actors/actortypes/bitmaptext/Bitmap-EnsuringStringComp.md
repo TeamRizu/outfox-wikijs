@@ -2,13 +2,13 @@
 title: Ensuring string compatibility
 description: 
 published: true
-date: 2023-11-04T05:11:03.890Z
+date: 2026-05-03T20:01:21.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:23.594Z
 ---
 
-When applying text on a [BitmapText](/en/dev/actors/actortypes/bitmaptext/_index) actor, depending on the font, some glyphs might not present themselves properly. Let's take the following example, which attempts to load a text with the value `H̶e̵a̶d̸g̷r̴i̸n̶d̴e̴r̶`, which is `Headgrinder` with some special unicode to add non-spacing strikes in the text.
+When applying text on a [BitmapText](/en/dev/actors/actortypes/bitmaptext) actor, depending on the font, some glyphs might not present themselves properly. Let's take the following example, which attempts to load a text with the value `H̶e̵a̶d̸g̷r̴i̸n̶d̴e̴r̶`, which is `Headgrinder` with some special unicode to add non-spacing strikes in the text.
 
 ![textbrokenglyph.png](/resources/actors/bitmaptext/textbrokenglyph.png){.align-center}
 
