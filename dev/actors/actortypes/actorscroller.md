@@ -2,7 +2,7 @@
 title: ActorScroller
 description: An ActorFrame that acts as a scroller, allowing for a selection-styled menu with choices and animations.
 published: true
-date: 2023-11-04T05:09:27.077Z
+date: 2026-05-03T19:47:12.380Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:16.017Z
@@ -25,7 +25,7 @@ Def.ActorScroller{
 }
 ```
 
-## Attributes
+# Attributes
 
 | Name | Type | Action |
 | :--- | :--- | :----- |
@@ -39,11 +39,11 @@ MaskWidth | number | Width of the mask present on the top and bottom of the Acto
 LoopScroller |  bool | Loops the **selection** of the scroller to wrap around.
 WrapScroller |  bool | Wraps the items of the scroller to attempt a seamless transition back.
 
-## Adding actors
+# Adding actors
 
 To add actors to the ActorScroller, simply add them directly to the scroller, or using the `children` attribute for [ActorFrame](/en/dev/actors/actortypes/actorframe).
 
-### The direct method.
+## The direct method.
 ```lua
 local af = Def.ActorFrame{}
 
@@ -62,7 +62,7 @@ af[#af+1] = Def.ActorScroller{
 return af
 ```
 
-### The function method
+## The function method
 
 > All actors being added via the `children` method have to be added to an [ActorFrame](/en/dev/actors/actortypes/actorframe) wrapper, which will be included in this demonstration.
 {.is-info}
@@ -94,7 +94,7 @@ return af
 ```
 
 
-## Transforming the Scroller
+# Transforming the Scroller
 
 To perform a different scroll to the ActorScroller, the `TransformFunction` is used. This function provides 4 arguments:
 
@@ -127,7 +127,7 @@ end
 
 Here we're telling the game to perform the operation on the X and Y axis, and they're using cosine and sine respectively. [These two values return a value of -1 to 1](https://en.wikipedia.org/wiki/Sine_and_cosine#/media/File:Sine_cosine_one_period.svg). By having these two values in sync with each other, we're effectively creating a circumference, which in turns provides us with a circle.
 
-### Subdivisions
+## Subdivisions
 
 You may have noticed that while scrolling with this, it won't scroll like a circle, and that's because there aren't that many items to scroll through to provide the motion. You could either add more items to fulfill the item criteria or use Subdivisions.
 
@@ -219,7 +219,7 @@ return af
 
 </details>
 
-## Functions
+# Functions
 
 ### `PositionItems`
 
