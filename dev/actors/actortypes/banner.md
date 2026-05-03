@@ -1,8 +1,8 @@
 ---
-title: Def.Banner
-description: 
+title: Banner
+description: Song or course banner, meant for use in music wheel or custom where one should appear.
 published: true
-date: 2026-05-03T22:46:31.818Z
+date: 2026-05-03T23:11:10.389Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-03T19:44:22.405Z
