@@ -2,7 +2,7 @@
 title: LifeMeter
 description: 
 published: true
-date: 2026-05-03T18:08:03.019Z
+date: 2026-05-03T18:10:33.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T06:30:08.753Z
@@ -18,12 +18,16 @@ The way LifeMeter returns the value for the functions is based on the player's c
 - Battery: A more limited life meter with a set number of lives. Any time the player gets a miss or hits a note poorly will be penalized.
 - Time: A more dynamic version of the Life meter commonly seen in Survival, where the meter is constantly draining with the passage of time, and the player can replenish it by playing accurately.
 
+> For the following function examples, we're using `ScreenGameplay`, as that has a `GetLifeMeter` function to obtain this object.
+> `ScreenHowToPlay` is the only other screen that has this function call as well.
+{.is-info}
+
 ## `GetLife`
 
 Returns the current life of the player.
 
 ```lua
-# For this example, we're going to grab the player's current health.
+-- For this example, we're going to grab the player's current health.
 local health = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):GetLife()
 ```
 
