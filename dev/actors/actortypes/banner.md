@@ -2,7 +2,7 @@
 title: Def.Banner
 description: 
 published: true
-date: 2026-05-03T19:44:22.405Z
+date: 2026-05-03T22:46:31.818Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-03T19:44:22.405Z
@@ -22,12 +22,12 @@ You can also use this actor to display different kinds of banners ranging from S
 ```lua
 -- This example loads the banner for a random song.
 Def.Banner{
-		InitCommand=function(self)
-	    	local song = SONGMAN:GetRandomSong()
-				if not song then return end -- Bail if it cannot find a song.
-      
-				self:LoadFromSong( song )
-		end
+	InitCommand=function(self)
+		local song = SONGMAN:GetRandomSong()
+		if not song then return end -- Bail if it cannot find a song.
+	
+		self:LoadFromSong( song )
+	end
 }
 ```
 
