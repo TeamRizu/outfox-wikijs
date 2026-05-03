@@ -2,7 +2,7 @@
 title: LifeMeter
 description: 
 published: true
-date: 2026-05-03T18:07:56.992Z
+date: 2026-05-03T18:08:03.019Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-04T06:30:08.753Z
@@ -46,7 +46,7 @@ local indanger = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):IsInDanger()
 Returns `true` if the player is `Hot`. This means that the player currently has max health. This applies for **Bar** and **Battery**.
 
 ```lua
-local ishot = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1)::IsHot()
+local ishot = SCREENMAN:GetTopScreen():GetLifeMeter(PLAYER_1):IsHot()
 ```
 
 > The **Time** life type will never return true, despite reaching its max time.
