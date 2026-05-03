@@ -2,7 +2,7 @@
 title: ControllerStateDisplay
 description: 
 published: true
-date: 2024-01-21T22:26:45.140Z
+date: 2026-05-03T22:45:23.279Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:14:42.391Z
@@ -32,7 +32,7 @@ When running either [`LoadMultiPlayer`](#loadmultiplayer) or [`LoadGameControlle
 `sType` in this context is the Type provided as the first argument on both functions.
 
 - `[sType] frame`: The background frame for the buttons
-- `[sType] [ControllerState]`: A [Sprite](/en/dev/actors/actortypes/sprite/_index) that represents the button.
+- `[sType] [ControllerState]`: A [Sprite](/en/dev/actors/actortypes/sprite) that represents the button.
 
 ## Functions
 
