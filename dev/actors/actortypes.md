@@ -2,7 +2,7 @@
 title: Actor Types
 description: A list of the available actors in the game.
 published: true
-date: 2026-05-04T00:24:20.762Z
+date: 2026-05-04T00:26:37.459Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -58,7 +58,7 @@ Because everything is an actor, there are many types of actors, which are descri
 
 # Pre-generated Actor Types
 
-The following actors cannot be generated with Lua, but instead can be accessed based on the current screen with the [ActorFrame](/en/dev/actors/actortypes/actorframe) function `self:GetChild`.
+The following actors cannot be generated with Lua, but instead can be accessed based on the current screen with the [ActorFrame](https://outfox.wiki/en/dev/actors/actortypes/actor#obtaining-child-and-actorframe-levels) function `self:GetChild`.
 
 - [LifeMeter](./actortypes/lifemeter) Shows how much life a Player currently has.
 - [HoldJudgment](./actortypes/holdjudgment) The judgment that shows up on a column when dropping or clearing a hold & roll.
