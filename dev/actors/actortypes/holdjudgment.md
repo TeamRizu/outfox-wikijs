@@ -2,7 +2,7 @@
 title: HoldJudgment
 description: The actorframe representing if you held a hold/roll successfully or not.
 published: true
-date: 2026-05-03T19:20:01.967Z
+date: 2026-05-04T00:28:43.684Z
 tags: 
 editor: markdown
 dateCreated: 2026-05-03T18:21:07.454Z
@@ -10,7 +10,7 @@ dateCreated: 2026-05-03T18:21:07.454Z
 
 The HoldJudgment is a [Sprite](/en/dev/actors/actortypes/sprite) that is shown to the notefield if you held a hold or roll succesfully.
 
-<video src="/resources/actors/holdjudgment-example.mp4" controls autoplay></video>
+<video src="/resources/actors/holdjudgment-example.mp4" controls autoplay height=200></video>
 
 Normally this is used only with images, which the game can accomodate, but it can be controlled as well with a separate Lua file called `HoldJudgment label 1x2.lua` in the `Graphics` folder.
 
