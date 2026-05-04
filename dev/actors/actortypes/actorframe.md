@@ -2,7 +2,7 @@
 title: ActorFrame
 description: ActorFrames can hold other actors. The Def. format is set up like any other lua table, allowing for creating actors in batches.
 published: true
-date: 2023-11-04T05:23:44.341Z
+date: 2026-05-04T00:25:26.927Z
 tags: actorframe
 editor: markdown
 dateCreated: 2023-05-16T06:14:00.966Z
@@ -141,5 +141,6 @@ Returns the child with a name of <code>sName</code>.
 If there are multiple children with that name, returns an array of those children.
 The table also acts as a pass through layer, function calls pass through to the last child of that name.
 
-obtainlevels
-For more information about how obtaining ActorFrame children work, check [Obtaining Child and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-child-and-actorframe-levels).
+
+For more information about how obtaining ActorFrame children work, check:
+- [Obtaining Child and ActorFrame Levels](/en/dev/actors/actortypes/actor#obtaining-child-and-actorframe-levels).
