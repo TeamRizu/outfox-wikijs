@@ -2,7 +2,7 @@
 title: Actor Types
 description: A list of the available actors in the game.
 published: true
-date: 2026-05-03T23:09:38.824Z
+date: 2026-05-04T00:23:35.526Z
 tags: actors, types
 editor: markdown
 dateCreated: 2023-05-16T06:13:45.791Z
@@ -10,7 +10,7 @@ dateCreated: 2023-05-16T06:13:45.791Z
 
 StepMania (and it's many forks) use what's known as the [Actor model](https://en.wikipedia.org/wiki/Actor_model). OutFox inherits this behaviour. Everything in the engine is an Actor at its' very core.
 
-Because everything is an actor, there are many types of actors, which are described below. Not everything listed is able to be created in Lua. Those that aren't will be noted as such. However, all of these can be found in the Lua environment.
+Because everything is an actor, there are many types of actors, which are described below. Not everything listed is able to be created in Lua, but can still be accessed, which are listed on [Pre-generated Actor Types](#pre-generated-actor-types).
 
 > **A note on LoadActor()**
 >
