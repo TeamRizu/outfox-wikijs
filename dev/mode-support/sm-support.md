@@ -2,7 +2,7 @@
 title: SM
 description: 
 published: true
-date: 2023-11-04T05:05:57.707Z
+date: 2026-09-29T19:11:18.739Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-16T06:17:28.556Z
@@ -213,14 +213,14 @@ Specifies what the background of a song changes to throughout the chart. This al
 BGCHANGES with numbers specifies what layer it shows up on. (BGCHANGES2 = Layer 2)
 
 BGCHANGE format:
-```beat=file_or_folder=update_rate=crossfade=stretchrewind=stretchnoloop=Effect=File2=Transition=Color1=Color2```
+```beat=file_or_folder=update_rate=crossfade=stretchrewind=stretchloop=Effect=File2=Transition=Color1=Color2```
 
 - beat: The beat this BGCHANGE occurs on. Can be negative to start before the first beat.
 - file_or_folder: The relative path to the file to use for the BGCHANGE. Lua files are allowed. If a folder is given, it looks for "default.lua".
 - update_rate: The update rate of the BGCHANGE.
-- crossfade: set to 1 if using a crossfade. Overridden by Effect.
+- crossfade: set to 1 if using a crossfade. Overridden by Transition.
 - stretchrewind: set to 1 if using stretchrewind. Overridden by Effect.
-- stretchnoloop: set to 1 if using stretchnoloop. Overridden by Effect.
+- stretchloop: set to 0 if using stretchnoloop. Overridden by Effect.
 - Effect: What BackgroundEffect to use.
 - File2: The second file to load for this BGCHANGE.
 - Transition: How the background transitions to this.
